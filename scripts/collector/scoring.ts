@@ -231,6 +231,19 @@ function titleSimilarity(left: string, right: string): number {
   return intersection / union;
 }
 
+function isLowQualitySignal(item: RawItem): boolean {
+  const text = normalizeText(`${item.title} ${item.snippet ?? ""}`);
+  return [
+    "free llm api keys",
+    "free api keys",
+    "api keys for gpt",
+    "leaked api key",
+    "leaked api keys",
+    "cracked api",
+    "bypass api key"
+  ].some((phrase) => text.includes(phrase));
+}
+
 function preferredItem(left: RawItem, right: RawItem, sourceById: Map<string, SourceConfig>): RawItem {
   const leftTrust = sourceById.get(left.sourceId)?.trustWeight ?? 0;
   const rightTrust = sourceById.get(right.sourceId)?.trustWeight ?? 0;
@@ -324,7 +337,7 @@ export function scoreItems(
         reasons
       };
     })
-    .filter((item) => item.topicalScore >= 0.18)
+    .filter((item) => item.topicalScore >= 0.18 && !isLowQualitySignal(item.raw))
     .sort((a, b) => b.score - a.score);
 }
 
@@ -372,6 +385,105 @@ function extractivePhrase(item: RawItem): string {
   return words.endsWith(".") ? words : `${words}...`;
 }
 
+function sentencesFromItem(item: RawItem): string[] {
+  const text = (item.snippet || item.title)
+    .replace(/\s+/g, " ")
+    .replace(/\[[^\]]+\]/g, "")
+    .trim();
+  if (!text) return [item.title];
+  const sentences = text
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.length >= 24);
+  return sentences.length ? sentences : [text];
+}
+
+function shortenText(text: string, maxWords: number): string {
+  const words = text.replace(/\s+/g, " ").trim().split(/\s+/).filter(Boolean);
+  if (words.length <= maxWords) return words.join(" ");
+  return `${words.slice(0, maxWords).join(" ")}...`;
+}
+
+function sourceExcerpt(item: RawItem): string {
+  return shortenText(sentencesFromItem(item)[0] ?? item.title, 36);
+}
+
+export function publicContextQuality(item: RawItem): EditionItem["contextQuality"] {
+  const snippet = item.snippet?.replace(/\s+/g, " ").trim() ?? "";
+  if (item.sourceType === "sitemap") return "thin public context";
+  if (snippet.length < 80) return "thin public context";
+  if (/paywall|subscribe to read|sign in to read/i.test(snippet)) return "thin public context";
+  return "source-grounded";
+}
+
+function hasDeepDiveContext(item: RawItem): boolean {
+  return publicContextQuality(item) === "source-grounded" && item.snippet !== undefined && item.snippet.length >= 120;
+}
+
+function readerAngle(signal: EditionItem["signal"], categoryLabel: string): string {
+  if (signal === "primary") {
+    return `For systems readers, the useful lens is ${categoryLabel}: what changes about building, serving, securing, or operating AI systems.`;
+  }
+  if (signal === "research") {
+    return `Read it as a research lead for ${categoryLabel}, with the paper as the ground truth before any downstream commentary.`;
+  }
+  if (signal === "builder-signal") {
+    return `Treat it as builder momentum in ${categoryLabel}; the repository is a signal to inspect, not a primary claim by itself.`;
+  }
+  if (signal === "community-signal") {
+    return `Treat it as an attention signal around ${categoryLabel}; follow the original linked source before drawing conclusions.`;
+  }
+  return `Use it as discovery context for ${categoryLabel} until a stronger public source confirms the details.`;
+}
+
+function evidenceLine(item: ScoredItem, metric: string): string {
+  const cluster = item.clusterId ? `, cluster ${item.clusterId}` : "";
+  return `${item.raw.sourceName}; ${metric}; local score ${item.score.toFixed(2)}${cluster}.`;
+}
+
+function sourceTypeLabel(signal: EditionItem["signal"]): string {
+  if (signal === "primary") return "primary-source item";
+  if (signal === "research") return "research paper";
+  if (signal === "builder-signal") return "builder signal";
+  if (signal === "community-signal") return "community signal";
+  return "discovery signal";
+}
+
+function briefForItem(item: ScoredItem, signal: EditionItem["signal"], categoryLabel: string): string {
+  const excerpt = sourceExcerpt(item.raw);
+  if (signal === "primary") {
+    return `${item.raw.sourceName} surfaced this as a ${categoryLabel} update. ${excerpt}`;
+  }
+  if (signal === "research") {
+    return `This paper is a ${categoryLabel} lead from the research stream. ${excerpt}`;
+  }
+  if (signal === "builder-signal") {
+    return `${item.raw.title} is appearing as builder momentum, not as a verified product claim. ${excerpt}`;
+  }
+  if (signal === "community-signal") {
+    return `This is an attention signal from a public discussion thread. ${excerpt}`;
+  }
+  return `This is a fallback discovery item for ${categoryLabel}. ${excerpt}`;
+}
+
+function technicalTakeawayForItem(item: ScoredItem, signal: EditionItem["signal"], categoryLabel: string): string {
+  const quality = publicContextQuality(item.raw);
+  const contextPhrase =
+    quality === "source-grounded"
+      ? "The public metadata is strong enough for a compact self-contained read."
+      : "Only thin public context was available, so this stays as a lighter note.";
+  if (signal === "builder-signal") {
+    return `Track the repository as a ${categoryLabel} signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. ${contextPhrase}`;
+  }
+  if (signal === "community-signal") {
+    return `Treat the discussion as a demand or attention marker around ${categoryLabel}, not as independent confirmation. ${contextPhrase}`;
+  }
+  if (signal === "research") {
+    return `The systems angle is ${categoryLabel}; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. ${contextPhrase}`;
+  }
+  return `The systems angle is ${categoryLabel}; read it for operational impact on building, serving, securing, or scaling AI systems. ${contextPhrase}`;
+}
+
 function itemToEditionItem(item: ScoredItem, sourceById: Map<string, SourceConfig>): EditionItem {
   const category = primaryCategory(item.raw, sourceById.get(item.raw.sourceId));
   const signal = inferSignal(item.raw.sourceType);
@@ -387,7 +499,13 @@ function itemToEditionItem(item: ScoredItem, sourceById: Map<string, SourceConfi
     source: item.raw.sourceName,
     category,
     signal,
-    whyItMatters: `${signal === "primary" || signal === "research" ? "Grounded source" : "Attention signal"} for ${categoryLabel}; ranked by ${metric}. ${extractivePhrase(item.raw)}`,
+    whyItMatters: `${extractivePhrase(item.raw)} ${readerAngle(signal, categoryLabel)}`,
+    brief: briefForItem(item, signal, categoryLabel),
+    technicalTakeaway: technicalTakeawayForItem(item, signal, categoryLabel),
+    evidence: evidenceLine(item, metric),
+    sourceExcerpt: sourceExcerpt(item.raw),
+    citationUrl: item.raw.url,
+    contextQuality: publicContextQuality(item.raw),
     readTime: item.raw.sourceType === "arxiv" ? "paper skim" : "3 min"
   };
 }
@@ -449,10 +567,17 @@ export function composeLocalEdition(
     items.find(
       (item) =>
         !["github_search", "hn", "google_news"].includes(item.raw.sourceType) &&
+        hasDeepDiveContext(item.raw) &&
         item.raw.tags.some((tag) =>
           ["training_infrastructure", "inference_systems", "model_architecture_math", "model_security"].includes(tag)
         )
-    ) ?? items[0];
+    ) ??
+    items.find((item) => !["github_search", "hn", "google_news"].includes(item.raw.sourceType) && hasDeepDiveContext(item.raw)) ??
+    items[0];
+  const deepDiveSignal = inferSignal(deepDiveCandidate.raw.sourceType);
+  const deepDiveCategory = primaryCategory(deepDiveCandidate.raw, sourceById.get(deepDiveCandidate.raw.sourceId));
+  const deepDiveCategoryLabel = deepDiveCategory.replace(/_/g, " ");
+  const deepDiveNote = itemToEditionItem(deepDiveCandidate, sourceById);
   const bookmarkCandidate = items.find((item) => ["github_search", "arxiv"].includes(item.raw.sourceType)) ?? items[0];
   const today = new Date().toISOString().slice(0, 10);
   const clusterCount = new Set(items.map((item) => item.clusterId ?? 0)).size;
@@ -463,19 +588,20 @@ export function composeLocalEdition(
     mode,
     title: "AI Systems Radar",
     summary:
-      "Today's radar is ranked locally with TF-IDF clustering, source trust, freshness, momentum, and diversity scoring. Primary sources lead; GitHub and Hacker News remain labeled attention signals.",
+      "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
     mustRead,
     watchlist,
     deepDive: {
       title: deepDiveCandidate.raw.title,
       url: deepDiveCandidate.raw.url,
       source: deepDiveCandidate.raw.sourceName,
-      category: primaryCategory(deepDiveCandidate.raw, sourceById.get(deepDiveCandidate.raw.sourceId)),
-      summary: `${deepDiveCandidate.raw.sourceName} is the strongest non-signal item in today's clustered candidate set for ${primaryCategory(deepDiveCandidate.raw, sourceById.get(deepDiveCandidate.raw.sourceId)).replace(/_/g, " ")}.`,
+      category: deepDiveCategory,
+      summary: `${deepDiveNote.brief} It gets the longer read because the public context is ${deepDiveNote.contextQuality} and the item is close to the systems layer.`,
       bullets: [
-        `Extract: ${extractivePhrase(deepDiveCandidate.raw)}`,
-        `Local score: ${deepDiveCandidate.score.toFixed(2)} across trust, topical fit, recency, momentum, novelty, and depth.`,
-        "Open the source before treating any vendor or community signal as a final claim."
+        `What happened: ${deepDiveNote.brief}`,
+        `Why it matters: ${deepDiveNote.technicalTakeaway}`,
+        `Technical signal: ${sourceTypeLabel(deepDiveSignal)} for ${deepDiveCategoryLabel}.`,
+        `Evidence: ${deepDiveNote.evidence}`
       ]
     },
     bookmark: itemToEditionItem(bookmarkCandidate, sourceById),

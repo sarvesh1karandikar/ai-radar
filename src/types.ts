@@ -87,6 +87,12 @@ export interface EditionItem {
   category: Taxonomy;
   signal: "primary" | "research" | "builder-signal" | "community-signal" | "discovery";
   whyItMatters: string;
+  brief: string;
+  technicalTakeaway: string;
+  evidence: string;
+  sourceExcerpt: string;
+  citationUrl: string;
+  contextQuality: "source-grounded" | "thin public context";
   readTime: string;
 }
 

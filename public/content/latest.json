@@ -1,9 +1,9 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-11T22:05:49.205Z",
+  "generatedAt": "2026-06-11T22:38:00.205Z",
   "mode": "live",
   "title": "AI Systems Radar",
-  "summary": "Today's radar is ranked locally with TF-IDF clustering, source trust, freshness, momentum, and diversity scoring. Primary sources lead; GitHub and Hacker News remain labeled attention signals.",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
       "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
@@ -11,94 +11,149 @@
       "source": "NVIDIA Blog",
       "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Grounded source for training infrastructure; ranked by 88 trust, 95 topical match, 69 recency. Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
+      "whyItMatters": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 68 recency; local score 0.75, cluster 19.",
+      "sourceExcerpt": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
+      "citationUrl": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Extract Data with On-demand and Batch Pipelines Dynamically",
-      "url": "https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google AI Blog",
+      "category": "datacenter_power_compute",
       "signal": "primary",
-      "whyItMatters": "Grounded source for inference systems; ranked by 82 trust, 85 topical match, 97 recency. This post demonstrates an intelligent document processing pipeline that consists of both on-demand inference and batch inference options...",
+      "whyItMatters": "We’re helping build the state’s next-generation workforce and investing in energy programs. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google AI Blog surfaced this as a datacenter power compute update. We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.74, cluster 26.",
+      "sourceExcerpt": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "citationUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Latent World Recovery for Multimodal Learning with Missing Modalities",
-      "url": "http://arxiv.org/abs/2606.12362v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Grounded source for inference systems; ranked by 82 trust, 100 topical match, 70 recency. We study multimodal learning under missing modalities, with particular motivation from bioscience applications in which heterogeneous modalities are...",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Measuring Epistemic Resilience of LLMs Under Misleading Medical Context",
-      "url": "http://arxiv.org/abs/2606.12291v1",
+      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+      "url": "http://arxiv.org/abs/2606.12411v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Grounded source for multi agent systems; ranked by 82 trust, 100 topical match, 69 recency. Large language models (LLMs) now reach expert-level scores on medical licensing exams, encouraging the assumption that high scores...",
+      "whyItMatters": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
+      "citationUrl": "http://arxiv.org/abs/2606.12411v1",
+      "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "DeusData/codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
+      "url": "http://arxiv.org/abs/2606.12370v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains the key bottleneck in RL training pipelines.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 20.",
+      "sourceExcerpt": "Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains the key bottleneck in RL training pipelines.",
+      "citationUrl": "http://arxiv.org/abs/2606.12370v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "pathwaycom/pathway",
+      "url": "https://github.com/pathwaycom/pathway",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Attention signal for developer tools; ranked by 3,319 GitHub stars. High-performance code intelligence MCP server.",
+      "whyItMatters": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pathwaycom/pathway is appearing as builder momentum, not as a verified product claim. Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 63,031 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "citationUrl": "https://github.com/pathwaycom/pathway",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "onyx-dot-app/onyx",
-      "url": "https://github.com/onyx-dot-app/onyx",
+      "title": "steipete/summarize",
+      "url": "https://github.com/steipete/summarize",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Attention signal for developer tools; ranked by 30,250 GitHub stars. Open Source AI Platform - AI Chat with advanced features that works with every LLM...",
+      "whyItMatters": "Point at any URL/YouTube/Podcast or file. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "steipete/summarize is appearing as builder momentum, not as a verified product claim. Point at any URL/YouTube/Podcast or file.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 6,164 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Point at any URL/YouTube/Podcast or file.",
+      "citationUrl": "https://github.com/steipete/summarize",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "can1357/oh-my-pi",
-      "url": "https://github.com/can1357/oh-my-pi",
+      "title": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Attention signal for multi agent systems; ranked by 11,917 GitHub stars. ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and...",
+      "whyItMatters": "Dimensional is the agentic operating system for physical space. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "dimensionalOS/dimos is appearing as builder momentum, not as a verified product claim. Dimensional is the agentic operating system for physical space.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,469 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Dimensional is the agentic operating system for physical space.",
+      "citationUrl": "https://github.com/dimensionalOS/dimos",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "tambo-ai/tambo",
-      "url": "https://github.com/tambo-ai/tambo",
+      "title": "fabriziosalmi/certmate",
+      "url": "https://github.com/fabriziosalmi/certmate",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Attention signal for developer tools; ranked by 11,161 GitHub stars. Generative UI SDK for React...",
+      "whyItMatters": "SSL Certificate Management System (API + UI)... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "fabriziosalmi/certmate is appearing as builder momentum, not as a verified product claim. SSL Certificate Management System (API + UI)",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,198 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "SSL Certificate Management System (API + UI)",
+      "citationUrl": "https://github.com/fabriziosalmi/certmate",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Latent World Recovery for Multimodal Learning with Missing Modalities",
-    "url": "http://arxiv.org/abs/2606.12362v1",
+    "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+    "url": "http://arxiv.org/abs/2606.12411v1",
     "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "arXiv AI Systems Query is the strongest non-signal item in today's clustered candidate set for inference systems.",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "Extract: We study multimodal learning under missing modalities, with particular motivation from bioscience applications in which heterogeneous modalities are...",
-      "Local score: 0.75 across trust, topical fit, recency, momentum, novelty, and depth.",
-      "Open the source before treating any vendor or community signal as a final claim."
+      "What happened: This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "title": "pathwaycom/pathway",
+    "url": "https://github.com/pathwaycom/pathway",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Attention signal for developer tools; ranked by 3,319 GitHub stars. High-performance code intelligence MCP server.",
+    "whyItMatters": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "pathwaycom/pathway is appearing as builder momentum, not as a verified product claim. Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 63,031 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "citationUrl": "https://github.com/pathwaycom/pathway",
+    "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -108,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 665
+      "selected": 2,
+      "elapsedMs": 276
     },
     {
       "id": "google-ai",
@@ -118,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 287
+      "elapsedMs": 142
     },
     {
       "id": "google-research",
@@ -127,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 372
+      "elapsedMs": 367
     },
     {
       "id": "apple-ml-research",
@@ -136,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 295
+      "elapsedMs": 104
     },
     {
       "id": "anthropic-sitemap",
@@ -145,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 2569
+      "elapsedMs": 8172
     },
     {
       "id": "deepmind-sitemap",
@@ -154,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 741
+      "elapsedMs": 574
     },
     {
       "id": "huggingface-blog",
@@ -163,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 397
+      "elapsedMs": 651
     },
     {
       "id": "mit-ai",
@@ -172,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 2,
-      "elapsedMs": 357
+      "elapsedMs": 214
     },
     {
       "id": "mit-machine-learning",
@@ -181,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 458
+      "elapsedMs": 202
     },
     {
       "id": "bair-blog",
@@ -190,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 423
+      "elapsedMs": 226
     },
     {
       "id": "meta-engineering",
@@ -199,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 544
+      "elapsedMs": 272
     },
     {
       "id": "nvidia-blog",
@@ -207,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 484
+      "selected": 2,
+      "elapsedMs": 297
     },
     {
       "id": "nvidia-developer",
@@ -217,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 660
+      "elapsedMs": 509
     },
     {
       "id": "cloudflare-ai",
@@ -226,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1402
+      "elapsedMs": 743
     },
     {
       "id": "aws-ml",
@@ -235,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 614
+      "elapsedMs": 416
     },
     {
       "id": "azure-blog",
@@ -244,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 801
+      "elapsedMs": 386
     },
     {
       "id": "semianalysis",
@@ -253,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 569
+      "elapsedMs": 384
     },
     {
       "id": "databricks-blog",
@@ -262,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 4,
-      "elapsedMs": 552
+      "elapsedMs": 621
     },
     {
       "id": "arxiv-ai-systems",
@@ -271,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 2522
+      "elapsedMs": 360
     },
     {
       "id": "github-ai-systems",
@@ -280,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1904
+      "elapsedMs": 449
     },
     {
       "id": "github-ai-ml-blog",
@@ -289,7 +344,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 584
+      "elapsedMs": 423
     },
     {
       "id": "hacker-news",
@@ -298,7 +353,7 @@
       "status": "ok",
       "fetched": 25,
       "selected": 1,
-      "elapsedMs": 849
+      "elapsedMs": 775
     },
     {
       "id": "google-news-fallback",
@@ -307,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 931
+      "elapsedMs": 487
     }
   ],
   "stats": {
     "fetched": 455,
     "afterDedupe": 443,
-    "afterFreshness": 153,
-    "droppedStale": 290,
+    "afterFreshness": 152,
+    "droppedStale": 291,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
