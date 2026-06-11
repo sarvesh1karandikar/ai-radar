@@ -1,104 +1,104 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-11T21:52:02.921Z",
-  "mode": "fixture",
+  "generatedAt": "2026-06-11T22:05:49.205Z",
+  "mode": "live",
   "title": "AI Systems Radar",
   "summary": "Today's radar is ranked locally with TF-IDF clustering, source trust, freshness, momentum, and diversity scoring. Primary sources lead; GitHub and Hacker News remain labeled attention signals.",
   "mustRead": [
     {
-      "title": "Effective context engineering for AI agents",
-      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "source": "Anthropic",
-      "category": "multi_agent_systems",
+      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Grounded source for multi agent systems; ranked by 96 trust, 85 topical match, 93 recency. Engineering guidance on making long-running agents reliable through context design.",
+      "whyItMatters": "Grounded source for training infrastructure; ranked by 88 trust, 95 topical match, 69 recency. Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
       "readTime": "3 min"
     },
     {
-      "title": "Community investments in Virginia support local jobs and energy affordability",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "source": "Google AI Blog",
-      "category": "datacenter_power_compute",
+      "title": "Extract Data with On-demand and Batch Pipelines Dynamically",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Grounded source for datacenter power compute; ranked by 94 trust, 63 topical match, 100 recency. Datacenter-adjacent investment signal tied to energy affordability and AI infrastructure expansion.",
+      "whyItMatters": "Grounded source for inference systems; ranked by 82 trust, 85 topical match, 97 recency. This post demonstrates an intelligent document processing pipeline that consists of both on-demand inference and batch inference options...",
       "readTime": "3 min"
     },
     {
-      "title": "Sparse Routing for Low-Latency Mixture-of-Experts Inference",
-      "url": "https://arxiv.org/abs/2606.01111",
+      "title": "Latent World Recovery for Multimodal Learning with Missing Modalities",
+      "url": "http://arxiv.org/abs/2606.12362v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Grounded source for inference systems; ranked by 82 trust, 83 topical match, 89 recency. A preprint proposing routing and batching changes to reduce serving latency for MoE language models.",
+      "whyItMatters": "Grounded source for inference systems; ranked by 82 trust, 100 topical match, 70 recency. We study multimodal learning under missing modalities, with particular motivation from bioscience applications in which heterogeneous modalities are...",
       "readTime": "paper skim"
     },
     {
-      "title": "guardrail-lab/agent-evals",
-      "url": "https://github.com/guardrail-lab/agent-evals",
+      "title": "Measuring Epistemic Resilience of LLMs Under Misleading Medical Context",
+      "url": "http://arxiv.org/abs/2606.12291v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Grounded source for multi agent systems; ranked by 82 trust, 100 topical match, 69 recency. Large language models (LLMs) now reach expert-level scores on medical licensing exams, encouraging the assumption that high scores...",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Attention signal for developer tools; ranked by 812 GitHub stars. Evaluation harness for measuring tool-use reliability and prompt-injection resistance in agent systems.",
-      "readTime": "3 min"
-    },
-    {
-      "title": "New rack-scale systems target denser AI inference clusters",
-      "url": "https://blogs.nvidia.com/blog/ai-inference-clusters/",
-      "source": "NVIDIA Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Grounded source for inference systems; ranked by 88 trust, 92 topical match, 73 recency. Infrastructure update about rack-scale compute, networking, and power density for inference.",
+      "whyItMatters": "Attention signal for developer tools; ranked by 3,319 GitHub stars. High-performance code intelligence MCP server.",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "Serving long-context models with paged attention and speculative decoding",
-      "url": "https://huggingface.co/blog/long-context-serving",
-      "source": "Hugging Face Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Grounded source for inference systems; ranked by 90 trust, 85 topical match, 71 recency. Practical notes on inference throughput, memory pressure, and context window serving.",
+      "title": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Attention signal for developer tools; ranked by 30,250 GitHub stars. Open Source AI Platform - AI Chat with advanced features that works with every LLM...",
       "readTime": "3 min"
     },
     {
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "source": "Google DeepMind",
+      "title": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Grounded source for multi agent systems; ranked by 96 trust, 68 topical match, 94 recency. Official DeepMind update about funding and research priorities for multi-agent AI safety.",
+      "signal": "builder-signal",
+      "whyItMatters": "Attention signal for multi agent systems; ranked by 11,917 GitHub stars. ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and...",
       "readTime": "3 min"
     },
     {
-      "title": "Why AI clusters are making InfiniBand interesting again",
-      "url": "https://news.ycombinator.com/item?id=44123456",
-      "source": "Hacker News",
-      "category": "training_infrastructure",
-      "signal": "community-signal",
-      "whyItMatters": "Attention signal for training infrastructure; ranked by 318 HN points. Community discussion around fabric design, tail latency, and cluster utilization.",
+      "title": "tambo-ai/tambo",
+      "url": "https://github.com/tambo-ai/tambo",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Attention signal for developer tools; ranked by 11,161 GitHub stars. Generative UI SDK for React...",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Sparse Routing for Low-Latency Mixture-of-Experts Inference",
-    "url": "https://arxiv.org/abs/2606.01111",
+    "title": "Latent World Recovery for Multimodal Learning with Missing Modalities",
+    "url": "http://arxiv.org/abs/2606.12362v1",
     "source": "arXiv AI Systems Query",
     "category": "inference_systems",
     "summary": "arXiv AI Systems Query is the strongest non-signal item in today's clustered candidate set for inference systems.",
     "bullets": [
-      "Extract: A preprint proposing routing and batching changes to reduce serving latency for MoE language models.",
-      "Local score: 0.66 across trust, topical fit, recency, momentum, novelty, and depth.",
+      "Extract: We study multimodal learning under missing modalities, with particular motivation from bioscience applications in which heterogeneous modalities are...",
+      "Local score: 0.75 across trust, topical fit, recency, momentum, novelty, and depth.",
       "Open the source before treating any vendor or community signal as a final claim."
     ]
   },
   "bookmark": {
-    "title": "guardrail-lab/agent-evals",
-    "url": "https://github.com/guardrail-lab/agent-evals",
+    "title": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Attention signal for developer tools; ranked by 812 GitHub stars. Evaluation harness for measuring tool-use reliability and prompt-injection resistance in agent systems.",
+    "whyItMatters": "Attention signal for developer tools; ranked by 3,319 GitHub stars. High-performance code intelligence MCP server.",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -107,193 +107,216 @@
       "name": "OpenAI News",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 20,
+      "selected": 1,
+      "elapsedMs": 665
     },
     {
       "id": "google-ai",
       "name": "Google AI Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 20,
+      "selected": 1,
+      "elapsedMs": 287
     },
     {
       "id": "google-research",
       "name": "Google Research Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 372
     },
     {
       "id": "apple-ml-research",
       "name": "Apple Machine Learning Research",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 295
     },
     {
       "id": "anthropic-sitemap",
       "name": "Anthropic",
       "type": "sitemap",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 2569
     },
     {
       "id": "deepmind-sitemap",
       "name": "Google DeepMind",
       "type": "sitemap",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 741
     },
     {
       "id": "huggingface-blog",
       "name": "Hugging Face Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 397
     },
     {
       "id": "mit-ai",
       "name": "MIT News AI",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 18,
+      "selected": 2,
+      "elapsedMs": 357
     },
     {
       "id": "mit-machine-learning",
       "name": "MIT News Machine Learning",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 458
     },
     {
       "id": "bair-blog",
       "name": "Berkeley BAIR Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 423
     },
     {
       "id": "meta-engineering",
       "name": "Meta Engineering",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 9,
+      "selected": 0,
+      "elapsedMs": 544
     },
     {
       "id": "nvidia-blog",
       "name": "NVIDIA Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 18,
+      "selected": 3,
+      "elapsedMs": 484
     },
     {
       "id": "nvidia-developer",
       "name": "NVIDIA Developer Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 660
     },
     {
       "id": "cloudflare-ai",
       "name": "Cloudflare AI",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 1402
     },
     {
       "id": "aws-ml",
       "name": "AWS Machine Learning Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 614
     },
     {
       "id": "azure-blog",
       "name": "Microsoft Azure Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 801
     },
     {
       "id": "semianalysis",
       "name": "SemiAnalysis",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 569
     },
     {
       "id": "databricks-blog",
       "name": "Databricks Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 4,
+      "elapsedMs": 552
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 2522
     },
     {
       "id": "github-ai-systems",
       "name": "GitHub AI Systems Search",
       "type": "github_search",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1904
     },
     {
       "id": "github-ai-ml-blog",
       "name": "GitHub AI and ML Blog",
       "type": "rss",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 10,
+      "selected": 2,
+      "elapsedMs": 584
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 1,
-      "selected": 1
+      "fetched": 25,
+      "selected": 1,
+      "elapsedMs": 849
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 931
     }
   ],
   "stats": {
-    "fetched": 9,
-    "afterDedupe": 9,
-    "afterFreshness": 9,
-    "droppedStale": 0,
-    "selected": 9,
-    "clusters": 8,
+    "fetched": 455,
+    "afterDedupe": 443,
+    "afterFreshness": 153,
+    "droppedStale": 290,
+    "selected": 28,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
