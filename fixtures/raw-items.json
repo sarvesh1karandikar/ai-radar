@@ -1,0 +1,129 @@
+[
+  {
+    "id": "fixture-deepmind-multi-agent",
+    "title": "Investing in multi-agent AI safety research",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "canonicalUrl": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "sourceId": "deepmind-sitemap",
+    "sourceName": "Google DeepMind",
+    "sourceType": "sitemap",
+    "publishedAt": "2026-06-11T14:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Official DeepMind update about funding and research priorities for multi-agent AI safety.",
+    "tags": ["multi_agent_systems", "model_security"]
+  },
+  {
+    "id": "fixture-anthropic-context",
+    "title": "Effective context engineering for AI agents",
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "canonicalUrl": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "sourceId": "anthropic-sitemap",
+    "sourceName": "Anthropic",
+    "sourceType": "sitemap",
+    "publishedAt": "2026-06-11T13:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Engineering guidance on making long-running agents reliable through context design.",
+    "tags": ["multi_agent_systems", "developer_tools"]
+  },
+  {
+    "id": "fixture-arxiv-inference",
+    "title": "Sparse Routing for Low-Latency Mixture-of-Experts Inference",
+    "url": "https://arxiv.org/abs/2606.01111",
+    "canonicalUrl": "https://arxiv.org/abs/2606.01111",
+    "sourceId": "arxiv-ai-systems",
+    "sourceName": "arXiv AI Systems Query",
+    "sourceType": "arxiv",
+    "publishedAt": "2026-06-11T09:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "A preprint proposing routing and batching changes to reduce serving latency for MoE language models.",
+    "author": "Example Research Group",
+    "tags": ["inference_systems", "model_architecture_math"],
+    "metrics": {}
+  },
+  {
+    "id": "fixture-nvidia-power",
+    "title": "New rack-scale systems target denser AI inference clusters",
+    "url": "https://blogs.nvidia.com/blog/ai-inference-clusters/",
+    "canonicalUrl": "https://blogs.nvidia.com/blog/ai-inference-clusters/",
+    "sourceId": "nvidia-blog",
+    "sourceName": "NVIDIA Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-06-10T18:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Infrastructure update about rack-scale compute, networking, and power density for inference.",
+    "tags": ["inference_systems", "datacenter_power_compute", "training_infrastructure"]
+  },
+  {
+    "id": "fixture-github-eval",
+    "title": "guardrail-lab/agent-evals",
+    "url": "https://github.com/guardrail-lab/agent-evals",
+    "canonicalUrl": "https://github.com/guardrail-lab/agent-evals",
+    "sourceId": "github-ai-systems",
+    "sourceName": "GitHub AI Systems Search",
+    "sourceType": "github_search",
+    "publishedAt": "2026-06-11T10:30:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Evaluation harness for measuring tool-use reliability and prompt-injection resistance in agent systems.",
+    "tags": ["developer_tools", "model_security", "multi_agent_systems"],
+    "metrics": {
+      "stars": 812,
+      "forks": 44
+    }
+  },
+  {
+    "id": "fixture-hn-infiniband",
+    "title": "Why AI clusters are making InfiniBand interesting again",
+    "url": "https://news.ycombinator.com/item?id=44123456",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=44123456",
+    "sourceId": "hacker-news",
+    "sourceName": "Hacker News",
+    "sourceType": "hn",
+    "publishedAt": "2026-06-11T08:45:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Community discussion around fabric design, tail latency, and cluster utilization.",
+    "tags": ["training_infrastructure", "datacenter_power_compute"],
+    "metrics": {
+      "hnScore": 318,
+      "hnComments": 142
+    }
+  },
+  {
+    "id": "fixture-google-power",
+    "title": "Community investments in Virginia support local jobs and energy affordability",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+    "canonicalUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+    "sourceId": "google-ai",
+    "sourceName": "Google AI Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-06-11T20:00:00.000Z",
+    "fetchedAt": "2026-06-11T20:10:00.000Z",
+    "snippet": "Datacenter-adjacent investment signal tied to energy affordability and AI infrastructure expansion.",
+    "tags": ["datacenter_power_compute", "business_signal"]
+  },
+  {
+    "id": "fixture-hf-serving",
+    "title": "Serving long-context models with paged attention and speculative decoding",
+    "url": "https://huggingface.co/blog/long-context-serving",
+    "canonicalUrl": "https://huggingface.co/blog/long-context-serving",
+    "sourceId": "huggingface-blog",
+    "sourceName": "Hugging Face Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-06-10T16:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Practical notes on inference throughput, memory pressure, and context window serving.",
+    "tags": ["inference_systems", "developer_tools"]
+  },
+  {
+    "id": "fixture-security",
+    "title": "Prompt injection defenses for production agentic systems",
+    "url": "https://aws.amazon.com/blogs/machine-learning/prompt-injection-defenses-agentic-systems/",
+    "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/prompt-injection-defenses-agentic-systems/",
+    "sourceId": "aws-ml",
+    "sourceName": "AWS Machine Learning Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-06-10T15:00:00.000Z",
+    "fetchedAt": "2026-06-11T14:10:00.000Z",
+    "snippet": "Deployment guidance for guarding tool-calling systems against indirect prompt injection.",
+    "tags": ["model_security", "multi_agent_systems", "developer_tools"]
+  }
+]

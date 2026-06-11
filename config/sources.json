@@ -1,0 +1,354 @@
+[
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "type": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "enabled": true,
+    "trustWeight": 0.98,
+    "limit": 20,
+    "categoryWeights": {
+      "multi_agent_systems": 0.8,
+      "inference_systems": 0.6,
+      "model_architecture_math": 0.7,
+      "model_security": 0.7,
+      "developer_tools": 0.7
+    }
+  },
+  {
+    "id": "google-ai",
+    "name": "Google AI Blog",
+    "type": "rss",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+    "enabled": true,
+    "trustWeight": 0.94,
+    "limit": 24,
+    "categoryWeights": {
+      "multi_agent_systems": 0.8,
+      "training_infrastructure": 0.7,
+      "datacenter_power_compute": 0.8,
+      "model_architecture_math": 0.7,
+      "developer_tools": 0.6
+    }
+  },
+  {
+    "id": "google-research",
+    "name": "Google Research Blog",
+    "type": "rss",
+    "url": "https://research.google/blog/rss/",
+    "enabled": true,
+    "trustWeight": 0.94,
+    "limit": 24,
+    "categoryWeights": {
+      "multi_agent_systems": 0.75,
+      "model_architecture_math": 0.9,
+      "model_security": 0.8,
+      "inference_systems": 0.65,
+      "developer_tools": 0.55
+    }
+  },
+  {
+    "id": "apple-ml-research",
+    "name": "Apple Machine Learning Research",
+    "type": "rss",
+    "url": "https://machinelearning.apple.com/rss.xml",
+    "enabled": true,
+    "trustWeight": 0.9,
+    "limit": 18,
+    "categoryWeights": {
+      "model_architecture_math": 0.85,
+      "inference_systems": 0.7,
+      "model_security": 0.65,
+      "developer_tools": 0.55
+    }
+  },
+  {
+    "id": "anthropic-sitemap",
+    "name": "Anthropic",
+    "type": "sitemap",
+    "url": "https://www.anthropic.com/sitemap.xml",
+    "enabled": true,
+    "trustWeight": 0.96,
+    "limit": 36,
+    "pathIncludes": ["/news", "/engineering", "/research", "/policy"],
+    "categoryWeights": {
+      "multi_agent_systems": 0.9,
+      "model_security": 0.9,
+      "developer_tools": 0.8,
+      "model_architecture_math": 0.7
+    }
+  },
+  {
+    "id": "deepmind-sitemap",
+    "name": "Google DeepMind",
+    "type": "sitemap",
+    "url": "https://deepmind.google/sitemap.xml",
+    "enabled": true,
+    "trustWeight": 0.96,
+    "limit": 36,
+    "pathIncludes": ["/blog/", "/research/", "/models/"],
+    "categoryWeights": {
+      "multi_agent_systems": 0.9,
+      "model_architecture_math": 0.95,
+      "model_security": 0.7,
+      "training_infrastructure": 0.7
+    }
+  },
+  {
+    "id": "huggingface-blog",
+    "name": "Hugging Face Blog",
+    "type": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "enabled": true,
+    "trustWeight": 0.9,
+    "limit": 24,
+    "categoryWeights": {
+      "developer_tools": 0.95,
+      "inference_systems": 0.9,
+      "model_architecture_math": 0.7,
+      "model_security": 0.55
+    }
+  },
+  {
+    "id": "mit-ai",
+    "name": "MIT News AI",
+    "type": "rss",
+    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "enabled": true,
+    "trustWeight": 0.78,
+    "limit": 18,
+    "categoryWeights": {
+      "model_architecture_math": 0.75,
+      "model_security": 0.7,
+      "business_signal": 0.55,
+      "developer_tools": 0.5
+    }
+  },
+  {
+    "id": "mit-machine-learning",
+    "name": "MIT News Machine Learning",
+    "type": "rss",
+    "url": "https://news.mit.edu/rss/topic/machine-learning",
+    "enabled": true,
+    "trustWeight": 0.78,
+    "limit": 18,
+    "categoryWeights": {
+      "model_architecture_math": 0.8,
+      "inference_systems": 0.6,
+      "model_security": 0.6,
+      "developer_tools": 0.5
+    }
+  },
+  {
+    "id": "bair-blog",
+    "name": "Berkeley BAIR Blog",
+    "type": "rss",
+    "url": "https://bair.berkeley.edu/blog/feed.xml",
+    "enabled": true,
+    "trustWeight": 0.82,
+    "limit": 18,
+    "categoryWeights": {
+      "multi_agent_systems": 0.75,
+      "model_architecture_math": 0.9,
+      "model_security": 0.75,
+      "developer_tools": 0.55
+    }
+  },
+  {
+    "id": "meta-engineering",
+    "name": "Meta Engineering",
+    "type": "rss",
+    "url": "https://engineering.fb.com/feed/",
+    "enabled": true,
+    "trustWeight": 0.84,
+    "limit": 20,
+    "categoryWeights": {
+      "training_infrastructure": 0.8,
+      "inference_systems": 0.75,
+      "developer_tools": 0.7,
+      "model_architecture_math": 0.65
+    }
+  },
+  {
+    "id": "nvidia-blog",
+    "name": "NVIDIA Blog",
+    "type": "rss",
+    "url": "https://blogs.nvidia.com/feed/",
+    "enabled": true,
+    "trustWeight": 0.88,
+    "limit": 24,
+    "categoryWeights": {
+      "training_infrastructure": 0.95,
+      "inference_systems": 0.95,
+      "datacenter_power_compute": 0.85,
+      "developer_tools": 0.6
+    }
+  },
+  {
+    "id": "nvidia-developer",
+    "name": "NVIDIA Developer Blog",
+    "type": "rss",
+    "url": "https://developer.nvidia.com/blog/feed/",
+    "enabled": true,
+    "trustWeight": 0.86,
+    "limit": 24,
+    "categoryWeights": {
+      "training_infrastructure": 0.95,
+      "inference_systems": 0.9,
+      "datacenter_power_compute": 0.75,
+      "developer_tools": 0.75
+    }
+  },
+  {
+    "id": "cloudflare-ai",
+    "name": "Cloudflare AI",
+    "type": "rss",
+    "url": "https://blog.cloudflare.com/tag/ai/rss/",
+    "enabled": true,
+    "trustWeight": 0.78,
+    "limit": 18,
+    "categoryWeights": {
+      "inference_systems": 0.85,
+      "developer_tools": 0.8,
+      "model_security": 0.65,
+      "datacenter_power_compute": 0.6
+    }
+  },
+  {
+    "id": "aws-ml",
+    "name": "AWS Machine Learning Blog",
+    "type": "rss",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "enabled": true,
+    "trustWeight": 0.82,
+    "limit": 24,
+    "categoryWeights": {
+      "inference_systems": 0.85,
+      "training_infrastructure": 0.75,
+      "developer_tools": 0.75,
+      "business_signal": 0.55
+    }
+  },
+  {
+    "id": "azure-blog",
+    "name": "Microsoft Azure Blog",
+    "type": "rss",
+    "url": "https://azure.microsoft.com/en-us/blog/feed/",
+    "enabled": true,
+    "trustWeight": 0.8,
+    "limit": 24,
+    "categoryWeights": {
+      "inference_systems": 0.8,
+      "training_infrastructure": 0.75,
+      "datacenter_power_compute": 0.65,
+      "business_signal": 0.55
+    }
+  },
+  {
+    "id": "semianalysis",
+    "name": "SemiAnalysis",
+    "type": "rss",
+    "url": "https://semianalysis.com/feed/",
+    "enabled": true,
+    "trustWeight": 0.82,
+    "limit": 16,
+    "categoryWeights": {
+      "training_infrastructure": 0.95,
+      "datacenter_power_compute": 0.95,
+      "inference_systems": 0.8,
+      "business_signal": 0.65
+    }
+  },
+  {
+    "id": "databricks-blog",
+    "name": "Databricks Blog",
+    "type": "rss",
+    "url": "https://www.databricks.com/feed",
+    "enabled": true,
+    "trustWeight": 0.78,
+    "limit": 18,
+    "categoryWeights": {
+      "inference_systems": 0.85,
+      "training_infrastructure": 0.75,
+      "developer_tools": 0.75,
+      "business_signal": 0.6
+    }
+  },
+  {
+    "id": "arxiv-ai-systems",
+    "name": "arXiv AI Systems Query",
+    "type": "arxiv",
+    "query": "(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CR OR cat:cs.DC OR cat:stat.ML) AND (all:agent OR all:inference OR all:training OR all:security OR all:transformer OR all:architecture OR all:datacenter OR all:GPU)",
+    "enabled": true,
+    "trustWeight": 0.82,
+    "limit": 35,
+    "categoryWeights": {
+      "multi_agent_systems": 0.9,
+      "model_architecture_math": 0.95,
+      "model_security": 0.75,
+      "training_infrastructure": 0.75,
+      "inference_systems": 0.7
+    }
+  },
+  {
+    "id": "github-ai-systems",
+    "name": "GitHub AI Systems Search",
+    "type": "github_search",
+    "query": "llm in:name,description,readme pushed:>=2026-01-01 stars:>50",
+    "enabled": true,
+    "trustWeight": 0.66,
+    "limit": 30,
+    "categoryWeights": {
+      "developer_tools": 0.95,
+      "inference_systems": 0.8,
+      "multi_agent_systems": 0.8,
+      "model_security": 0.7
+    }
+  },
+  {
+    "id": "github-ai-ml-blog",
+    "name": "GitHub AI and ML Blog",
+    "type": "rss",
+    "url": "https://github.blog/ai-and-ml/feed/",
+    "enabled": true,
+    "trustWeight": 0.72,
+    "limit": 18,
+    "categoryWeights": {
+      "developer_tools": 0.9,
+      "multi_agent_systems": 0.7,
+      "inference_systems": 0.6,
+      "model_security": 0.6
+    }
+  },
+  {
+    "id": "hacker-news",
+    "name": "Hacker News",
+    "type": "hn",
+    "endpoints": ["topstories", "beststories", "newstories"],
+    "enabled": true,
+    "trustWeight": 0.58,
+    "limit": 75,
+    "categoryWeights": {
+      "developer_tools": 0.75,
+      "inference_systems": 0.65,
+      "multi_agent_systems": 0.65,
+      "model_security": 0.6,
+      "business_signal": 0.5
+    }
+  },
+  {
+    "id": "google-news-fallback",
+    "name": "Google News Fallback",
+    "type": "google_news",
+    "url": "https://news.google.com/rss/search?q=%28multi-agent%20AI%20OR%20AI%20infrastructure%20OR%20LLM%20security%20OR%20AI%20datacenter%20OR%20AI%20inference%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+    "enabled": true,
+    "trustWeight": 0.45,
+    "limit": 20,
+    "categoryWeights": {
+      "business_signal": 0.65,
+      "datacenter_power_compute": 0.6,
+      "model_security": 0.55,
+      "inference_systems": 0.5
+    }
+  }
+]

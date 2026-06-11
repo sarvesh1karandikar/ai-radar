@@ -1,0 +1,59 @@
+name: Deploy AI Radar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 13:00 UTC is 6 AM Pacific during daylight time and 5 AM Pacific during standard time.
+    - cron: "0 13 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ai-radar-pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci
+      - run: npm test
+      - name: Fixture dry run
+        run: npm run dry-run
+      - name: Generate daily edition
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm run generate:ci
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit generated edition
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content public/content
+          if git diff --cached --quiet; then
+            echo "No edition changes to commit."
+          else
+            git commit -m "chore: refresh AI radar [skip ci]"
+            git push
+          fi
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

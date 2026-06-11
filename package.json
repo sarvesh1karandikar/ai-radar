@@ -1,0 +1,29 @@
+{
+  "name": "ai-radar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test scripts/collector/*.test.ts",
+    "generate": "npm run generate:fixture",
+    "generate:live": "tsx scripts/collector/generate.ts --mode live --write",
+    "generate:ci": "npm run generate:live",
+    "generate:fixture": "tsx scripts/collector/generate.ts --mode fixture --write",
+    "dry-run": "tsx scripts/collector/generate.ts --mode fixture --dry-run",
+    "dry-run:live": "tsx scripts/collector/generate.ts --mode live --dry-run",
+    "health": "tsx scripts/collector/generate.ts --mode live --health-only"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.0.0"
+  }
+}
