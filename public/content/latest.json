@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-11",
-  "generatedAt": "2026-06-11T22:38:00.205Z",
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T16:20:20.632Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
-      "source": "NVIDIA Blog",
-      "category": "training_infrastructure",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face Blog",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 68 recency; local score 0.75, cluster 19.",
-      "sourceExcerpt": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation.",
-      "citationUrl": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "olmo-eval: An evaluation workbench for the model development loop... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a developer tools update. olmo-eval: An evaluation workbench for the model development loop",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 100 recency; local score 0.75, cluster 25.",
+      "sourceExcerpt": "olmo-eval: An evaluation workbench for the model development loop",
+      "citationUrl": "https://huggingface.co/blog/allenai/olmo-eval",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
@@ -29,130 +29,130 @@
       "whyItMatters": "We’re helping build the state’s next-generation workforce and investing in energy programs. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Google AI Blog surfaced this as a datacenter power compute update. We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.74, cluster 26.",
+      "evidence": "Google AI Blog; 94 trust, 80 topical match, 79 recency; local score 0.70, cluster 36.",
       "sourceExcerpt": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "citationUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
-      "url": "http://arxiv.org/abs/2606.12411v1",
+      "title": "Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning",
+      "url": "http://arxiv.org/abs/2606.13589v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
-      "citationUrl": "http://arxiv.org/abs/2606.12411v1",
+      "whyItMatters": "We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 22.",
+      "sourceExcerpt": "We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
+      "citationUrl": "http://arxiv.org/abs/2606.13589v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
-      "url": "http://arxiv.org/abs/2606.12370v1",
+      "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
+      "url": "http://arxiv.org/abs/2606.13621v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains the key bottleneck in RL training pipelines.",
+      "whyItMatters": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 20.",
-      "sourceExcerpt": "Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains the key bottleneck in RL training pipelines.",
-      "citationUrl": "http://arxiv.org/abs/2606.12370v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18.",
+      "sourceExcerpt": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions.",
+      "citationUrl": "http://arxiv.org/abs/2606.13621v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "pathwaycom/pathway",
-      "url": "https://github.com/pathwaycom/pathway",
+      "title": "yym68686/uni-api",
+      "url": "https://github.com/yym68686/uni-api",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "pathwaycom/pathway is appearing as builder momentum, not as a verified product claim. Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 63,031 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-      "citationUrl": "https://github.com/pathwaycom/pathway",
+      "evidence": "GitHub AI Systems Search; 1,228 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
+      "citationUrl": "https://github.com/yym68686/uni-api",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "steipete/summarize",
-      "url": "https://github.com/steipete/summarize",
+      "title": "mixelpixx/KiCAD-MCP-Server",
+      "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Point at any URL/YouTube/Podcast or file. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "steipete/summarize is appearing as builder momentum, not as a verified product claim. Point at any URL/YouTube/Podcast or file.",
+      "whyItMatters": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mixelpixx/KiCAD-MCP-Server is appearing as builder momentum, not as a verified product claim. KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 6,164 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Point at any URL/YouTube/Podcast or file.",
-      "citationUrl": "https://github.com/steipete/summarize",
+      "evidence": "GitHub AI Systems Search; 1,238 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
+      "citationUrl": "https://github.com/mixelpixx/KiCAD-MCP-Server",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "dimensionalOS/dimos",
-      "url": "https://github.com/dimensionalOS/dimos",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Dimensional is the agentic operating system for physical space. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "dimensionalOS/dimos is appearing as builder momentum, not as a verified product claim. Dimensional is the agentic operating system for physical space.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,469 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "Dimensional is the agentic operating system for physical space.",
-      "citationUrl": "https://github.com/dimensionalOS/dimos",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "fabriziosalmi/certmate",
-      "url": "https://github.com/fabriziosalmi/certmate",
+      "title": "silverstein/minutes",
+      "url": "https://github.com/silverstein/minutes",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "SSL Certificate Management System (API + UI)... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "fabriziosalmi/certmate is appearing as builder momentum, not as a verified product claim. SSL Certificate Management System (API + UI)",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,198 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "SSL Certificate Management System (API + UI)",
-      "citationUrl": "https://github.com/fabriziosalmi/certmate",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Every meeting, every idea, every voice note — searchable by your AI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "silverstein/minutes is appearing as builder momentum, not as a verified product claim. Every meeting, every idea, every voice note — searchable by your AI.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,273 GitHub stars; local score 0.85, cluster 5.",
+      "sourceExcerpt": "Every meeting, every idea, every voice note — searchable by your AI.",
+      "citationUrl": "https://github.com/silverstein/minutes",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 28,986 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "citationUrl": "https://github.com/langfuse/langfuse",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
-    "url": "http://arxiv.org/abs/2606.12411v1",
+    "title": "Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning",
+    "url": "http://arxiv.org/abs/2606.13589v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 16."
+      "What happened: This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "pathwaycom/pathway",
-    "url": "https://github.com/pathwaycom/pathway",
+    "title": "yym68686/uni-api",
+    "url": "https://github.com/yym68686/uni-api",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "pathwaycom/pathway is appearing as builder momentum, not as a verified product claim. Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 63,031 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-    "citationUrl": "https://github.com/pathwaycom/pathway",
+    "evidence": "GitHub AI Systems Search; 1,228 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
+    "citationUrl": "https://github.com/yym68686/uni-api",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 276
+      "elapsedMs": 416
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 142
+      "elapsedMs": 287
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 367
+      "selected": 0,
+      "elapsedMs": 393
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 104
+      "elapsedMs": 553
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 8172
+      "elapsedMs": 7687
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 0,
-      "elapsedMs": 574
+      "selected": 1,
+      "elapsedMs": 727
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 651
+      "selected": 1,
+      "elapsedMs": 543
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 2,
-      "elapsedMs": 214
+      "elapsedMs": 483
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 202
+      "elapsedMs": 590
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 226
+      "elapsedMs": 505
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 272
+      "elapsedMs": 512
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 297
+      "selected": 1,
+      "elapsedMs": 430
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 509
+      "selected": 1,
+      "elapsedMs": 891
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 743
+      "elapsedMs": 955
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 416
+      "elapsedMs": 691
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 386
+      "elapsedMs": 612
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 384
+      "elapsedMs": 622
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 4,
-      "elapsedMs": 621
+      "elapsedMs": 693
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 360
+      "elapsedMs": 1383
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 449
+      "elapsedMs": 1791
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 423
+      "selected": 1,
+      "elapsedMs": 639
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
+      "fetched": 20,
       "selected": 1,
-      "elapsedMs": 775
+      "elapsedMs": 941
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 487
+      "elapsedMs": 1098
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 443,
-    "afterFreshness": 152,
-    "droppedStale": 291,
+    "fetched": 450,
+    "afterDedupe": 439,
+    "afterFreshness": 147,
+    "droppedStale": 292,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
