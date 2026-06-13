@@ -1,10 +1,25 @@
 {
-  "date": "2026-06-12",
-  "generatedAt": "2026-06-12T16:20:20.632Z",
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T15:02:00.736Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 70 recency; local score 0.70, cluster 17.",
+      "sourceExcerpt": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "citationUrl": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "olmo-eval: An evaluation workbench for the model development loop",
       "url": "https://huggingface.co/blog/allenai/olmo-eval",
@@ -14,145 +29,130 @@
       "whyItMatters": "olmo-eval: An evaluation workbench for the model development loop... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Hugging Face Blog surfaced this as a developer tools update. olmo-eval: An evaluation workbench for the model development loop",
       "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 100 recency; local score 0.75, cluster 25.",
+      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 76 recency; local score 0.68, cluster 24.",
       "sourceExcerpt": "olmo-eval: An evaluation workbench for the model development loop",
       "citationUrl": "https://huggingface.co/blog/allenai/olmo-eval",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "source": "Google AI Blog",
-      "category": "datacenter_power_compute",
-      "signal": "primary",
-      "whyItMatters": "We’re helping build the state’s next-generation workforce and investing in energy programs. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google AI Blog surfaced this as a datacenter power compute update. We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 79 recency; local score 0.70, cluster 36.",
-      "sourceExcerpt": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "citationUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning",
-      "url": "http://arxiv.org/abs/2606.13589v1",
+      "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2606.13605v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
+      "whyItMatters": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
       "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 22.",
-      "sourceExcerpt": "We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
-      "citationUrl": "http://arxiv.org/abs/2606.13589v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 14.",
+      "sourceExcerpt": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
+      "citationUrl": "http://arxiv.org/abs/2606.13605v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
-      "url": "http://arxiv.org/abs/2606.13621v1",
+      "title": "Multiagent Protocols with Aggregated Confidence Signals",
+      "url": "http://arxiv.org/abs/2606.13591v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions.",
+      "whyItMatters": "Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP),... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP), yet no existing method produces or evaluates a confidence for the output of a multiagent system.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18.",
-      "sourceExcerpt": "Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions.",
-      "citationUrl": "http://arxiv.org/abs/2606.13621v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 16.",
+      "sourceExcerpt": "Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP), yet no existing method produces or evaluates a confidence for the output of a multiagent system.",
+      "citationUrl": "http://arxiv.org/abs/2606.13591v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "yym68686/uni-api",
-      "url": "https://github.com/yym68686/uni-api",
+      "title": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
+      "whyItMatters": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,228 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
-      "citationUrl": "https://github.com/yym68686/uni-api",
+      "evidence": "GitHub AI Systems Search; 2,286 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "citationUrl": "https://github.com/repowise-dev/repowise",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "mixelpixx/KiCAD-MCP-Server",
-      "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "title": "azooKey/azooKey-Desktop",
+      "url": "https://github.com/azooKey/azooKey-Desktop",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "datacenter_power_compute",
       "signal": "builder-signal",
-      "whyItMatters": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mixelpixx/KiCAD-MCP-Server is appearing as builder momentum, not as a verified product claim. KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,238 GitHub stars; local score 0.86, cluster 3.",
-      "sourceExcerpt": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
-      "citationUrl": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "whyItMatters": "azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural... Treat it as builder momentum in datacenter power compute; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "azooKey/azooKey-Desktop is appearing as builder momentum, not as a verified product claim. azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter.",
+      "technicalTakeaway": "Track the repository as a datacenter power compute signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 936 GitHub stars; local score 0.81, cluster 3.",
+      "sourceExcerpt": "azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter.",
+      "citationUrl": "https://github.com/azooKey/azooKey-Desktop",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "silverstein/minutes",
-      "url": "https://github.com/silverstein/minutes",
+      "title": "marcusquinn/aidevops",
+      "url": "https://github.com/marcusquinn/aidevops",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Every meeting, every idea, every voice note — searchable by your AI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "silverstein/minutes is appearing as builder momentum, not as a verified product claim. Every meeting, every idea, every voice note — searchable by your AI.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,273 GitHub stars; local score 0.85, cluster 5.",
-      "sourceExcerpt": "Every meeting, every idea, every voice note — searchable by your AI.",
-      "citationUrl": "https://github.com/silverstein/minutes",
+      "whyItMatters": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "marcusquinn/aidevops is appearing as builder momentum, not as a verified product claim. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 268 GitHub stars; local score 0.82, cluster 2.",
+      "sourceExcerpt": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
+      "citationUrl": "https://github.com/marcusquinn/aidevops",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "langfuse/langfuse",
-      "url": "https://github.com/langfuse/langfuse",
+      "title": "RatLoopz/sahidawa-india",
+      "url": "https://github.com/RatLoopz/sahidawa-india",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "whyItMatters": "SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs —... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "RatLoopz/sahidawa-india is appearing as builder momentum, not as a verified product claim. SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs — designed for low-bandwidth environments and multilingual access across India.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 28,986 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
-      "citationUrl": "https://github.com/langfuse/langfuse",
+      "evidence": "GitHub AI Systems Search; 61 GitHub stars; local score 0.80, cluster 6.",
+      "sourceExcerpt": "SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs — designed for low-bandwidth environments and multilingual access across India.",
+      "citationUrl": "https://github.com/RatLoopz/sahidawa-india",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning",
-    "url": "http://arxiv.org/abs/2606.13589v1",
+    "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2606.13605v1",
     "source": "arXiv AI Systems Query",
     "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. We present Simplex-Constrained Sparse Bagging (SCSB), a mathematically rigorous framework for post-training compression and probability calibration of bootstrap-based bagging ensembles.",
+      "What happened: This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
       "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 22."
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 14."
     ]
   },
   "bookmark": {
-    "title": "yym68686/uni-api",
-    "url": "https://github.com/yym68686/uni-api",
+    "title": "repowise-dev/repowise",
+    "url": "https://github.com/repowise-dev/repowise",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
+    "whyItMatters": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,228 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
-    "citationUrl": "https://github.com/yym68686/uni-api",
+    "evidence": "GitHub AI Systems Search; 2,286 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+    "citationUrl": "https://github.com/repowise-dev/repowise",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 416
+      "elapsedMs": 522
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 287
+      "elapsedMs": 165
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 393
+      "selected": 1,
+      "elapsedMs": 347
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 553
+      "elapsedMs": 149
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 7687
+      "elapsedMs": 3642
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 727
+      "selected": 0,
+      "elapsedMs": 542
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 543
+      "elapsedMs": 293
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 2,
-      "elapsedMs": 483
+      "elapsedMs": 260
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 590
+      "elapsedMs": 239
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 523
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 512
+      "elapsedMs": 306
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 430
+      "elapsedMs": 398
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 891
+      "selected": 0,
+      "elapsedMs": 836
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 955
+      "elapsedMs": 745
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 691
+      "elapsedMs": 507
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 612
+      "elapsedMs": 540
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 622
+      "elapsedMs": 565
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 4,
-      "elapsedMs": 693
+      "selected": 3,
+      "elapsedMs": 549
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1383
+      "elapsedMs": 1348
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1791
+      "elapsedMs": 1412
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 639
+      "selected": 2,
+      "elapsedMs": 556
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 941
+      "fetched": 28,
+      "selected": 2,
+      "elapsedMs": 743
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 1098
+      "elapsedMs": 923
     }
   ],
   "stats": {
-    "fetched": 450,
-    "afterDedupe": 439,
-    "afterFreshness": 147,
-    "droppedStale": 292,
+    "fetched": 458,
+    "afterDedupe": 446,
+    "afterFreshness": 146,
+    "droppedStale": 300,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
