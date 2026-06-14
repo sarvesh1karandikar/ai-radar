@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-13",
-  "generatedAt": "2026-06-13T15:02:00.736Z",
+  "date": "2026-06-14",
+  "generatedAt": "2026-06-14T15:07:55.698Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI News",
-      "category": "multi_agent_systems",
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
       "signal": "primary",
-      "whyItMatters": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 80 topical match, 70 recency; local score 0.70, cluster 17.",
-      "sourceExcerpt": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "citationUrl": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 20.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
@@ -29,130 +29,130 @@
       "whyItMatters": "olmo-eval: An evaluation workbench for the model development loop... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Hugging Face Blog surfaced this as a developer tools update. olmo-eval: An evaluation workbench for the model development loop",
       "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 76 recency; local score 0.68, cluster 24.",
+      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 51 recency; local score 0.63, cluster 21.",
       "sourceExcerpt": "olmo-eval: An evaluation workbench for the model development loop",
       "citationUrl": "https://huggingface.co/blog/allenai/olmo-eval",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
-      "url": "http://arxiv.org/abs/2606.13605v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 14.",
-      "sourceExcerpt": "This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
-      "citationUrl": "http://arxiv.org/abs/2606.13605v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Multiagent Protocols with Aggregated Confidence Signals",
-      "url": "http://arxiv.org/abs/2606.13591v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP),... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP), yet no existing method produces or evaluates a confidence for the output of a multiagent system.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 16.",
-      "sourceExcerpt": "Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP), yet no existing method produces or evaluates a confidence for the output of a multiagent system.",
-      "citationUrl": "http://arxiv.org/abs/2606.13591v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "repowise-dev/repowise",
-      "url": "https://github.com/repowise-dev/repowise",
+      "title": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "whyItMatters": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "router-for-me/CLIProxyAPI is appearing as builder momentum, not as a verified product claim. Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,286 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
-      "citationUrl": "https://github.com/repowise-dev/repowise",
+      "evidence": "GitHub AI Systems Search; 37,478 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "citationUrl": "https://github.com/router-for-me/CLIProxyAPI",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "koxudaxi/datamodel-code-generator",
+      "url": "https://github.com/koxudaxi/datamodel-code-generator",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "koxudaxi/datamodel-code-generator is appearing as builder momentum, not as a verified product claim. Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,931 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "citationUrl": "https://github.com/koxudaxi/datamodel-code-generator",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "How we made GitHub Copilot CLI more selective about delegation",
+      "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+      "source": "GitHub AI and ML Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Better orchestration, fewer handoffs, faster progress, without a single new knob. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. Better orchestration, fewer handoffs, faster progress, without a single new knob.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 58 recency; local score 0.62, cluster 22.",
+      "sourceExcerpt": "Better orchestration, fewer handoffs, faster progress, without a single new knob.",
+      "citationUrl": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "azooKey/azooKey-Desktop",
-      "url": "https://github.com/azooKey/azooKey-Desktop",
-      "source": "GitHub AI Systems Search",
-      "category": "datacenter_power_compute",
-      "signal": "builder-signal",
-      "whyItMatters": "azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural... Treat it as builder momentum in datacenter power compute; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "azooKey/azooKey-Desktop is appearing as builder momentum, not as a verified product claim. azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter.",
-      "technicalTakeaway": "Track the repository as a datacenter power compute signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 936 GitHub stars; local score 0.81, cluster 3.",
-      "sourceExcerpt": "azooKey-Desktop is an open-source Japanese input method for macOS, written in Swift and powered by the Zenzai neural kana-kanji converter.",
-      "citationUrl": "https://github.com/azooKey/azooKey-Desktop",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "marcusquinn/aidevops",
-      "url": "https://github.com/marcusquinn/aidevops",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "marcusquinn/aidevops is appearing as builder momentum, not as a verified product claim. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 268 GitHub stars; local score 0.82, cluster 2.",
-      "sourceExcerpt": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
-      "citationUrl": "https://github.com/marcusquinn/aidevops",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "RatLoopz/sahidawa-india",
-      "url": "https://github.com/RatLoopz/sahidawa-india",
+      "title": "kreuzberg-dev/tree-sitter-language-pack",
+      "url": "https://github.com/kreuzberg-dev/tree-sitter-language-pack",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs —... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "RatLoopz/sahidawa-india is appearing as builder momentum, not as a verified product claim. SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs — designed for low-bandwidth environments and multilingual access across India.",
+      "whyItMatters": "Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "kreuzberg-dev/tree-sitter-language-pack is appearing as builder momentum, not as a verified product claim. Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM, Dart, Kotlin-Android, Swift, Zig, and CLI.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 61 GitHub stars; local score 0.80, cluster 6.",
-      "sourceExcerpt": "SahiDawa is an open-source platform that helps citizens verify medicines, find trusted pharmacies, and report suspicious drugs — designed for low-bandwidth environments and multilingual access across India.",
-      "citationUrl": "https://github.com/RatLoopz/sahidawa-india",
+      "evidence": "GitHub AI Systems Search; 379 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM, Dart, Kotlin-Android, Swift, Zig, and CLI.",
+      "citationUrl": "https://github.com/kreuzberg-dev/tree-sitter-language-pack",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "B-M-Capital-Research/honeclaw",
+      "url": "https://github.com/B-M-Capital-Research/honeclaw",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "B-M-Capital-Research/honeclaw is appearing as builder momentum, not as a verified product claim. HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 733 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you.",
+      "citationUrl": "https://github.com/B-M-Capital-Research/honeclaw",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "AI coding at home without going broke",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 316 points and 260 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 316 points and 260 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 316 HN points; local score 0.70, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 316 points and 260 comments.",
+      "citationUrl": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Distribution-Agnostic Robust Trajectory Optimization via Chance-Constrained Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2606.13605v1",
-    "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+    "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+    "source": "NVIDIA Blog",
+    "category": "multi_agent_systems",
+    "summary": "NVIDIA Blog surfaced this as a multi agent systems update. AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. This paper presents a distribution-agnostic robust trajectory-optimization framework based on chance-constrained reinforcement learning.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 14."
+      "What happened: NVIDIA Blog surfaced this as a multi agent systems update. AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: NVIDIA Blog; 88 trust, 45 topical match, 56 recency; local score 0.58, cluster 25."
     ]
   },
   "bookmark": {
-    "title": "repowise-dev/repowise",
-    "url": "https://github.com/repowise-dev/repowise",
+    "title": "router-for-me/CLIProxyAPI",
+    "url": "https://github.com/router-for-me/CLIProxyAPI",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+    "whyItMatters": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "router-for-me/CLIProxyAPI is appearing as builder momentum, not as a verified product claim. Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 2,286 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "Codebase intelligence for AI-assisted engineering teams: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
-    "citationUrl": "https://github.com/repowise-dev/repowise",
+    "evidence": "GitHub AI Systems Search; 37,478 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+    "citationUrl": "https://github.com/router-for-me/CLIProxyAPI",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 522
+      "selected": 0,
+      "elapsedMs": 659
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 165
+      "selected": 0,
+      "elapsedMs": 152
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 347
+      "elapsedMs": 300
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 149
+      "elapsedMs": 135
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 3642
+      "selected": 2,
+      "elapsedMs": 316
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 542
+      "elapsedMs": 388
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 293
+      "elapsedMs": 289
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 260
+      "selected": 0,
+      "elapsedMs": 243
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 239
+      "elapsedMs": 263
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 523
+      "elapsedMs": 662
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 306
+      "elapsedMs": 441
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 398
+      "elapsedMs": 434
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 836
+      "selected": 1,
+      "elapsedMs": 519
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 745
+      "elapsedMs": 947
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 507
+      "selected": 1,
+      "elapsedMs": 575
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 540
+      "elapsedMs": 463
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 565
+      "elapsedMs": 623
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 549
+      "selected": 1,
+      "elapsedMs": 519
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1348
+      "selected": 0,
+      "elapsedMs": 1470
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1412
+      "elapsedMs": 1427
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 556
+      "selected": 1,
+      "elapsedMs": 739
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 28,
+      "fetched": 16,
       "selected": 2,
-      "elapsedMs": 743
+      "elapsedMs": 965
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 923
+      "selected": 4,
+      "elapsedMs": 1067
     }
   ],
   "stats": {
-    "fetched": 458,
-    "afterDedupe": 446,
-    "afterFreshness": 146,
-    "droppedStale": 300,
-    "selected": 28,
-    "clusters": 27,
+    "fetched": 446,
+    "afterDedupe": 434,
+    "afterFreshness": 78,
+    "droppedStale": 356,
+    "selected": 19,
+    "clusters": 16,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
