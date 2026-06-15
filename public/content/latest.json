@@ -1,158 +1,158 @@
 {
-  "date": "2026-06-14",
-  "generatedAt": "2026-06-14T15:07:55.698Z",
+  "date": "2026-06-15",
+  "generatedAt": "2026-06-15T17:58:15.371Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog",
+      "category": "datacenter_power_compute",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 20.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "source": "Hugging Face Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "olmo-eval: An evaluation workbench for the model development loop... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a developer tools update. olmo-eval: An evaluation workbench for the model development loop",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 51 recency; local score 0.63, cluster 21.",
-      "sourceExcerpt": "olmo-eval: An evaluation workbench for the model development loop",
-      "citationUrl": "https://huggingface.co/blog/allenai/olmo-eval",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "router-for-me/CLIProxyAPI",
-      "url": "https://github.com/router-for-me/CLIProxyAPI",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "router-for-me/CLIProxyAPI is appearing as builder momentum, not as a verified product claim. Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 37,478 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
-      "citationUrl": "https://github.com/router-for-me/CLIProxyAPI",
+      "whyItMatters": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
+      "citationUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "koxudaxi/datamodel-code-generator",
-      "url": "https://github.com/koxudaxi/datamodel-code-generator",
+      "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
+      "url": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Boosting MoE Training Throughput with Advanced Fusion Kernels",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 77 topical match, 99 recency; local score 0.69, cluster 22.",
+      "sourceExcerpt": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
+      "citationUrl": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "intuitem/ciso-assistant-community",
+      "url": "https://github.com/intuitem/ciso-assistant-community",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "koxudaxi/datamodel-code-generator is appearing as builder momentum, not as a verified product claim. Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,931 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
-      "citationUrl": "https://github.com/koxudaxi/datamodel-code-generator",
+      "evidence": "GitHub AI Systems Search; 4,135 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+      "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "How we made GitHub Copilot CLI more selective about delegation",
-      "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
-      "source": "GitHub AI and ML Blog",
-      "category": "developer_tools",
+      "title": "Ataraxy-Labs/sem",
+      "url": "https://github.com/Ataraxy-Labs/sem",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Ataraxy-Labs/sem is appearing as builder momentum, not as a verified product claim. Semantic version control => entity-level diffs, blame, and impact analysis on top of git.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,863 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git.",
+      "citationUrl": "https://github.com/Ataraxy-Labs/sem",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Better orchestration, fewer handoffs, faster progress, without a single new knob. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. Better orchestration, fewer handoffs, faster progress, without a single new knob.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 58 recency; local score 0.62, cluster 22.",
-      "sourceExcerpt": "Better orchestration, fewer handoffs, faster progress, without a single new knob.",
-      "citationUrl": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+      "whyItMatters": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, you'll build a competitive research agent that demonstrates this pattern end to end.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 60 topical match, 96 recency; local score 0.68, cluster 23.",
+      "sourceExcerpt": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "kreuzberg-dev/tree-sitter-language-pack",
-      "url": "https://github.com/kreuzberg-dev/tree-sitter-language-pack",
+      "title": "conductor-oss/conductor",
+      "url": "https://github.com/conductor-oss/conductor",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "kreuzberg-dev/tree-sitter-language-pack is appearing as builder momentum, not as a verified product claim. Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM, Dart, Kotlin-Android, Swift, Zig, and CLI.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 379 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Comprehensive tree-sitter grammar compilation with polyglot bindings — Rust, Python, Node.js, Go, Java, Ruby, Elixir, PHP, C#, WASM, Dart, Kotlin-Android, Swift, Zig, and CLI.",
-      "citationUrl": "https://github.com/kreuzberg-dev/tree-sitter-language-pack",
+      "whyItMatters": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "conductor-oss/conductor is appearing as builder momentum, not as a verified product claim. Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 31,957 GitHub stars; local score 0.81, cluster 5.",
+      "sourceExcerpt": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+      "citationUrl": "https://github.com/conductor-oss/conductor",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "B-M-Capital-Research/honeclaw",
-      "url": "https://github.com/B-M-Capital-Research/honeclaw",
+      "title": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "B-M-Capital-Research/honeclaw is appearing as builder momentum, not as a verified product claim. HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 733 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you.",
-      "citationUrl": "https://github.com/B-M-Capital-Research/honeclaw",
+      "whyItMatters": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "lobehub/lobehub is appearing as builder momentum, not as a verified product claim. 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 78,700 GitHub stars; local score 0.81, cluster 6.",
+      "sourceExcerpt": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "citationUrl": "https://github.com/lobehub/lobehub",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "AI coding at home without going broke",
-      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
       "source": "Hacker News",
       "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 316 points and 260 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 316 points and 260 comments.",
+      "whyItMatters": "Hacker News discussion signal with 105 points and 58 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 105 points and 58 comments.",
       "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 316 HN points; local score 0.70, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 316 points and 260 comments.",
-      "citationUrl": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "evidence": "Hacker News; 105 HN points; local score 0.72, cluster 18.",
+      "sourceExcerpt": "Hacker News discussion signal with 105 points and 58 comments.",
+      "citationUrl": "https://news.ycombinator.com/item?id=48542100",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-    "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-    "source": "NVIDIA Blog",
-    "category": "multi_agent_systems",
-    "summary": "NVIDIA Blog surfaced this as a multi agent systems update. AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+    "source": "Google AI Blog",
+    "category": "datacenter_power_compute",
+    "summary": "Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a multi agent systems update. AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 45 topical match, 56 recency; local score 0.58, cluster 25."
+      "What happened: Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
+      "Why it matters: The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for datacenter power compute.",
+      "Evidence: Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.75, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "router-for-me/CLIProxyAPI",
-    "url": "https://github.com/router-for-me/CLIProxyAPI",
+    "title": "intuitem/ciso-assistant-community",
+    "url": "https://github.com/intuitem/ciso-assistant-community",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "router-for-me/CLIProxyAPI is appearing as builder momentum, not as a verified product claim. Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+    "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 37,478 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
-    "citationUrl": "https://github.com/router-for-me/CLIProxyAPI",
+    "evidence": "GitHub AI Systems Search; 4,135 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+    "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 659
+      "selected": 1,
+      "elapsedMs": 862
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 152
+      "selected": 1,
+      "elapsedMs": 499
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 300
+      "selected": 0,
+      "elapsedMs": 492
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 135
+      "elapsedMs": 223
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 316
+      "selected": 1,
+      "elapsedMs": 1205
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 388
+      "elapsedMs": 409
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 289
+      "selected": 0,
+      "elapsedMs": 477
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 243
+      "elapsedMs": 288
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 263
+      "elapsedMs": 332
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 662
+      "elapsedMs": 638
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 441
+      "elapsedMs": 501
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 434
+      "selected": 0,
+      "elapsedMs": 491
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 519
+      "elapsedMs": 372
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 947
+      "elapsedMs": 1101
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 575
+      "elapsedMs": 444
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 463
+      "elapsedMs": 493
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 623
+      "elapsedMs": 512
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 519
+      "selected": 0,
+      "elapsedMs": 478
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1470
+      "elapsedMs": 1085
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1427
+      "elapsedMs": 1336
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 739
+      "selected": 0,
+      "elapsedMs": 497
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 16,
+      "fetched": 22,
       "selected": 2,
-      "elapsedMs": 965
+      "elapsedMs": 709
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1067
+      "elapsedMs": 845
     }
   ],
   "stats": {
-    "fetched": 446,
-    "afterDedupe": 434,
-    "afterFreshness": 78,
-    "droppedStale": 356,
-    "selected": 19,
-    "clusters": 16,
+    "fetched": 452,
+    "afterDedupe": 442,
+    "afterFreshness": 85,
+    "droppedStale": 357,
+    "selected": 15,
+    "clusters": 14,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
