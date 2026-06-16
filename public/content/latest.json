@@ -1,158 +1,158 @@
 {
-  "date": "2026-06-15",
-  "generatedAt": "2026-06-15T17:58:15.371Z",
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T18:05:48.955Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "source": "Google AI Blog",
-      "category": "datacenter_power_compute",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
-      "citationUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "whyItMatters": "Every breakthrough AI model starts the same way: with a training run. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. Every breakthrough AI model starts the same way: with a training run.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 97 recency; local score 0.80, cluster 9.",
+      "sourceExcerpt": "Every breakthrough AI model starts the same way: with a training run.",
+      "citationUrl": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
-      "url": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
+      "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Boosting MoE Training Throughput with Advanced Fusion Kernels",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 77 topical match, 99 recency; local score 0.69, cluster 22.",
-      "sourceExcerpt": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
-      "citationUrl": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
-      "contextQuality": "thin public context",
+      "whyItMatters": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 100 recency; local score 0.74, cluster 24.",
+      "sourceExcerpt": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "intuitem/ciso-assistant-community",
-      "url": "https://github.com/intuitem/ciso-assistant-community",
+      "title": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+      "url": "http://arxiv.org/abs/2606.17005v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Public AI evaluations are often read as terminal leaderboards, yet the underlying evidence is a selective time series... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Public AI evaluations are often read as terminal leaderboards, yet the underlying evidence is a selective time series shaped by reporting rules, benchmark revisions, and missingness.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 19.",
+      "sourceExcerpt": "Public AI evaluations are often read as terminal leaderboards, yet the underlying evidence is a selective time series shaped by reporting rules, benchmark revisions, and missingness.",
+      "citationUrl": "http://arxiv.org/abs/2606.17005v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting",
+      "url": "http://arxiv.org/abs/2606.17028v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Simple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Simple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that standard forecasting benchmarks may not require the dense superposed representations that make transformers powerful in other domains.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 17.",
+      "sourceExcerpt": "Simple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that standard forecasting benchmarks may not require the dense superposed representations that make transformers powerful in other domains.",
+      "citationUrl": "http://arxiv.org/abs/2606.17028v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "mock-server/mockserver-monorepo",
+      "url": "https://github.com/mock-server/mockserver-monorepo",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+      "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,135 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-      "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Ataraxy-Labs/sem",
-      "url": "https://github.com/Ataraxy-Labs/sem",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Ataraxy-Labs/sem is appearing as builder momentum, not as a verified product claim. Semantic version control => entity-level diffs, blame, and impact analysis on top of git.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,863 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git.",
-      "citationUrl": "https://github.com/Ataraxy-Labs/sem",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, you'll build a competitive research agent that demonstrates this pattern end to end.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 60 topical match, 96 recency; local score 0.68, cluster 23.",
-      "sourceExcerpt": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/",
+      "evidence": "GitHub AI Systems Search; 4,893 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+      "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "conductor-oss/conductor",
-      "url": "https://github.com/conductor-oss/conductor",
+      "title": "benseverndev-oss/goldenmatch",
+      "url": "https://github.com/benseverndev-oss/goldenmatch",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "conductor-oss/conductor is appearing as builder momentum, not as a verified product claim. Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 31,957 GitHub stars; local score 0.81, cluster 5.",
-      "sourceExcerpt": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
-      "citationUrl": "https://github.com/conductor-oss/conductor",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "lobehub/lobehub is appearing as builder momentum, not as a verified product claim. 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 78,700 GitHub stars; local score 0.81, cluster 6.",
-      "sourceExcerpt": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "citationUrl": "https://github.com/lobehub/lobehub",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-      "url": "https://news.ycombinator.com/item?id=48542100",
-      "source": "Hacker News",
       "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 105 points and 58 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 105 points and 58 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 105 HN points; local score 0.72, cluster 18.",
-      "sourceExcerpt": "Hacker News discussion signal with 105 points and 58 comments.",
-      "citationUrl": "https://news.ycombinator.com/item?id=48542100",
-      "contextQuality": "thin public context",
+      "signal": "builder-signal",
+      "whyItMatters": "The zero-tuning Fellegi-Sunter path beats hand-rolled Splink head-to-head; scales from a CSV to a verified 100M-row dedupe in... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "benseverndev-oss/goldenmatch is appearing as builder momentum, not as a verified product claim. Zero-config entity resolution.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 113 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Zero-config entity resolution.",
+      "citationUrl": "https://github.com/benseverndev-oss/goldenmatch",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "TanStack/ai",
+      "url": "https://github.com/TanStack/ai",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "TanStack/ai is appearing as builder momentum, not as a verified product claim. 🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,784 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
+      "citationUrl": "https://github.com/TanStack/ai",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "JSONbored/awesome-claude",
+      "url": "https://github.com/JSONbored/awesome-claude",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "JSONbored/awesome-claude is appearing as builder momentum, not as a verified product claim. HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 264 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
+      "citationUrl": "https://github.com/JSONbored/awesome-claude",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-    "source": "Google AI Blog",
-    "category": "datacenter_power_compute",
-    "summary": "Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+    "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+    "source": "NVIDIA Blog",
+    "category": "training_infrastructure",
+    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. Every breakthrough AI model starts the same way: with a training run. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Google AI Blog surfaced this as a datacenter power compute update. Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama.",
-      "Why it matters: The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for datacenter power compute.",
-      "Evidence: Google AI Blog; 94 trust, 80 topical match, 97 recency; local score 0.75, cluster 16."
+      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. Every breakthrough AI model starts the same way: with a training run.",
+      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for training infrastructure.",
+      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 97 recency; local score 0.80, cluster 9."
     ]
   },
   "bookmark": {
-    "title": "intuitem/ciso-assistant-community",
-    "url": "https://github.com/intuitem/ciso-assistant-community",
+    "title": "mock-server/mockserver-monorepo",
+    "url": "https://github.com/mock-server/mockserver-monorepo",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+    "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,135 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-    "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
+    "evidence": "GitHub AI Systems Search; 4,893 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+    "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 862
+      "selected": 0,
+      "elapsedMs": 437
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 499
+      "elapsedMs": 188
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 492
+      "selected": 1,
+      "elapsedMs": 532
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 223
+      "elapsedMs": 134
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 1205
+      "elapsedMs": 4491
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 409
+      "elapsedMs": 724
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 477
+      "elapsedMs": 339
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 288
+      "elapsedMs": 309
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 332
+      "elapsedMs": 281
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 638
+      "elapsedMs": 239
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 501
+      "elapsedMs": 454
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 491
+      "selected": 2,
+      "elapsedMs": 448
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 372
+      "elapsedMs": 871
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1101
+      "elapsedMs": 1291
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 444
+      "selected": 4,
+      "elapsedMs": 440
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 493
+      "elapsedMs": 417
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 512
+      "elapsedMs": 463
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 478
+      "selected": 4,
+      "elapsedMs": 405
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1085
+      "selected": 4,
+      "elapsedMs": 1408
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1336
+      "elapsedMs": 1516
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 497
+      "selected": 2,
+      "elapsedMs": 451
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 22,
+      "fetched": 19,
       "selected": 2,
-      "elapsedMs": 709
+      "elapsedMs": 781
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 845
+      "selected": 2,
+      "elapsedMs": 824
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 442,
-    "afterFreshness": 85,
-    "droppedStale": 357,
-    "selected": 15,
-    "clusters": 14,
+    "fetched": 449,
+    "afterDedupe": 439,
+    "afterFreshness": 138,
+    "droppedStale": 301,
+    "selected": 28,
+    "clusters": 26,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
