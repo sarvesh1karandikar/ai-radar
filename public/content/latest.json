@@ -1,10 +1,25 @@
 {
-  "date": "2026-06-18",
-  "generatedAt": "2026-06-18T16:34:51.171Z",
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T16:01:03.002Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect...",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 90 topical match, 79 recency; local score 0.75, cluster 21.",
+      "sourceExcerpt": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect...",
+      "citationUrl": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "Securing The Future Of Ai Agents",
       "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
@@ -14,145 +29,130 @@
       "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Google DeepMind surfaced this as a multi agent systems update. Official Google DeepMind page updated in the source sitemap.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Google DeepMind; 96 trust, 90 topical match, 83 recency; local score 0.73, cluster 24.",
+      "evidence": "Google DeepMind; 96 trust, 90 topical match, 58 recency; local score 0.68, cluster 41.",
       "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
       "citationUrl": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "source": "OpenAI News",
-      "category": "model_architecture_math",
-      "signal": "primary",
-      "whyItMatters": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a model architecture math update. Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 70 topical match, 91 recency; local score 0.72, cluster 29.",
-      "sourceExcerpt": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "citationUrl": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
-      "url": "http://arxiv.org/abs/2606.19297v1",
+      "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+      "url": "http://arxiv.org/abs/2606.20474v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation.",
+      "whyItMatters": "Context-heavy agents place unusual pressure on the key-value (KV) cache: long prefixes are reused across many short turns,... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Context-heavy agents place unusual pressure on the key-value (KV) cache: long prefixes are reused across many short turns, while concurrency determines whether the serving system can keep GPUs utilized.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 12.",
-      "sourceExcerpt": "Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation.",
-      "citationUrl": "http://arxiv.org/abs/2606.19297v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18.",
+      "sourceExcerpt": "Context-heavy agents place unusual pressure on the key-value (KV) cache: long prefixes are reused across many short turns, while concurrency determines whether the serving system can keep GPUs utilized.",
+      "citationUrl": "http://arxiv.org/abs/2606.20474v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
-      "url": "http://arxiv.org/abs/2606.19236v1",
+      "title": "Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+      "url": "http://arxiv.org/abs/2606.20520v1",
       "source": "arXiv AI Systems Query",
-      "category": "training_infrastructure",
+      "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Reinforcement Learning with Verifiable Rewards algorithms like GRPO have emerged as the dominant post-training paradigm for complex reasoning... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Reinforcement Learning with Verifiable Rewards algorithms like GRPO have emerged as the dominant post-training paradigm for complex reasoning in LLMs, yet commonly suffer from policy entropy collapse during training.",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 14.",
-      "sourceExcerpt": "Reinforcement Learning with Verifiable Rewards algorithms like GRPO have emerged as the dominant post-training paradigm for complex reasoning in LLMs, yet commonly suffer from policy entropy collapse during training.",
-      "citationUrl": "http://arxiv.org/abs/2606.19236v1",
+      "whyItMatters": "Autonomous agents are increasingly connected to cloud, deployment, and data-control workflows, but production mutation authority should not reside... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Autonomous agents are increasingly connected to cloud, deployment, and data-control workflows, but production mutation authority should not reside inside non-deterministic reasoning processes.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 15.",
+      "sourceExcerpt": "Autonomous agents are increasingly connected to cloud, deployment, and data-control workflows, but production mutation authority should not reside inside non-deterministic reasoning processes.",
+      "citationUrl": "http://arxiv.org/abs/2606.20520v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "looplj/axonhub",
-      "url": "https://github.com/looplj/axonhub",
+      "title": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "looplj/axonhub is appearing as builder momentum, not as a verified product claim. ⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs.",
+      "whyItMatters": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "weaviate/weaviate is appearing as builder momentum, not as a verified product claim. Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,337 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs.",
-      "citationUrl": "https://github.com/looplj/axonhub",
+      "evidence": "GitHub AI Systems Search; 16,361 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "citationUrl": "https://github.com/weaviate/weaviate",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "pathwaycom/pathway",
-      "url": "https://github.com/pathwaycom/pathway",
+      "title": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "pathwaycom/pathway is appearing as builder momentum, not as a verified product claim. Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "whyItMatters": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 62,925 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-      "citationUrl": "https://github.com/pathwaycom/pathway",
+      "evidence": "GitHub AI Systems Search; 2,450 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "citationUrl": "https://github.com/repowise-dev/repowise",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "LearnPrompt/ai-news-radar",
-      "url": "https://github.com/LearnPrompt/ai-news-radar",
+      "title": "OpenOSINT/OpenOSINT",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "24h AI/tech news radar with GitHub Actions, live web UI, and Scout Skill for AI sources. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "LearnPrompt/ai-news-radar is appearing as builder momentum, not as a verified product claim. 24h AI/tech news radar with GitHub Actions, live web UI, and Scout Skill for AI sources.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,167 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "24h AI/tech news radar with GitHub Actions, live web UI, and Scout Skill for AI sources.",
-      "citationUrl": "https://github.com/LearnPrompt/ai-news-radar",
+      "whyItMatters": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "OpenOSINT/OpenOSINT is appearing as builder momentum, not as a verified product claim. AI-powered OSINT agent with interactive REPL, MCP server, and CLI.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 710 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI.",
+      "citationUrl": "https://github.com/OpenOSINT/OpenOSINT",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "mmkal/trpc-cli",
-      "url": "https://github.com/mmkal/trpc-cli",
+      "title": "dbcli/mycli",
+      "url": "https://github.com/dbcli/mycli",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Turn a tRPC router into a type-safe, fully-functional, documented CLI... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mmkal/trpc-cli is appearing as builder momentum, not as a verified product claim. Turn a tRPC router into a type-safe, fully-functional, documented CLI",
+      "whyItMatters": "A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "dbcli/mycli is appearing as builder momentum, not as a verified product claim. A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 362 GitHub stars; local score 0.81, cluster 4.",
-      "sourceExcerpt": "Turn a tRPC router into a type-safe, fully-functional, documented CLI",
-      "citationUrl": "https://github.com/mmkal/trpc-cli",
+      "evidence": "GitHub AI Systems Search; 11,931 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.",
+      "citationUrl": "https://github.com/dbcli/mycli",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
-    "url": "http://arxiv.org/abs/2606.19297v1",
+    "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+    "url": "http://arxiv.org/abs/2606.20474v1",
     "source": "arXiv AI Systems Query",
     "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a multi agent systems lead from the research stream. Context-heavy agents place unusual pressure on the key-value (KV) cache: long prefixes are reused across many short turns, while concurrency determines whether the serving system can keep GPUs utilized. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation.",
+      "What happened: This paper is a multi agent systems lead from the research stream. Context-heavy agents place unusual pressure on the key-value (KV) cache: long prefixes are reused across many short turns, while concurrency determines whether the serving system can keep GPUs utilized.",
       "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 12."
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "looplj/axonhub",
-    "url": "https://github.com/looplj/axonhub",
+    "title": "weaviate/weaviate",
+    "url": "https://github.com/weaviate/weaviate",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "looplj/axonhub is appearing as builder momentum, not as a verified product claim. ⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs.",
+    "whyItMatters": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "weaviate/weaviate is appearing as builder momentum, not as a verified product claim. Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,337 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs.",
-    "citationUrl": "https://github.com/looplj/axonhub",
+    "evidence": "GitHub AI Systems Search; 16,361 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+    "citationUrl": "https://github.com/weaviate/weaviate",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 610
+      "elapsedMs": 1094
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 378
+      "elapsedMs": 286
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 298
+      "selected": 0,
+      "elapsedMs": 308
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 215
+      "elapsedMs": 129
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 2837
+      "elapsedMs": 497
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 1127
+      "elapsedMs": 347
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 424
+      "elapsedMs": 276
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 338
+      "elapsedMs": 235
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 275
+      "elapsedMs": 198
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 361
+      "elapsedMs": 581
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 472
+      "elapsedMs": 484
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 385
+      "selected": 4,
+      "elapsedMs": 515
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 362
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 678
+      "selected": 3,
+      "elapsedMs": 603
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 445
+      "elapsedMs": 399
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 374
+      "elapsedMs": 379
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 572
+      "elapsedMs": 546
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 419
+      "selected": 0,
+      "elapsedMs": 464
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1192
+      "elapsedMs": 1425
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1453
+      "elapsedMs": 1304
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 517
+      "elapsedMs": 488
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
+      "fetched": 24,
       "selected": 1,
-      "elapsedMs": 782
+      "elapsedMs": 553
     },
     {
       "id": "google-news-fallback",
@@ -361,15 +361,15 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 814
+      "selected": 0,
+      "elapsedMs": 671
     }
   ],
   "stats": {
-    "fetched": 451,
-    "afterDedupe": 441,
-    "afterFreshness": 171,
-    "droppedStale": 270,
+    "fetched": 454,
+    "afterDedupe": 444,
+    "afterFreshness": 155,
+    "droppedStale": 289,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
