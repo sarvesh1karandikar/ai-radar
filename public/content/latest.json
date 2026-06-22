@@ -1,53 +1,100 @@
 {
-  "date": "2026-06-21",
-  "generatedAt": "2026-06-21T15:12:03.786Z",
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T17:44:01.035Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
+      "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+      "url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 19.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "How we built an internal data analytics agent",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "GitHub AI and ML Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "GitHub AI and ML Blog surfaced this as a multi agent systems update. Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 68 topical match, 51 recency; local score 0.58, cluster 20.",
-      "sourceExcerpt": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language.",
-      "citationUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "whyItMatters": "JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 95 recency; local score 0.79, cluster 7.",
+      "sourceExcerpt": "JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year.",
+      "citationUrl": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "frank890417/taiwan-md",
-      "url": "https://github.com/frank890417/taiwan-md",
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "National Science Foundation’s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. For the past two years, the U.S.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 95 recency; local score 0.77, cluster 8.",
+      "sourceExcerpt": "For the past two years, the U.S.",
+      "citationUrl": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "source": "GitHub AI Systems Search",
+      "category": "model_security",
+      "signal": "builder-signal",
+      "whyItMatters": "🎨 Local-first, open-source Claude Design alternative. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Local-first, open-source Claude Design alternative.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 69,094 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "🎨 Local-first, open-source Claude Design alternative.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "confident-ai/deepeval",
+      "url": "https://github.com/confident-ai/deepeval",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "whyItMatters": "The LLM Evaluation Framework... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "confident-ai/deepeval is appearing as builder momentum, not as a verified product claim. The LLM Evaluation Framework",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,061 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
-      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "evidence": "GitHub AI Systems Search; 16,393 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "The LLM Evaluation Framework",
+      "citationUrl": "https://github.com/confident-ai/deepeval",
       "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 87 recency; local score 0.75, cluster 11.",
+      "sourceExcerpt": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes.",
+      "citationUrl": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "gptme/gptme",
+      "url": "https://github.com/gptme/gptme",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "gptme/gptme is appearing as builder momentum, not as a verified product claim. Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,335 GitHub stars; local score 0.81, cluster 4.",
+      "sourceExcerpt": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web.",
+      "citationUrl": "https://github.com/gptme/gptme",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
@@ -59,101 +106,54 @@
       "whyItMatters": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
       "brief": "activepieces/activepieces is appearing as builder momentum, not as a verified product claim. AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 22,897 GitHub stars; local score 0.84, cluster 2.",
+      "evidence": "GitHub AI Systems Search; 22,927 GitHub stars; local score 0.80, cluster 5.",
       "sourceExcerpt": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
       "citationUrl": "https://github.com/activepieces/activepieces",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "KimYx0207/Meta_Kim",
-      "url": "https://github.com/KimYx0207/Meta_Kim",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Governed execution layer for AI coding assistants: clarify intent, route capabilities, review evidence, verify results, and write back... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "KimYx0207/Meta_Kim is appearing as builder momentum, not as a verified product claim. Governed execution layer for AI coding assistants: clarify intent, route capabilities, review evidence, verify results, and write back lessons across Claude Code, Codex, OpenClaw, and Cursor.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 229 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Governed execution layer for AI coding assistants: clarify intent, route capabilities, review evidence, verify results, and write back lessons across Claude Code, Codex, OpenClaw, and Cursor.",
-      "citationUrl": "https://github.com/KimYx0207/Meta_Kim",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    }
-  ],
-  "watchlist": [
-    {
-      "title": "wintermeyer/vutuv",
-      "url": "https://github.com/wintermeyer/vutuv",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Think of it as a fast, secure and less annoying open-source alternative for LinkedIn, Facebook and X. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "wintermeyer/vutuv is appearing as builder momentum, not as a verified product claim. vutuv is a social network.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 319 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "vutuv is a social network.",
-      "citationUrl": "https://github.com/wintermeyer/vutuv",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Building reliable agentic AI systems",
-      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "source": "Hacker News",
-      "category": "multi_agent_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 137 points and 34 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 137 points and 34 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 137 HN points; local score 0.67, cluster 18.",
-      "sourceExcerpt": "Hacker News discussion signal with 137 points and 34 comments.",
-      "citationUrl": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "title": "CCCL Runtime: A Modern C++ Runtime for CUDA",
+      "url": "https://developer.nvidia.com/blog/cccl-runtime-a-modern-c-runtime-for-cuda/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. CCCL Runtime: A Modern C++ Runtime for CUDA",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 98 recency; local score 0.73, cluster 14.",
+      "sourceExcerpt": "CCCL Runtime: A Modern C++ Runtime for CUDA",
+      "citationUrl": "https://developer.nvidia.com/blog/cccl-runtime-a-modern-c-runtime-for-cuda/",
       "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "AI Inference and World Model Startups Pull $1.8B in Two Days as Foundation Models Commoditize - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0o3cHdXUGJtXzF4cHJvbDhWMGFMM2pLaXVxM1FKYUc3YzlMcm14UU5kaUJTUW1mX0hFQzhObzFvbXFfd3M3VnFlZ1lVanQtYW9PTTQxZ2pjQkoyNkkzQVBsWlNnZ2dVeGw4Z01VZEVTeDl2OHlLeTR0NVpoc2lMYXBtZFFZOV8wcVhQTnEtTHR2blllWDhnUThxMHV4LUEtTVBoYW56MDhELU1VcVdoVHlPWjlwRm9hd2FGTWR1TERkNTNsYXpSLWNtVG9DYkN4eUE?oc=5",
-      "source": "Google News Fallback",
-      "category": "inference_systems",
-      "signal": "discovery",
-      "whyItMatters": "AI Inference and World Model Startups Pull $1.8B in Two Days as Foundation Models Commoditize Tech Times... Use it as discovery context for inference systems until a stronger public source confirms the details.",
-      "brief": "This is a fallback discovery item for inference systems. AI Inference and World Model Startups Pull $1.8B in Two Days as Foundation Models Commoditize Tech Times",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google News Fallback; 45 trust, 50 topical match, 99 recency; local score 0.52, cluster 21.",
-      "sourceExcerpt": "AI Inference and World Model Startups Pull $1.8B in Two Days as Foundation Models Commoditize Tech Times",
-      "citationUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0o3cHdXUGJtXzF4cHJvbDhWMGFMM2pLaXVxM1FKYUc3YzlMcm14UU5kaUJTUW1mX0hFQzhObzFvbXFfd3M3VnFlZ1lVanQtYW9PTTQxZ2pjQkoyNkkzQVBsWlNnZ2dVeGw4Z01VZEVTeDl2OHlLeTR0NVpoc2lMYXBtZFFZOV8wcVhQTnEtTHR2blllWDhnUThxMHV4LUEtTVBoYW56MDhELU1VcVdoVHlPWjlwRm9hd2FGTWR1TERkNTNsYXpSLWNtVG9DYkN4eUE?oc=5",
-      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "How we built an internal data analytics agent",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-    "source": "GitHub AI and ML Blog",
-    "category": "multi_agent_systems",
-    "summary": "GitHub AI and ML Blog surfaced this as a multi agent systems update. Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+    "url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+    "source": "NVIDIA Blog",
+    "category": "training_infrastructure",
+    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: GitHub AI and ML Blog surfaced this as a multi agent systems update. Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: GitHub AI and ML Blog; 72 trust, 68 topical match, 51 recency; local score 0.58, cluster 20."
+      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. JUPITER, Europe’s first exascale supercomputer at Germany’s Forschungszentrum Jülich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking — and it’s had a busy year.",
+      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for training infrastructure.",
+      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 95 recency; local score 0.79, cluster 7."
     ]
   },
   "bookmark": {
-    "title": "frank890417/taiwan-md",
-    "url": "https://github.com/frank890417/taiwan-md",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "model_security",
     "signal": "builder-signal",
-    "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-    "evidence": "GitHub AI Systems Search; 1,061 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
-    "citationUrl": "https://github.com/frank890417/taiwan-md",
-    "contextQuality": "thin public context",
+    "whyItMatters": "🎨 Local-first, open-source Claude Design alternative. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Local-first, open-source Claude Design alternative.",
+    "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 69,094 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "🎨 Local-first, open-source Claude Design alternative.",
+    "citationUrl": "https://github.com/nexu-io/open-design",
+    "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 703
+      "selected": 2,
+      "elapsedMs": 835
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 137
+      "elapsedMs": 145
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 262
+      "elapsedMs": 328
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 115
+      "elapsedMs": 123
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 3034
+      "selected": 2,
+      "elapsedMs": 4872
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 473
+      "elapsedMs": 507
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 210
+      "elapsedMs": 235
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 181
+      "elapsedMs": 210
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 238
+      "elapsedMs": 256
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 697
+      "elapsedMs": 608
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 310
+      "elapsedMs": 354
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 339
+      "selected": 4,
+      "elapsedMs": 375
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 398
+      "selected": 2,
+      "elapsedMs": 810
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 825
+      "elapsedMs": 798
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 508
+      "selected": 2,
+      "elapsedMs": 476
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 369
+      "elapsedMs": 508
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 448
+      "elapsedMs": 522
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 405
+      "elapsedMs": 502
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1580
+      "elapsedMs": 1302
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1207
+      "elapsedMs": 1327
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 515
+      "selected": 0,
+      "elapsedMs": 512
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 714
+      "fetched": 23,
+      "selected": 2,
+      "elapsedMs": 829
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 759
+      "elapsedMs": 861
     }
   ],
   "stats": {
-    "fetched": 450,
-    "afterDedupe": 439,
-    "afterFreshness": 68,
-    "droppedStale": 371,
-    "selected": 11,
-    "clusters": 11,
+    "fetched": 453,
+    "afterDedupe": 443,
+    "afterFreshness": 92,
+    "droppedStale": 351,
+    "selected": 22,
+    "clusters": 18,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
