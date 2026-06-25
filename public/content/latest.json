@@ -1,10 +1,25 @@
 {
-  "date": "2026-06-24",
-  "generatedAt": "2026-06-24T15:33:45.601Z",
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T15:39:50.189Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 86 recency; local score 0.73, cluster 32.",
+      "sourceExcerpt": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "citationUrl": "https://openai.com/index/how-agents-are-transforming-work",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
       "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
@@ -14,145 +29,130 @@
       "whyItMatters": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a inference systems update. Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 84 recency; local score 0.77, cluster 10.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 59 recency; local score 0.73, cluster 31.",
       "sourceExcerpt": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.",
       "citationUrl": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-      "url": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
-      "source": "NVIDIA Developer Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a inference systems update. Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 100 topical match, 76 recency; local score 0.72, cluster 25.",
-      "sourceExcerpt": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-      "citationUrl": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "url": "http://arxiv.org/abs/2606.26095v1",
+      "source": "arXiv AI Systems Query",
+      "category": "training_infrastructure",
+      "signal": "research",
+      "whyItMatters": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly.",
+      "citationUrl": "http://arxiv.org/abs/2606.26095v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
     },
     {
-      "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
-      "url": "http://arxiv.org/abs/2606.24834v1",
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "url": "http://arxiv.org/abs/2606.26080v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional correctness.",
+      "whyItMatters": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult:... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at...",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 11.",
-      "sourceExcerpt": "LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional correctness.",
-      "citationUrl": "http://arxiv.org/abs/2606.24834v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at...",
+      "citationUrl": "http://arxiv.org/abs/2606.26080v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
-      "url": "http://arxiv.org/abs/2606.24773v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Non-autoregressive generation offers a powerful paradigm for iterative refinement, allowing models to recursively critique, erase and regenerate arbitrary... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Non-autoregressive generation offers a powerful paradigm for iterative refinement, allowing models to recursively critique, erase and regenerate arbitrary subsets of tokens.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 15.",
-      "sourceExcerpt": "Non-autoregressive generation offers a powerful paradigm for iterative refinement, allowing models to recursively critique, erase and regenerate arbitrary subsets of tokens.",
-      "citationUrl": "http://arxiv.org/abs/2606.24773v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "benseverndev-oss/goldenmatch",
-      "url": "https://github.com/benseverndev-oss/goldenmatch",
+      "title": "orneryd/NornicDB",
+      "url": "https://github.com/orneryd/NornicDB",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "training_infrastructure",
       "signal": "builder-signal",
-      "whyItMatters": "The zero-tuning Fellegi-Sunter path beats hand-rolled Splink head-to-head; scales from a CSV to a verified 100M-row dedupe in... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "benseverndev-oss/goldenmatch is appearing as builder momentum, not as a verified product claim. Zero-config entity resolution.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 117 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "Zero-config entity resolution.",
-      "citationUrl": "https://github.com/benseverndev-oss/goldenmatch",
+      "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+      "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 788 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+      "citationUrl": "https://github.com/orneryd/NornicDB",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "activepieces/activepieces",
-      "url": "https://github.com/activepieces/activepieces",
+      "title": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "activepieces/activepieces is appearing as builder momentum, not as a verified product claim. AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 22,960 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
-      "citationUrl": "https://github.com/activepieces/activepieces",
+      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 29,769 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "citationUrl": "https://github.com/langfuse/langfuse",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Ed1s0nZ/CyberStrikeAI",
-      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "title": "SHAdd0WTAka/Zen-Ai-Pentest",
+      "url": "https://github.com/SHAdd0WTAka/Zen-Ai-Pentest",
       "source": "GitHub AI Systems Search",
-      "category": "model_security",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "CyberStrikeAI is an AI-native security testing platform built in Go. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Ed1s0nZ/CyberStrikeAI is appearing as builder momentum, not as a verified product claim. CyberStrikeAI is an AI-native security testing platform built in Go.",
-      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,718 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "CyberStrikeAI is an AI-native security testing platform built in Go.",
-      "citationUrl": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "whyItMatters": "🛡⚔️AI-Powered Penetration Testing Framework with automated vulnerability scanning, multi-agent system, and compliance reporting🛡⚔️... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "SHAdd0WTAka/Zen-Ai-Pentest is appearing as builder momentum, not as a verified product claim. 🛡⚔️AI-Powered Penetration Testing Framework with automated vulnerability scanning, multi-agent system, and compliance reporting🛡⚔️",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 406 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "🛡⚔️AI-Powered Penetration Testing Framework with automated vulnerability scanning, multi-agent system, and compliance reporting🛡⚔️",
+      "citationUrl": "https://github.com/SHAdd0WTAka/Zen-Ai-Pentest",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "tldraw/tldraw",
-      "url": "https://github.com/tldraw/tldraw",
+      "title": "cortexkit/magic-context",
+      "url": "https://github.com/cortexkit/magic-context",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Build infinite canvas apps in React with the tldraw SDK. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "tldraw/tldraw is appearing as builder momentum, not as a verified product claim. Build infinite canvas apps in React with the tldraw SDK.",
+      "whyItMatters": "The hippocampus for coding agents, part of CortexKit. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "cortexkit/magic-context is appearing as builder momentum, not as a verified product claim. Memory that manages itself.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 48,235 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "Build infinite canvas apps in React with the tldraw SDK.",
-      "citationUrl": "https://github.com/tldraw/tldraw",
+      "evidence": "GitHub AI Systems Search; 1,064 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "Memory that manages itself.",
+      "citationUrl": "https://github.com/cortexkit/magic-context",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
-    "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-    "source": "NVIDIA Blog",
-    "category": "inference_systems",
-    "summary": "NVIDIA Blog surfaced this as a inference systems update. Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+    "url": "http://arxiv.org/abs/2606.26095v1",
+    "source": "arXiv AI Systems Query",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a inference systems update. Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 84 recency; local score 0.77, cluster 10."
+      "What happened: This paper is a training infrastructure lead from the research stream. Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "benseverndev-oss/goldenmatch",
-    "url": "https://github.com/benseverndev-oss/goldenmatch",
+    "title": "orneryd/NornicDB",
+    "url": "https://github.com/orneryd/NornicDB",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "training_infrastructure",
     "signal": "builder-signal",
-    "whyItMatters": "The zero-tuning Fellegi-Sunter path beats hand-rolled Splink head-to-head; scales from a CSV to a verified 100M-row dedupe in... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "benseverndev-oss/goldenmatch is appearing as builder momentum, not as a verified product claim. Zero-config entity resolution.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 117 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "Zero-config entity resolution.",
-    "citationUrl": "https://github.com/benseverndev-oss/goldenmatch",
+    "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+    "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 788 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+    "citationUrl": "https://github.com/orneryd/NornicDB",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 576
+      "elapsedMs": 624
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 464
+      "elapsedMs": 218
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 451
+      "selected": 1,
+      "elapsedMs": 311
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 110
+      "selected": 0,
+      "elapsedMs": 148
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 346
+      "elapsedMs": 356
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 393
+      "elapsedMs": 517
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 317
+      "elapsedMs": 254
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 234
+      "selected": 1,
+      "elapsedMs": 293
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 278
+      "elapsedMs": 389
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 627
+      "elapsedMs": 573
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 1,
-      "elapsedMs": 457
+      "elapsedMs": 328
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 4,
-      "elapsedMs": 395
+      "selected": 1,
+      "elapsedMs": 396
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 370
+      "elapsedMs": 694
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1313
+      "elapsedMs": 729
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 433
+      "elapsedMs": 494
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 449
+      "elapsedMs": 452
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 507
+      "elapsedMs": 578
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 442
+      "selected": 4,
+      "elapsedMs": 447
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1189
+      "elapsedMs": 2586
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1476
+      "elapsedMs": 1366
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 457
+      "elapsedMs": 567
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
+      "fetched": 29,
       "selected": 1,
-      "elapsedMs": 678
+      "elapsedMs": 754
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 832
+      "elapsedMs": 855
     }
   ],
   "stats": {
-    "fetched": 450,
-    "afterDedupe": 436,
-    "afterFreshness": 139,
-    "droppedStale": 297,
+    "fetched": 459,
+    "afterDedupe": 442,
+    "afterFreshness": 156,
+    "droppedStale": 286,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
