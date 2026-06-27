@@ -1,158 +1,158 @@
 {
-  "date": "2026-06-26",
-  "generatedAt": "2026-06-26T15:24:21.470Z",
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T14:43:04.770Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Agents In Biology",
-      "url": "https://www.anthropic.com/research/agents-in-biology",
-      "source": "Anthropic",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 97 recency; local score 0.75, cluster 17.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/agents-in-biology",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "source": "Hugging Face Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Run a vLLM Server on HF Jobs in One Command... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a inference systems update. Run a vLLM Server on HF Jobs in One Command",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 90 topical match, 84 recency; local score 0.70, cluster 29.",
-      "sourceExcerpt": "Run a vLLM Server on HF Jobs in One Command",
-      "citationUrl": "https://huggingface.co/blog/vllm-jobs",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention",
-      "url": "http://arxiv.org/abs/2606.27229v1",
-      "source": "arXiv AI Systems Query",
+      "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+      "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+      "source": "NVIDIA Developer Blog",
       "category": "training_infrastructure",
-      "signal": "research",
-      "whyItMatters": "Recurrent models must forget in order to remember, yet the state of the art decides what to erase... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is...",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 13.",
-      "sourceExcerpt": "Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is...",
-      "citationUrl": "http://arxiv.org/abs/2606.27229v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 76 recency; local score 0.70, cluster 22.",
+      "sourceExcerpt": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+      "citationUrl": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
     },
     {
-      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
-      "url": "http://arxiv.org/abs/2606.27330v1",
+      "title": "Core Views On Ai Safety",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "source": "Anthropic",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 73 recency; local score 0.71, cluster 21.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation",
+      "url": "http://arxiv.org/abs/2606.27268v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 10.",
-      "sourceExcerpt": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions.",
-      "citationUrl": "http://arxiv.org/abs/2606.27330v1",
+      "whyItMatters": "Recently, a few works have made early attempts to study test-time scaling for embodied tasks. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Recently, a few works have made early attempts to study test-time scaling for embodied tasks.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 18.",
+      "sourceExcerpt": "Recently, a few works have made early attempts to study test-time scaling for embodied tasks.",
+      "citationUrl": "http://arxiv.org/abs/2606.27268v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "intuitem/ciso-assistant-community",
-      "url": "https://github.com/intuitem/ciso-assistant-community",
+      "title": "Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search",
+      "url": "http://arxiv.org/abs/2606.27291v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Job-search platforms rely on low-bandwidth query interfaces that often fail to capture the high-dimensional complexity of candidate profiles. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Job-search platforms rely on low-bandwidth query interfaces that often fail to capture the high-dimensional complexity of candidate profiles.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 17.",
+      "sourceExcerpt": "Job-search platforms rely on low-bandwidth query interfaces that often fail to capture the high-dimensional complexity of candidate profiles.",
+      "citationUrl": "http://arxiv.org/abs/2606.27291v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,180 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-      "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
+      "whyItMatters": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "xbtlin/ai-berkshire is appearing as builder momentum, not as a verified product claim. AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,703 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code.",
+      "citationUrl": "https://github.com/xbtlin/ai-berkshire",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "NVIDIA-NeMo/Speech",
-      "url": "https://github.com/NVIDIA-NeMo/Speech",
+      "title": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 17,567 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-      "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
+      "whyItMatters": "Cognee is the open-source AI memory platform for agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "topoteretes/cognee is appearing as builder momentum, not as a verified product claim. Cognee is the open-source AI memory platform for agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 23,666 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Cognee is the open-source AI memory platform for agents.",
+      "citationUrl": "https://github.com/topoteretes/cognee",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "avelino/awesome-go",
-      "url": "https://github.com/avelino/awesome-go",
+      "title": "pulkitxm/claude-directory",
+      "url": "https://github.com/pulkitxm/claude-directory",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A curated list of awesome Go frameworks, libraries and software... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "avelino/awesome-go is appearing as builder momentum, not as a verified product claim. A curated list of awesome Go frameworks, libraries and software",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 176,439 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "A curated list of awesome Go frameworks, libraries and software",
-      "citationUrl": "https://github.com/avelino/awesome-go",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Open-source gallery of AI-generated UI experiments built with Claude (Fable 5), landing pages, hero sections, GLSL shaders, design... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pulkitxm/claude-directory is appearing as builder momentum, not as a verified product claim. Open-source gallery of AI-generated UI experiments built with Claude (Fable 5), landing pages, hero sections, GLSL shaders, design systems, animations & 3D in React, Tailwind & Three.js.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 290 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Open-source gallery of AI-generated UI experiments built with Claude (Fable 5), landing pages, hero sections, GLSL shaders, design systems, animations & 3D in React, Tailwind & Three.js.",
+      "citationUrl": "https://github.com/pulkitxm/claude-directory",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "IBM/mcp-context-forge",
-      "url": "https://github.com/IBM/mcp-context-forge",
+      "title": "OraclesTech/guardian-sdk",
+      "url": "https://github.com/OraclesTech/guardian-sdk",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "model_security",
       "signal": "builder-signal",
-      "whyItMatters": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "IBM/mcp-context-forge is appearing as builder momentum, not as a verified product claim. An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,964 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management.",
-      "citationUrl": "https://github.com/IBM/mcp-context-forge",
+      "whyItMatters": "Ethicore Engine™ is an AI safety, ethics, and compliance platform. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "OraclesTech/guardian-sdk is appearing as builder momentum, not as a verified product claim. Ethicore Engine™ is an AI safety, ethics, and compliance platform.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 105 GitHub stars; local score 0.81, cluster 6.",
+      "sourceExcerpt": "Ethicore Engine™ is an AI safety, ethics, and compliance platform.",
+      "citationUrl": "https://github.com/OraclesTech/guardian-sdk",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention",
-    "url": "http://arxiv.org/abs/2606.27229v1",
+    "title": "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation",
+    "url": "http://arxiv.org/abs/2606.27268v1",
     "source": "arXiv AI Systems Query",
-    "category": "training_infrastructure",
-    "summary": "This paper is a training infrastructure lead from the research stream. Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Recently, a few works have made early attempts to study test-time scaling for embodied tasks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a training infrastructure lead from the research stream. Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is...",
-      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for training infrastructure.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 13."
+      "What happened: This paper is a inference systems lead from the research stream. Recently, a few works have made early attempts to study test-time scaling for embodied tasks.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "intuitem/ciso-assistant-community",
-    "url": "https://github.com/intuitem/ciso-assistant-community",
+    "title": "xbtlin/ai-berkshire",
+    "url": "https://github.com/xbtlin/ai-berkshire",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,180 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
-    "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
+    "whyItMatters": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "xbtlin/ai-berkshire is appearing as builder momentum, not as a verified product claim. AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 3,703 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code.",
+    "citationUrl": "https://github.com/xbtlin/ai-berkshire",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 802
+      "elapsedMs": 466
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 296
+      "elapsedMs": 158
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 262
+      "selected": 0,
+      "elapsedMs": 226
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 100
+      "elapsedMs": 356
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 2,
-      "elapsedMs": 253
+      "elapsedMs": 4359
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 489
+      "elapsedMs": 507
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 287
+      "selected": 1,
+      "elapsedMs": 267
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 187
+      "selected": 0,
+      "elapsedMs": 348
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 230
+      "elapsedMs": 327
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 566
+      "elapsedMs": 604
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 351
+      "elapsedMs": 440
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 341
+      "elapsedMs": 655
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 1124
+      "selected": 2,
+      "elapsedMs": 781
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1215
+      "elapsedMs": 978
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 471
+      "elapsedMs": 531
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 385
+      "elapsedMs": 466
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 504
+      "elapsedMs": 553
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 377
+      "elapsedMs": 532
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1163
+      "elapsedMs": 1425
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1504
+      "elapsedMs": 1476
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 492
+      "elapsedMs": 857
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
-      "selected": 1,
-      "elapsedMs": 774
+      "fetched": 22,
+      "selected": 2,
+      "elapsedMs": 873
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 878
+      "selected": 4,
+      "elapsedMs": 1008
     }
   ],
   "stats": {
-    "fetched": 451,
-    "afterDedupe": 437,
-    "afterFreshness": 171,
-    "droppedStale": 266,
+    "fetched": 452,
+    "afterDedupe": 438,
+    "afterFreshness": 148,
+    "droppedStale": 290,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 25,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
