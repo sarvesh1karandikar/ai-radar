@@ -1,23 +1,68 @@
 {
-  "date": "2026-06-28",
-  "generatedAt": "2026-06-28T14:49:12.052Z",
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-29T16:39:05.650Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-      "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
+      "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+      "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "source": "NVIDIA Blog",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 51 recency; local score 0.66, cluster 13.",
-      "sourceExcerpt": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-      "citationUrl": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today —... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 60 topical match, 94 recency; local score 0.69, cluster 19.",
+      "sourceExcerpt": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
+      "citationUrl": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source": "OpenAI News",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a business signal update. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 45 topical match, 75 recency; local score 0.61, cluster 21.",
+      "sourceExcerpt": "scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "citationUrl": "https://openai.com/index/hp-frontier-partnership",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "asklokesh/loki-mode",
+      "url": "https://github.com/asklokesh/loki-mode",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 993 GitHub stars; local score 0.83, cluster 1.",
+      "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
+      "citationUrl": "https://github.com/asklokesh/loki-mode",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "grisuno/estorides",
+      "url": "https://github.com/grisuno/estorides",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "grisuno/estorides is appearing as builder momentum, not as a verified product claim. Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 63 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows.",
+      "citationUrl": "https://github.com/grisuno/estorides",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
@@ -29,130 +74,85 @@
       "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
       "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 14.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.60, cluster 23.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
       "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "rudra496/StealthHumanizer",
-      "url": "https://github.com/rudra496/StealthHumanizer",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "rudra496/StealthHumanizer is appearing as builder momentum, not as a verified product claim. 🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 64 GitHub stars; local score 0.82, cluster 1.",
-      "sourceExcerpt": "🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support.",
-      "citationUrl": "https://github.com/rudra496/StealthHumanizer",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "abcamus/obsidian-sync-vault-ce",
-      "url": "https://github.com/abcamus/obsidian-sync-vault-ce",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Professional cloud sync & VFS for Obsidian. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "abcamus/obsidian-sync-vault-ce is appearing as builder momentum, not as a verified product claim. Professional cloud sync & VFS for Obsidian.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 97 GitHub stars; local score 0.81, cluster 2.",
-      "sourceExcerpt": "Professional cloud sync & VFS for Obsidian.",
-      "citationUrl": "https://github.com/abcamus/obsidian-sync-vault-ce",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "A Decision Framework for ETL Migration to Databricks",
-      "url": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
-      "source": "Databricks Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "Your team has hundreds of stored procedures, a couple of schedulers, permissions... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Databricks Blog surfaced this as a developer tools update. Your team has hundreds of stored procedures, a couple of schedulers, permissions...",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Databricks Blog; 78 trust, 75 topical match, 56 recency; local score 0.59, cluster 15.",
-      "sourceExcerpt": "Your team has hundreds of stored procedures, a couple of schedulers, permissions...",
-      "citationUrl": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
-      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "github/gh-aw",
-      "url": "https://github.com/github/gh-aw",
+      "title": "diillson/chatcli",
+      "url": "https://github.com/diillson/chatcli",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "diillson/chatcli is appearing as builder momentum, not as a verified product claim. ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras, para conversas interativas no terminal.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 88 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras, para conversas interativas no terminal.",
+      "citationUrl": "https://github.com/diillson/chatcli",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Kaelio/ktx",
+      "url": "https://github.com/Kaelio/ktx",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "GitHub Agentic Workflows... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "github/gh-aw is appearing as builder momentum, not as a verified product claim. GitHub Agentic Workflows",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 4,701 GitHub stars; local score 0.81, cluster 3.",
-      "sourceExcerpt": "GitHub Agentic Workflows",
-      "citationUrl": "https://github.com/github/gh-aw",
-      "contextQuality": "thin public context",
+      "whyItMatters": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Kaelio/ktx is appearing as builder momentum, not as a verified product claim. ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,428 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
+      "citationUrl": "https://github.com/Kaelio/ktx",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "mthcht/awesome-lists",
-      "url": "https://github.com/mthcht/awesome-lists",
-      "source": "GitHub AI Systems Search",
-      "category": "model_security",
-      "signal": "builder-signal",
-      "whyItMatters": "Awesome Security lists for SOC/CERT/CTI... Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mthcht/awesome-lists is appearing as builder momentum, not as a verified product claim. Awesome Security lists for SOC/CERT/CTI",
-      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,678 GitHub stars; local score 0.76, cluster 7.",
-      "sourceExcerpt": "Awesome Security lists for SOC/CERT/CTI",
-      "citationUrl": "https://github.com/mthcht/awesome-lists",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
       "source": "Hacker News",
-      "category": "inference_systems",
+      "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 775 points and 335 comments. Treat it as an attention signal around inference systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 775 points and 335 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around inference systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 775 HN points; local score 0.70, cluster 11.",
-      "sourceExcerpt": "Hacker News discussion signal with 775 points and 335 comments.",
-      "citationUrl": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "whyItMatters": "Hacker News discussion signal with 814 points and 346 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 814 points and 346 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 814 HN points; local score 0.74, cluster 15.",
+      "sourceExcerpt": "Hacker News discussion signal with 814 points and 346 comments.",
+      "citationUrl": "https://danunparsed.com/p/hackerrank-open-source-ats",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "rudra496/StealthHumanizer",
-    "url": "https://github.com/rudra496/StealthHumanizer",
-    "source": "GitHub AI Systems Search",
+    "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+    "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+    "source": "NVIDIA Blog",
     "category": "developer_tools",
-    "summary": "rudra496/StealthHumanizer is appearing as builder momentum, not as a verified product claim. 🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: rudra496/StealthHumanizer is appearing as builder momentum, not as a verified product claim. 🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support.",
-      "Why it matters: Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: builder signal for developer tools.",
-      "Evidence: GitHub AI Systems Search; 64 GitHub stars; local score 0.82, cluster 1."
+      "What happened: NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
+      "Why it matters: The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for developer tools.",
+      "Evidence: NVIDIA Blog; 88 trust, 60 topical match, 94 recency; local score 0.69, cluster 19."
     ]
   },
   "bookmark": {
-    "title": "rudra496/StealthHumanizer",
-    "url": "https://github.com/rudra496/StealthHumanizer",
+    "title": "asklokesh/loki-mode",
+    "url": "https://github.com/asklokesh/loki-mode",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "rudra496/StealthHumanizer is appearing as builder momentum, not as a verified product claim. 🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 64 GitHub stars; local score 0.82, cluster 1.",
-    "sourceExcerpt": "🔓 Free open-source AI text humanizer — bypass GPTZero, Turnitin & AI detectors with 16+ Languages support.",
-    "citationUrl": "https://github.com/rudra496/StealthHumanizer",
+    "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 993 GitHub stars; local score 0.83, cluster 1.",
+    "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
+    "citationUrl": "https://github.com/asklokesh/loki-mode",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 637
+      "selected": 1,
+      "elapsedMs": 943
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 236
+      "elapsedMs": 292
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 266
+      "elapsedMs": 458
     },
     {
       "id": "apple-ml-research",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 539
+      "elapsedMs": 3822
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 600
+      "elapsedMs": 562
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 355
+      "elapsedMs": 338
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 330
+      "elapsedMs": 412
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 399
+      "elapsedMs": 437
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 631
+      "elapsedMs": 524
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 442
+      "elapsedMs": 496
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 407
+      "selected": 1,
+      "elapsedMs": 475
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 482
+      "elapsedMs": 612
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 770
+      "elapsedMs": 905
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 614
+      "elapsedMs": 780
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 497
+      "elapsedMs": 587
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 641
+      "elapsedMs": 582
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 616
+      "selected": 0,
+      "elapsedMs": 563
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 2120
+      "elapsedMs": 1387
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1391
+      "elapsedMs": 1642
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 649
+      "elapsedMs": 568
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
-      "selected": 3,
-      "elapsedMs": 839
+      "fetched": 22,
+      "selected": 2,
+      "elapsedMs": 868
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 876
+      "elapsedMs": 922
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 441,
-    "afterFreshness": 77,
-    "droppedStale": 364,
-    "selected": 15,
-    "clusters": 14,
+    "fetched": 452,
+    "afterDedupe": 439,
+    "afterFreshness": 80,
+    "droppedStale": 359,
+    "selected": 14,
+    "clusters": 13,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
