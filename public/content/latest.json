@@ -1,158 +1,158 @@
 {
-  "date": "2026-06-29",
-  "generatedAt": "2026-06-29T16:39:05.650Z",
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T15:29:28.393Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-      "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
       "source": "NVIDIA Blog",
-      "category": "developer_tools",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today —... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 60 topical match, 94 recency; local score 0.69, cluster 19.",
-      "sourceExcerpt": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
-      "citationUrl": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "whyItMatters": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 100 recency; local score 0.82, cluster 6.",
+      "sourceExcerpt": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
+      "citationUrl": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "source": "OpenAI News",
-      "category": "business_signal",
-      "signal": "primary",
-      "whyItMatters": "scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a business signal update. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 45 topical match, 75 recency; local score 0.61, cluster 21.",
-      "sourceExcerpt": "scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "citationUrl": "https://openai.com/index/hp-frontier-partnership",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "asklokesh/loki-mode",
-      "url": "https://github.com/asklokesh/loki-mode",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 993 GitHub stars; local score 0.83, cluster 1.",
-      "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
-      "citationUrl": "https://github.com/asklokesh/loki-mode",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "grisuno/estorides",
-      "url": "https://github.com/grisuno/estorides",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "grisuno/estorides is appearing as builder momentum, not as a verified product claim. Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 63 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Open-source intelligence (OSINT) aggregator and correlation engine inspired by Palantir, Bellingcat, Maltego, and Citizen Lab workflows.",
-      "citationUrl": "https://github.com/grisuno/estorides",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "title": "Frontier Red Team",
+      "url": "https://www.anthropic.com/research/team/frontier-red-team",
       "source": "Anthropic",
-      "category": "business_signal",
+      "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.60, cluster 23.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 93 recency; local score 0.74, cluster 32.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "citationUrl": "https://www.anthropic.com/research/team/frontier-red-team",
       "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Entity Binding Failures in Tool-Augmented Agents",
+      "url": "http://arxiv.org/abs/2606.30531v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and complete the requested task.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 25.",
+      "sourceExcerpt": "Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and complete the requested task.",
+      "citationUrl": "http://arxiv.org/abs/2606.30531v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+      "url": "http://arxiv.org/abs/2606.30627v1",
+      "source": "arXiv AI Systems Query",
+      "category": "training_infrastructure",
+      "signal": "research",
+      "whyItMatters": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward...",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 19.",
+      "sourceExcerpt": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward...",
+      "citationUrl": "http://arxiv.org/abs/2606.30627v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "orneryd/NornicDB",
+      "url": "https://github.com/orneryd/NornicDB",
+      "source": "GitHub AI Systems Search",
+      "category": "training_infrastructure",
+      "signal": "builder-signal",
+      "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+      "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 816 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+      "citationUrl": "https://github.com/orneryd/NornicDB",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "diillson/chatcli",
-      "url": "https://github.com/diillson/chatcli",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "diillson/chatcli is appearing as builder momentum, not as a verified product claim. ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras, para conversas interativas no terminal.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 88 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "ChatCLI é uma aplicação de linha de comando que utiliza modelos de linguagem como OpenAI, GoogleAI, e outras, para conversas interativas no terminal.",
-      "citationUrl": "https://github.com/diillson/chatcli",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Kaelio/ktx",
-      "url": "https://github.com/Kaelio/ktx",
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Kaelio/ktx is appearing as builder momentum, not as a verified product claim. ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
+      "whyItMatters": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "msitarzewski/agency-agents is appearing as builder momentum, not as a verified product claim. A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,428 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
-      "citationUrl": "https://github.com/Kaelio/ktx",
+      "evidence": "GitHub AI Systems Search; 120,329 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
+      "citationUrl": "https://github.com/msitarzewski/agency-agents",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "source": "Hacker News",
+      "title": "doublewordai/control-layer",
+      "url": "https://github.com/doublewordai/control-layer",
+      "source": "GitHub AI Systems Search",
       "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 814 points and 346 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 814 points and 346 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 814 HN points; local score 0.74, cluster 15.",
-      "sourceExcerpt": "Hacker News discussion signal with 814 points and 346 comments.",
-      "citationUrl": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "contextQuality": "thin public context",
+      "signal": "builder-signal",
+      "whyItMatters": "The world’s fastest AI model gateway (450x less overhead than LiteLLM). Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "doublewordai/control-layer is appearing as builder momentum, not as a verified product claim. The world’s fastest AI model gateway (450x less overhead than LiteLLM).",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 82 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "The world’s fastest AI model gateway (450x less overhead than LiteLLM).",
+      "citationUrl": "https://github.com/doublewordai/control-layer",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "google/adk-docs",
+      "url": "https://github.com/google/adk-docs",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "google/adk-docs is appearing as builder momentum, not as a verified product claim. An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,431 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "citationUrl": "https://github.com/google/adk-docs",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-    "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+    "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+    "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
     "source": "NVIDIA Blog",
-    "category": "developer_tools",
-    "summary": "NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a developer tools update. Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S.",
-      "Why it matters: The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for developer tools.",
-      "Evidence: NVIDIA Blog; 88 trust, 60 topical match, 94 recency; local score 0.69, cluster 19."
+      "What happened: NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: NVIDIA Blog; 88 trust, 100 topical match, 100 recency; local score 0.82, cluster 6."
     ]
   },
   "bookmark": {
-    "title": "asklokesh/loki-mode",
-    "url": "https://github.com/asklokesh/loki-mode",
+    "title": "orneryd/NornicDB",
+    "url": "https://github.com/orneryd/NornicDB",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "training_infrastructure",
     "signal": "builder-signal",
-    "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 993 GitHub stars; local score 0.83, cluster 1.",
-    "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
-    "citationUrl": "https://github.com/asklokesh/loki-mode",
+    "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+    "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 816 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
+    "citationUrl": "https://github.com/orneryd/NornicDB",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 943
+      "elapsedMs": 809
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 292
+      "selected": 1,
+      "elapsedMs": 156
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 458
+      "elapsedMs": 313
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 472
+      "elapsedMs": 353
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 3822
+      "elapsedMs": 4216
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 562
+      "elapsedMs": 380
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 338
+      "selected": 1,
+      "elapsedMs": 341
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 412
+      "selected": 1,
+      "elapsedMs": 299
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 437
+      "elapsedMs": 258
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 524
+      "elapsedMs": 676
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 496
+      "elapsedMs": 384
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 475
+      "selected": 4,
+      "elapsedMs": 528
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 612
+      "elapsedMs": 932
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 905
+      "elapsedMs": 784
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 780
+      "selected": 4,
+      "elapsedMs": 734
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 587
+      "selected": 1,
+      "elapsedMs": 772
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 582
+      "elapsedMs": 599
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 563
+      "elapsedMs": 677
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1387
+      "selected": 4,
+      "elapsedMs": 1455
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1642
+      "elapsedMs": 1784
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,7 +344,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 568
+      "elapsedMs": 951
     },
     {
       "id": "hacker-news",
@@ -353,7 +353,7 @@
       "status": "ok",
       "fetched": 22,
       "selected": 2,
-      "elapsedMs": 868
+      "elapsedMs": 969
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 922
+      "selected": 3,
+      "elapsedMs": 1124
     }
   ],
   "stats": {
     "fetched": 452,
-    "afterDedupe": 439,
-    "afterFreshness": 80,
-    "droppedStale": 359,
-    "selected": 14,
-    "clusters": 13,
+    "afterDedupe": 437,
+    "afterFreshness": 135,
+    "droppedStale": 302,
+    "selected": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
