@@ -1,10 +1,25 @@
 {
-  "date": "2026-06-30",
-  "generatedAt": "2026-06-30T15:29:28.393Z",
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T15:43:11.149Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "NVIDIA and Partners Build in America, for America",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 97 recency; local score 0.77, cluster 14.",
+      "sourceExcerpt": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S.",
+      "citationUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
       "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
@@ -14,145 +29,130 @@
       "whyItMatters": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 100 recency; local score 0.82, cluster 6.",
+      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 74 recency; local score 0.77, cluster 13.",
       "sourceExcerpt": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
       "citationUrl": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Frontier Red Team",
-      "url": "https://www.anthropic.com/research/team/frontier-red-team",
-      "source": "Anthropic",
-      "category": "model_security",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 93 recency; local score 0.74, cluster 32.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/team/frontier-red-team",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "url": "http://arxiv.org/abs/2606.32032v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 19.",
+      "sourceExcerpt": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes.",
+      "citationUrl": "http://arxiv.org/abs/2606.32032v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
     },
     {
-      "title": "Entity Binding Failures in Tool-Augmented Agents",
-      "url": "http://arxiv.org/abs/2606.30531v1",
+      "title": "Signed-Permutation Coordinate Transport for RMSNorm Transformers",
+      "url": "http://arxiv.org/abs/2606.31963v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and complete the requested task.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "whyItMatters": "Modern LLM workflows move coordinate-indexed objects across checkpoints: steering vectors, sparse autoencoders, top-$k$ neuron sets, attribution lists, and... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Modern LLM workflows move coordinate-indexed objects across checkpoints: steering vectors, sparse autoencoders, top-$k$ neuron sets, attribution lists, and merge alignments.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 25.",
-      "sourceExcerpt": "Tool-augmented language-model agents are often evaluated by whether they select the correct tool, produce valid API arguments, and complete the requested task.",
-      "citationUrl": "http://arxiv.org/abs/2606.30531v1",
+      "sourceExcerpt": "Modern LLM workflows move coordinate-indexed objects across checkpoints: steering vectors, sparse autoencoders, top-$k$ neuron sets, attribution lists, and merge alignments.",
+      "citationUrl": "http://arxiv.org/abs/2606.31963v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
-      "url": "http://arxiv.org/abs/2606.30627v1",
-      "source": "arXiv AI Systems Query",
-      "category": "training_infrastructure",
-      "signal": "research",
-      "whyItMatters": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward...",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 19.",
-      "sourceExcerpt": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward...",
-      "citationUrl": "http://arxiv.org/abs/2606.30627v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "orneryd/NornicDB",
-      "url": "https://github.com/orneryd/NornicDB",
+      "title": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
       "source": "GitHub AI Systems Search",
-      "category": "training_infrastructure",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
-      "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 816 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
-      "citationUrl": "https://github.com/orneryd/NornicDB",
+      "whyItMatters": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "abhigyanpatwari/GitNexus is appearing as builder momentum, not as a verified product claim. GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 43,403 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+      "citationUrl": "https://github.com/abhigyanpatwari/GitNexus",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "model_security",
       "signal": "builder-signal",
-      "whyItMatters": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "msitarzewski/agency-agents is appearing as builder momentum, not as a verified product claim. A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 120,329 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
-      "citationUrl": "https://github.com/msitarzewski/agency-agents",
+      "whyItMatters": "🎨 Local-first, open-source Claude Design alternative. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Local-first, open-source Claude Design alternative.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 73,703 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "🎨 Local-first, open-source Claude Design alternative.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "doublewordai/control-layer",
-      "url": "https://github.com/doublewordai/control-layer",
+      "title": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "The world’s fastest AI model gateway (450x less overhead than LiteLLM). Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "doublewordai/control-layer is appearing as builder momentum, not as a verified product claim. The world’s fastest AI model gateway (450x less overhead than LiteLLM).",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 82 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "The world’s fastest AI model gateway (450x less overhead than LiteLLM).",
-      "citationUrl": "https://github.com/doublewordai/control-layer",
+      "whyItMatters": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "bytedance/deer-flow is appearing as builder momentum, not as a verified product claim. An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 75,736 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "citationUrl": "https://github.com/bytedance/deer-flow",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "google/adk-docs",
-      "url": "https://github.com/google/adk-docs",
+      "title": "tldraw/tldraw",
+      "url": "https://github.com/tldraw/tldraw",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "google/adk-docs is appearing as builder momentum, not as a verified product claim. An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "whyItMatters": "Build infinite canvas apps in React with the tldraw SDK. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tldraw/tldraw is appearing as builder momentum, not as a verified product claim. Build infinite canvas apps in React with the tldraw SDK.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,431 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-      "citationUrl": "https://github.com/google/adk-docs",
+      "evidence": "GitHub AI Systems Search; 48,453 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Build infinite canvas apps in React with the tldraw SDK.",
+      "citationUrl": "https://github.com/tldraw/tldraw",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
-    "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-    "source": "NVIDIA Blog",
+    "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+    "url": "http://arxiv.org/abs/2606.32032v1",
+    "source": "arXiv AI Systems Query",
     "category": "inference_systems",
-    "summary": "NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a inference systems lead from the research stream. Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a inference systems update. As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required...",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 100 topical match, 100 recency; local score 0.82, cluster 6."
+      "What happened: This paper is a inference systems lead from the research stream. Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 19."
     ]
   },
   "bookmark": {
-    "title": "orneryd/NornicDB",
-    "url": "https://github.com/orneryd/NornicDB",
+    "title": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/GitNexus",
     "source": "GitHub AI Systems Search",
-    "category": "training_infrastructure",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Treat it as builder momentum in training infrastructure; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "orneryd/NornicDB is appearing as builder momentum, not as a verified product claim. Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
-    "technicalTakeaway": "Track the repository as a training infrastructure signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 816 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes.",
-    "citationUrl": "https://github.com/orneryd/NornicDB",
+    "whyItMatters": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "abhigyanpatwari/GitNexus is appearing as builder momentum, not as a verified product claim. GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 43,403 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+    "citationUrl": "https://github.com/abhigyanpatwari/GitNexus",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 809
+      "elapsedMs": 546
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 156
+      "elapsedMs": 246
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 313
+      "selected": 1,
+      "elapsedMs": 415
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 353
+      "elapsedMs": 328
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 4216
+      "elapsedMs": 6817
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 380
+      "elapsedMs": 663
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 341
+      "elapsedMs": 444
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 299
+      "selected": 0,
+      "elapsedMs": 569
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 258
+      "elapsedMs": 584
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 676
+      "elapsedMs": 617
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 384
+      "selected": 1,
+      "elapsedMs": 471
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 4,
-      "elapsedMs": 528
+      "elapsedMs": 607
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 932
+      "elapsedMs": 858
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 784
+      "selected": 4,
+      "elapsedMs": 1015
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 734
+      "elapsedMs": 803
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 772
+      "selected": 0,
+      "elapsedMs": 738
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 599
+      "elapsedMs": 736
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 677
+      "elapsedMs": 751
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1455
+      "elapsedMs": 1805
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1784
+      "elapsedMs": 1815
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 951
+      "elapsedMs": 924
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 22,
-      "selected": 2,
-      "elapsedMs": 969
+      "fetched": 16,
+      "selected": 1,
+      "elapsedMs": 1073
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 1124
+      "selected": 0,
+      "elapsedMs": 1318
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 437,
-    "afterFreshness": 135,
-    "droppedStale": 302,
+    "fetched": 446,
+    "afterDedupe": 427,
+    "afterFreshness": 157,
+    "droppedStale": 270,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
