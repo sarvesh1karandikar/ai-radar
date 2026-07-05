@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-04",
-  "generatedAt": "2026-07-04T14:38:25.509Z",
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T14:44:44.136Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Understanding Agent Cooperation",
-      "url": "https://deepmind.google/blog/understanding-agent-cooperation/",
-      "source": "Google DeepMind",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google DeepMind surfaced this as a multi agent systems update. Official Google DeepMind page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Google DeepMind; 96 trust, 90 topical match, 60 recency; local score 0.69, cluster 31.",
-      "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
-      "citationUrl": "https://deepmind.google/blog/understanding-agent-cooperation/",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Fable Safeguards Jailbreak Framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "source": "Anthropic",
-      "category": "model_security",
+      "category": "business_signal",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 85 topical match, 70 recency; local score 0.66, cluster 37.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 23.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
-      "url": "http://arxiv.org/abs/2607.02460v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Post-training large language models (LLMs) without real-world interaction feedback or human-labeled supervision remains challenging, particularly in specialized domains... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Post-training large language models (LLMs) without real-world interaction feedback or human-labeled supervision remains challenging, particularly in specialized domains where expert annotations are costly to obtain.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 20.",
-      "sourceExcerpt": "Post-training large language models (LLMs) without real-world interaction feedback or human-labeled supervision remains challenging, particularly in specialized domains where expert annotations are costly to obtain.",
-      "citationUrl": "http://arxiv.org/abs/2607.02460v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
-      "url": "http://arxiv.org/abs/2607.02469v1",
-      "source": "arXiv AI Systems Query",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Software tests and code evolve together: a code change should be followed by new or updated tests that... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.72, cluster 19.",
-      "sourceExcerpt": "Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior.",
-      "citationUrl": "http://arxiv.org/abs/2607.02469v1",
+      "signal": "builder-signal",
+      "whyItMatters": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 The Vibe Design Workspace & the open-source Claude Design alternative.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 75,112 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
       "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "readTime": "3 min"
     },
     {
-      "title": "benseverndev-oss/goldenmatch",
-      "url": "https://github.com/benseverndev-oss/goldenmatch",
+      "title": "datadrivenconstruction/OpenConstructionERP",
+      "url": "https://github.com/datadrivenconstruction/OpenConstructionERP",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Zero-config entity resolution & record linkage. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "benseverndev-oss/goldenmatch is appearing as builder momentum, not as a verified product claim. Zero-config entity resolution & record linkage.",
+      "whyItMatters": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datadrivenconstruction/OpenConstructionERP is appearing as builder momentum, not as a verified product claim. Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 119 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "Zero-config entity resolution & record linkage.",
-      "citationUrl": "https://github.com/benseverndev-oss/goldenmatch",
+      "evidence": "GitHub AI Systems Search; 466 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "citationUrl": "https://github.com/datadrivenconstruction/OpenConstructionERP",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "frank890417/taiwan-md",
+      "url": "https://github.com/frank890417/taiwan-md",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,096 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "manojmallick/sigmap",
+      "url": "https://github.com/manojmallick/sigmap",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "97% token reduction for AI coding sessions — zero deps, 31 languages, MCP server... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "manojmallick/sigmap is appearing as builder momentum, not as a verified product claim. 97% token reduction for AI coding sessions — zero deps, 31 languages, MCP server",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 544 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "97% token reduction for AI coding sessions — zero deps, 31 languages, MCP server",
+      "citationUrl": "https://github.com/manojmallick/sigmap",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "geek-fun/dockit",
-      "url": "https://github.com/geek-fun/dockit",
-      "source": "GitHub AI Systems Search",
+      "title": "The Log is the Agent",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "source": "Hacker News",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Agentic desktop GUI client for Elasticsearch, OpenSearch, DynamoDB, MongoDB & EasySearch. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "geek-fun/dockit is appearing as builder momentum, not as a verified product claim. Agentic desktop GUI client for Elasticsearch, OpenSearch, DynamoDB, MongoDB & EasySearch.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,119 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Agentic desktop GUI client for Elasticsearch, OpenSearch, DynamoDB, MongoDB & EasySearch.",
-      "citationUrl": "https://github.com/geek-fun/dockit",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 73 points and 20 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 73 points and 20 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 73 HN points; local score 0.65, cluster 22.",
+      "sourceExcerpt": "Hacker News discussion signal with 73 points and 20 comments.",
+      "citationUrl": "https://arxiv.org/abs/2605.21997",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "AI agents can use up to 136.5 times more energy than conventional AI, KAIST study finds - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR280OVpBY2t0d1ZaVlkzV2pINmpRMUtOUXVXTWlmN1l4dlNlejdsbUJxcHpTMUFpV3FLeFhYWGtHdl9fQXE0bHRReUFNMzVHMHFFUUp0blI2QVlpaUg0X3Nud1pLSm9lVE44c2JPZjdBb0Y1RnRBVXFTa2JUc3NrN2VHbGlkaVhER2JjSWFZcWx3SGhhRTB6WFNfUmp6OFNpTmUxaHBNSkQ3MXBFQjVyTEd0Y0QwNlA5cUdoM2Y5Y0pLQQ?oc=5",
+      "source": "Google News Fallback",
+      "category": "multi_agent_systems",
+      "signal": "discovery",
+      "whyItMatters": "AI agents can use up to 136.5 times more energy than conventional AI, KAIST study finds 디지털투데이... Use it as discovery context for multi agent systems until a stronger public source confirms the details.",
+      "brief": "This is a fallback discovery item for multi agent systems. AI agents can use up to 136.5 times more energy than conventional AI, KAIST study finds 디지털투데이",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Google News Fallback; 45 trust, 53 topical match, 88 recency; local score 0.51, cluster 25.",
+      "sourceExcerpt": "AI agents can use up to 136.5 times more energy than conventional AI, KAIST study finds 디지털투데이",
+      "citationUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR280OVpBY2t0d1ZaVlkzV2pINmpRMUtOUXVXTWlmN1l4dlNlejdsbUJxcHpTMUFpV3FLeFhYWGtHdl9fQXE0bHRReUFNMzVHMHFFUUp0blI2QVlpaUg0X3Nud1pLSm9lVE44c2JPZjdBb0Y1RnRBVXFTa2JUc3NrN2VHbGlkaVhER2JjSWFZcWx3SGhhRTB6WFNfUmp6OFNpTmUxaHBNSkQ3MXBFQjVyTEd0Y0QwNlA5cUdoM2Y5Y0pLQQ?oc=5",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "justoneapi/crawl-data-api",
-      "url": "https://github.com/justoneapi/crawl-data-api",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Just One API - Data API Service: Xiaohongshu, RedNote, Taobao, Tmall, Douyin, Douyin E-commerce, Google Search API, SERP... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "justoneapi/crawl-data-api is appearing as builder momentum, not as a verified product claim. Just One API - Data API Service: Xiaohongshu, RedNote, Taobao, Tmall, Douyin, Douyin E-commerce, Google Search API, SERP API, TikTok, TikTok Shop, Kuaishou, Sina Weibo, Bilibili, Douban, Xiaohongshu Pugongying, Douyin Xingtu, WeChat, Youku, Beike, IMDb, JD.com,...",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 70 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Just One API - Data API Service: Xiaohongshu, RedNote, Taobao, Tmall, Douyin, Douyin E-commerce, Google Search API, SERP API, TikTok, TikTok Shop, Kuaishou, Sina Weibo, Bilibili, Douban, Xiaohongshu Pugongying, Douyin Xingtu, WeChat, Youku, Beike, IMDb, JD.com,...",
-      "citationUrl": "https://github.com/justoneapi/crawl-data-api",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "screenpipe/screenpipe",
-      "url": "https://github.com/screenpipe/screenpipe",
-      "source": "GitHub AI Systems Search",
+      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines - MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjJabGZzM01VQTY3MndSdTZSZEF0d0poLXFXUGwtZlF5NnB1dTY0SEhjTGZBTGNKWUQ4SEI5alZiaDFHczNpdVg2NDdRNlFZcFJZcjh1dTJlT0VaVlpvdDVJajRsekFsaVdGcG5oRDZkR25mNmZkd012amRVamZnNHI3MmNTQQ?oc=5",
+      "source": "Google News Fallback",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "YC (S26) | AI that knows what you've seen, said, or heard. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "screenpipe/screenpipe is appearing as builder momentum, not as a verified product claim. YC (S26) | AI that knows what you've seen, said, or heard.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 19,636 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "YC (S26) | AI that knows what you've seen, said, or heard.",
-      "citationUrl": "https://github.com/screenpipe/screenpipe",
+      "signal": "discovery",
+      "whyItMatters": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines MarkTechPost... Use it as discovery context for multi agent systems until a stronger public source confirms the details.",
+      "brief": "This is a fallback discovery item for multi agent systems. Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines MarkTechPost",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Google News Fallback; 45 trust, 55 topical match, 77 recency; local score 0.52, cluster 24.",
+      "sourceExcerpt": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines MarkTechPost",
+      "citationUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjJabGZzM01VQTY3MndSdTZSZEF0d0poLXFXUGwtZlF5NnB1dTY0SEhjTGZBTGNKWUQ4SEI5alZiaDFHczNpdVg2NDdRNlFZcFJZcjh1dTJlT0VaVlpvdDVJajRsekFsaVdGcG5oRDZkR25mNmZkd012amRVamZnNHI3MmNTQQ?oc=5",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
-    "url": "http://arxiv.org/abs/2607.02460v1",
-    "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Post-training large language models (LLMs) without real-world interaction feedback or human-labeled supervision remains challenging, particularly in specialized domains where expert annotations are costly to obtain. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
+    "source": "GitHub AI Systems Search",
+    "category": "multi_agent_systems",
+    "summary": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 The Vibe Design Workspace & the open-source Claude Design alternative. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Post-training large language models (LLMs) without real-world interaction feedback or human-labeled supervision remains challenging, particularly in specialized domains where expert annotations are costly to obtain.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 20."
+      "What happened: nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 The Vibe Design Workspace & the open-source Claude Design alternative.",
+      "Why it matters: Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: builder signal for multi agent systems.",
+      "Evidence: GitHub AI Systems Search; 75,112 GitHub stars; local score 0.87, cluster 1."
     ]
   },
   "bookmark": {
-    "title": "benseverndev-oss/goldenmatch",
-    "url": "https://github.com/benseverndev-oss/goldenmatch",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Zero-config entity resolution & record linkage. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "benseverndev-oss/goldenmatch is appearing as builder momentum, not as a verified product claim. Zero-config entity resolution & record linkage.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 119 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "Zero-config entity resolution & record linkage.",
-    "citationUrl": "https://github.com/benseverndev-oss/goldenmatch",
+    "whyItMatters": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 The Vibe Design Workspace & the open-source Claude Design alternative.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 75,112 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative.",
+    "citationUrl": "https://github.com/nexu-io/open-design",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 612
+      "elapsedMs": 495
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 386
+      "elapsedMs": 219
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 460
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 147
+      "elapsedMs": 199
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 2209
+      "selected": 1,
+      "elapsedMs": 733
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 603
+      "selected": 0,
+      "elapsedMs": 573
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 411
+      "elapsedMs": 367
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 329
+      "elapsedMs": 323
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 370
+      "elapsedMs": 477
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 459
+      "elapsedMs": 552
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 606
+      "elapsedMs": 485
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 471
+      "elapsedMs": 498
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 618
+      "selected": 0,
+      "elapsedMs": 773
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 957
+      "elapsedMs": 857
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 574
+      "selected": 0,
+      "elapsedMs": 594
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 477
+      "selected": 0,
+      "elapsedMs": 602
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 632
+      "elapsedMs": 525
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 484
+      "elapsedMs": 599
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1641
+      "selected": 0,
+      "elapsedMs": 1241
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1208
+      "elapsedMs": 1307
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 799
+      "elapsedMs": 526
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 23,
+      "fetched": 19,
       "selected": 2,
-      "elapsedMs": 901
+      "elapsedMs": 965
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 852
+      "elapsedMs": 843
     }
   ],
   "stats": {
-    "fetched": 453,
-    "afterDedupe": 440,
-    "afterFreshness": 148,
-    "droppedStale": 292,
-    "selected": 22,
-    "clusters": 19,
+    "fetched": 449,
+    "afterDedupe": 437,
+    "afterFreshness": 67,
+    "droppedStale": 370,
+    "selected": 11,
+    "clusters": 10,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
