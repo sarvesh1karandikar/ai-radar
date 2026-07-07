@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-06",
-  "generatedAt": "2026-07-06T16:21:20.064Z",
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T15:43:57.371Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "source": "Hugging Face Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "LeRobot v0.6.0: Imagine, Evaluate, Improve... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a developer tools update. LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 100 recency; local score 0.75, cluster 14.",
-      "sourceExcerpt": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "citationUrl": "https://huggingface.co/blog/lerobot-release-v060",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Path-Constrained Mixture-of-Experts",
-      "url": "https://machinelearning.apple.com/research/path-constrained-mixture-experts",
+      "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
+      "url": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
       "source": "Apple Machine Learning Research",
-      "category": "training_infrastructure",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a training infrastructure update. Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 65 topical match, 83 recency; local score 0.69, cluster 16.",
-      "sourceExcerpt": "Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently.",
-      "citationUrl": "https://machinelearning.apple.com/research/path-constrained-mixture-experts",
+      "whyItMatters": "Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains,... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Apple Machine Learning Research; 90 trust, 92 topical match, 84 recency; local score 0.77, cluster 13.",
+      "sourceExcerpt": "Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
+      "citationUrl": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "raullenchai/Rapid-MLX",
-      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "title": "Run MiniMax models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and...",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and...",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The fastest local AI engine for Apple Silicon. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "raullenchai/Rapid-MLX is appearing as builder momentum, not as a verified product claim. The fastest local AI engine for Apple Silicon.",
+      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,201 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "The fastest local AI engine for Apple Silicon.",
-      "citationUrl": "https://github.com/raullenchai/Rapid-MLX",
+      "evidence": "GitHub AI Systems Search; 30,623 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "citationUrl": "https://github.com/langfuse/langfuse",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "fuyuxiang/echo-agent",
-      "url": "https://github.com/fuyuxiang/echo-agent",
+      "title": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "fuyuxiang/echo-agent is appearing as builder momentum, not as a verified product claim. Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。",
+      "whyItMatters": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "xbtlin/ai-berkshire is appearing as builder momentum, not as a verified product claim. AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 618 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。",
-      "citationUrl": "https://github.com/fuyuxiang/echo-agent",
+      "evidence": "GitHub AI Systems Search; 11,602 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex.",
+      "citationUrl": "https://github.com/xbtlin/ai-berkshire",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Gemma Scope Helping The Safety Community Shed Light On The Inner Workings Of Language Models",
-      "url": "https://deepmind.google/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/",
+      "title": "Decoupled Neural Interfaces Using Synthetic Gradients",
+      "url": "https://deepmind.google/blog/decoupled-neural-interfaces-using-synthetic-gradients/",
       "source": "Google DeepMind",
-      "category": "model_security",
+      "category": "model_architecture_math",
       "signal": "primary",
-      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google DeepMind surfaced this as a model security update. Official Google DeepMind page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Google DeepMind; 96 trust, 70 topical match, 83 recency; local score 0.68, cluster 17.",
+      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google DeepMind surfaced this as a model architecture math update. Official Google DeepMind page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google DeepMind; 96 trust, 95 topical match, 84 recency; local score 0.75, cluster 21.",
       "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
-      "citationUrl": "https://deepmind.google/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/",
+      "citationUrl": "https://deepmind.google/blog/decoupled-neural-interfaces-using-synthetic-gradients/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "comet-ml/opik",
-      "url": "https://github.com/comet-ml/opik",
+      "title": "marcelscruz/public-apis",
+      "url": "https://github.com/marcelscruz/public-apis",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "comet-ml/opik is appearing as builder momentum, not as a verified product claim. Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 20,354 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "citationUrl": "https://github.com/comet-ml/opik",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "vllm-project/vllm",
-      "url": "https://github.com/vllm-project/vllm",
-      "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "A high-throughput and memory-efficient inference and serving engine for LLMs... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "vllm-project/vllm is appearing as builder momentum, not as a verified product claim. A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 85,497 GitHub stars; local score 0.80, cluster 6.",
-      "sourceExcerpt": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "citationUrl": "https://github.com/vllm-project/vllm",
+      "whyItMatters": "A collaborative list of public APIs for developers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "marcelscruz/public-apis is appearing as builder momentum, not as a verified product claim. A collaborative list of public APIs for developers",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 9,200 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "A collaborative list of public APIs for developers",
+      "citationUrl": "https://github.com/marcelscruz/public-apis",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
-      "url": "https://homegames.io",
-      "source": "Hacker News",
+      "title": "oxidezap/whatsapp-rust",
+      "url": "https://github.com/oxidezap/whatsapp-rust",
+      "source": "GitHub AI Systems Search",
       "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 212 points and 52 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 212 points and 52 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 212 HN points; local score 0.70, cluster 15.",
-      "sourceExcerpt": "Hacker News discussion signal with 212 points and 52 comments.",
-      "citationUrl": "https://homegames.io",
+      "signal": "builder-signal",
+      "whyItMatters": "Whatsapp client written purely in Rust based on whatsmeow and baileys... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "oxidezap/whatsapp-rust is appearing as builder momentum, not as a verified product claim. Whatsapp client written purely in Rust based on whatsmeow and baileys",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 650 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Whatsapp client written purely in Rust based on whatsmeow and baileys",
+      "citationUrl": "https://github.com/oxidezap/whatsapp-rust",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
+      "url": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 81 recency; local score 0.71, cluster 26.",
+      "sourceExcerpt": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
+      "citationUrl": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Path-Constrained Mixture-of-Experts",
-    "url": "https://machinelearning.apple.com/research/path-constrained-mixture-experts",
+    "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
+    "url": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
     "source": "Apple Machine Learning Research",
-    "category": "training_infrastructure",
-    "summary": "Apple Machine Learning Research surfaced this as a training infrastructure update. Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Apple Machine Learning Research surfaced this as a training infrastructure update. Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently.",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: Apple Machine Learning Research; 90 trust, 65 topical match, 83 recency; local score 0.69, cluster 16."
+      "What happened: Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: Apple Machine Learning Research; 90 trust, 92 topical match, 84 recency; local score 0.77, cluster 13."
     ]
   },
   "bookmark": {
-    "title": "raullenchai/Rapid-MLX",
-    "url": "https://github.com/raullenchai/Rapid-MLX",
+    "title": "langfuse/langfuse",
+    "url": "https://github.com/langfuse/langfuse",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "The fastest local AI engine for Apple Silicon. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "raullenchai/Rapid-MLX is appearing as builder momentum, not as a verified product claim. The fastest local AI engine for Apple Silicon.",
+    "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 3,201 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "The fastest local AI engine for Apple Silicon.",
-    "citationUrl": "https://github.com/raullenchai/Rapid-MLX",
+    "evidence": "GitHub AI Systems Search; 30,623 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+    "citationUrl": "https://github.com/langfuse/langfuse",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 448
+      "elapsedMs": 434
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 213
+      "elapsedMs": 180
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 312
+      "elapsedMs": 203
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 315
+      "selected": 4,
+      "elapsedMs": 230
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 5380
+      "selected": 2,
+      "elapsedMs": 3610
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 2,
-      "elapsedMs": 527
+      "elapsedMs": 621
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 342
+      "elapsedMs": 433
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 581
+      "elapsedMs": 293
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 613
+      "elapsedMs": 325
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 629
+      "elapsedMs": 593
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 540
+      "elapsedMs": 396
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 616
+      "selected": 2,
+      "elapsedMs": 434
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 1191
+      "selected": 2,
+      "elapsedMs": 753
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1028
+      "elapsedMs": 852
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 798
+      "selected": 4,
+      "elapsedMs": 524
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 886
+      "elapsedMs": 780
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 831
+      "elapsedMs": 469
     },
     {
       "id": "databricks-blog",
@@ -316,17 +316,18 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 859
+      "selected": 2,
+      "elapsedMs": 591
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
+      "status": "failed",
+      "fetched": 0,
       "selected": 0,
-      "elapsedMs": 1858
+      "elapsedMs": 632,
+      "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CR+OR+cat%3Acs.DC+OR+cat%3Astat.ML%29+AND+%28all%3Aagent+OR+all%3Ainference+OR+all%3Atraining+OR+all%3Asecurity+OR+all%3Atransformer+OR+all%3Aarchitecture+OR+all%3Adatacenter+OR+all%3AGPU%29&sortBy=submittedDate&sortOrder=descending&max_results=35"
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1796
+      "elapsedMs": 1657
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,35 +345,35 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 870
+      "elapsedMs": 550
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 22,
+      "fetched": 21,
       "selected": 2,
-      "elapsedMs": 1084
+      "elapsedMs": 770
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 1209
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 786
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 442,
-    "afterFreshness": 116,
-    "droppedStale": 326,
-    "selected": 16,
-    "clusters": 14,
-    "failures": 0,
+    "fetched": 396,
+    "afterDedupe": 384,
+    "afterFreshness": 119,
+    "droppedStale": 265,
+    "selected": 25,
+    "clusters": 21,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
