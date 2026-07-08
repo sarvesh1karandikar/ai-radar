@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-07",
-  "generatedAt": "2026-07-07T15:43:57.371Z",
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-08T15:22:49.658Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
-      "url": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
-      "source": "Apple Machine Learning Research",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains,... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 92 topical match, 84 recency; local score 0.77, cluster 13.",
-      "sourceExcerpt": "Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
-      "citationUrl": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Run MiniMax models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
-      "source": "AWS Machine Learning Blog",
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "NVIDIA Blog",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and...",
+      "whyItMatters": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
-      "sourceExcerpt": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and...",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
+      "evidence": "NVIDIA Blog; 88 trust, 82 topical match, 100 recency; local score 0.76, cluster 12.",
+      "sourceExcerpt": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
+      "citationUrl": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "langfuse/langfuse",
-      "url": "https://github.com/langfuse/langfuse",
+      "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+      "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+      "source": "Berkeley BAIR Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "government of the people, by the people, for the people ... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Berkeley BAIR Blog surfaced this as a multi agent systems update. government of the people, by the people, for the people ...",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Berkeley BAIR Blog; 82 trust, 100 topical match, 68 recency; local score 0.74, cluster 30.",
+      "sourceExcerpt": "government of the people, by the people, for the people ...",
+      "citationUrl": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+      "url": "http://arxiv.org/abs/2607.06523v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches,... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues...",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 14.",
+      "sourceExcerpt": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues...",
+      "citationUrl": "http://arxiv.org/abs/2607.06523v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+      "url": "http://arxiv.org/abs/2607.06531v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. - Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 13.",
+      "sourceExcerpt": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference.",
+      "citationUrl": "http://arxiv.org/abs/2607.06531v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "justoneapi/data-api",
+      "url": "https://github.com/justoneapi/data-api",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "whyItMatters": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "justoneapi/data-api is appearing as builder momentum, not as a verified product claim. Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 30,623 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
-      "citationUrl": "https://github.com/langfuse/langfuse",
+      "evidence": "GitHub AI Systems Search; 520 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
+      "citationUrl": "https://github.com/justoneapi/data-api",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "xbtlin/ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "xbtlin/ai-berkshire is appearing as builder momentum, not as a verified product claim. AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 11,602 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex.",
-      "citationUrl": "https://github.com/xbtlin/ai-berkshire",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Decoupled Neural Interfaces Using Synthetic Gradients",
-      "url": "https://deepmind.google/blog/decoupled-neural-interfaces-using-synthetic-gradients/",
-      "source": "Google DeepMind",
-      "category": "model_architecture_math",
-      "signal": "primary",
-      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google DeepMind surfaced this as a model architecture math update. Official Google DeepMind page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Google DeepMind; 96 trust, 95 topical match, 84 recency; local score 0.75, cluster 21.",
-      "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
-      "citationUrl": "https://deepmind.google/blog/decoupled-neural-interfaces-using-synthetic-gradients/",
-      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "marcelscruz/public-apis",
-      "url": "https://github.com/marcelscruz/public-apis",
+      "title": "SigNoz/signoz",
+      "url": "https://github.com/SigNoz/signoz",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A collaborative list of public APIs for developers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "marcelscruz/public-apis is appearing as builder momentum, not as a verified product claim. A collaborative list of public APIs for developers",
+      "whyItMatters": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "SigNoz/signoz is appearing as builder momentum, not as a verified product claim. SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 28,483 GitHub stars; local score 0.88, cluster 2.",
+      "sourceExcerpt": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application.",
+      "citationUrl": "https://github.com/SigNoz/signoz",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "PrimeIntellect-ai/verifiers",
+      "url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Our library for RL environments + evals... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PrimeIntellect-ai/verifiers is appearing as builder momentum, not as a verified product claim. Our library for RL environments + evals",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 9,200 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "A collaborative list of public APIs for developers",
-      "citationUrl": "https://github.com/marcelscruz/public-apis",
+      "evidence": "GitHub AI Systems Search; 4,271 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Our library for RL environments + evals",
+      "citationUrl": "https://github.com/PrimeIntellect-ai/verifiers",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "oxidezap/whatsapp-rust",
-      "url": "https://github.com/oxidezap/whatsapp-rust",
+      "title": "langwatch/langwatch",
+      "url": "https://github.com/langwatch/langwatch",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Whatsapp client written purely in Rust based on whatsmeow and baileys... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "oxidezap/whatsapp-rust is appearing as builder momentum, not as a verified product claim. Whatsapp client written purely in Rust based on whatsmeow and baileys",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 650 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "Whatsapp client written purely in Rust based on whatsmeow and baileys",
-      "citationUrl": "https://github.com/oxidezap/whatsapp-rust",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-      "url": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 81 recency; local score 0.71, cluster 26.",
-      "sourceExcerpt": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-      "citationUrl": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
+      "whyItMatters": "The platform for LLM evaluations and AI agent testing... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langwatch/langwatch is appearing as builder momentum, not as a verified product claim. The platform for LLM evaluations and AI agent testing",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 3,328 GitHub stars; local score 0.81, cluster 5.",
+      "sourceExcerpt": "The platform for LLM evaluations and AI agent testing",
+      "citationUrl": "https://github.com/langwatch/langwatch",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
-    "url": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
-    "source": "Apple Machine Learning Research",
+    "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+    "url": "http://arxiv.org/abs/2607.06523v1",
+    "source": "arXiv AI Systems Query",
     "category": "inference_systems",
-    "summary": "Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a inference systems lead from the research stream. Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Apple Machine Learning Research surfaced this as a inference systems update. Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: Apple Machine Learning Research; 90 trust, 92 topical match, 84 recency; local score 0.77, cluster 13."
+      "What happened: This paper is a inference systems lead from the research stream. Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues...",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 14."
     ]
   },
   "bookmark": {
-    "title": "langfuse/langfuse",
-    "url": "https://github.com/langfuse/langfuse",
+    "title": "justoneapi/data-api",
+    "url": "https://github.com/justoneapi/data-api",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+    "whyItMatters": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "justoneapi/data-api is appearing as builder momentum, not as a verified product claim. Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 30,623 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
-    "citationUrl": "https://github.com/langfuse/langfuse",
+    "evidence": "GitHub AI Systems Search; 520 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
+    "citationUrl": "https://github.com/justoneapi/data-api",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 434
+      "selected": 1,
+      "elapsedMs": 1054
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 180
+      "selected": 1,
+      "elapsedMs": 306
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 203
+      "selected": 1,
+      "elapsedMs": 270
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 4,
-      "elapsedMs": 230
+      "elapsedMs": 117
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 3610
+      "selected": 1,
+      "elapsedMs": 2294
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 621
+      "selected": 0,
+      "elapsedMs": 487
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 433
+      "elapsedMs": 296
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 293
+      "elapsedMs": 211
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 325
+      "elapsedMs": 256
     },
     {
       "id": "bair-blog",
@@ -244,8 +244,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 593
+      "selected": 1,
+      "elapsedMs": 740
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 396
+      "elapsedMs": 326
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 434
+      "selected": 3,
+      "elapsedMs": 366
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 753
+      "selected": 1,
+      "elapsedMs": 562
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 852
+      "elapsedMs": 681
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 524
+      "elapsedMs": 519
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 780
+      "elapsedMs": 669
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 469
+      "elapsedMs": 576
     },
     {
       "id": "databricks-blog",
@@ -316,18 +316,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 591
+      "selected": 1,
+      "elapsedMs": 582
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 632,
-      "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CR+OR+cat%3Acs.DC+OR+cat%3Astat.ML%29+AND+%28all%3Aagent+OR+all%3Ainference+OR+all%3Atraining+OR+all%3Asecurity+OR+all%3Atransformer+OR+all%3Aarchitecture+OR+all%3Adatacenter+OR+all%3AGPU%29&sortBy=submittedDate&sortOrder=descending&max_results=35"
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1418
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1657
+      "elapsedMs": 1549
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,35 +344,35 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 550
+      "elapsedMs": 561
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
-      "selected": 2,
-      "elapsedMs": 770
+      "fetched": 25,
+      "selected": 1,
+      "elapsedMs": 1009
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 0,
+      "fetched": 20,
       "selected": 0,
-      "elapsedMs": 786
+      "elapsedMs": 948
     }
   ],
   "stats": {
-    "fetched": 396,
-    "afterDedupe": 384,
-    "afterFreshness": 119,
-    "droppedStale": 265,
-    "selected": 25,
-    "clusters": 21,
-    "failures": 1,
+    "fetched": 455,
+    "afterDedupe": 442,
+    "afterFreshness": 192,
+    "droppedStale": 250,
+    "selected": 28,
+    "clusters": 28,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
