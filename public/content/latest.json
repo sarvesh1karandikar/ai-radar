@@ -1,10 +1,25 @@
 {
-  "date": "2026-07-09",
-  "generatedAt": "2026-07-09T15:56:44.655Z",
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T15:32:45.179Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "In this post, you will learn four deployment patterns for taking models that have already been quantized with... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 100 recency; local score 0.74, cluster 24.",
+      "sourceExcerpt": "In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
@@ -14,145 +29,130 @@
       "whyItMatters": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. This GFN Thursday brings more games, more power and more ways to play on GeForce NOW.",
       "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 97 recency; local score 0.77, cluster 13.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 72 recency; local score 0.72, cluster 30.",
       "sourceExcerpt": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW.",
       "citationUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Strategic Warning For Ai Risk Progress And Insights From Our Frontier Red Team",
-      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-      "source": "Anthropic",
-      "category": "model_security",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 82 recency; local score 0.73, cluster 19.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "SemiAnalysisAI/InferenceX",
-      "url": "https://github.com/SemiAnalysisAI/InferenceX",
-      "source": "GitHub AI Systems Search",
+      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+      "url": "http://arxiv.org/abs/2607.08740v1",
+      "source": "arXiv AI Systems Query",
       "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200 NVL72...",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200 NVL72...",
-      "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
+      "signal": "research",
+      "whyItMatters": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 11.",
+      "sourceExcerpt": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval.",
+      "citationUrl": "http://arxiv.org/abs/2607.08740v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "nexu-io/open-design",
-      "url": "https://github.com/nexu-io/open-design",
+      "title": "Deep Learning for Joint Narrowband Interference Cancellation and Soft Demodulation in OFDM Systems",
+      "url": "http://arxiv.org/abs/2607.08717v1",
+      "source": "arXiv AI Systems Query",
+      "category": "training_infrastructure",
+      "signal": "research",
+      "whyItMatters": "Narrowband interference (NBI) severely degrades orthogonal frequency-division multiplexing (OFDM) systems by corrupting subcarriers and rendering classical soft demodulation... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Narrowband interference (NBI) severely degrades orthogonal frequency-division multiplexing (OFDM) systems by corrupting subcarriers and rendering classical soft demodulation ineffective.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 13.",
+      "sourceExcerpt": "Narrowband interference (NBI) severely degrades orthogonal frequency-division multiplexing (OFDM) systems by corrupting subcarriers and rendering classical soft demodulation ineffective.",
+      "citationUrl": "http://arxiv.org/abs/2607.08717v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🎨 The open-source Claude Design alternative. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 The open-source Claude Design alternative.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 76,720 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "🎨 The open-source Claude Design alternative.",
-      "citationUrl": "https://github.com/nexu-io/open-design",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 82 topical match, 74 recency; local score 0.72, cluster 21.",
-      "sourceExcerpt": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
-      "citationUrl": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "whyItMatters": "A unified AI model hub for aggregation & distribution. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "QuantumNous/new-api is appearing as builder momentum, not as a verified product claim. A unified AI model hub for aggregation & distribution.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 41,785 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "A unified AI model hub for aggregation & distribution.",
+      "citationUrl": "https://github.com/QuantumNous/new-api",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "TanStack/ai",
-      "url": "https://github.com/TanStack/ai",
+      "title": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "repowise-dev/repowise is appearing as builder momentum, not as a verified product claim. Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,452 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "citationUrl": "https://github.com/repowise-dev/repowise",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "justoneapi/justoneapi-python",
+      "url": "https://github.com/justoneapi/justoneapi-python",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Just One API - Python SDK: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "justoneapi/justoneapi-python is appearing as builder momentum, not as a verified product claim. Just One API - Python SDK: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 208 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Just One API - Python SDK: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
+      "citationUrl": "https://github.com/justoneapi/justoneapi-python",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ChrisChen667788/wind-comic",
+      "url": "https://github.com/ChrisChen667788/wind-comic",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "TanStack/ai is appearing as builder momentum, not as a verified product claim. 🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
+      "whyItMatters": "Multi-agent AI pipeline that turns one line of text into a finished short-form drama: script, cinematic storyboards, character-consistent... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ChrisChen667788/wind-comic is appearing as builder momentum, not as a verified product claim. Multi-agent AI pipeline that turns one line of text into a finished short-form drama: script, cinematic storyboards, character-consistent video.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,876 GitHub stars; local score 0.84, cluster 5.",
-      "sourceExcerpt": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
-      "citationUrl": "https://github.com/TanStack/ai",
+      "evidence": "GitHub AI Systems Search; 320 GitHub stars; local score 0.80, cluster 4.",
+      "sourceExcerpt": "Multi-agent AI pipeline that turns one line of text into a finished short-form drama: script, cinematic storyboards, character-consistent video.",
+      "citationUrl": "https://github.com/ChrisChen667788/wind-comic",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "SigNoz/signoz",
-      "url": "https://github.com/SigNoz/signoz",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SigNoz/signoz is appearing as builder momentum, not as a verified product claim. SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 28,572 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application.",
-      "citationUrl": "https://github.com/SigNoz/signoz",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-      "source": "Hacker News",
-      "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 1420 points and 227 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 1420 points and 227 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 1420 HN points; local score 0.71, cluster 23.",
-      "sourceExcerpt": "Hacker News discussion signal with 1420 points and 227 comments.",
-      "citationUrl": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-    "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-    "source": "NVIDIA Blog",
-    "category": "multi_agent_systems",
-    "summary": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+    "url": "http://arxiv.org/abs/2607.08740v1",
+    "source": "arXiv AI Systems Query",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 82 topical match, 74 recency; local score 0.72, cluster 21."
+      "What happened: This paper is a inference systems lead from the research stream. Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 11."
     ]
   },
   "bookmark": {
-    "title": "SemiAnalysisAI/InferenceX",
-    "url": "https://github.com/SemiAnalysisAI/InferenceX",
+    "title": "QuantumNous/new-api",
+    "url": "https://github.com/QuantumNous/new-api",
     "source": "GitHub AI Systems Search",
-    "category": "inference_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200 NVL72...",
-    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200 NVL72...",
-    "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
+    "whyItMatters": "A unified AI model hub for aggregation & distribution. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "QuantumNous/new-api is appearing as builder momentum, not as a verified product claim. A unified AI model hub for aggregation & distribution.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 41,785 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "A unified AI model hub for aggregation & distribution.",
+    "citationUrl": "https://github.com/QuantumNous/new-api",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 3,
-      "elapsedMs": 1132
+      "elapsedMs": 518
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 189
+      "elapsedMs": 207
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 425
+      "selected": 0,
+      "elapsedMs": 566
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 167
+      "selected": 3,
+      "elapsedMs": 280
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 318
+      "selected": 1,
+      "elapsedMs": 1203
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 601
+      "elapsedMs": 492
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 285
+      "elapsedMs": 357
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 851
+      "elapsedMs": 333
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 383
+      "elapsedMs": 391
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 408
+      "elapsedMs": 502
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 426
+      "elapsedMs": 507
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 343
+      "selected": 1,
+      "elapsedMs": 511
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 467
+      "elapsedMs": 1541
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1172
+      "elapsedMs": 985
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 512
+      "elapsedMs": 649
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 431
+      "elapsedMs": 690
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 477
+      "elapsedMs": 577
     },
     {
       "id": "databricks-blog",
@@ -317,17 +317,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 512
+      "elapsedMs": 654
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 16052,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1352
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1460
+      "elapsedMs": 1715
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 476
+      "elapsedMs": 689
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
-      "selected": 2,
-      "elapsedMs": 708
+      "fetched": 25,
+      "selected": 1,
+      "elapsedMs": 880
     },
     {
       "id": "google-news-fallback",
@@ -362,18 +361,18 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 752
+      "selected": 1,
+      "elapsedMs": 1101
     }
   ],
   "stats": {
-    "fetched": 424,
-    "afterDedupe": 408,
-    "afterFreshness": 181,
-    "droppedStale": 227,
+    "fetched": 455,
+    "afterDedupe": 440,
+    "afterFreshness": 176,
+    "droppedStale": 264,
     "selected": 28,
-    "clusters": 26,
-    "failures": 1,
+    "clusters": 28,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
