@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-11",
-  "generatedAt": "2026-07-11T14:22:25.383Z",
+  "date": "2026-07-12",
+  "generatedAt": "2026-07-12T14:26:31.650Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,7 +14,7 @@
       "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
       "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 79 recency; local score 0.71, cluster 21.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 54 recency; local score 0.66, cluster 20.",
       "sourceExcerpt": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
       "citationUrl": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/",
       "contextQuality": "thin public context",
@@ -29,130 +29,130 @@
       "whyItMatters": "In this post, you will learn four deployment patterns for taking models that have already been quantized with... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 76 recency; local score 0.70, cluster 28.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 51 recency; local score 0.66, cluster 23.",
       "sourceExcerpt": "In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning",
-      "url": "http://arxiv.org/abs/2607.08703v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity?",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 16.",
-      "sourceExcerpt": "We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity?",
-      "citationUrl": "http://arxiv.org/abs/2607.08703v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "url": "http://arxiv.org/abs/2607.08768v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 54 recency; local score 0.72, cluster 14.",
-      "sourceExcerpt": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments.",
-      "citationUrl": "http://arxiv.org/abs/2607.08768v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+      "whyItMatters": "Cross-platform framework for building truly native mobile apps with Java or Kotlin. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 15,486 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
-      "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
+      "evidence": "GitHub AI Systems Search; 1,851 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "fuyuxiang/echo-agent",
+      "url": "https://github.com/fuyuxiang/echo-agent",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "fuyuxiang/echo-agent is appearing as builder momentum, not as a verified product claim. Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 630 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。",
+      "citationUrl": "https://github.com/fuyuxiang/echo-agent",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 25.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "ddalcu/mlx-serve",
-      "url": "https://github.com/ddalcu/mlx-serve",
+      "title": "datadrivenconstruction/OpenConstructionERP",
+      "url": "https://github.com/datadrivenconstruction/OpenConstructionERP",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datadrivenconstruction/OpenConstructionERP is appearing as builder momentum, not as a verified product claim. Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 495 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "citationUrl": "https://github.com/datadrivenconstruction/OpenConstructionERP",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "laradock/laradock",
+      "url": "https://github.com/laradock/laradock",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Native LLM inference server for Apple Silicon. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ddalcu/mlx-serve is appearing as builder momentum, not as a verified product claim. Native LLM inference server for Apple Silicon.",
+      "whyItMatters": "Full PHP development environment for Docker. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "laradock/laradock is appearing as builder momentum, not as a verified product claim. Full PHP development environment for Docker.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 263 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Native LLM inference server for Apple Silicon.",
-      "citationUrl": "https://github.com/ddalcu/mlx-serve",
+      "evidence": "GitHub AI Systems Search; 12,651 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Full PHP development environment for Docker.",
+      "citationUrl": "https://github.com/laradock/laradock",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "WLJSTeam/wljs-notebook",
-      "url": "https://github.com/WLJSTeam/wljs-notebook",
-      "source": "GitHub AI Systems Search",
+      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "source": "Hacker News",
       "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source web notebook interface for Wolfram Engine... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "WLJSTeam/wljs-notebook is appearing as builder momentum, not as a verified product claim. Open-source web notebook interface for Wolfram Engine",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 607 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "Open-source web notebook interface for Wolfram Engine",
-      "citationUrl": "https://github.com/WLJSTeam/wljs-notebook",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 305 points and 139 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 305 points and 139 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 305 HN points; local score 0.72, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 305 points and 139 comments.",
+      "citationUrl": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
       "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "QuantumNous/new-api",
-      "url": "https://github.com/QuantumNous/new-api",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A unified AI model hub for aggregation & distribution. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "QuantumNous/new-api is appearing as builder momentum, not as a verified product claim. A unified AI model hub for aggregation & distribution.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 41,857 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "A unified AI model hub for aggregation & distribution.",
-      "citationUrl": "https://github.com/QuantumNous/new-api",
-      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning",
-    "url": "http://arxiv.org/abs/2607.08703v1",
-    "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity? It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+    "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity?",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 16."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 51 recency; local score 0.66, cluster 23."
     ]
   },
   "bookmark": {
-    "title": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "title": "codenameone/CodenameOne",
+    "url": "https://github.com/codenameone/CodenameOne",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+    "whyItMatters": "Cross-platform framework for building truly native mobile apps with Java or Kotlin. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 15,486 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
-    "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
+    "evidence": "GitHub AI Systems Search; 1,851 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
+    "citationUrl": "https://github.com/codenameone/CodenameOne",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 527
+      "selected": 0,
+      "elapsedMs": 504
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 153
+      "elapsedMs": 206
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 298
+      "elapsedMs": 244
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 175
+      "selected": 0,
+      "elapsedMs": 218
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 2255
+      "elapsedMs": 664
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 514
+      "elapsedMs": 461
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 284
+      "selected": 0,
+      "elapsedMs": 320
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 239
+      "elapsedMs": 394
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 368
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 603
+      "elapsedMs": 797
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 348
+      "elapsedMs": 699
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 333
+      "elapsedMs": 577
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 957
+      "selected": 3,
+      "elapsedMs": 675
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 573
+      "elapsedMs": 1104
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 538
+      "elapsedMs": 730
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 386
+      "elapsedMs": 685
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 580
+      "elapsedMs": 739
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 543
+      "selected": 1,
+      "elapsedMs": 765
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1245
+      "selected": 0,
+      "elapsedMs": 1695
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1291
+      "elapsedMs": 1426
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 559
+      "elapsedMs": 826
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 32,
-      "selected": 2,
-      "elapsedMs": 752
+      "fetched": 22,
+      "selected": 3,
+      "elapsedMs": 997
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 830
+      "elapsedMs": 1101
     }
   ],
   "stats": {
-    "fetched": 462,
-    "afterDedupe": 448,
-    "afterFreshness": 136,
-    "droppedStale": 312,
-    "selected": 27,
-    "clusters": 25,
+    "fetched": 452,
+    "afterDedupe": 438,
+    "afterFreshness": 83,
+    "droppedStale": 355,
+    "selected": 21,
+    "clusters": 19,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
