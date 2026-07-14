@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-13",
-  "generatedAt": "2026-07-13T15:42:44.581Z",
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-14T14:52:42.150Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-      "url": "https://blog.cloudflare.com/introducing-precursor/",
-      "source": "Cloudflare AI",
+      "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio,... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 14.",
+      "sourceExcerpt": "In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Agentic Misalignment",
+      "url": "https://www.anthropic.com/research/agentic-misalignment",
+      "source": "Anthropic",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Cloudflare AI surfaced this as a multi agent systems update. Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Cloudflare AI; 78 trust, 63 topical match, 97 recency; local score 0.68, cluster 22.",
-      "sourceExcerpt": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey.",
-      "citationUrl": "https://blog.cloudflare.com/introducing-precursor/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
-      "source": "NVIDIA Developer Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a developer tools update. How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 75 topical match, 60 recency; local score 0.62, cluster 25.",
-      "sourceExcerpt": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "citationUrl": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "vercel/chat",
-      "url": "https://github.com/vercel/chat",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "vercel/chat is appearing as builder momentum, not as a verified product claim. A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,195 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.",
-      "citationUrl": "https://github.com/vercel/chat",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "lfnovo/open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "An Open Source implementation of Notebook LM with more flexibility and features... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "lfnovo/open-notebook is appearing as builder momentum, not as a verified product claim. An Open Source implementation of Notebook LM with more flexibility and features",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 35,577 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "citationUrl": "https://github.com/lfnovo/open-notebook",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.60, cluster 26.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 79 recency; local score 0.72, cluster 31.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "citationUrl": "https://www.anthropic.com/research/agentic-misalignment",
       "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+      "url": "http://arxiv.org/abs/2607.11734v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real error.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real error.",
+      "citationUrl": "http://arxiv.org/abs/2607.11734v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+      "url": "http://arxiv.org/abs/2607.11751v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "As multi-agent, tool-using LLM systems are deployed, a common safety net is a runtime monitor that checks each... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. As multi-agent, tool-using LLM systems are deployed, a common safety net is a runtime monitor that checks each message, tool call, or step on its own.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "As multi-agent, tool-using LLM systems are deployed, a common safety net is a runtime monitor that checks each message, tool call, or step on its own.",
+      "citationUrl": "http://arxiv.org/abs/2607.11751v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ruvnet/ruflo is appearing as builder momentum, not as a verified product claim. 🌊 The leading agent meta-harness.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 64,392 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "🌊 The leading agent meta-harness.",
+      "citationUrl": "https://github.com/ruvnet/ruflo",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "monocle2ai/monocle",
-      "url": "https://github.com/monocle2ai/monocle",
+      "title": "yusufkaraaslan/Skill_Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Monocle is a framework for tracing GenAI app code. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "monocle2ai/monocle is appearing as builder momentum, not as a verified product claim. Monocle is a framework for tracing GenAI app code.",
+      "whyItMatters": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "yusufkaraaslan/Skill_Seekers is appearing as builder momentum, not as a verified product claim. Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 276 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "Monocle is a framework for tracing GenAI app code.",
-      "citationUrl": "https://github.com/monocle2ai/monocle",
+      "evidence": "GitHub AI Systems Search; 14,453 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+      "citationUrl": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Cross-platform framework for building truly native mobile apps with Java or Kotlin. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,852 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "The API to search, scrape, and interact with the web at scale. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "firecrawl/firecrawl is appearing as builder momentum, not as a verified product claim. The API to search, scrape, and interact with the web at scale.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 150,825 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "The API to search, scrape, and interact with the web at scale.",
+      "citationUrl": "https://github.com/firecrawl/firecrawl",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
-      "url": "https://github.com/clawkwork/clawk",
-      "source": "Hacker News",
-      "category": "multi_agent_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 79 points and 88 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 79 points and 88 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 79 HN points; local score 0.71, cluster 21.",
-      "sourceExcerpt": "Hacker News discussion signal with 79 points and 88 comments.",
-      "citationUrl": "https://github.com/clawkwork/clawk",
+      "title": "fastrepl/anarlog",
+      "url": "https://github.com/fastrepl/anarlog",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Open source Granola AI Alternative... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "fastrepl/anarlog is appearing as builder momentum, not as a verified product claim. Open source Granola AI Alternative",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 8,811 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Open source Granola AI Alternative",
+      "citationUrl": "https://github.com/fastrepl/anarlog",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "New method aims to keep kids safe from illegal AI-generated content",
-    "url": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
-    "source": "MIT News AI",
-    "category": "training_infrastructure",
-    "summary": "MIT News AI surfaced this as a training infrastructure update. Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+    "url": "http://arxiv.org/abs/2607.11734v1",
+    "source": "arXiv AI Systems Query",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real error. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: MIT News AI surfaced this as a training infrastructure update. Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: MIT News AI; 78 trust, 45 topical match, 88 recency; local score 0.58, cluster 27."
+      "What happened: This paper is a inference systems lead from the research stream. Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real error.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17."
     ]
   },
   "bookmark": {
-    "title": "vercel/chat",
-    "url": "https://github.com/vercel/chat",
+    "title": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "vercel/chat is appearing as builder momentum, not as a verified product claim. A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 2,195 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.",
-    "citationUrl": "https://github.com/vercel/chat",
+    "whyItMatters": "Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "ruvnet/ruflo is appearing as builder momentum, not as a verified product claim. 🌊 The leading agent meta-harness.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 64,392 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "🌊 The leading agent meta-harness.",
+    "citationUrl": "https://github.com/ruvnet/ruflo",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 661
+      "elapsedMs": 400
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 320
+      "elapsedMs": 233
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 302
+      "elapsedMs": 403
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 244
+      "selected": 1,
+      "elapsedMs": 462
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 895
+      "elapsedMs": 517
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 0,
-      "elapsedMs": 645
+      "selected": 1,
+      "elapsedMs": 688
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 366
+      "elapsedMs": 387
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 412
+      "selected": 3,
+      "elapsedMs": 449
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 457
+      "elapsedMs": 495
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 562
+      "elapsedMs": 554
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 484
+      "selected": 1,
+      "elapsedMs": 588
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 569
+      "elapsedMs": 522
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 963
+      "elapsedMs": 1759
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 919
+      "elapsedMs": 784
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 729
+      "selected": 4,
+      "elapsedMs": 575
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 842
+      "elapsedMs": 522
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 750
+      "elapsedMs": 704
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 753
+      "elapsedMs": 579
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 2597
+      "selected": 4,
+      "elapsedMs": 1478
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1570
+      "elapsedMs": 1482
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 926
+      "elapsedMs": 691
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 4,
-      "elapsedMs": 943
+      "fetched": 29,
+      "selected": 2,
+      "elapsedMs": 1262
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1193
+      "elapsedMs": 1114
     }
   ],
   "stats": {
-    "fetched": 457,
-    "afterDedupe": 444,
-    "afterFreshness": 82,
-    "droppedStale": 362,
-    "selected": 16,
-    "clusters": 15,
+    "fetched": 459,
+    "afterDedupe": 447,
+    "afterFreshness": 148,
+    "droppedStale": 299,
+    "selected": 27,
+    "clusters": 25,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
