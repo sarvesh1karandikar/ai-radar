@@ -1,10 +1,25 @@
 {
-  "date": "2026-07-18",
-  "generatedAt": "2026-07-18T14:20:34.275Z",
+  "date": "2026-07-19",
+  "generatedAt": "2026-07-19T14:24:13.794Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 24.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
     {
       "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
@@ -14,145 +29,130 @@
       "whyItMatters": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a multi agent systems update. Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 70 topical match, 76 recency; local score 0.66, cluster 39.",
+      "evidence": "NVIDIA Blog; 88 trust, 70 topical match, 51 recency; local score 0.62, cluster 25.",
       "sourceExcerpt": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
       "citationUrl": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Show Me Examples: Inferring Visual Concepts from Image Sets",
-      "url": "https://machinelearning.apple.com/research/visual-concept-inference",
-      "source": "Apple Machine Learning Research",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Vision-language models (VLMs) can follow complex textual instructions, yet they struggle to reason from purely visual context. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a inference systems update. Vision-language models (VLMs) can follow complex textual instructions, yet they struggle to reason from purely visual context.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 63 topical match, 60 recency; local score 0.65, cluster 46.",
-      "sourceExcerpt": "Vision-language models (VLMs) can follow complex textual instructions, yet they struggle to reason from purely visual context.",
-      "citationUrl": "https://machinelearning.apple.com/research/visual-concept-inference",
+      "title": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 19,778 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+      "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Long-Context Fine-Tuning with Limited VRAM",
-      "url": "http://arxiv.org/abs/2607.15105v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Parameter-efficient fine-tuning reduces model and optimizer memory, but dense attention still makes long training sequences expensive. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Parameter-efficient fine-tuning reduces model and optimizer memory, but dense attention still makes long training sequences expensive.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 23.",
-      "sourceExcerpt": "Parameter-efficient fine-tuning reduces model and optimizer memory, but dense attention still makes long training sequences expensive.",
-      "citationUrl": "http://arxiv.org/abs/2607.15105v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
-      "url": "http://arxiv.org/abs/2607.15272v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 54 recency; local score 0.72, cluster 19.",
-      "sourceExcerpt": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts.",
-      "citationUrl": "http://arxiv.org/abs/2607.15272v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
+      "title": "datadrivenconstruction/OpenConstructionERP",
+      "url": "https://github.com/datadrivenconstruction/OpenConstructionERP",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Cross-platform framework for building truly native mobile apps with Java or Kotlin. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
+      "whyItMatters": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datadrivenconstruction/OpenConstructionERP is appearing as builder momentum, not as a verified product claim. Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,854 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "evidence": "GitHub AI Systems Search; 524 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "citationUrl": "https://github.com/datadrivenconstruction/OpenConstructionERP",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Introducing Mobile Layout for Amazon Quick dashboards",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/",
+      "source": "AWS Machine Learning Blog",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally... For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a business signal update. Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 55 topical match, 53 recency; local score 0.59, cluster 26.",
+      "sourceExcerpt": "Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "open-multi-agent/open-multi-agent",
-      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "title": "henrydaum/second-brain",
+      "url": "https://github.com/henrydaum/second-brain",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "TypeScript AI agent orchestration framework with dynamic workflows. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "open-multi-agent/open-multi-agent is appearing as builder momentum, not as a verified product claim. TypeScript AI agent orchestration framework with dynamic workflows.",
+      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 6,616 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "TypeScript AI agent orchestration framework with dynamic workflows.",
-      "citationUrl": "https://github.com/open-multi-agent/open-multi-agent",
+      "evidence": "GitHub AI Systems Search; 583 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "citationUrl": "https://github.com/henrydaum/second-brain",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "MCPJam/inspector",
-      "url": "https://github.com/MCPJam/inspector",
+      "title": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,070 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "citationUrl": "https://github.com/MCPJam/inspector",
+      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 36,801 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
+      "citationUrl": "https://github.com/PostHog/posthog",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "bytedance/deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "source": "GitHub AI Systems Search",
+      "title": "What's the deal with all the random weekly quota resets for agents lately?",
+      "url": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "source": "Hacker News",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "bytedance/deer-flow is appearing as builder momentum, not as a verified product claim. An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 77,338 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
-      "citationUrl": "https://github.com/bytedance/deer-flow",
-      "contextQuality": "source-grounded",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 61 points and 67 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 61 points and 67 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 61 HN points; local score 0.65, cluster 23.",
+      "sourceExcerpt": "Hacker News discussion signal with 61 points and 67 comments.",
+      "citationUrl": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Long-Context Fine-Tuning with Limited VRAM",
-    "url": "http://arxiv.org/abs/2607.15105v1",
-    "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Parameter-efficient fine-tuning reduces model and optimizer memory, but dense attention still makes long training sequences expensive. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "How Smartsheet built a remote MCP server on AWS",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
+    "source": "AWS Machine Learning Blog",
+    "category": "model_architecture_math",
+    "summary": "AWS Machine Learning Blog surfaced this as a model architecture math update. In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Parameter-efficient fine-tuning reduces model and optimizer memory, but dense attention still makes long training sequences expensive.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 23."
+      "What happened: AWS Machine Learning Blog surfaced this as a model architecture math update. In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it.",
+      "Why it matters: The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for model architecture math.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 55 topical match, 52 recency; local score 0.58, cluster 27."
     ]
   },
   "bookmark": {
-    "title": "codenameone/CodenameOne",
-    "url": "https://github.com/codenameone/CodenameOne",
+    "title": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Cross-platform framework for building truly native mobile apps with Java or Kotlin. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
+    "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,854 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Cross-platform framework for building truly native mobile apps with Java or Kotlin.",
-    "citationUrl": "https://github.com/codenameone/CodenameOne",
+    "evidence": "GitHub AI Systems Search; 19,778 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+    "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 378
+      "selected": 0,
+      "elapsedMs": 659
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 360
+      "elapsedMs": 196
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 346
+      "elapsedMs": 337
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 331
+      "selected": 0,
+      "elapsedMs": 244
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 4874
+      "elapsedMs": 460
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 742
+      "elapsedMs": 444
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 480
+      "elapsedMs": 359
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 435
+      "elapsedMs": 383
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 537
+      "elapsedMs": 322
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 504
+      "elapsedMs": 609
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 551
+      "elapsedMs": 461
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 385
+      "elapsedMs": 518
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 573
+      "selected": 0,
+      "elapsedMs": 1058
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 445
+      "elapsedMs": 509
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 597
+      "selected": 3,
+      "elapsedMs": 661
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 670
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 642
+      "elapsedMs": 689
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 540
+      "selected": 1,
+      "elapsedMs": 633
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1958
+      "selected": 0,
+      "elapsedMs": 1313
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1403
+      "elapsedMs": 1396
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,35 +344,36 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 614
+      "elapsedMs": 700
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 23,
+      "fetched": 20,
       "selected": 2,
-      "elapsedMs": 869
+      "elapsedMs": 1150
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
-      "status": "ok",
-      "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 862
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 15700,
+      "error": "The operation was aborted due to timeout"
     }
   ],
   "stats": {
-    "fetched": 453,
-    "afterDedupe": 440,
-    "afterFreshness": 133,
-    "droppedStale": 307,
-    "selected": 28,
-    "clusters": 26,
-    "failures": 0,
+    "fetched": 430,
+    "afterDedupe": 418,
+    "afterFreshness": 54,
+    "droppedStale": 364,
+    "selected": 12,
+    "clusters": 11,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
