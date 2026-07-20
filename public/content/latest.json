@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-19",
-  "generatedAt": "2026-07-19T14:24:13.794Z",
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-20T15:12:00.492Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
+      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 24.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS)... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 96 recency; local score 0.79, cluster 9.",
+      "sourceExcerpt": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it.",
+      "citationUrl": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "title": "RayRoPE: Projective Ray Positional Encoding for Multi-View Attention",
+      "url": "https://machinelearning.apple.com/research/rayrope-projective-ray",
+      "source": "Apple Machine Learning Research",
+      "category": "model_architecture_math",
+      "signal": "primary",
+      "whyItMatters": "We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Apple Machine Learning Research surfaced this as a model architecture math update. We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency similarity, and can be adaptive to...",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Apple Machine Learning Research; 90 trust, 70 topical match, 84 recency; local score 0.71, cluster 20.",
+      "sourceExcerpt": "We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency similarity, and can be adaptive to...",
+      "citationUrl": "https://machinelearning.apple.com/research/rayrope-projective-ray",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "intuitem/ciso-assistant-community",
+      "url": "https://github.com/intuitem/ciso-assistant-community",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,274 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+      "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ArchiveBox/ArchiveBox",
+      "url": "https://github.com/ArchiveBox/ArchiveBox",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🗃 Open source self-hosted web archiving. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ArchiveBox/ArchiveBox is appearing as builder momentum, not as a verified product claim. 🗃 Open source self-hosted web archiving.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 27,989 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "🗃 Open source self-hosted web archiving.",
+      "citationUrl": "https://github.com/ArchiveBox/ArchiveBox",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+      "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
       "source": "NVIDIA Blog",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+      "whyItMatters": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 70 topical match, 51 recency; local score 0.62, cluster 25.",
-      "sourceExcerpt": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
-      "citationUrl": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 19,778 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
-      "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "datadrivenconstruction/OpenConstructionERP",
-      "url": "https://github.com/datadrivenconstruction/OpenConstructionERP",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "datadrivenconstruction/OpenConstructionERP is appearing as builder momentum, not as a verified product claim. Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 524 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
-      "citationUrl": "https://github.com/datadrivenconstruction/OpenConstructionERP",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Introducing Mobile Layout for Amazon Quick dashboards",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/",
-      "source": "AWS Machine Learning Blog",
-      "category": "business_signal",
-      "signal": "primary",
-      "whyItMatters": "Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally... For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a business signal update. Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 55 topical match, 53 recency; local score 0.59, cluster 26.",
-      "sourceExcerpt": "Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/",
+      "evidence": "NVIDIA Blog; 88 trust, 45 topical match, 100 recency; local score 0.63, cluster 25.",
+      "sourceExcerpt": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+      "citationUrl": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "henrydaum/second-brain",
-      "url": "https://github.com/henrydaum/second-brain",
+      "title": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 583 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
-      "citationUrl": "https://github.com/henrydaum/second-brain",
+      "whyItMatters": "🚀 The fast, Pythonic way to build MCP servers and clients. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PrefectHQ/fastmcp is appearing as builder momentum, not as a verified product claim. 🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 26,423 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "citationUrl": "https://github.com/PrefectHQ/fastmcp",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "The first open-source harness builder for AI coding. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "coleam00/Archon is appearing as builder momentum, not as a verified product claim. The first open-source harness builder for AI coding.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 22,952 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "The first open-source harness builder for AI coding.",
+      "citationUrl": "https://github.com/coleam00/Archon",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 36,801 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "What's the deal with all the random weekly quota resets for agents lately?",
-      "url": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "title": "Soofi – Sovereign Open Source Foundation Models",
+      "url": "https://www.soofi.info/",
       "source": "Hacker News",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 61 points and 67 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 61 points and 67 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 61 HN points; local score 0.65, cluster 23.",
-      "sourceExcerpt": "Hacker News discussion signal with 61 points and 67 comments.",
-      "citationUrl": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "whyItMatters": "Hacker News discussion signal with 8 points and 2 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 8 points and 2 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 8 HN points; local score 0.66, cluster 23.",
+      "sourceExcerpt": "Hacker News discussion signal with 8 points and 2 comments.",
+      "citationUrl": "https://www.soofi.info/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "How Smartsheet built a remote MCP server on AWS",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
-    "source": "AWS Machine Learning Blog",
-    "category": "model_architecture_math",
-    "summary": "AWS Machine Learning Blog surfaced this as a model architecture math update. In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+    "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+    "source": "NVIDIA Blog",
+    "category": "training_infrastructure",
+    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a model architecture math update. In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it.",
-      "Why it matters: The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for model architecture math.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 55 topical match, 52 recency; local score 0.58, cluster 27."
+      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it.",
+      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for training infrastructure.",
+      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 96 recency; local score 0.79, cluster 9."
     ]
   },
   "bookmark": {
-    "title": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "title": "intuitem/ciso-assistant-community",
+    "url": "https://github.com/intuitem/ciso-assistant-community",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
+    "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 19,778 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini.",
-    "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
+    "evidence": "GitHub AI Systems Search; 4,274 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+    "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 659
+      "elapsedMs": 812
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 196
+      "elapsedMs": 296
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 337
+      "elapsedMs": 260
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 244
+      "selected": 1,
+      "elapsedMs": 134
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 460
+      "elapsedMs": 286
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 444
+      "elapsedMs": 544
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 359
+      "elapsedMs": 320
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 383
+      "elapsedMs": 236
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 322
+      "elapsedMs": 190
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 609
+      "elapsedMs": 486
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 461
+      "elapsedMs": 342
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 518
+      "selected": 2,
+      "elapsedMs": 335
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 1058
+      "elapsedMs": 1241
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 509
+      "elapsedMs": 349
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 661
+      "selected": 0,
+      "elapsedMs": 415
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 670
+      "elapsedMs": 1042
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 689
+      "elapsedMs": 437
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 633
+      "selected": 0,
+      "elapsedMs": 537
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1313
+      "elapsedMs": 1557
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1396
+      "elapsedMs": 1250
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,36 +344,35 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 700
+      "elapsedMs": 690
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
+      "fetched": 22,
       "selected": 2,
-      "elapsedMs": 1150
+      "elapsedMs": 749
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 15700,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 856
     }
   ],
   "stats": {
-    "fetched": 430,
-    "afterDedupe": 418,
-    "afterFreshness": 54,
-    "droppedStale": 364,
-    "selected": 12,
-    "clusters": 11,
-    "failures": 1,
+    "fetched": 452,
+    "afterDedupe": 439,
+    "afterFreshness": 69,
+    "droppedStale": 370,
+    "selected": 14,
+    "clusters": 13,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
