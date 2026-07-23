@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-22T15:04:44.262Z",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T15:09:36.834Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
-      "url": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
       "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the...",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 86 recency; local score 0.75, cluster 22.",
+      "sourceExcerpt": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the...",
+      "citationUrl": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "source": "Hugging Face Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a inference systems update. Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 90 topical match, 84 recency; local score 0.71, cluster 39.",
+      "sourceExcerpt": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "citationUrl": "https://huggingface.co/blog/nunchaku-diffusers",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+      "url": "http://arxiv.org/abs/2607.20345v1",
+      "source": "arXiv AI Systems Query",
       "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "Before a healthcare robot can be useful in the real world, it has to learn how the physical... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 77 topical match, 98 recency; local score 0.75, cluster 13.",
-      "sourceExcerpt": "Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back.",
-      "citationUrl": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+      "signal": "research",
+      "whyItMatters": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability.",
+      "citationUrl": "http://arxiv.org/abs/2607.20345v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
-      "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
-      "source": "Apple Machine Learning Research",
-      "category": "model_architecture_math",
-      "signal": "primary",
-      "whyItMatters": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a model architecture math update. Recent diffusion models enable high-quality video generation, but suffer from slow runtimes.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 85 topical match, 59 recency; local score 0.71, cluster 17.",
-      "sourceExcerpt": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes.",
-      "citationUrl": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
+      "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+      "url": "http://arxiv.org/abs/2607.20268v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 19.",
+      "sourceExcerpt": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction.",
+      "citationUrl": "http://arxiv.org/abs/2607.20268v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "casdoor/casdoor",
-      "url": "https://github.com/casdoor/casdoor",
+      "title": "tortuvshin/open-apps",
+      "url": "https://github.com/tortuvshin/open-apps",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "casdoor/casdoor is appearing as builder momentum, not as a verified product claim. An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure...",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 13,995 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure...",
-      "citationUrl": "https://github.com/casdoor/casdoor",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Observal/Observal",
-      "url": "https://github.com/Observal/Observal",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Observal is a local registry and analytics platform for your AI components. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Observal/Observal is appearing as builder momentum, not as a verified product claim. Observal is a local registry and analytics platform for your AI components.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,227 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Observal is a local registry and analytics platform for your AI components.",
-      "citationUrl": "https://github.com/Observal/Observal",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
-      "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. AI has entered the gigascale era.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 75 topical match, 75 recency; local score 0.70, cluster 18.",
-      "sourceExcerpt": "AI has entered the gigascale era.",
-      "citationUrl": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "whyItMatters": "A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tortuvshin/open-apps is appearing as builder momentum, not as a verified product claim. A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from production apps and find projects worth contributing to.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,334 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from production apps and find projects worth contributing to.",
+      "citationUrl": "https://github.com/tortuvshin/open-apps",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "keepandroidopen/keepandroidopen.github.io",
-      "url": "https://github.com/keepandroidopen/keepandroidopen.github.io",
+      "title": "mvanhorn/cli-printing-press",
+      "url": "https://github.com/mvanhorn/cli-printing-press",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Resisting Google's Android developer verification mandate... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "keepandroidopen/keepandroidopen.github.io is appearing as builder momentum, not as a verified product claim. Resisting Google's Android developer verification mandate",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 422 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "Resisting Google's Android developer verification mandate",
-      "citationUrl": "https://github.com/keepandroidopen/keepandroidopen.github.io",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "punkpeye/awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A collection of MCP servers. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "punkpeye/awesome-mcp-servers is appearing as builder momentum, not as a verified product claim. A collection of MCP servers.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 91,129 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "A collection of MCP servers.",
-      "citationUrl": "https://github.com/punkpeye/awesome-mcp-servers",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "source": "OpenAI News",
       "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 63 topical match, 90 recency; local score 0.69, cluster 19.",
-      "sourceExcerpt": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "citationUrl": "https://openai.com/index/introducing-openai-presence",
+      "signal": "builder-signal",
+      "whyItMatters": "This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mvanhorn/cli-printing-press is appearing as builder momentum, not as a verified product claim. Every API has a secret identity.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,221 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Every API has a secret identity.",
+      "citationUrl": "https://github.com/mvanhorn/cli-printing-press",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "e2b-dev/code-interpreter",
+      "url": "https://github.com/e2b-dev/code-interpreter",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "e2b-dev/code-interpreter is appearing as builder momentum, not as a verified product claim. Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,364 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app",
+      "citationUrl": "https://github.com/e2b-dev/code-interpreter",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "theopenco/llmgateway",
+      "url": "https://github.com/theopenco/llmgateway",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Route, manage, and analyze your LLM requests across multiple providers with a unified API interface. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "theopenco/llmgateway is appearing as builder momentum, not as a verified product claim. Route, manage, and analyze your LLM requests across multiple providers with a unified API interface.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,450 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Route, manage, and analyze your LLM requests across multiple providers with a unified API interface.",
+      "citationUrl": "https://github.com/theopenco/llmgateway",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
-    "url": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
-    "source": "NVIDIA Blog",
+    "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+    "url": "http://arxiv.org/abs/2607.20345v1",
+    "source": "arXiv AI Systems Query",
     "category": "training_infrastructure",
-    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a training infrastructure lead from the research stream. Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back.",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: NVIDIA Blog; 88 trust, 77 topical match, 98 recency; local score 0.75, cluster 13."
+      "What happened: This paper is a training infrastructure lead from the research stream. Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17."
     ]
   },
   "bookmark": {
-    "title": "casdoor/casdoor",
-    "url": "https://github.com/casdoor/casdoor",
+    "title": "tortuvshin/open-apps",
+    "url": "https://github.com/tortuvshin/open-apps",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "casdoor/casdoor is appearing as builder momentum, not as a verified product claim. An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure...",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 13,995 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure...",
-    "citationUrl": "https://github.com/casdoor/casdoor",
+    "whyItMatters": "A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "tortuvshin/open-apps is appearing as builder momentum, not as a verified product claim. A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from production apps and find projects worth contributing to.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 4,334 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from production apps and find projects worth contributing to.",
+    "citationUrl": "https://github.com/tortuvshin/open-apps",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1269
+      "elapsedMs": 424
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 925
+      "elapsedMs": 203
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 858
+      "selected": 1,
+      "elapsedMs": 400
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 584
+      "selected": 0,
+      "elapsedMs": 185
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 3170
+      "elapsedMs": 6955
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 911
+      "elapsedMs": 540
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 835
+      "selected": 1,
+      "elapsedMs": 312
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 657
+      "selected": 2,
+      "elapsedMs": 342
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 1632
+      "elapsedMs": 442
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 863
+      "elapsedMs": 412
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 941
+      "elapsedMs": 424
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 596
+      "selected": 4,
+      "elapsedMs": 419
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 742
+      "selected": 0,
+      "elapsedMs": 459
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 947
+      "elapsedMs": 521
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 726
+      "selected": 2,
+      "elapsedMs": 552
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 702
+      "elapsedMs": 513
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 994
+      "elapsedMs": 484
     },
     {
       "id": "databricks-blog",
@@ -316,18 +316,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 4,
-      "elapsedMs": 676
+      "selected": 2,
+      "elapsedMs": 634
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 15700,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1441
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1351
+      "elapsedMs": 1423
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 936
+      "selected": 2,
+      "elapsedMs": 877
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 32,
-      "selected": 2,
-      "elapsedMs": 1174
+      "fetched": 28,
+      "selected": 1,
+      "elapsedMs": 787
     },
     {
       "id": "google-news-fallback",
@@ -362,18 +361,18 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 983
+      "selected": 0,
+      "elapsedMs": 939
     }
   ],
   "stats": {
-    "fetched": 427,
-    "afterDedupe": 406,
-    "afterFreshness": 124,
-    "droppedStale": 282,
+    "fetched": 458,
+    "afterDedupe": 440,
+    "afterFreshness": 155,
+    "droppedStale": 285,
     "selected": 28,
-    "clusters": 27,
-    "failures": 1,
+    "clusters": 28,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
