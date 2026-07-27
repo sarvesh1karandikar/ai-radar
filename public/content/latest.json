@@ -1,158 +1,158 @@
 {
-  "date": "2026-07-26",
-  "generatedAt": "2026-07-26T14:37:09.174Z",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T15:42:29.709Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
+      "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+      "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+      "source": "Berkeley BAIR Blog",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 22.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "whyItMatters": "--> --> Overview of ABBEL compared to traditional recursive summarization. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Berkeley BAIR Blog surfaced this as a multi agent systems update. --> --> Overview of ABBEL compared to traditional recursive summarization.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Berkeley BAIR Blog; 82 trust, 100 topical match, 68 recency; local score 0.74, cluster 22.",
+      "sourceExcerpt": "--> --> Overview of ABBEL compared to traditional recursive summarization.",
+      "citationUrl": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Embodied Reasoning",
+      "url": "https://deepmind.google/models/gemini-robotics/embodied-reasoning/",
+      "source": "Google DeepMind",
+      "category": "model_architecture_math",
+      "signal": "primary",
+      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google DeepMind surfaced this as a model architecture math update. Official Google DeepMind page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google DeepMind; 96 trust, 95 topical match, 84 recency; local score 0.74, cluster 23.",
+      "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
+      "citationUrl": "https://deepmind.google/models/gemini-robotics/embodied-reasoning/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
-      "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 68 topical match, 51 recency; local score 0.62, cluster 23.",
-      "sourceExcerpt": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "mixelpixx/KiCAD-MCP-Server",
-      "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "title": "yym68686/uni-api",
+      "url": "https://github.com/yym68686/uni-api",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mixelpixx/KiCAD-MCP-Server is appearing as builder momentum, not as a verified product claim. KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
+      "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,651 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
-      "citationUrl": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "evidence": "GitHub AI Systems Search; 1,249 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
+      "citationUrl": "https://github.com/yym68686/uni-api",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "yaojingang/GEOFlow",
-      "url": "https://github.com/yaojingang/GEOFlow",
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "yaojingang/GEOFlow is appearing as builder momentum, not as a verified product claim. Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,032 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
-      "citationUrl": "https://github.com/yaojingang/GEOFlow",
+      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,855 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
-      "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
+      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 65 topical match, 54 recency; local score 0.61, cluster 24.",
-      "sourceExcerpt": "This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
+      "whyItMatters": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs,... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 77 topical match, 84 recency; local score 0.73, cluster 26.",
+      "sourceExcerpt": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems.",
+      "citationUrl": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "erikdarlingdata/PerformanceMonitor",
-      "url": "https://github.com/erikdarlingdata/PerformanceMonitor",
+      "title": "scrypster/muninndb",
+      "url": "https://github.com/scrypster/muninndb",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Free, open-source SQL Server performance monitoring — 32 collectors, real-time alerts, graphical plan viewer, MCP server for AI... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "erikdarlingdata/PerformanceMonitor is appearing as builder momentum, not as a verified product claim. Free, open-source SQL Server performance monitoring — 32 collectors, real-time alerts, graphical plan viewer, MCP server for AI analysis.",
+      "whyItMatters": "Not a vector store, not a graph DB, not a RAG wrapper. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "scrypster/muninndb is appearing as builder momentum, not as a verified product claim. A new class of data storage.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 444 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Free, open-source SQL Server performance monitoring — 32 collectors, real-time alerts, graphical plan viewer, MCP server for AI analysis.",
-      "citationUrl": "https://github.com/erikdarlingdata/PerformanceMonitor",
+      "evidence": "GitHub AI Systems Search; 310 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "A new class of data storage.",
+      "citationUrl": "https://github.com/scrypster/muninndb",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "CodeGraphContext/CodeGraphContext",
-      "url": "https://github.com/CodeGraphContext/CodeGraphContext",
+      "title": "comet-ml/opik",
+      "url": "https://github.com/comet-ml/opik",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "CodeGraphContext/CodeGraphContext is appearing as builder momentum, not as a verified product claim. An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,994 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.",
-      "citationUrl": "https://github.com/CodeGraphContext/CodeGraphContext",
+      "whyItMatters": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "comet-ml/opik is appearing as builder momentum, not as a verified product claim. Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 20,913 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "citationUrl": "https://github.com/comet-ml/opik",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Clinical failure rates over the decades: yikes",
-      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
-      "source": "Hacker News",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI News",
       "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 118 points and 105 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 118 points and 105 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 118 HN points; local score 0.70, cluster 19.",
-      "sourceExcerpt": "Hacker News discussion signal with 118 points and 105 comments.",
-      "citationUrl": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
-      "contextQuality": "thin public context",
+      "signal": "primary",
+      "whyItMatters": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a developer tools update. New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 87 recency; local score 0.70, cluster 27.",
+      "sourceExcerpt": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "citationUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-    "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
-    "source": "AWS Machine Learning Blog",
+    "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+    "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+    "source": "Berkeley BAIR Blog",
     "category": "multi_agent_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "Berkeley BAIR Blog surfaced this as a multi agent systems update. --> --> Overview of ABBEL compared to traditional recursive summarization. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock.",
+      "What happened: Berkeley BAIR Blog surfaced this as a multi agent systems update. --> --> Overview of ABBEL compared to traditional recursive summarization.",
       "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 68 topical match, 51 recency; local score 0.62, cluster 23."
+      "Evidence: Berkeley BAIR Blog; 82 trust, 100 topical match, 68 recency; local score 0.74, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "mixelpixx/KiCAD-MCP-Server",
-    "url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+    "title": "yym68686/uni-api",
+    "url": "https://github.com/yym68686/uni-api",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "mixelpixx/KiCAD-MCP-Server is appearing as builder momentum, not as a verified product claim. KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
+    "whyItMatters": "This is a project that unifies the management of LLM APIs. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "yym68686/uni-api is appearing as builder momentum, not as a verified product claim. This is a project that unifies the management of LLM APIs.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,651 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "KiCAD MCP is a Model Context Protocol (MCP) implementation that enables Large Language Models (LLMs) like Claude to directly interact with KiCAD for printed circuit board design.",
-    "citationUrl": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+    "evidence": "GitHub AI Systems Search; 1,249 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "This is a project that unifies the management of LLM APIs.",
+    "citationUrl": "https://github.com/yym68686/uni-api",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 207
+      "selected": 1,
+      "elapsedMs": 235
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 460
+      "elapsedMs": 202
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 438
+      "elapsedMs": 323
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 183
+      "elapsedMs": 231
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 296
+      "elapsedMs": 223
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 0,
-      "elapsedMs": 665
+      "selected": 1,
+      "elapsedMs": 386
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 338
+      "elapsedMs": 307
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 393
+      "elapsedMs": 274
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 417
+      "elapsedMs": 354
     },
     {
       "id": "bair-blog",
@@ -244,8 +244,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 498
+      "selected": 1,
+      "elapsedMs": 737
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 545
+      "elapsedMs": 418
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 478
+      "selected": 2,
+      "elapsedMs": 366
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 574
+      "selected": 2,
+      "elapsedMs": 586
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 578
+      "elapsedMs": 433
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 533
+      "selected": 0,
+      "elapsedMs": 410
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 470
+      "elapsedMs": 369
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 586
+      "elapsedMs": 439
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 497
+      "elapsedMs": 456
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1579
+      "elapsedMs": 1286
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1213
+      "elapsedMs": 1207
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 544
+      "elapsedMs": 430
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
+      "fetched": 24,
       "selected": 2,
-      "elapsedMs": 802
+      "elapsedMs": 701
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 737
+      "elapsedMs": 762
     }
   ],
   "stats": {
-    "fetched": 451,
-    "afterDedupe": 434,
-    "afterFreshness": 79,
-    "droppedStale": 355,
-    "selected": 14,
-    "clusters": 13,
+    "fetched": 454,
+    "afterDedupe": 438,
+    "afterFreshness": 90,
+    "droppedStale": 348,
+    "selected": 18,
+    "clusters": 15,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
