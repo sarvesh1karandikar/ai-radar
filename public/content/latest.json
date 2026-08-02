@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-01",
-  "generatedAt": "2026-08-01T14:26:53.942Z",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T14:36:39.351Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI News",
+      "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching that gives you precise control over which parts of your prompt are cached and reused.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 52 recency; local score 0.67, cluster 39.",
-      "sourceExcerpt": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching that gives you precise control over which parts of your prompt are cached and reused.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "whyItMatters": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 50 recency; local score 0.64, cluster 18.",
+      "sourceExcerpt": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+      "citationUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Investigating Incidents Cybersecurity Evals",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "source": "Anthropic",
-      "category": "model_security",
+      "category": "business_signal",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 85 topical match, 59 recency; local score 0.67, cluster 38.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 19.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
-      "url": "http://arxiv.org/abs/2607.28591v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.72, cluster 18.",
-      "sourceExcerpt": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation.",
-      "citationUrl": "http://arxiv.org/abs/2607.28591v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Machines that know they are aging: a framework for hardware-aware autonomous intelligence",
-      "url": "http://arxiv.org/abs/2607.28451v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Autonomous systems inevitably age, yet their artificial intelligence typically assumes hardware remains in its original condition. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Autonomous systems inevitably age, yet their artificial intelligence typically assumes hardware remains in its original condition.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 26.",
-      "sourceExcerpt": "Autonomous systems inevitably age, yet their artificial intelligence typically assumes hardware remains in its original condition.",
-      "citationUrl": "http://arxiv.org/abs/2607.28451v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
+      "title": "qixing-jk/all-api-hub",
+      "url": "https://github.com/qixing-jk/all-api-hub",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "whyItMatters": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "qixing-jk/all-api-hub is appearing as builder momentum, not as a verified product claim. All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,856 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "evidence": "GitHub AI Systems Search; 4,623 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
+      "citationUrl": "https://github.com/qixing-jk/all-api-hub",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 14,279 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
+      "url": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
+      "source": "NVIDIA Developer Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a developer tools update. NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 75 topical match, 51 recency; local score 0.60, cluster 20.",
+      "sourceExcerpt": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
+      "citationUrl": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "owasp-noir/noir",
-      "url": "https://github.com/owasp-noir/noir",
+      "title": "luckyPipewrench/pipelock",
+      "url": "https://github.com/luckyPipewrench/pipelock",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Hunt every Endpoint in your code, expose Shadow APIs, map the Attack Surface. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "owasp-noir/noir is appearing as builder momentum, not as a verified product claim. Hunt every Endpoint in your code, expose Shadow APIs, map the Attack Surface.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,362 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "Hunt every Endpoint in your code, expose Shadow APIs, map the Attack Surface.",
-      "citationUrl": "https://github.com/owasp-noir/noir",
+      "whyItMatters": "Open-source AI agent firewall for MCP security and agent egress. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "luckyPipewrench/pipelock is appearing as builder momentum, not as a verified product claim. Open-source AI agent firewall for MCP security and agent egress.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 786 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Open-source AI agent firewall for MCP security and agent egress.",
+      "citationUrl": "https://github.com/luckyPipewrench/pipelock",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "henrydaum/second-brain",
+      "url": "https://github.com/henrydaum/second-brain",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 592 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "citationUrl": "https://github.com/henrydaum/second-brain",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 97 points and 17 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 97 points and 17 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 97 HN points; local score 0.67, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 97 points and 17 comments.",
+      "citationUrl": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
       "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "ArchiveBox/ArchiveBox",
-      "url": "https://github.com/ArchiveBox/ArchiveBox",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "🗃 Open source self-hosted web archiving. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ArchiveBox/ArchiveBox is appearing as builder momentum, not as a verified product claim. 🗃 Open source self-hosted web archiving.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 28,064 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "🗃 Open source self-hosted web archiving.",
-      "citationUrl": "https://github.com/ArchiveBox/ArchiveBox",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "aipoch/open-science",
-      "url": "https://github.com/aipoch/open-science",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open Science is an open-source, local-first, model-agnostic AI research workbench for scientific discovery. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "aipoch/open-science is appearing as builder momentum, not as a verified product claim. Open Science is an open-source, local-first, model-agnostic AI research workbench for scientific discovery.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,354 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Open Science is an open-source, local-first, model-agnostic AI research workbench for scientific discovery.",
-      "citationUrl": "https://github.com/aipoch/open-science",
-      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
-    "url": "http://arxiv.org/abs/2607.28591v1",
-    "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Advancing responsible AI across Europe",
+    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "source": "OpenAI News",
+    "category": "model_security",
+    "summary": "OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 53 recency; local score 0.72, cluster 18."
+      "What happened: OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+      "Why it matters: The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for model security.",
+      "Evidence: OpenAI News; 98 trust, 70 topical match, 50 recency; local score 0.64, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "codenameone/CodenameOne",
-    "url": "https://github.com/codenameone/CodenameOne",
+    "title": "qixing-jk/all-api-hub",
+    "url": "https://github.com/qixing-jk/all-api-hub",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+    "whyItMatters": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "qixing-jk/all-api-hub is appearing as builder momentum, not as a verified product claim. All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,856 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-    "citationUrl": "https://github.com/codenameone/CodenameOne",
+    "evidence": "GitHub AI Systems Search; 4,623 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
+    "citationUrl": "https://github.com/qixing-jk/all-api-hub",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 408
+      "elapsedMs": 302
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 299
+      "elapsedMs": 141
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 238
+      "selected": 0,
+      "elapsedMs": 390
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 118
+      "elapsedMs": 111
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 256
+      "selected": 1,
+      "elapsedMs": 318
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 443
+      "elapsedMs": 513
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 165
+      "selected": 0,
+      "elapsedMs": 290
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 221
+      "selected": 0,
+      "elapsedMs": 346
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 286
+      "elapsedMs": 367
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 736
+      "elapsedMs": 616
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 356
+      "elapsedMs": 513
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 483
+      "elapsedMs": 392
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 529
+      "elapsedMs": 488
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 425
+      "elapsedMs": 458
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 568
+      "selected": 2,
+      "elapsedMs": 454
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 412
+      "elapsedMs": 418
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 447
+      "elapsedMs": 407
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 529
+      "selected": 0,
+      "elapsedMs": 412
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1297
+      "selected": 0,
+      "elapsedMs": 1524
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1189
+      "elapsedMs": 1151
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 570
+      "selected": 0,
+      "elapsedMs": 509
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
+      "fetched": 18,
       "selected": 2,
-      "elapsedMs": 797
+      "elapsedMs": 782
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 968
+      "elapsedMs": 804
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 438,
-    "afterFreshness": 132,
-    "droppedStale": 306,
-    "selected": 28,
-    "clusters": 24,
+    "fetched": 448,
+    "afterDedupe": 433,
+    "afterFreshness": 74,
+    "droppedStale": 359,
+    "selected": 16,
+    "clusters": 14,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
