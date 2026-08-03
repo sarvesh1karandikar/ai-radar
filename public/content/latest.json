@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-02",
-  "generatedAt": "2026-08-02T14:36:39.351Z",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T15:43:51.343Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "source": "OpenAI News",
+      "title": "Investigating Incidents Cybersecurity Evals",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "source": "Anthropic",
       "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 70 topical match, 50 recency; local score 0.64, cluster 18.",
-      "sourceExcerpt": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
-      "citationUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 19.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 85 topical match, 99 recency; local score 0.74, cluster 19.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "citationUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "qixing-jk/all-api-hub",
-      "url": "https://github.com/qixing-jk/all-api-hub",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "qixing-jk/all-api-hub is appearing as builder momentum, not as a verified product claim. All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,623 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
-      "citationUrl": "https://github.com/qixing-jk/all-api-hub",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "NVIDIA/TensorRT-LLM",
-      "url": "https://github.com/NVIDIA/TensorRT-LLM",
-      "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 14,279 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
-      "url": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
-      "source": "NVIDIA Developer Blog",
-      "category": "developer_tools",
+      "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
+      "url": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+      "source": "Apple Machine Learning Research",
+      "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a developer tools update. NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 75 topical match, 51 recency; local score 0.60, cluster 20.",
-      "sourceExcerpt": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
-      "citationUrl": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its... For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Apple Machine Learning Research; 90 trust, 65 topical match, 84 recency; local score 0.69, cluster 21.",
+      "sourceExcerpt": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
+      "citationUrl": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "yvgude/lean-ctx",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "yvgude/lean-ctx is appearing as builder momentum, not as a verified product claim. Control what your AI can see.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,485 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "Control what your AI can see.",
+      "citationUrl": "https://github.com/yvgude/lean-ctx",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "scrypster/muninndb",
+      "url": "https://github.com/scrypster/muninndb",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Not a vector store, not a graph DB, not a RAG wrapper. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "scrypster/muninndb is appearing as builder momentum, not as a verified product claim. A new class of data storage.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 323 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "A new class of data storage.",
+      "citationUrl": "https://github.com/scrypster/muninndb",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "source": "Cloudflare AI",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Serving frontier models like Kimi and GLM means fighting for GPU memory. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Cloudflare AI surfaced this as a inference systems update. Serving frontier models like Kimi and GLM means fighting for GPU memory.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Cloudflare AI; 78 trust, 65 topical match, 97 recency; local score 0.66, cluster 22.",
+      "sourceExcerpt": "Serving frontier models like Kimi and GLM means fighting for GPU memory.",
+      "citationUrl": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "luckyPipewrench/pipelock",
-      "url": "https://github.com/luckyPipewrench/pipelock",
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source AI agent firewall for MCP security and agent egress. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "luckyPipewrench/pipelock is appearing as builder momentum, not as a verified product claim. Open-source AI agent firewall for MCP security and agent egress.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 786 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "Open-source AI agent firewall for MCP security and agent egress.",
-      "citationUrl": "https://github.com/luckyPipewrench/pipelock",
+      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,856 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "henrydaum/second-brain",
-      "url": "https://github.com/henrydaum/second-brain",
+      "title": "smg-project/smg",
+      "url": "https://github.com/smg-project/smg",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 592 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
-      "citationUrl": "https://github.com/henrydaum/second-brain",
+      "whyItMatters": "Engine-agnostic LLM gateway in Rust. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "smg-project/smg is appearing as builder momentum, not as a verified product claim. Engine-agnostic LLM gateway in Rust.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 439 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "Engine-agnostic LLM gateway in Rust.",
+      "citationUrl": "https://github.com/smg-project/smg",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
-      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
       "source": "Hacker News",
       "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 97 points and 17 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 97 points and 17 comments.",
+      "whyItMatters": "Hacker News discussion signal with 875 points and 450 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 875 points and 450 comments.",
       "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 97 HN points; local score 0.67, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 97 points and 17 comments.",
-      "citationUrl": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "evidence": "Hacker News; 875 HN points; local score 0.74, cluster 20.",
+      "sourceExcerpt": "Hacker News discussion signal with 875 points and 450 comments.",
+      "citationUrl": "https://qwen.ai/blog?id=qwen3.8",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Advancing responsible AI across Europe",
-    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-    "source": "OpenAI News",
+    "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
+    "url": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+    "source": "Apple Machine Learning Research",
     "category": "model_security",
-    "summary": "OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: OpenAI News surfaced this as a model security update. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+      "What happened: Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
       "Why it matters: The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for model security.",
-      "Evidence: OpenAI News; 98 trust, 70 topical match, 50 recency; local score 0.64, cluster 18."
+      "Evidence: Apple Machine Learning Research; 90 trust, 65 topical match, 84 recency; local score 0.69, cluster 21."
     ]
   },
   "bookmark": {
-    "title": "qixing-jk/all-api-hub",
-    "url": "https://github.com/qixing-jk/all-api-hub",
+    "title": "yvgude/lean-ctx",
+    "url": "https://github.com/yvgude/lean-ctx",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "qixing-jk/all-api-hub is appearing as builder momentum, not as a verified product claim. All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,623 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
-    "citationUrl": "https://github.com/qixing-jk/all-api-hub",
+    "whyItMatters": "LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "yvgude/lean-ctx is appearing as builder momentum, not as a verified product claim. Control what your AI can see.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 3,485 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "Control what your AI can see.",
+    "citationUrl": "https://github.com/yvgude/lean-ctx",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 302
+      "selected": 0,
+      "elapsedMs": 231
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 141
+      "elapsedMs": 247
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 390
+      "elapsedMs": 491
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 111
+      "selected": 1,
+      "elapsedMs": 96
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 318
+      "selected": 2,
+      "elapsedMs": 228
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 513
+      "elapsedMs": 609
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 290
+      "elapsedMs": 444
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 346
+      "elapsedMs": 320
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 367
+      "elapsedMs": 378
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 616
+      "elapsedMs": 478
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 513
+      "elapsedMs": 491
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 392
+      "elapsedMs": 267
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 488
+      "selected": 0,
+      "elapsedMs": 453
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 458
+      "selected": 3,
+      "elapsedMs": 494
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 454
+      "selected": 0,
+      "elapsedMs": 412
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 418
+      "elapsedMs": 335
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 407
+      "elapsedMs": 524
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 412
+      "selected": 1,
+      "elapsedMs": 323
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1524
+      "elapsedMs": 1377
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1151
+      "elapsedMs": 1380
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 509
+      "elapsedMs": 486
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 18,
+      "fetched": 27,
       "selected": 2,
-      "elapsedMs": 782
+      "elapsedMs": 743
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 804
+      "elapsedMs": 650
     }
   ],
   "stats": {
-    "fetched": 448,
-    "afterDedupe": 433,
-    "afterFreshness": 74,
-    "droppedStale": 359,
-    "selected": 16,
-    "clusters": 14,
+    "fetched": 457,
+    "afterDedupe": 443,
+    "afterFreshness": 81,
+    "droppedStale": 362,
+    "selected": 17,
+    "clusters": 15,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
