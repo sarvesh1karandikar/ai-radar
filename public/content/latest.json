@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-03",
-  "generatedAt": "2026-08-03T15:43:51.343Z",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T15:24:34.769Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Investigating Incidents Cybersecurity Evals",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "source": "Anthropic",
-      "category": "model_security",
+      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+      "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+      "source": "Meta Engineering",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 85 topical match, 99 recency; local score 0.74, cluster 19.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
-      "url": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
-      "source": "Apple Machine Learning Research",
-      "category": "model_security",
-      "signal": "primary",
-      "whyItMatters": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its... For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 65 topical match, 84 recency; local score 0.69, cluster 21.",
-      "sourceExcerpt": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
-      "citationUrl": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+      "whyItMatters": "Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a training infrastructure update. Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 80 topical match, 78 recency; local score 0.71, cluster 37.",
+      "sourceExcerpt": "Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs.",
+      "citationUrl": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "yvgude/lean-ctx",
-      "url": "https://github.com/yvgude/lean-ctx",
-      "source": "GitHub AI Systems Search",
+      "title": "As AI Increases Demands on Memory, Storage Steps Up",
+      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "source": "NVIDIA Blog",
+      "category": "model_architecture_math",
+      "signal": "primary",
+      "whyItMatters": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a model architecture math update. Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory.",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 65 topical match, 100 recency; local score 0.72, cluster 33.",
+      "sourceExcerpt": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory.",
+      "citationUrl": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
+      "url": "http://arxiv.org/abs/2608.02505v1",
+      "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "yvgude/lean-ctx is appearing as builder momentum, not as a verified product claim. Control what your AI can see.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,485 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "Control what your AI can see.",
-      "citationUrl": "https://github.com/yvgude/lean-ctx",
+      "signal": "research",
+      "whyItMatters": "Can scientific abduction occur without continuous sensorimotor embodiment?... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment?",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "Can scientific abduction occur without continuous sensorimotor embodiment?",
+      "citationUrl": "http://arxiv.org/abs/2608.02505v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "scrypster/muninndb",
-      "url": "https://github.com/scrypster/muninndb",
+      "title": "ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision",
+      "url": "http://arxiv.org/abs/2608.02444v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18.",
+      "sourceExcerpt": "LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete.",
+      "citationUrl": "http://arxiv.org/abs/2608.02444v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "NVIDIA-NeMo/Speech",
+      "url": "https://github.com/NVIDIA-NeMo/Speech",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Not a vector store, not a graph DB, not a RAG wrapper. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "scrypster/muninndb is appearing as builder momentum, not as a verified product claim. A new class of data storage.",
+      "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 323 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "A new class of data storage.",
-      "citationUrl": "https://github.com/scrypster/muninndb",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-      "source": "Cloudflare AI",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Serving frontier models like Kimi and GLM means fighting for GPU memory. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Cloudflare AI surfaced this as a inference systems update. Serving frontier models like Kimi and GLM means fighting for GPU memory.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Cloudflare AI; 78 trust, 65 topical match, 97 recency; local score 0.66, cluster 22.",
-      "sourceExcerpt": "Serving frontier models like Kimi and GLM means fighting for GPU memory.",
-      "citationUrl": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "evidence": "GitHub AI Systems Search; 17,877 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
+      "title": "prowler-cloud/prowler",
+      "url": "https://github.com/prowler-cloud/prowler",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "model_security",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,856 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "whyItMatters": "Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud... Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "prowler-cloud/prowler is appearing as builder momentum, not as a verified product claim. Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 14,528 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment.",
+      "citationUrl": "https://github.com/prowler-cloud/prowler",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "smg-project/smg",
-      "url": "https://github.com/smg-project/smg",
+      "title": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Engine-agnostic LLM gateway in Rust. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "smg-project/smg is appearing as builder momentum, not as a verified product claim. Engine-agnostic LLM gateway in Rust.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 439 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "Engine-agnostic LLM gateway in Rust.",
-      "citationUrl": "https://github.com/smg-project/smg",
+      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 37,495 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
+      "citationUrl": "https://github.com/PostHog/posthog",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "source": "Hacker News",
-      "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 875 points and 450 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 875 points and 450 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 875 HN points; local score 0.74, cluster 20.",
-      "sourceExcerpt": "Hacker News discussion signal with 875 points and 450 comments.",
-      "citationUrl": "https://qwen.ai/blog?id=qwen3.8",
-      "contextQuality": "thin public context",
+      "title": "SigNoz/signoz",
+      "url": "https://github.com/SigNoz/signoz",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "SigNoz/signoz is appearing as builder momentum, not as a verified product claim. SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 31,774 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
+      "citationUrl": "https://github.com/SigNoz/signoz",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
-    "url": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
-    "source": "Apple Machine Learning Research",
-    "category": "model_security",
-    "summary": "Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
+    "url": "http://arxiv.org/abs/2608.02505v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment? It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Apple Machine Learning Research surfaced this as a model security update. Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored.",
-      "Why it matters: The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for model security.",
-      "Evidence: Apple Machine Learning Research; 90 trust, 65 topical match, 84 recency; local score 0.69, cluster 21."
+      "What happened: This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment?",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "yvgude/lean-ctx",
-    "url": "https://github.com/yvgude/lean-ctx",
+    "title": "NVIDIA-NeMo/Speech",
+    "url": "https://github.com/NVIDIA-NeMo/Speech",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "yvgude/lean-ctx is appearing as builder momentum, not as a verified product claim. Control what your AI can see.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 3,485 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "Control what your AI can see.",
-    "citationUrl": "https://github.com/yvgude/lean-ctx",
+    "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 17,877 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+    "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 231
+      "selected": 2,
+      "elapsedMs": 304
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 247
+      "selected": 1,
+      "elapsedMs": 159
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 491
+      "elapsedMs": 259
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 96
+      "elapsedMs": 288
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 228
+      "selected": 1,
+      "elapsedMs": 283
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 609
+      "elapsedMs": 472
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 444
+      "selected": 1,
+      "elapsedMs": 356
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 320
+      "selected": 1,
+      "elapsedMs": 323
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 378
+      "elapsedMs": 383
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 478
+      "elapsedMs": 825
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 491
+      "selected": 1,
+      "elapsedMs": 400
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 267
+      "selected": 2,
+      "elapsedMs": 509
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 453
+      "selected": 1,
+      "elapsedMs": 500
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 494
+      "selected": 4,
+      "elapsedMs": 512
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 412
+      "selected": 2,
+      "elapsedMs": 564
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 335
+      "elapsedMs": 601
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 524
+      "elapsedMs": 611
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 323
+      "elapsedMs": 650
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1377
+      "selected": 4,
+      "elapsedMs": 1644
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1380
+      "elapsedMs": 1309
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 486
+      "elapsedMs": 588
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 2,
-      "elapsedMs": 743
+      "fetched": 25,
+      "selected": 1,
+      "elapsedMs": 818
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 650
+      "selected": 1,
+      "elapsedMs": 961
     }
   ],
   "stats": {
-    "fetched": 457,
-    "afterDedupe": 443,
-    "afterFreshness": 81,
-    "droppedStale": 362,
-    "selected": 17,
-    "clusters": 15,
+    "fetched": 455,
+    "afterDedupe": 436,
+    "afterFreshness": 138,
+    "droppedStale": 298,
+    "selected": 28,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
