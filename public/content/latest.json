@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-04T15:24:34.769Z",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T15:14:03.593Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-      "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-      "source": "Meta Engineering",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI News",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a model security update. OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 79 recency; local score 0.69, cluster 44.",
+      "sourceExcerpt": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "citationUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "source": "GitHub AI and ML Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Learn how to build tools to simplify how you work—without writing a single line of code. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. Learn how to build tools to simplify how you work—without writing a single line of code.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI and ML Blog; 72 trust, 90 topical match, 79 recency; local score 0.69, cluster 45.",
+      "sourceExcerpt": "Learn how to build tools to simplify how you work—without writing a single line of code.",
+      "citationUrl": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "url": "http://arxiv.org/abs/2608.03972v1",
+      "source": "arXiv AI Systems Query",
       "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Meta Engineering surfaced this as a training infrastructure update. Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Meta Engineering; 84 trust, 80 topical match, 78 recency; local score 0.71, cluster 37.",
-      "sourceExcerpt": "Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs.",
-      "citationUrl": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "As AI Increases Demands on Memory, Storage Steps Up",
-      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "source": "NVIDIA Blog",
-      "category": "model_architecture_math",
-      "signal": "primary",
-      "whyItMatters": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a model architecture math update. Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 65 topical match, 100 recency; local score 0.72, cluster 33.",
-      "sourceExcerpt": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory.",
-      "citationUrl": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
-      "url": "http://arxiv.org/abs/2608.02505v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Can scientific abduction occur without continuous sensorimotor embodiment?... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment?",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16.",
-      "sourceExcerpt": "Can scientific abduction occur without continuous sensorimotor embodiment?",
-      "citationUrl": "http://arxiv.org/abs/2608.02505v1",
+      "whyItMatters": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models,... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20.",
+      "sourceExcerpt": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models.",
+      "citationUrl": "http://arxiv.org/abs/2608.03972v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision",
-      "url": "http://arxiv.org/abs/2608.02444v1",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "url": "http://arxiv.org/abs/2608.04009v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete.",
+      "whyItMatters": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 18.",
-      "sourceExcerpt": "LLM-agent evaluations often produce task outcomes long before the full benchmark run is complete.",
-      "citationUrl": "http://arxiv.org/abs/2608.02444v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI.",
+      "citationUrl": "http://arxiv.org/abs/2608.04009v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "NVIDIA-NeMo/Speech",
-      "url": "https://github.com/NVIDIA-NeMo/Speech",
+      "title": "jgravelle/jcodemunch-mcp",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "whyItMatters": "Cut AI token costs 95%+ on code exploration. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "jgravelle/jcodemunch-mcp is appearing as builder momentum, not as a verified product claim. Cut AI token costs 95%+ on code exploration.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 17,877 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-      "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
+      "evidence": "GitHub AI Systems Search; 2,510 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Cut AI token costs 95%+ on code exploration.",
+      "citationUrl": "https://github.com/jgravelle/jcodemunch-mcp",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "prowler-cloud/prowler",
-      "url": "https://github.com/prowler-cloud/prowler",
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
-      "category": "model_security",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud... Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "prowler-cloud/prowler is appearing as builder momentum, not as a verified product claim. Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment.",
-      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 14,528 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "Prowler is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment.",
-      "citationUrl": "https://github.com/prowler-cloud/prowler",
+      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,857 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
+      "title": "pollinations/pollinations",
+      "url": "https://github.com/pollinations/pollinations",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 37,495 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Your Friendly Open-Source Gen-AI Platform... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pollinations/pollinations is appearing as builder momentum, not as a verified product claim. Your Friendly Open-Source Gen-AI Platform",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 4,926 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Your Friendly Open-Source Gen-AI Platform",
+      "citationUrl": "https://github.com/pollinations/pollinations",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "SigNoz/signoz",
-      "url": "https://github.com/SigNoz/signoz",
+      "title": "spiceai/spiceai",
+      "url": "https://github.com/spiceai/spiceai",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SigNoz/signoz is appearing as builder momentum, not as a verified product claim. SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
+      "whyItMatters": "Add a real-time analytics node to your operational database. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "spiceai/spiceai is appearing as builder momentum, not as a verified product claim. Add a real-time analytics node to your operational database.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 31,774 GitHub stars; local score 0.83, cluster 5.",
-      "sourceExcerpt": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
-      "citationUrl": "https://github.com/SigNoz/signoz",
+      "evidence": "GitHub AI Systems Search; 3,057 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Add a real-time analytics node to your operational database.",
+      "citationUrl": "https://github.com/spiceai/spiceai",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
-    "url": "http://arxiv.org/abs/2608.02505v1",
+    "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+    "url": "http://arxiv.org/abs/2608.03972v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment? It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Can scientific abduction occur without continuous sensorimotor embodiment?",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 16."
+      "What happened: This paper is a training infrastructure lead from the research stream. On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "NVIDIA-NeMo/Speech",
-    "url": "https://github.com/NVIDIA-NeMo/Speech",
+    "title": "jgravelle/jcodemunch-mcp",
+    "url": "https://github.com/jgravelle/jcodemunch-mcp",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+    "whyItMatters": "Cut AI token costs 95%+ on code exploration. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "jgravelle/jcodemunch-mcp is appearing as builder momentum, not as a verified product claim. Cut AI token costs 95%+ on code exploration.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 17,877 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-    "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
+    "evidence": "GitHub AI Systems Search; 2,510 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Cut AI token costs 95%+ on code exploration.",
+    "citationUrl": "https://github.com/jgravelle/jcodemunch-mcp",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 304
+      "selected": 1,
+      "elapsedMs": 288
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 159
+      "selected": 0,
+      "elapsedMs": 430
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 259
+      "elapsedMs": 424
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 288
+      "selected": 0,
+      "elapsedMs": 112
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 283
+      "elapsedMs": 248
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 472
+      "elapsedMs": 535
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 356
+      "elapsedMs": 404
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 323
+      "selected": 2,
+      "elapsedMs": 303
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 383
+      "elapsedMs": 355
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 825
+      "elapsedMs": 482
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 1,
-      "elapsedMs": 400
+      "elapsedMs": 457
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 509
+      "selected": 3,
+      "elapsedMs": 453
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 500
+      "elapsedMs": 653
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 4,
-      "elapsedMs": 512
+      "elapsedMs": 488
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 564
+      "elapsedMs": 567
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 601
+      "elapsedMs": 442
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 611
+      "elapsedMs": 499
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 650
+      "elapsedMs": 433
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1644
+      "elapsedMs": 1623
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1309
+      "elapsedMs": 1364
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 588
+      "selected": 1,
+      "elapsedMs": 477
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
+      "fetched": 32,
       "selected": 1,
-      "elapsedMs": 818
+      "elapsedMs": 1015
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 961
+      "elapsedMs": 761
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 436,
-    "afterFreshness": 138,
-    "droppedStale": 298,
+    "fetched": 462,
+    "afterDedupe": 444,
+    "afterFreshness": 152,
+    "droppedStale": 292,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
