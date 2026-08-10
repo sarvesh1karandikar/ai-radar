@@ -1,159 +1,159 @@
 {
-  "date": "2026-08-09",
-  "generatedAt": "2026-08-09T13:50:28.598Z",
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T14:19:54.034Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to...",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 16.",
-      "sourceExcerpt": "In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to...",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
-      "source": "NVIDIA Blog",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "source": "OpenAI News",
       "category": "datacenter_power_compute",
       "signal": "primary",
-      "whyItMatters": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated...",
+      "whyItMatters": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
       "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 65 topical match, 71 recency; local score 0.67, cluster 18.",
-      "sourceExcerpt": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated...",
-      "citationUrl": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "evidence": "OpenAI News; 98 trust, 45 topical match, 98 recency; local score 0.66, cluster 20.",
+      "sourceExcerpt": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "citationUrl": "https://openai.com/index/model-ml",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "zhnt/loushang",
-      "url": "https://github.com/zhnt/loushang",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "zhnt/loushang is appearing as builder momentum, not as a verified product claim. AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,068 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
-      "citationUrl": "https://github.com/zhnt/loushang",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "asklokesh/loki-mode",
-      "url": "https://github.com/asklokesh/loki-mode",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,032 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
-      "citationUrl": "https://github.com/asklokesh/loki-mode",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI News",
-      "category": "model_security",
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
       "signal": "primary",
-      "whyItMatters": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security... For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a model security update. OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 70 topical match, 52 recency; local score 0.64, cluster 21.",
-      "sourceExcerpt": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "citationUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 22.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Piebald-AI/awesome-gemini-cli",
+      "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "A curated list of awesome tools, extensions, and resources for Gemini CLI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Piebald-AI/awesome-gemini-cli is appearing as builder momentum, not as a verified product claim. A curated list of awesome tools, extensions, and resources for Gemini CLI.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 493 GitHub stars; local score 0.83, cluster 1.",
+      "sourceExcerpt": "A curated list of awesome tools, extensions, and resources for Gemini CLI.",
+      "citationUrl": "https://github.com/Piebald-AI/awesome-gemini-cli",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langgenius/dify is appearing as builder momentum, not as a verified product claim. Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 151,969 GitHub stars; local score 0.82, cluster 2.",
+      "sourceExcerpt": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.",
+      "citationUrl": "https://github.com/langgenius/dify",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a multi agent systems update. Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 70 topical match, 85 recency; local score 0.66, cluster 21.",
+      "sourceExcerpt": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "citationUrl": "https://huggingface.co/blog/muse-glimmer",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "sipyourdrink-ltd/bernstein",
-      "url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "title": "devlint/GitWand",
+      "url": "https://github.com/devlint/GitWand",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more).",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 816 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more).",
-      "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "SirAllap/agentglass",
-      "url": "https://github.com/SirAllap/agentglass",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "🛰 Every AI coding agent on your machine, on one screen — live cost, tokens and tool calls... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SirAllap/agentglass is appearing as builder momentum, not as a verified product claim. 🛰 Every AI coding agent on your machine, on one screen — live cost, tokens and tool calls across every provider, and a hold on anything dangerous until you say go.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 284 GitHub stars; local score 0.81, cluster 4.",
-      "sourceExcerpt": "🛰 Every AI coding agent on your machine, on one screen — live cost, tokens and tool calls across every provider, and a hold on anything dangerous until you say go.",
-      "citationUrl": "https://github.com/SirAllap/agentglass",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
-      "url": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/",
-      "source": "AWS Machine Learning Blog",
       "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search to determine, with mathematical certainty, when and how an NHL team clinches a playoff spot.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 53 recency; local score 0.64, cluster 20.",
-      "sourceExcerpt": "The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search to determine, with mathematical certainty, when and how an NHL team clinches a playoff spot.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/",
+      "signal": "builder-signal",
+      "whyItMatters": "The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "devlint/GitWand is appearing as builder momentum, not as a verified product claim. The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on the rest.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 160 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on the rest.",
+      "citationUrl": "https://github.com/devlint/GitWand",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "VoltAgent/voltagent",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "VoltAgent/voltagent is appearing as builder momentum, not as a verified product claim. AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 10,327 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "citationUrl": "https://github.com/VoltAgent/voltagent",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Meta Muse Glimmer – open weights 30B local coding model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 423 points and 213 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 423 points and 213 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 423 HN points; local score 0.74, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 423 points and 213 comments.",
+      "citationUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/",
-    "source": "AWS Machine Learning Blog",
-    "category": "multi_agent_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    "url": "https://openai.com/index/model-ml",
+    "source": "OpenAI News",
+    "category": "datacenter_power_compute",
+    "summary": "OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to...",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 53 recency; local score 0.71, cluster 16."
+      "What happened: OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "Why it matters: The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for datacenter power compute.",
+      "Evidence: OpenAI News; 98 trust, 45 topical match, 98 recency; local score 0.66, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "zhnt/loushang",
-    "url": "https://github.com/zhnt/loushang",
+    "title": "Piebald-AI/awesome-gemini-cli",
+    "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "zhnt/loushang is appearing as builder momentum, not as a verified product claim. AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,068 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance, traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
-    "citationUrl": "https://github.com/zhnt/loushang",
-    "contextQuality": "source-grounded",
+    "whyItMatters": "A curated list of awesome tools, extensions, and resources for Gemini CLI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "Piebald-AI/awesome-gemini-cli is appearing as builder momentum, not as a verified product claim. A curated list of awesome tools, extensions, and resources for Gemini CLI.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+    "evidence": "GitHub AI Systems Search; 493 GitHub stars; local score 0.83, cluster 1.",
+    "sourceExcerpt": "A curated list of awesome tools, extensions, and resources for Gemini CLI.",
+    "citationUrl": "https://github.com/Piebald-AI/awesome-gemini-cli",
+    "contextQuality": "thin public context",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 218
+      "elapsedMs": 224
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 197
+      "elapsedMs": 424
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 486
+      "elapsedMs": 262
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 232
+      "elapsedMs": 248
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 218
+      "elapsedMs": 318
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 607
+      "elapsedMs": 634
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 302
+      "selected": 1,
+      "elapsedMs": 522
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 328
+      "elapsedMs": 480
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 262
+      "elapsedMs": 498
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 859
+      "elapsedMs": 746
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 501
+      "elapsedMs": 527
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 553
+      "selected": 0,
+      "elapsedMs": 660
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 675
+      "selected": 1,
+      "elapsedMs": 1700
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 650
+      "elapsedMs": 632
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 731
+      "selected": 0,
+      "elapsedMs": 768
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 767
+      "elapsedMs": 746
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 863
+      "elapsedMs": 889
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 868
+      "elapsedMs": 722
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1720
+      "elapsedMs": 1498
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1670
+      "elapsedMs": 1706
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,34 +344,34 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 864
+      "elapsedMs": 825
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 15,
+      "fetched": 28,
       "selected": 2,
-      "elapsedMs": 1111
+      "elapsedMs": 983
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 20,
+      "fetched": 15,
       "selected": 4,
-      "elapsedMs": 1194
+      "elapsedMs": 1166
     }
   ],
   "stats": {
-    "fetched": 445,
-    "afterDedupe": 428,
-    "afterFreshness": 70,
-    "droppedStale": 358,
-    "selected": 16,
-    "clusters": 15,
+    "fetched": 453,
+    "afterDedupe": 437,
+    "afterFreshness": 76,
+    "droppedStale": 361,
+    "selected": 14,
+    "clusters": 12,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
