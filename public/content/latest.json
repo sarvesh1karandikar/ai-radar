@@ -1,159 +1,159 @@
 {
-  "date": "2026-08-10",
-  "generatedAt": "2026-08-10T14:19:54.034Z",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T14:59:55.070Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "url": "https://openai.com/index/model-ml",
-      "source": "OpenAI News",
-      "category": "datacenter_power_compute",
-      "signal": "primary",
-      "whyItMatters": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 45 topical match, 98 recency; local score 0.66, cluster 20.",
-      "sourceExcerpt": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "citationUrl": "https://openai.com/index/model-ml",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "title": "Building Effective Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
       "source": "Anthropic",
-      "category": "business_signal",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 22.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Piebald-AI/awesome-gemini-cli",
-      "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A curated list of awesome tools, extensions, and resources for Gemini CLI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Piebald-AI/awesome-gemini-cli is appearing as builder momentum, not as a verified product claim. A curated list of awesome tools, extensions, and resources for Gemini CLI.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 493 GitHub stars; local score 0.83, cluster 1.",
-      "sourceExcerpt": "A curated list of awesome tools, extensions, and resources for Gemini CLI.",
-      "citationUrl": "https://github.com/Piebald-AI/awesome-gemini-cli",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "langgenius/dify",
-      "url": "https://github.com/langgenius/dify",
-      "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "langgenius/dify is appearing as builder momentum, not as a verified product claim. Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 151,969 GitHub stars; local score 0.82, cluster 2.",
-      "sourceExcerpt": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.",
-      "citationUrl": "https://github.com/langgenius/dify",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 83 recency; local score 0.73, cluster 30.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/engineering/building-effective-agents",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "source": "NVIDIA Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 62 topical match, 98 recency; local score 0.71, cluster 36.",
+      "sourceExcerpt": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
+      "citationUrl": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "source": "Hugging Face Blog",
+      "title": "Towards Expert-level Medical AI for Real-time Video Consultations",
+      "url": "http://arxiv.org/abs/2608.09861v1",
+      "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a multi agent systems update. Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 70 topical match, 85 recency; local score 0.66, cluster 21.",
-      "sourceExcerpt": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "citationUrl": "https://huggingface.co/blog/muse-glimmer",
-      "contextQuality": "thin public context",
+      "signal": "research",
+      "whyItMatters": "Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 22.",
+      "sourceExcerpt": "Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
+      "citationUrl": "http://arxiv.org/abs/2608.09861v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+      "url": "http://arxiv.org/abs/2608.09802v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench...",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 25.",
+      "sourceExcerpt": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench...",
+      "citationUrl": "http://arxiv.org/abs/2608.09802v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 14,358 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "devlint/GitWand",
-      "url": "https://github.com/devlint/GitWand",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "devlint/GitWand is appearing as builder momentum, not as a verified product claim. The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on the rest.",
+      "whyItMatters": "OmniVoice Studio is the Open-Source Elevenlabs alternative. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "debpalash/VoiceStudio is appearing as builder momentum, not as a verified product claim. OmniVoice Studio is the Open-Source Elevenlabs alternative.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 160 GitHub stars; local score 0.82, cluster 6.",
-      "sourceExcerpt": "The Git client that actually resolves conflicts — 10 deterministic patterns auto-resolve the trivial 95%, full trace on the rest.",
-      "citationUrl": "https://github.com/devlint/GitWand",
+      "evidence": "GitHub AI Systems Search; 9,838 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "OmniVoice Studio is the Open-Source Elevenlabs alternative.",
+      "citationUrl": "https://github.com/debpalash/VoiceStudio",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "VoltAgent/voltagent",
-      "url": "https://github.com/VoltAgent/voltagent",
+      "title": "membrane/api-gateway",
+      "url": "https://github.com/membrane/api-gateway",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Truly open source API gateway with native OpenAPI support. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "membrane/api-gateway is appearing as builder momentum, not as a verified product claim. Truly open source API gateway with native OpenAPI support.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 631 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Truly open source API gateway with native OpenAPI support.",
+      "citationUrl": "https://github.com/membrane/api-gateway",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "MaxFreedomPollard/Compartment",
+      "url": "https://github.com/MaxFreedomPollard/Compartment",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "VoltAgent/voltagent is appearing as builder momentum, not as a verified product claim. AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "whyItMatters": "Encrypted, fully offline agentic memory. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "MaxFreedomPollard/Compartment is appearing as builder momentum, not as a verified product claim. Encrypted, fully offline agentic memory.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 10,327 GitHub stars; local score 0.82, cluster 3.",
-      "sourceExcerpt": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
-      "citationUrl": "https://github.com/VoltAgent/voltagent",
+      "evidence": "GitHub AI Systems Search; 740 GitHub stars; local score 0.83, cluster 6.",
+      "sourceExcerpt": "Encrypted, fully offline agentic memory.",
+      "citationUrl": "https://github.com/MaxFreedomPollard/Compartment",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Meta Muse Glimmer – open weights 30B local coding model",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "source": "Hacker News",
-      "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 423 points and 213 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 423 points and 213 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 423 HN points; local score 0.74, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 423 points and 213 comments.",
-      "citationUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-    "url": "https://openai.com/index/model-ml",
-    "source": "OpenAI News",
-    "category": "datacenter_power_compute",
-    "summary": "OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Towards Expert-level Medical AI for Real-time Video Consultations",
+    "url": "http://arxiv.org/abs/2608.09861v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: OpenAI News surfaced this as a datacenter power compute update. Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "Why it matters: The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for datacenter power compute.",
-      "Evidence: OpenAI News; 98 trust, 45 topical match, 98 recency; local score 0.66, cluster 20."
+      "What happened: This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "Piebald-AI/awesome-gemini-cli",
-    "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
+    "title": "NVIDIA/TensorRT-LLM",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "inference_systems",
     "signal": "builder-signal",
-    "whyItMatters": "A curated list of awesome tools, extensions, and resources for Gemini CLI. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "Piebald-AI/awesome-gemini-cli is appearing as builder momentum, not as a verified product claim. A curated list of awesome tools, extensions, and resources for Gemini CLI.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-    "evidence": "GitHub AI Systems Search; 493 GitHub stars; local score 0.83, cluster 1.",
-    "sourceExcerpt": "A curated list of awesome tools, extensions, and resources for Gemini CLI.",
-    "citationUrl": "https://github.com/Piebald-AI/awesome-gemini-cli",
-    "contextQuality": "thin public context",
+    "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 14,358 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+    "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+    "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 224
+      "selected": 4,
+      "elapsedMs": 209
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 424
+      "selected": 1,
+      "elapsedMs": 183
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 262
+      "elapsedMs": 239
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 248
+      "elapsedMs": 307
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 318
+      "elapsedMs": 205
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 634
+      "elapsedMs": 365
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 522
+      "selected": 2,
+      "elapsedMs": 326
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 480
+      "elapsedMs": 299
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 498
+      "elapsedMs": 266
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 746
+      "elapsedMs": 672
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 527
+      "elapsedMs": 272
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 660
+      "selected": 2,
+      "elapsedMs": 329
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 1700
+      "selected": 0,
+      "elapsedMs": 551
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 632
+      "selected": 1,
+      "elapsedMs": 379
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 768
+      "selected": 2,
+      "elapsedMs": 415
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 746
+      "elapsedMs": 367
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 889
+      "elapsedMs": 436
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 722
+      "selected": 2,
+      "elapsedMs": 372
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1498
+      "selected": 4,
+      "elapsedMs": 2007
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1706
+      "elapsedMs": 1326
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,35 +343,35 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 825
+      "selected": 1,
+      "elapsedMs": 379
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 28,
+      "fetched": 31,
       "selected": 2,
-      "elapsedMs": 983
+      "elapsedMs": 598
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 15,
-      "selected": 4,
-      "elapsedMs": 1166
+      "fetched": 20,
+      "selected": 2,
+      "elapsedMs": 764
     }
   ],
   "stats": {
-    "fetched": 453,
-    "afterDedupe": 437,
-    "afterFreshness": 76,
-    "droppedStale": 361,
-    "selected": 14,
-    "clusters": 12,
+    "fetched": 461,
+    "afterDedupe": 443,
+    "afterFreshness": 143,
+    "droppedStale": 300,
+    "selected": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
