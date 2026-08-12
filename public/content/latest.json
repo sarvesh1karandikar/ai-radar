@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-11",
-  "generatedAt": "2026-08-11T14:59:55.070Z",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T14:20:33.625Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Building Effective Agents",
-      "url": "https://www.anthropic.com/engineering/building-effective-agents",
-      "source": "Anthropic",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI News",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 83 recency; local score 0.73, cluster 30.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/engineering/building-effective-agents",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
+      "whyItMatters": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 62 topical match, 98 recency; local score 0.71, cluster 36.",
-      "sourceExcerpt": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.",
-      "citationUrl": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 91 recency; local score 0.74, cluster 22.",
+      "sourceExcerpt": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "citationUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Towards Expert-level Medical AI for Real-time Video Consultations",
-      "url": "http://arxiv.org/abs/2608.09861v1",
+      "title": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 23.",
+      "sourceExcerpt": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+      "url": "http://arxiv.org/abs/2608.11152v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
+      "whyItMatters": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 22.",
-      "sourceExcerpt": "Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
-      "citationUrl": "http://arxiv.org/abs/2608.09861v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
+      "citationUrl": "http://arxiv.org/abs/2608.11152v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
-      "url": "http://arxiv.org/abs/2608.09802v1",
+      "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+      "url": "http://arxiv.org/abs/2608.11079v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench...",
+      "whyItMatters": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 25.",
-      "sourceExcerpt": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench...",
-      "citationUrl": "http://arxiv.org/abs/2608.09802v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 19.",
+      "sourceExcerpt": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes.",
+      "citationUrl": "http://arxiv.org/abs/2608.11079v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "NVIDIA/TensorRT-LLM",
-      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "title": "SemiAnalysisAI/InferenceX",
+      "url": "https://github.com/SemiAnalysisAI/InferenceX",
       "source": "GitHub AI Systems Search",
       "category": "inference_systems",
       "signal": "builder-signal",
-      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
       "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 14,358 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+      "evidence": "GitHub AI Systems Search; 1,377 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
+      "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "OmniVoice Studio is the Open-Source Elevenlabs alternative. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "debpalash/VoiceStudio is appearing as builder momentum, not as a verified product claim. OmniVoice Studio is the Open-Source Elevenlabs alternative.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 9,838 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "OmniVoice Studio is the Open-Source Elevenlabs alternative.",
-      "citationUrl": "https://github.com/debpalash/VoiceStudio",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "membrane/api-gateway",
-      "url": "https://github.com/membrane/api-gateway",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Truly open source API gateway with native OpenAPI support. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "membrane/api-gateway is appearing as builder momentum, not as a verified product claim. Truly open source API gateway with native OpenAPI support.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 631 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Truly open source API gateway with native OpenAPI support.",
-      "citationUrl": "https://github.com/membrane/api-gateway",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "MaxFreedomPollard/Compartment",
-      "url": "https://github.com/MaxFreedomPollard/Compartment",
+      "title": "RobotecAI/rai",
+      "url": "https://github.com/RobotecAI/rai",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Encrypted, fully offline agentic memory. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "MaxFreedomPollard/Compartment is appearing as builder momentum, not as a verified product claim. Encrypted, fully offline agentic memory.",
+      "whyItMatters": "RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "RobotecAI/rai is appearing as builder momentum, not as a verified product claim. RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 740 GitHub stars; local score 0.83, cluster 6.",
-      "sourceExcerpt": "Encrypted, fully offline agentic memory.",
-      "citationUrl": "https://github.com/MaxFreedomPollard/Compartment",
+      "evidence": "GitHub AI Systems Search; 569 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.",
+      "citationUrl": "https://github.com/RobotecAI/rai",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "datacontract/datacontract-cli",
+      "url": "https://github.com/datacontract/datacontract-cli",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Enforce Data Contracts... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datacontract/datacontract-cli is appearing as builder momentum, not as a verified product claim. Enforce Data Contracts",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,032 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Enforce Data Contracts",
+      "citationUrl": "https://github.com/datacontract/datacontract-cli",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "tldraw/tldraw",
+      "url": "https://github.com/tldraw/tldraw",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Build infinite canvas apps in React with the tldraw SDK. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tldraw/tldraw is appearing as builder momentum, not as a verified product claim. Build infinite canvas apps in React with the tldraw SDK.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 49,743 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "Build infinite canvas apps in React with the tldraw SDK.",
+      "citationUrl": "https://github.com/tldraw/tldraw",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Towards Expert-level Medical AI for Real-time Video Consultations",
-    "url": "http://arxiv.org/abs/2608.09861v1",
+    "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+    "url": "http://arxiv.org/abs/2608.11152v1",
     "source": "arXiv AI Systems Query",
     "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues.",
+      "What happened: This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
       "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 22."
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 17."
     ]
   },
   "bookmark": {
-    "title": "NVIDIA/TensorRT-LLM",
-    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "title": "SemiAnalysisAI/InferenceX",
+    "url": "https://github.com/SemiAnalysisAI/InferenceX",
     "source": "GitHub AI Systems Search",
     "category": "inference_systems",
     "signal": "builder-signal",
-    "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+    "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
     "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 14,358 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-    "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+    "evidence": "GitHub AI Systems Search; 1,377 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
+    "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 209
+      "selected": 2,
+      "elapsedMs": 449
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 183
+      "selected": 2,
+      "elapsedMs": 155
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 239
+      "elapsedMs": 230
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 307
+      "elapsedMs": 122
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 205
+      "elapsedMs": 180
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 365
+      "elapsedMs": 395
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 326
+      "selected": 1,
+      "elapsedMs": 265
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 299
+      "elapsedMs": 216
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 266
+      "elapsedMs": 306
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 672
+      "elapsedMs": 751
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 272
+      "elapsedMs": 407
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 329
+      "selected": 4,
+      "elapsedMs": 399
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 551
+      "selected": 1,
+      "elapsedMs": 523
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 379
+      "selected": 0,
+      "elapsedMs": 436
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 415
+      "selected": 4,
+      "elapsedMs": 485
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 367
+      "elapsedMs": 417
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 436
+      "elapsedMs": 442
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 372
+      "selected": 1,
+      "elapsedMs": 531
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 2007
+      "elapsedMs": 1243
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1326
+      "elapsedMs": 1415
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 379
+      "elapsedMs": 522
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 31,
-      "selected": 2,
-      "elapsedMs": 598
+      "fetched": 27,
+      "selected": 1,
+      "elapsedMs": 744
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 764
+      "elapsedMs": 906
     }
   ],
   "stats": {
-    "fetched": 461,
-    "afterDedupe": 443,
-    "afterFreshness": 143,
-    "droppedStale": 300,
+    "fetched": 457,
+    "afterDedupe": 440,
+    "afterFreshness": 154,
+    "droppedStale": 286,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
