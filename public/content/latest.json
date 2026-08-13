@@ -1,23 +1,23 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-12T14:20:33.625Z",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T14:22:00.734Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "source": "OpenAI News",
+      "title": "Multiagent Systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "Anthropic",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 80 topical match, 91 recency; local score 0.74, cluster 22.",
-      "sourceExcerpt": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "citationUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 87 recency; local score 0.73, cluster 34.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/multiagent-systems",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
@@ -29,130 +29,130 @@
       "whyItMatters": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 23.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 74 recency; local score 0.70, cluster 40.",
       "sourceExcerpt": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
-      "url": "http://arxiv.org/abs/2608.11152v1",
+      "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+      "url": "http://arxiv.org/abs/2608.12259v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 17.",
-      "sourceExcerpt": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
-      "citationUrl": "http://arxiv.org/abs/2608.11152v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
-      "url": "http://arxiv.org/abs/2608.11079v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 19.",
-      "sourceExcerpt": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes.",
-      "citationUrl": "http://arxiv.org/abs/2608.11079v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "SemiAnalysisAI/InferenceX",
-      "url": "https://github.com/SemiAnalysisAI/InferenceX",
-      "source": "GitHub AI Systems Search",
       "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 21.",
+      "sourceExcerpt": "Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
+      "citationUrl": "http://arxiv.org/abs/2608.12259v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "url": "http://arxiv.org/abs/2608.12313v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 79 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
+      "citationUrl": "http://arxiv.org/abs/2608.12313v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,377 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-      "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
+      "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,979 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+      "citationUrl": "https://github.com/maziyarpanahi/openmed",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "RobotecAI/rai",
-      "url": "https://github.com/RobotecAI/rai",
+      "title": "nyldn/claude-octopus",
+      "url": "https://github.com/nyldn/claude-octopus",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "RobotecAI/rai is appearing as builder momentum, not as a verified product claim. RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 569 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.",
-      "citationUrl": "https://github.com/RobotecAI/rai",
+      "whyItMatters": "Surface AI blindspots before you ship. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nyldn/claude-octopus is appearing as builder momentum, not as a verified product claim. Surface AI blindspots before you ship.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,961 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Surface AI blindspots before you ship.",
+      "citationUrl": "https://github.com/nyldn/claude-octopus",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "datacontract/datacontract-cli",
-      "url": "https://github.com/datacontract/datacontract-cli",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Enforce Data Contracts... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "datacontract/datacontract-cli is appearing as builder momentum, not as a verified product claim. Enforce Data Contracts",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,032 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Enforce Data Contracts",
-      "citationUrl": "https://github.com/datacontract/datacontract-cli",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "tldraw/tldraw",
-      "url": "https://github.com/tldraw/tldraw",
+      "title": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Build infinite canvas apps in React with the tldraw SDK. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "tldraw/tldraw is appearing as builder momentum, not as a verified product claim. Build infinite canvas apps in React with the tldraw SDK.",
+      "whyItMatters": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "infiniflow/ragflow is appearing as builder momentum, not as a verified product claim. RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 49,743 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "Build infinite canvas apps in React with the tldraw SDK.",
-      "citationUrl": "https://github.com/tldraw/tldraw",
+      "evidence": "GitHub AI Systems Search; 87,866 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "citationUrl": "https://github.com/infiniflow/ragflow",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "deer-flow/llm-space",
+      "url": "https://github.com/deer-flow/llm-space",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "deer-flow/llm-space is appearing as builder momentum, not as a verified product claim. A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,592 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place.",
+      "citationUrl": "https://github.com/deer-flow/llm-space",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
-    "url": "http://arxiv.org/abs/2608.11152v1",
+    "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+    "url": "http://arxiv.org/abs/2608.12259v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 17."
+      "What happened: This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 21."
     ]
   },
   "bookmark": {
-    "title": "SemiAnalysisAI/InferenceX",
-    "url": "https://github.com/SemiAnalysisAI/InferenceX",
+    "title": "maziyarpanahi/openmed",
+    "url": "https://github.com/maziyarpanahi/openmed",
     "source": "GitHub AI Systems Search",
-    "category": "inference_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,377 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-    "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
+    "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 4,979 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+    "citationUrl": "https://github.com/maziyarpanahi/openmed",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 449
+      "selected": 1,
+      "elapsedMs": 788
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 155
+      "selected": 1,
+      "elapsedMs": 651
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 230
+      "elapsedMs": 619
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 122
+      "elapsedMs": 760
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 180
+      "elapsedMs": 846
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 395
+      "elapsedMs": 997
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 265
+      "elapsedMs": 821
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 216
+      "elapsedMs": 963
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 306
+      "elapsedMs": 944
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 751
+      "elapsedMs": 859
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 407
+      "elapsedMs": 868
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 4,
-      "elapsedMs": 399
+      "selected": 3,
+      "elapsedMs": 775
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 523
+      "elapsedMs": 1206
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 436
+      "elapsedMs": 1065
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 485
+      "elapsedMs": 1150
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 417
+      "elapsedMs": 760
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 442
+      "elapsedMs": 1086
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 531
+      "selected": 2,
+      "elapsedMs": 744
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1243
+      "elapsedMs": 1484
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1415
+      "elapsedMs": 1696
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 522
+      "elapsedMs": 852
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 1,
-      "elapsedMs": 744
+      "fetched": 28,
+      "selected": 2,
+      "elapsedMs": 1114
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 906
+      "selected": 3,
+      "elapsedMs": 1115
     }
   ],
   "stats": {
-    "fetched": 457,
-    "afterDedupe": 440,
-    "afterFreshness": 154,
-    "droppedStale": 286,
+    "fetched": 458,
+    "afterDedupe": 443,
+    "afterFreshness": 148,
+    "droppedStale": 295,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
