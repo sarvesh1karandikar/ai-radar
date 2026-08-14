@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-13",
-  "generatedAt": "2026-08-13T14:22:00.734Z",
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T14:15:50.844Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Multiagent Systems",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Anthropic",
-      "category": "multi_agent_systems",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "source": "Google AI Blog",
+      "category": "datacenter_power_compute",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 87 recency; local score 0.73, cluster 34.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/multiagent-systems",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 74 recency; local score 0.70, cluster 40.",
-      "sourceExcerpt": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
+      "whyItMatters": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google AI Blog surfaced this as a datacenter power compute update. Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Google AI Blog; 94 trust, 80 topical match, 78 recency; local score 0.70, cluster 41.",
+      "sourceExcerpt": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+      "citationUrl": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
-      "url": "http://arxiv.org/abs/2608.12259v1",
+      "title": "How Cloudflare detects MCP traffic and helps secure it",
+      "url": "https://blog.cloudflare.com/mcp-security-updates/",
+      "source": "Cloudflare AI",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Cloudflare AI surfaced this as a model security update. Cloudflare Gateway identifies MCP requests using protocol-level heuristics.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Cloudflare AI; 78 trust, 73 topical match, 99 recency; local score 0.70, cluster 42.",
+      "sourceExcerpt": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics.",
+      "citationUrl": "https://blog.cloudflare.com/mcp-security-updates/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
+      "url": "http://arxiv.org/abs/2608.13495v1",
       "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
+      "category": "training_infrastructure",
       "signal": "research",
-      "whyItMatters": "Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 21.",
-      "sourceExcerpt": "Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
-      "citationUrl": "http://arxiv.org/abs/2608.12259v1",
+      "whyItMatters": "Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20.",
+      "sourceExcerpt": "Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis.",
+      "citationUrl": "http://arxiv.org/abs/2608.13495v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "url": "http://arxiv.org/abs/2608.12313v1",
+      "title": "AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models",
+      "url": "http://arxiv.org/abs/2608.13472v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
+      "whyItMatters": "Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 79 recency; local score 0.76, cluster 16.",
-      "sourceExcerpt": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos.",
-      "citationUrl": "http://arxiv.org/abs/2608.12313v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 22.",
+      "sourceExcerpt": "Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition.",
+      "citationUrl": "http://arxiv.org/abs/2608.13472v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "maziyarpanahi/openmed",
-      "url": "https://github.com/maziyarpanahi/openmed",
+      "title": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+      "whyItMatters": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint —... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tashfeenahmed/freellmapi is appearing as builder momentum, not as a verified product claim. OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,979 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
-      "citationUrl": "https://github.com/maziyarpanahi/openmed",
+      "evidence": "GitHub AI Systems Search; 18,496 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
+      "citationUrl": "https://github.com/tashfeenahmed/freellmapi",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "nyldn/claude-octopus",
-      "url": "https://github.com/nyldn/claude-octopus",
+      "title": "whiteguo233/OpenBiliClaw",
+      "url": "https://github.com/whiteguo233/OpenBiliClaw",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent:... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "whiteguo233/OpenBiliClaw is appearing as builder momentum, not as a verified product claim. 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open...",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,316 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open...",
+      "citationUrl": "https://github.com/whiteguo233/OpenBiliClaw",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Surface AI blindspots before you ship. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "nyldn/claude-octopus is appearing as builder momentum, not as a verified product claim. Surface AI blindspots before you ship.",
+      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,961 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Surface AI blindspots before you ship.",
-      "citationUrl": "https://github.com/nyldn/claude-octopus",
+      "evidence": "GitHub AI Systems Search; 33,094 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "citationUrl": "https://github.com/langfuse/langfuse",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "infiniflow/ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
+      "title": "datadrivenconstruction/OpenConstructionERP",
+      "url": "https://github.com/datadrivenconstruction/OpenConstructionERP",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "infiniflow/ragflow is appearing as builder momentum, not as a verified product claim. RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 87,866 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "citationUrl": "https://github.com/infiniflow/ragflow",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "deer-flow/llm-space",
-      "url": "https://github.com/deer-flow/llm-space",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "deer-flow/llm-space is appearing as builder momentum, not as a verified product claim. A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,592 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place.",
-      "citationUrl": "https://github.com/deer-flow/llm-space",
+      "whyItMatters": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datadrivenconstruction/OpenConstructionERP is appearing as builder momentum, not as a verified product claim. Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 656 GitHub stars; local score 0.85, cluster 4.",
+      "sourceExcerpt": "Open-source construction ERP - BOQ, PDF/CAD/BIM takeoff, AI cost matching.",
+      "citationUrl": "https://github.com/datadrivenconstruction/OpenConstructionERP",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
-    "url": "http://arxiv.org/abs/2608.12259v1",
+    "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
+    "url": "http://arxiv.org/abs/2608.13495v1",
     "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 21."
+      "What happened: This paper is a training infrastructure lead from the research stream. Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "maziyarpanahi/openmed",
-    "url": "https://github.com/maziyarpanahi/openmed",
+    "title": "tashfeenahmed/freellmapi",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+    "whyItMatters": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint —... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "tashfeenahmed/freellmapi is appearing as builder momentum, not as a verified product claim. OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,979 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
-    "citationUrl": "https://github.com/maziyarpanahi/openmed",
+    "evidence": "GitHub AI Systems Search; 18,496 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
+    "citationUrl": "https://github.com/tashfeenahmed/freellmapi",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 788
+      "selected": 3,
+      "elapsedMs": 355
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 651
+      "elapsedMs": 209
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 619
+      "elapsedMs": 420
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 760
+      "selected": 1,
+      "elapsedMs": 177
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 846
+      "elapsedMs": 398
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 997
+      "elapsedMs": 687
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 821
+      "elapsedMs": 322
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 963
+      "elapsedMs": 375
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 944
+      "elapsedMs": 347
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 859
+      "elapsedMs": 435
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 868
+      "elapsedMs": 444
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 775
+      "selected": 1,
+      "elapsedMs": 416
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 1206
+      "selected": 0,
+      "elapsedMs": 647
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 1065
+      "selected": 2,
+      "elapsedMs": 453
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1150
+      "elapsedMs": 538
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 760
+      "elapsedMs": 456
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 1086
+      "elapsedMs": 472
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 744
+      "selected": 4,
+      "elapsedMs": 483
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1484
+      "elapsedMs": 2003
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1696
+      "elapsedMs": 1403
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 852
+      "elapsedMs": 493
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 28,
-      "selected": 2,
-      "elapsedMs": 1114
+      "fetched": 22,
+      "selected": 1,
+      "elapsedMs": 1016
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 1115
+      "selected": 0,
+      "elapsedMs": 910
     }
   ],
   "stats": {
-    "fetched": 458,
-    "afterDedupe": 443,
-    "afterFreshness": 148,
+    "fetched": 452,
+    "afterDedupe": 435,
+    "afterFreshness": 140,
     "droppedStale": 295,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
