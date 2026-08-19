@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-18T13:42:13.932Z",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T13:44:26.284Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Securing the Infrastructure of Intelligence",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "source": "NVIDIA Blog",
-      "category": "datacenter_power_compute",
+      "title": "Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
+      "url": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 65 topical match, 74 recency; local score 0.67, cluster 53.",
-      "sourceExcerpt": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country.",
-      "citationUrl": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 78 recency; local score 0.71, cluster 34.",
+      "sourceExcerpt": "Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
+      "citationUrl": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": "OpenAI News",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a model security update. OpenAI is strengthening monitoring, alignment, and security for frontier AI models.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 72 recency; local score 0.68, cluster 39.",
+      "sourceExcerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models.",
+      "citationUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "source": "GitHub AI and ML Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Chat is great for intent, but agent work gets lost in the scroll. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "GitHub AI and ML Blog surfaced this as a multi agent systems update. Chat is great for intent, but agent work gets lost in the scroll.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 77 recency; local score 0.67, cluster 52.",
-      "sourceExcerpt": "Chat is great for intent, but agent work gets lost in the scroll.",
-      "citationUrl": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
-      "url": "http://arxiv.org/abs/2608.16801v1",
+      "title": "Recirculation",
+      "url": "http://arxiv.org/abs/2608.17981v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "We study how teams of AI coding agents coordinate while solving programming tasks. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. We study how teams of AI coding agents coordinate while solving programming tasks.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 23.",
-      "sourceExcerpt": "We study how teams of AI coding agents coordinate while solving programming tasks.",
-      "citationUrl": "http://arxiv.org/abs/2608.16801v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "GEO-Flag: Detecting and Measuring GEO-Optimized Web Content",
-      "url": "http://arxiv.org/abs/2608.16824v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative search engines.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 79 recency; local score 0.76, cluster 22.",
-      "sourceExcerpt": "Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative search engines.",
-      "citationUrl": "http://arxiv.org/abs/2608.16824v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "NVIDIA/TensorRT-LLM",
-      "url": "https://github.com/NVIDIA/TensorRT-LLM",
-      "source": "GitHub AI Systems Search",
       "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20.",
+      "sourceExcerpt": "We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks.",
+      "citationUrl": "http://arxiv.org/abs/2608.17981v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion",
+      "url": "http://arxiv.org/abs/2608.17911v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 22.",
+      "sourceExcerpt": "As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface.",
+      "citationUrl": "http://arxiv.org/abs/2608.17911v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "future-agi/future-agi",
+      "url": "https://github.com/future-agi/future-agi",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 14,404 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+      "whyItMatters": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "future-agi/future-agi is appearing as builder momentum, not as a verified product claim. Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,715 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications.",
+      "citationUrl": "https://github.com/future-agi/future-agi",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "jgravelle/jcodemunch-mcp",
-      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Cut AI token costs 95%+ on code exploration. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "jgravelle/jcodemunch-mcp is appearing as builder momentum, not as a verified product claim. Cut AI token costs 95%+ on code exploration.",
+      "whyItMatters": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Graphify-Labs/graphify is appearing as builder momentum, not as a verified product claim. Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,575 GitHub stars; local score 0.87, cluster 3.",
-      "sourceExcerpt": "Cut AI token costs 95%+ on code exploration.",
-      "citationUrl": "https://github.com/jgravelle/jcodemunch-mcp",
+      "evidence": "GitHub AI Systems Search; 108,166 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.",
+      "citationUrl": "https://github.com/Graphify-Labs/graphify",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "SemiAnalysisAI/InferenceX",
-      "url": "https://github.com/SemiAnalysisAI/InferenceX",
+      "title": "ysr666/dsh-vision-router",
+      "url": "https://github.com/ysr666/dsh-vision-router",
       "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "SemiAnalysisAI/InferenceX is appearing as builder momentum, not as a verified product claim. Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,401 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "Open Source Continuous Inference Benchmark Research Platform — Kimi K3 2.8T, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3 | 开源持续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200...",
-      "citationUrl": "https://github.com/SemiAnalysisAI/InferenceX",
+      "whyItMatters": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ysr666/dsh-vision-router is appearing as builder momentum, not as a verified product claim. Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 824 GitHub stars; local score 0.85, cluster 4.",
+      "sourceExcerpt": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
+      "citationUrl": "https://github.com/ysr666/dsh-vision-router",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "dkhamsing/open-source-ios-apps",
-      "url": "https://github.com/dkhamsing/open-source-ios-apps",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": ":iphone: Collaborative List of Open-Source iOS Apps... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "dkhamsing/open-source-ios-apps is appearing as builder momentum, not as a verified product claim. :iphone: Collaborative List of Open-Source iOS Apps",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 51,732 GitHub stars; local score 0.84, cluster 6.",
-      "sourceExcerpt": ":iphone: Collaborative List of Open-Source iOS Apps",
-      "citationUrl": "https://github.com/dkhamsing/open-source-ios-apps",
-      "contextQuality": "thin public context",
+      "whyItMatters": "🎨 Best DeepSeek Harness Design Plugin. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Best DeepSeek Harness Design Plugin.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 89,210 GitHub stars; local score 0.87, cluster 3.",
+      "sourceExcerpt": "🎨 Best DeepSeek Harness Design Plugin.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
-    "url": "http://arxiv.org/abs/2608.16801v1",
+    "title": "Recirculation",
+    "url": "http://arxiv.org/abs/2608.17981v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. We study how teams of AI coding agents coordinate while solving programming tasks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. We study how teams of AI coding agents coordinate while solving programming tasks.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 23."
+      "What happened: This paper is a inference systems lead from the research stream. We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "NVIDIA/TensorRT-LLM",
-    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "title": "future-agi/future-agi",
+    "url": "https://github.com/future-agi/future-agi",
     "source": "GitHub AI Systems Search",
-    "category": "inference_systems",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 14,404 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
-    "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+    "whyItMatters": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "future-agi/future-agi is appearing as builder momentum, not as a verified product claim. Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,715 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications.",
+    "citationUrl": "https://github.com/future-agi/future-agi",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 261
+      "selected": 3,
+      "elapsedMs": 223
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 281
+      "elapsedMs": 211
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 264
+      "elapsedMs": 323
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 99
+      "selected": 1,
+      "elapsedMs": 140
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 249
+      "elapsedMs": 296
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 536
+      "elapsedMs": 576
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 379
+      "selected": 2,
+      "elapsedMs": 313
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 338
+      "selected": 1,
+      "elapsedMs": 240
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 421
+      "elapsedMs": 381
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 607
+      "elapsedMs": 340
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 457
+      "elapsedMs": 369
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 390
+      "selected": 0,
+      "elapsedMs": 399
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 513
+      "selected": 1,
+      "elapsedMs": 557
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 432
+      "elapsedMs": 457
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 485
+      "selected": 4,
+      "elapsedMs": 487
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 447
+      "selected": 1,
+      "elapsedMs": 425
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 494
+      "elapsedMs": 433
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 462
+      "elapsedMs": 470
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 5328
+      "elapsedMs": 1374
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1433
+      "elapsedMs": 1399
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 485
+      "elapsedMs": 495
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 32,
-      "selected": 2,
-      "elapsedMs": 764
+      "fetched": 20,
+      "selected": 1,
+      "elapsedMs": 735
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 917
+      "selected": 2,
+      "elapsedMs": 865
     }
   ],
   "stats": {
-    "fetched": 462,
-    "afterDedupe": 447,
-    "afterFreshness": 129,
-    "droppedStale": 318,
-    "selected": 24,
-    "clusters": 23,
+    "fetched": 450,
+    "afterDedupe": 435,
+    "afterFreshness": 140,
+    "droppedStale": 295,
+    "selected": 28,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
