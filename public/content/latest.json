@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-22T13:31:59.323Z",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T13:32:50.794Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,7 +14,7 @@
       "whyItMatters": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 79 recency; local score 0.71, cluster 23.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 54 recency; local score 0.66, cluster 18.",
       "sourceExcerpt": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
       "contextQuality": "source-grounded",
@@ -29,130 +29,130 @@
       "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. GPU-Accelerated Clustering for Financial Instruments at Scale",
       "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 78 recency; local score 0.70, cluster 25.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 53 recency; local score 0.66, cluster 19.",
       "sourceExcerpt": "GPU-Accelerated Clustering for Financial Instruments at Scale",
       "citationUrl": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
-      "url": "http://arxiv.org/abs/2608.20314v1",
-      "source": "arXiv AI Systems Query",
+      "title": "slothflowlabs/duckle",
+      "url": "https://github.com/slothflowlabs/duckle",
+      "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 55 recency; local score 0.72, cluster 18.",
-      "sourceExcerpt": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models.",
-      "citationUrl": "http://arxiv.org/abs/2608.20314v1",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source ETL/ELT you deploy on your own servers or cloud. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "slothflowlabs/duckle is appearing as builder momentum, not as a verified product claim. Open-source ETL/ELT you deploy on your own servers or cloud.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Open-source ETL/ELT you deploy on your own servers or cloud.",
+      "citationUrl": "https://github.com/slothflowlabs/duckle",
       "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "readTime": "3 min"
     },
     {
-      "title": "DARS: Dual-Level Credit Assignment RL with Structured Reasoning for Instruction-Based Image Editing",
-      "url": "http://arxiv.org/abs/2608.20161v1",
-      "source": "arXiv AI Systems Query",
-      "category": "training_infrastructure",
-      "signal": "research",
-      "whyItMatters": "Instruction-based image editing uses a planner-renderer pipeline: a vision-language model (VLM) first converts the instruction into an edit... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Instruction-based image editing uses a planner-renderer pipeline: a vision-language model (VLM) first converts the instruction into an edit plan, and a diffusion model then executes that plan.",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 19.",
-      "sourceExcerpt": "Instruction-based image editing uses a planner-renderer pipeline: a vision-language model (VLM) first converts the instruction into an edit plan, and a diffusion model then executes that plan.",
-      "citationUrl": "http://arxiv.org/abs/2608.20161v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "maziyarpanahi/openmed",
-      "url": "https://github.com/maziyarpanahi/openmed",
+      "title": "V1ki/dsh-plugin-subscriptions",
+      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
+      "whyItMatters": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "V1ki/dsh-plugin-subscriptions is appearing as builder momentum, not as a verified product claim. Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 5,119 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
-      "citationUrl": "https://github.com/maziyarpanahi/openmed",
+      "evidence": "GitHub AI Systems Search; 249 GitHub stars; local score 0.82, cluster 2.",
+      "sourceExcerpt": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
+      "citationUrl": "https://github.com/V1ki/dsh-plugin-subscriptions",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 21.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
+      "title": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "SGLang is a high-performance serving framework for large language models and multimodal models. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "sgl-project/sglang is appearing as builder momentum, not as a verified product claim. SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 32,287 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "citationUrl": "https://github.com/sgl-project/sglang",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "mini-software/MiniPdf",
+      "url": "https://github.com/mini-software/MiniPdf",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "whyItMatters": "[Beta] A minimal library/CLI convert Word, Excel, PPT to PDF. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mini-software/MiniPdf is appearing as builder momentum, not as a verified product claim. A minimal library/CLI convert Word, Excel, PPT to PDF.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,861 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "evidence": "GitHub AI Systems Search; 370 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "A minimal library/CLI convert Word, Excel, PPT to PDF.",
+      "citationUrl": "https://github.com/mini-software/MiniPdf",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "sipyourdrink-ltd/bernstein",
-      "url": "https://github.com/sipyourdrink-ltd/bernstein",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more).",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 952 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more).",
-      "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "mnemon-dev/mnemon",
-      "url": "https://github.com/mnemon-dev/mnemon",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mnemon-dev/mnemon is appearing as builder momentum, not as a verified product claim. LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 504 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary.",
-      "citationUrl": "https://github.com/mnemon-dev/mnemon",
-      "contextQuality": "source-grounded",
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 231 points and 138 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 231 points and 138 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 231 HN points; local score 0.69, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 231 points and 138 comments.",
+      "citationUrl": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
-    "url": "http://arxiv.org/abs/2608.20314v1",
-    "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 55 recency; local score 0.72, cluster 18."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 54 recency; local score 0.66, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "maziyarpanahi/openmed",
-    "url": "https://github.com/maziyarpanahi/openmed",
+    "title": "slothflowlabs/duckle",
+    "url": "https://github.com/slothflowlabs/duckle",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 5,119 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.",
-    "citationUrl": "https://github.com/maziyarpanahi/openmed",
+    "whyItMatters": "Open-source ETL/ELT you deploy on your own servers or cloud. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "slothflowlabs/duckle is appearing as builder momentum, not as a verified product claim. Open-source ETL/ELT you deploy on your own servers or cloud.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Open-source ETL/ELT you deploy on your own servers or cloud.",
+    "citationUrl": "https://github.com/slothflowlabs/duckle",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 285
+      "elapsedMs": 508
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 357
+      "elapsedMs": 407
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 347
+      "elapsedMs": 250
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 135
+      "elapsedMs": 88
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 246
+      "elapsedMs": 273
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 579
+      "elapsedMs": 604
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 388
+      "selected": 0,
+      "elapsedMs": 360
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 331
+      "elapsedMs": 169
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 417
+      "elapsedMs": 232
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 828
+      "elapsedMs": 297
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 578
+      "elapsedMs": 478
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 472
+      "elapsedMs": 316
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 595
+      "selected": 1,
+      "elapsedMs": 381
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 488
+      "elapsedMs": 489
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 558
+      "elapsedMs": 462
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 473
+      "elapsedMs": 384
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 629
+      "elapsedMs": 495
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 576
+      "elapsedMs": 354
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1537
+      "selected": 0,
+      "elapsedMs": 1156
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1251
+      "elapsedMs": 1133
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 783
+      "elapsedMs": 392
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 23,
+      "fetched": 22,
       "selected": 2,
-      "elapsedMs": 904
+      "elapsedMs": 745
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 896
+      "elapsedMs": 642
     }
   ],
   "stats": {
-    "fetched": 453,
-    "afterDedupe": 437,
-    "afterFreshness": 136,
-    "droppedStale": 301,
-    "selected": 23,
-    "clusters": 21,
+    "fetched": 452,
+    "afterDedupe": 436,
+    "afterFreshness": 75,
+    "droppedStale": 361,
+    "selected": 16,
+    "clusters": 15,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
