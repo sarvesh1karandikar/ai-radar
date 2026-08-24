@@ -1,70 +1,10 @@
 {
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T13:32:50.794Z",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T13:52:17.070Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
-    {
-      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 54 recency; local score 0.66, cluster 18.",
-      "sourceExcerpt": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
-      "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. GPU-Accelerated Clustering for Financial Instruments at Scale",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 53 recency; local score 0.66, cluster 19.",
-      "sourceExcerpt": "GPU-Accelerated Clustering for Financial Instruments at Scale",
-      "citationUrl": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "slothflowlabs/duckle",
-      "url": "https://github.com/slothflowlabs/duckle",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source ETL/ELT you deploy on your own servers or cloud. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "slothflowlabs/duckle is appearing as builder momentum, not as a verified product claim. Open-source ETL/ELT you deploy on your own servers or cloud.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Open-source ETL/ELT you deploy on your own servers or cloud.",
-      "citationUrl": "https://github.com/slothflowlabs/duckle",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "V1ki/dsh-plugin-subscriptions",
-      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "V1ki/dsh-plugin-subscriptions is appearing as builder momentum, not as a verified product claim. Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 249 GitHub stars; local score 0.82, cluster 2.",
-      "sourceExcerpt": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
-      "citationUrl": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
     {
       "title": "Policy On The Ai Exponential",
       "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
@@ -74,86 +14,146 @@
       "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
       "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 21.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.60, cluster 19.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
       "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "The official Python SDK for Model Context Protocol servers and clients... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "The official Python SDK for Model Context Protocol servers and clients",
+      "citationUrl": "https://github.com/modelcontextprotocol/python-sdk",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "bytedance/deer-flow is appearing as builder momentum, not as a verified product claim. An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 80,776 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "citationUrl": "https://github.com/bytedance/deer-flow",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 38,852 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
+      "citationUrl": "https://github.com/PostHog/posthog",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Dicklesworthstone/pi_agent_rust",
+      "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "High-performance AI coding agent CLI written in Rust with zero unsafe code... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Dicklesworthstone/pi_agent_rust is appearing as builder momentum, not as a verified product claim. High-performance AI coding agent CLI written in Rust with zero unsafe code",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,642 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
+      "citationUrl": "https://github.com/Dicklesworthstone/pi_agent_rust",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "sgl-project/sglang",
-      "url": "https://github.com/sgl-project/sglang",
-      "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "SGLang is a high-performance serving framework for large language models and multimodal models. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "sgl-project/sglang is appearing as builder momentum, not as a verified product claim. SGLang is a high-performance serving framework for large language models and multimodal models.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 32,287 GitHub stars; local score 0.82, cluster 3.",
-      "sourceExcerpt": "SGLang is a high-performance serving framework for large language models and multimodal models.",
-      "citationUrl": "https://github.com/sgl-project/sglang",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "mini-software/MiniPdf",
-      "url": "https://github.com/mini-software/MiniPdf",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "[Beta] A minimal library/CLI convert Word, Excel, PPT to PDF. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mini-software/MiniPdf is appearing as builder momentum, not as a verified product claim. A minimal library/CLI convert Word, Excel, PPT to PDF.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 370 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "A minimal library/CLI convert Word, Excel, PPT to PDF.",
-      "citationUrl": "https://github.com/mini-software/MiniPdf",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "New MCP Roadmap",
-      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "title": "FDA clears blood test to aid evaluation for Alzheimer's disease",
+      "url": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
       "source": "Hacker News",
       "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 231 points and 138 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 231 points and 138 comments.",
+      "whyItMatters": "Hacker News discussion signal with 96 points and 33 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 96 points and 33 comments.",
       "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 231 HN points; local score 0.69, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 231 points and 138 comments.",
-      "citationUrl": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "evidence": "Hacker News; 96 HN points; local score 0.71, cluster 16.",
+      "sourceExcerpt": "Hacker News discussion signal with 96 points and 33 comments.",
+      "citationUrl": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "url": "https://pantel.is/projects/ai-gaming-companion/",
+      "source": "Hacker News",
+      "category": "inference_systems",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 241 points and 44 comments. Treat it as an attention signal around inference systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 241 points and 44 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around inference systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 241 HN points; local score 0.68, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 241 points and 44 comments.",
+      "citationUrl": "https://pantel.is/projects/ai-gaming-companion/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "SeL4 security proofs now complete on AArch64",
+      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
+      "source": "Hacker News",
+      "category": "model_security",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 67 points and 16 comments. Treat it as an attention signal around model security; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 67 points and 16 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around model security, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 67 HN points; local score 0.66, cluster 18.",
+      "sourceExcerpt": "Hacker News discussion signal with 67 points and 16 comments.",
+      "citationUrl": "https://proofcraft.systems/news-2026/#2026-08-21",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
-    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
-    "source": "AWS Machine Learning Blog",
-    "category": "inference_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "modelcontextprotocol/python-sdk",
+    "url": "https://github.com/modelcontextprotocol/python-sdk",
+    "source": "GitHub AI Systems Search",
+    "category": "developer_tools",
+    "summary": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients It gets the longer read because the public context is thin public context and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 54 recency; local score 0.66, cluster 18."
+      "What happened: modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
+      "Why it matters: Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "Technical signal: builder signal for developer tools.",
+      "Evidence: GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1."
     ]
   },
   "bookmark": {
-    "title": "slothflowlabs/duckle",
-    "url": "https://github.com/slothflowlabs/duckle",
+    "title": "modelcontextprotocol/python-sdk",
+    "url": "https://github.com/modelcontextprotocol/python-sdk",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open-source ETL/ELT you deploy on your own servers or cloud. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "slothflowlabs/duckle is appearing as builder momentum, not as a verified product claim. Open-source ETL/ELT you deploy on your own servers or cloud.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,222 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Open-source ETL/ELT you deploy on your own servers or cloud.",
-    "citationUrl": "https://github.com/slothflowlabs/duckle",
-    "contextQuality": "source-grounded",
+    "whyItMatters": "The official Python SDK for Model Context Protocol servers and clients... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+    "evidence": "GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "The official Python SDK for Model Context Protocol servers and clients",
+    "citationUrl": "https://github.com/modelcontextprotocol/python-sdk",
+    "contextQuality": "thin public context",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 508
+      "elapsedMs": 283
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 407
+      "elapsedMs": 283
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 250
+      "elapsedMs": 465
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 88
+      "elapsedMs": 316
     },
     {
       "id": "anthropic-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 604
+      "elapsedMs": 546
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 360
+      "elapsedMs": 350
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 169
+      "elapsedMs": 414
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 232
+      "elapsedMs": 443
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 297
+      "elapsedMs": 701
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 478
+      "elapsedMs": 450
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 316
+      "elapsedMs": 587
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 381
+      "selected": 0,
+      "elapsedMs": 914
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 489
+      "elapsedMs": 605
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 462
+      "selected": 0,
+      "elapsedMs": 752
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 384
+      "elapsedMs": 623
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 495
+      "elapsedMs": 725
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 354
+      "elapsedMs": 702
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1156
+      "elapsedMs": 1482
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1133
+      "elapsedMs": 1457
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 392
+      "elapsedMs": 703
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 22,
-      "selected": 2,
-      "elapsedMs": 745
+      "fetched": 25,
+      "selected": 4,
+      "elapsedMs": 962
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 642
+      "elapsedMs": 1089
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 436,
-    "afterFreshness": 75,
-    "droppedStale": 361,
-    "selected": 16,
-    "clusters": 15,
+    "fetched": 455,
+    "afterDedupe": 439,
+    "afterFreshness": 76,
+    "droppedStale": 363,
+    "selected": 13,
+    "clusters": 12,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
