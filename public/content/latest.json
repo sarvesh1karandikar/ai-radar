@@ -1,159 +1,159 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T13:52:17.070Z",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T13:51:16.474Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Policy On The Ai Exponential",
-      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "source": "Anthropic",
-      "category": "business_signal",
+      "title": "How XPUs Meet a World-Class AI Factory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+      "source": "NVIDIA Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.60, cluster 19.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "modelcontextprotocol/python-sdk",
-      "url": "https://github.com/modelcontextprotocol/python-sdk",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "The official Python SDK for Model Context Protocol servers and clients... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "The official Python SDK for Model Context Protocol servers and clients",
-      "citationUrl": "https://github.com/modelcontextprotocol/python-sdk",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "bytedance/deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "bytedance/deer-flow is appearing as builder momentum, not as a verified product claim. An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 80,776 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
-      "citationUrl": "https://github.com/bytedance/deer-flow",
+      "whyItMatters": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 90 topical match, 76 recency; local score 0.75, cluster 24.",
+      "sourceExcerpt": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime.",
+      "citationUrl": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 38,852 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
-      "contextQuality": "source-grounded",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a inference systems update. Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 90 topical match, 98 recency; local score 0.74, cluster 28.",
+      "sourceExcerpt": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "citationUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Dicklesworthstone/pi_agent_rust",
-      "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
+      "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+      "url": "http://arxiv.org/abs/2608.23497v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning.",
+      "citationUrl": "http://arxiv.org/abs/2608.23497v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+      "url": "http://arxiv.org/abs/2608.23471v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Memory is becoming a default subsystem in deployed LLM agents to provide persistent personalization and continuity. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Memory is becoming a default subsystem in deployed LLM agents to provide persistent personalization and continuity.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 18.",
+      "sourceExcerpt": "Memory is becoming a default subsystem in deployed LLM agents to provide persistent personalization and continuity.",
+      "citationUrl": "http://arxiv.org/abs/2608.23471v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "High-performance AI coding agent CLI written in Rust with zero unsafe code... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Dicklesworthstone/pi_agent_rust is appearing as builder momentum, not as a verified product claim. High-performance AI coding agent CLI written in Rust with zero unsafe code",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,642 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
-      "citationUrl": "https://github.com/Dicklesworthstone/pi_agent_rust",
-      "contextQuality": "thin public context",
+      "whyItMatters": "🎨 Best DeepSeek Harness Design Plugin. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Best DeepSeek Harness Design Plugin.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 91,352 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "🎨 Best DeepSeek Harness Design Plugin.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "FDA clears blood test to aid evaluation for Alzheimer's disease",
-      "url": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
-      "source": "Hacker News",
+      "title": "NVIDIA-NeMo/Speech",
+      "url": "https://github.com/NVIDIA-NeMo/Speech",
+      "source": "GitHub AI Systems Search",
       "category": "developer_tools",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 96 points and 33 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 96 points and 33 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 96 HN points; local score 0.71, cluster 16.",
-      "sourceExcerpt": "Hacker News discussion signal with 96 points and 33 comments.",
-      "citationUrl": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
-      "contextQuality": "thin public context",
+      "signal": "builder-signal",
+      "whyItMatters": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA-NeMo/Speech is appearing as builder momentum, not as a verified product claim. A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 18,323 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "citationUrl": "https://github.com/NVIDIA-NeMo/Speech",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "I built a low-latency AI companion that plays Skyrim with me",
-      "url": "https://pantel.is/projects/ai-gaming-companion/",
-      "source": "Hacker News",
-      "category": "inference_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 241 points and 44 comments. Treat it as an attention signal around inference systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 241 points and 44 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around inference systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 241 HN points; local score 0.68, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 241 points and 44 comments.",
-      "citationUrl": "https://pantel.is/projects/ai-gaming-companion/",
-      "contextQuality": "thin public context",
+      "title": "Q00/ouroboros",
+      "url": "https://github.com/Q00/ouroboros",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Agent OS: the agent gets smarter on its own. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Q00/ouroboros is appearing as builder momentum, not as a verified product claim. Agent OS: the agent gets smarter on its own.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 5,660 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Agent OS: the agent gets smarter on its own.",
+      "citationUrl": "https://github.com/Q00/ouroboros",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "SeL4 security proofs now complete on AArch64",
-      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
-      "source": "Hacker News",
-      "category": "model_security",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 67 points and 16 comments. Treat it as an attention signal around model security; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 67 points and 16 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around model security, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 67 HN points; local score 0.66, cluster 18.",
-      "sourceExcerpt": "Hacker News discussion signal with 67 points and 16 comments.",
-      "citationUrl": "https://proofcraft.systems/news-2026/#2026-08-21",
-      "contextQuality": "thin public context",
+      "title": "IBM/mcp-context-forge",
+      "url": "https://github.com/IBM/mcp-context-forge",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "IBM/mcp-context-forge is appearing as builder momentum, not as a verified product claim. An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,367 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management.",
+      "citationUrl": "https://github.com/IBM/mcp-context-forge",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "modelcontextprotocol/python-sdk",
-    "url": "https://github.com/modelcontextprotocol/python-sdk",
-    "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
-    "summary": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients It gets the longer read because the public context is thin public context and the item is close to the systems layer.",
+    "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+    "url": "http://arxiv.org/abs/2608.23497v1",
+    "source": "arXiv AI Systems Query",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
-      "Why it matters: Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "Technical signal: builder signal for developer tools.",
-      "Evidence: GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1."
+      "What happened: This paper is a inference systems lead from the research stream. Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 78 recency; local score 0.76, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "modelcontextprotocol/python-sdk",
-    "url": "https://github.com/modelcontextprotocol/python-sdk",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "The official Python SDK for Model Context Protocol servers and clients... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "modelcontextprotocol/python-sdk is appearing as builder momentum, not as a verified product claim. The official Python SDK for Model Context Protocol servers and clients",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-    "evidence": "GitHub AI Systems Search; 24,108 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "The official Python SDK for Model Context Protocol servers and clients",
-    "citationUrl": "https://github.com/modelcontextprotocol/python-sdk",
-    "contextQuality": "thin public context",
+    "whyItMatters": "🎨 Best DeepSeek Harness Design Plugin. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Best DeepSeek Harness Design Plugin.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 91,352 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "🎨 Best DeepSeek Harness Design Plugin.",
+    "citationUrl": "https://github.com/nexu-io/open-design",
+    "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 283
+      "elapsedMs": 342
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 283
+      "elapsedMs": 154
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 465
+      "elapsedMs": 360
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 316
+      "selected": 2,
+      "elapsedMs": 209
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 273
+      "elapsedMs": 479
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 546
+      "elapsedMs": 418
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 350
+      "selected": 1,
+      "elapsedMs": 532
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 414
+      "elapsedMs": 343
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 443
+      "elapsedMs": 394
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 701
+      "elapsedMs": 493
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 450
+      "selected": 2,
+      "elapsedMs": 551
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 587
+      "selected": 3,
+      "elapsedMs": 536
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 914
+      "selected": 1,
+      "elapsedMs": 578
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 605
+      "elapsedMs": 556
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 752
+      "selected": 4,
+      "elapsedMs": 457
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 623
+      "elapsedMs": 495
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 725
+      "elapsedMs": 561
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 702
+      "elapsedMs": 469
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1482
+      "selected": 4,
+      "elapsedMs": 1255
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1457
+      "elapsedMs": 1578
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 703
+      "elapsedMs": 535
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
-      "selected": 4,
-      "elapsedMs": 962
+      "fetched": 29,
+      "selected": 2,
+      "elapsedMs": 804
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1089
+      "elapsedMs": 816
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 439,
-    "afterFreshness": 76,
-    "droppedStale": 363,
-    "selected": 13,
-    "clusters": 12,
+    "fetched": 459,
+    "afterDedupe": 441,
+    "afterFreshness": 142,
+    "droppedStale": 299,
+    "selected": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
