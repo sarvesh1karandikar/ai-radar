@@ -1,158 +1,158 @@
 {
-  "date": "2026-08-26",
-  "generatedAt": "2026-08-26T13:55:12.410Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T22:51:09.234Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Frontier Red Team",
-      "url": "https://www.anthropic.com/research/team/frontier-red-team",
+      "title": "Multiagent Systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
       "source": "Anthropic",
-      "category": "model_security",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 95 recency; local score 0.75, cluster 21.",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 92 recency; local score 0.74, cluster 22.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/team/frontier-red-team",
+      "citationUrl": "https://www.anthropic.com/research/multiagent-systems",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-      "source": "NVIDIA Blog",
-      "category": "training_infrastructure",
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 90 topical match, 51 recency; local score 0.70, cluster 33.",
-      "sourceExcerpt": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime.",
-      "citationUrl": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+      "whyItMatters": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 93 recency; local score 0.73, cluster 24.",
+      "sourceExcerpt": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Security Education in Higher Education through AI-Powered Gamification",
-      "url": "http://arxiv.org/abs/2608.24778v1",
-      "source": "arXiv AI Systems Query",
-      "category": "training_infrastructure",
-      "signal": "research",
-      "whyItMatters": "Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect.",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 19.",
-      "sourceExcerpt": "Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect.",
-      "citationUrl": "http://arxiv.org/abs/2608.24778v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
-      "url": "http://arxiv.org/abs/2608.24848v1",
+      "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+      "url": "http://arxiv.org/abs/2608.26036v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to...",
+      "whyItMatters": "Answer accuracy is an insufficient reliability signal for LLM data agents. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Answer accuracy is an insufficient reliability signal for LLM data agents.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 79 recency; local score 0.76, cluster 17.",
-      "sourceExcerpt": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to...",
-      "citationUrl": "http://arxiv.org/abs/2608.24848v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 69 recency; local score 0.74, cluster 18.",
+      "sourceExcerpt": "Answer accuracy is an insufficient reliability signal for LLM data agents.",
+      "citationUrl": "http://arxiv.org/abs/2608.26036v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "langfuse/langfuse",
-      "url": "https://github.com/langfuse/langfuse",
+      "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+      "url": "http://arxiv.org/abs/2608.26049v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL)... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level specs.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 69 recency; local score 0.74, cluster 17.",
+      "sourceExcerpt": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level specs.",
+      "citationUrl": "http://arxiv.org/abs/2608.26049v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 33,750 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
-      "citationUrl": "https://github.com/langfuse/langfuse",
+      "evidence": "GitHub AI Systems Search; 57,421 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "ministackorg/ministack",
-      "url": "https://github.com/ministackorg/ministack",
+      "title": "artokun/comfyui-mcp",
+      "url": "https://github.com/artokun/comfyui-mcp",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "artokun/comfyui-mcp is appearing as builder momentum, not as a verified product claim. Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini,...",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 688 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini,...",
+      "citationUrl": "https://github.com/artokun/comfyui-mcp",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "frank890417/taiwan-md",
+      "url": "https://github.com/frank890417/taiwan-md",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ministackorg/ministack is appearing as builder momentum, not as a verified product claim. Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,134 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
-      "citationUrl": "https://github.com/ministackorg/ministack",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,157 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
+      "title": "marin-community/marin",
+      "url": "https://github.com/marin-community/marin",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "msitarzewski/agency-agents is appearing as builder momentum, not as a verified product claim. A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 148,127 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
-      "citationUrl": "https://github.com/msitarzewski/agency-agents",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "alirezarezvani/claude-skills",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "alirezarezvani/claude-skills is appearing as builder momentum, not as a verified product claim. 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level...",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 25,007 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level...",
-      "citationUrl": "https://github.com/alirezarezvani/claude-skills",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Open-source framework for the research and development of foundation models. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "marin-community/marin is appearing as builder momentum, not as a verified product claim. Open-source framework for the research and development of foundation models.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 2,686 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Open-source framework for the research and development of foundation models.",
+      "citationUrl": "https://github.com/marin-community/marin",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Security Education in Higher Education through AI-Powered Gamification",
-    "url": "http://arxiv.org/abs/2608.24778v1",
+    "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+    "url": "http://arxiv.org/abs/2608.26036v1",
     "source": "arXiv AI Systems Query",
-    "category": "training_infrastructure",
-    "summary": "This paper is a training infrastructure lead from the research stream. Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Answer accuracy is an insufficient reliability signal for LLM data agents. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a training infrastructure lead from the research stream. Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect.",
-      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for training infrastructure.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 77 recency; local score 0.76, cluster 19."
+      "What happened: This paper is a multi agent systems lead from the research stream. Answer accuracy is an insufficient reliability signal for LLM data agents.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 69 recency; local score 0.74, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "langfuse/langfuse",
-    "url": "https://github.com/langfuse/langfuse",
+    "title": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
+    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 33,750 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets.",
-    "citationUrl": "https://github.com/langfuse/langfuse",
+    "evidence": "GitHub AI Systems Search; 57,421 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The fastest, litest AI Gateway.",
+    "citationUrl": "https://github.com/BerriAI/litellm",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 567
+      "selected": 3,
+      "elapsedMs": 221
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 253
+      "selected": 1,
+      "elapsedMs": 335
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 284
+      "selected": 0,
+      "elapsedMs": 215
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 138
+      "selected": 2,
+      "elapsedMs": 255
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 265
+      "elapsedMs": 276
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 348
+      "elapsedMs": 577
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 310
+      "selected": 0,
+      "elapsedMs": 316
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 235
+      "selected": 1,
+      "elapsedMs": 369
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 183
+      "elapsedMs": 438
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15700,
+      "elapsedMs": 15702,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -254,8 +254,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 2,
-      "elapsedMs": 444
+      "selected": 0,
+      "elapsedMs": 405
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 358
+      "selected": 2,
+      "elapsedMs": 456
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 434
+      "selected": 0,
+      "elapsedMs": 554
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 578
+      "elapsedMs": 469
     },
     {
       "id": "aws-ml",
@@ -290,8 +290,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 408
+      "selected": 4,
+      "elapsedMs": 507
     },
     {
       "id": "azure-blog",
@@ -299,8 +299,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 437
+      "selected": 1,
+      "elapsedMs": 448
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 600
+      "elapsedMs": 473
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 432
+      "selected": 3,
+      "elapsedMs": 510
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1610
+      "elapsedMs": 1115
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1125
+      "elapsedMs": 1124
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 605
+      "elapsedMs": 479
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 623
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 764
     },
     {
       "id": "google-news-fallback",
@@ -363,14 +363,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 776
+      "elapsedMs": 877
     }
   ],
   "stats": {
-    "fetched": 444,
-    "afterDedupe": 432,
-    "afterFreshness": 184,
-    "droppedStale": 248,
+    "fetched": 456,
+    "afterDedupe": 438,
+    "afterFreshness": 206,
+    "droppedStale": 232,
     "selected": 28,
     "clusters": 28,
     "failures": 1,
