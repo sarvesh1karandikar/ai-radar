@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T22:55:02.172Z",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T17:01:07.782Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,117 +14,117 @@
       "whyItMatters": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 93 recency; local score 0.75, cluster 20.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 74 recency; local score 0.71, cluster 20.",
       "sourceExcerpt": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Automated Researchers Mitigate Alignment Failures",
-      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "source": "Anthropic",
-      "category": "model_security",
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+      "source": "AWS Machine Learning Blog",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 94 recency; local score 0.75, cluster 18.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 78 recency; local score 0.69, cluster 27.",
+      "sourceExcerpt": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "url": "http://arxiv.org/abs/2608.27439v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.75, cluster 22.",
-      "sourceExcerpt": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone.",
-      "citationUrl": "http://arxiv.org/abs/2608.27439v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
-      "url": "http://arxiv.org/abs/2608.27409v1",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "url": "http://arxiv.org/abs/2608.27455v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often involves training separate domain experts and subsequently consolidating them.",
+      "whyItMatters": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
       "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 69 recency; local score 0.74, cluster 23.",
-      "sourceExcerpt": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often involves training separate domain experts and subsequently consolidating them.",
-      "citationUrl": "http://arxiv.org/abs/2608.27409v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 95 topical match, 51 recency; local score 0.70, cluster 24.",
+      "sourceExcerpt": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
+      "citationUrl": "http://arxiv.org/abs/2608.27455v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "hashicorp/terraform-mcp-server",
-      "url": "https://github.com/hashicorp/terraform-mcp-server",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "url": "http://arxiv.org/abs/2608.27427v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 93 topical match, 51 recency; local score 0.69, cluster 26.",
+      "sourceExcerpt": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable.",
+      "citationUrl": "http://arxiv.org/abs/2608.27427v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "mlflow/mlflow",
+      "url": "https://github.com/mlflow/mlflow",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "hashicorp/terraform-mcp-server is appearing as builder momentum, not as a verified product claim. The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,513 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
-      "citationUrl": "https://github.com/hashicorp/terraform-mcp-server",
+      "whyItMatters": "The open source AI engineering platform for agents, LLMs, and ML models. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mlflow/mlflow is appearing as builder momentum, not as a verified product claim. The open source AI engineering platform for agents, LLMs, and ML models.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 27,726 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "The open source AI engineering platform for agents, LLMs, and ML models.",
+      "citationUrl": "https://github.com/mlflow/mlflow",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "aipoch/open-science",
-      "url": "https://github.com/aipoch/open-science",
+      "title": "newbietan/CloudSSH",
+      "url": "https://github.com/newbietan/CloudSSH",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open Science is an open-source, local-first, model-agnostic AI research workbench for reproducible scientific research on macOS, Windows, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "aipoch/open-science is appearing as builder momentum, not as a verified product claim. Open Science is an open-source, local-first, model-agnostic AI research workbench for reproducible scientific research on macOS, Windows, and Linux.",
+      "whyItMatters": "Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "newbietan/CloudSSH is appearing as builder momentum, not as a verified product claim. Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file management, and an AI operations assistant.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,266 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Open Science is an open-source, local-first, model-agnostic AI research workbench for reproducible scientific research on macOS, Windows, and Linux.",
-      "citationUrl": "https://github.com/aipoch/open-science",
+      "evidence": "GitHub AI Systems Search; 275 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file management, and an AI operations assistant.",
+      "citationUrl": "https://github.com/newbietan/CloudSSH",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "microsoft/playwright",
-      "url": "https://github.com/microsoft/playwright",
+      "title": "henrydaum/second-brain",
+      "url": "https://github.com/henrydaum/second-brain",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Playwright is a framework for Web Testing and Automation. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "microsoft/playwright is appearing as builder momentum, not as a verified product claim. Playwright is a framework for Web Testing and Automation.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 95,309 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Playwright is a framework for Web Testing and Automation.",
-      "citationUrl": "https://github.com/microsoft/playwright",
+      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 617 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "citationUrl": "https://github.com/henrydaum/second-brain",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "title": "gadievron/raptor",
+      "url": "https://github.com/gadievron/raptor",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "The design language that makes your AI harness better at design. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "pbakaus/impeccable is appearing as builder momentum, not as a verified product claim. The design language that makes your AI harness better at design.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 63,601 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "The design language that makes your AI harness better at design.",
-      "citationUrl": "https://github.com/pbakaus/impeccable",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "gadievron/raptor is appearing as builder momentum, not as a verified product claim. Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,679 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.",
+      "citationUrl": "https://github.com/gadievron/raptor",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
@@ -138,21 +138,21 @@
       "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
       "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 93 recency; local score 0.75, cluster 20."
+      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 74 recency; local score 0.71, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "hashicorp/terraform-mcp-server",
-    "url": "https://github.com/hashicorp/terraform-mcp-server",
+    "title": "mlflow/mlflow",
+    "url": "https://github.com/mlflow/mlflow",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "hashicorp/terraform-mcp-server is appearing as builder momentum, not as a verified product claim. The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,513 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
-    "citationUrl": "https://github.com/hashicorp/terraform-mcp-server",
+    "whyItMatters": "The open source AI engineering platform for agents, LLMs, and ML models. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "mlflow/mlflow is appearing as builder momentum, not as a verified product claim. The open source AI engineering platform for agents, LLMs, and ML models.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 27,726 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "The open source AI engineering platform for agents, LLMs, and ML models.",
+    "citationUrl": "https://github.com/mlflow/mlflow",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 279
+      "elapsedMs": 302
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 145
+      "selected": 0,
+      "elapsedMs": 240
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 390
+      "elapsedMs": 383
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 118
+      "selected": 2,
+      "elapsedMs": 251
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 278
+      "selected": 2,
+      "elapsedMs": 371
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 325
+      "elapsedMs": 584
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 249
+      "elapsedMs": 396
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 311
+      "elapsedMs": 340
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 355
+      "elapsedMs": 298
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15700,
+      "elapsedMs": 15701,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 280
+      "elapsedMs": 399
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 329
+      "selected": 0,
+      "elapsedMs": 505
     },
     {
       "id": "nvidia-developer",
@@ -273,7 +273,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 569
+      "elapsedMs": 828
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 358
+      "elapsedMs": 547
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 416
+      "elapsedMs": 794
     },
     {
       "id": "azure-blog",
@@ -299,8 +299,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 362
+      "selected": 0,
+      "elapsedMs": 761
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 428
+      "elapsedMs": 693
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 416
+      "selected": 2,
+      "elapsedMs": 762
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1247
+      "elapsedMs": 1967
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1006
+      "elapsedMs": 1452
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 417
+      "elapsedMs": 910
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 23,
-      "selected": 1,
-      "elapsedMs": 659
+      "fetched": 16,
+      "selected": 2,
+      "elapsedMs": 1200
     },
     {
       "id": "google-news-fallback",
@@ -362,17 +362,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 763
+      "selected": 4,
+      "elapsedMs": 1277
     }
   ],
   "stats": {
-    "fetched": 443,
-    "afterDedupe": 428,
-    "afterFreshness": 167,
-    "droppedStale": 261,
+    "fetched": 436,
+    "afterDedupe": 420,
+    "afterFreshness": 107,
+    "droppedStale": 313,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 26,
     "failures": 1,
     "pipeline": "statistical_ml"
   }
