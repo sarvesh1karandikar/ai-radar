@@ -1,25 +1,10 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T17:01:07.782Z",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T17:14:00.158Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
-    {
-      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 74 recency; local score 0.71, cluster 20.",
-      "sourceExcerpt": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
       "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
@@ -29,130 +14,145 @@
       "whyItMatters": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group.",
       "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 78 recency; local score 0.69, cluster 27.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 52 recency; local score 0.64, cluster 25.",
       "sourceExcerpt": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "url": "http://arxiv.org/abs/2608.27455v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 95 topical match, 51 recency; local score 0.70, cluster 24.",
-      "sourceExcerpt": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs).",
-      "citationUrl": "http://arxiv.org/abs/2608.27455v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 26.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
     },
     {
-      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "url": "http://arxiv.org/abs/2608.27427v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 93 topical match, 51 recency; local score 0.69, cluster 26.",
-      "sourceExcerpt": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable.",
-      "citationUrl": "http://arxiv.org/abs/2608.27427v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "mlflow/mlflow",
-      "url": "https://github.com/mlflow/mlflow",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The open source AI engineering platform for agents, LLMs, and ML models. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mlflow/mlflow is appearing as builder momentum, not as a verified product claim. The open source AI engineering platform for agents, LLMs, and ML models.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 27,726 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "The open source AI engineering platform for agents, LLMs, and ML models.",
-      "citationUrl": "https://github.com/mlflow/mlflow",
+      "whyItMatters": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "debpalash/VoiceStudio is appearing as builder momentum, not as a verified product claim. VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 12,028 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "citationUrl": "https://github.com/debpalash/VoiceStudio",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "lexiforest/curl_cffi",
+      "url": "https://github.com/lexiforest/curl_cffi",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Python binding for curl-impersonate fork via cffi. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "lexiforest/curl_cffi is appearing as builder momentum, not as a verified product claim. Python binding for curl-impersonate fork via cffi.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 6,419 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Python binding for curl-impersonate fork via cffi.",
+      "citationUrl": "https://github.com/lexiforest/curl_cffi",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "How Trackunit turns construction data into decisions with AI",
+      "url": "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai",
+      "source": "Databricks Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "Construction generates abundant data, from equipment telemetry and maintenance records... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Databricks Blog surfaced this as a datacenter power compute update. Construction generates abundant data, from equipment telemetry and maintenance records...",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Databricks Blog; 78 trust, 45 topical match, 50 recency; local score 0.50, cluster 29.",
+      "sourceExcerpt": "Construction generates abundant data, from equipment telemetry and maintenance records...",
+      "citationUrl": "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "newbietan/CloudSSH",
-      "url": "https://github.com/newbietan/CloudSSH",
+      "title": "happier-dev/happier",
+      "url": "https://github.com/happier-dev/happier",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "newbietan/CloudSSH is appearing as builder momentum, not as a verified product claim. Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file management, and an AI operations assistant.",
+      "whyItMatters": "Web, Desktop & Mobile client for Codex, Claude Code, OpenCode, Kimi, Augment Code, Qwen, fully end-to-end encrypted... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "happier-dev/happier is appearing as builder momentum, not as a verified product claim. Web, Desktop & Mobile client for Codex, Claude Code, OpenCode, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 275 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Serverless Web SSH client built on Cloudflare Workers with a pure TypeScript SSH stack, multi-session terminals, SFTP file management, and an AI operations assistant.",
-      "citationUrl": "https://github.com/newbietan/CloudSSH",
+      "evidence": "GitHub AI Systems Search; 1,593 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Web, Desktop & Mobile client for Codex, Claude Code, OpenCode, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
+      "citationUrl": "https://github.com/happier-dev/happier",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "henrydaum/second-brain",
-      "url": "https://github.com/henrydaum/second-brain",
+      "title": "Nano-Collective/nanocoder",
+      "url": "https://github.com/Nano-Collective/nanocoder",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "henrydaum/second-brain is appearing as builder momentum, not as a verified product claim. Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "whyItMatters": "An open coding agent for your terminal, built by a community collective rather than a company. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Nano-Collective/nanocoder is appearing as builder momentum, not as a verified product claim. An open coding agent for your terminal, built by a community collective rather than a company.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 617 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
-      "citationUrl": "https://github.com/henrydaum/second-brain",
+      "evidence": "GitHub AI Systems Search; 2,410 GitHub stars; local score 0.84, cluster 5.",
+      "sourceExcerpt": "An open coding agent for your terminal, built by a community collective rather than a company.",
+      "citationUrl": "https://github.com/Nano-Collective/nanocoder",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "gadievron/raptor",
-      "url": "https://github.com/gadievron/raptor",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "gadievron/raptor is appearing as builder momentum, not as a verified product claim. Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,679 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.",
-      "citationUrl": "https://github.com/gadievron/raptor",
-      "contextQuality": "source-grounded",
+      "title": "Open Oscar Server: open-source server compatible with AIM and ICQ clients",
+      "url": "https://github.com/mk6i/open-oscar-server",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 53 points and 18 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 53 points and 18 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 53 HN points; local score 0.68, cluster 23.",
+      "sourceExcerpt": "Hacker News discussion signal with 53 points and 18 comments.",
+      "citationUrl": "https://github.com/mk6i/open-oscar-server",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
+    "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+    "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
     "source": "AWS Machine Learning Blog",
-    "category": "inference_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "developer_tools",
+    "summary": "AWS Machine Learning Blog surfaced this as a developer tools update. Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 74 recency; local score 0.71, cluster 20."
+      "What happened: AWS Machine Learning Blog surfaced this as a developer tools update. Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group.",
+      "Why it matters: The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for developer tools.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 75 topical match, 52 recency; local score 0.64, cluster 25."
     ]
   },
   "bookmark": {
-    "title": "mlflow/mlflow",
-    "url": "https://github.com/mlflow/mlflow",
+    "title": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/VoiceStudio",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "The open source AI engineering platform for agents, LLMs, and ML models. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "mlflow/mlflow is appearing as builder momentum, not as a verified product claim. The open source AI engineering platform for agents, LLMs, and ML models.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 27,726 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "The open source AI engineering platform for agents, LLMs, and ML models.",
-    "citationUrl": "https://github.com/mlflow/mlflow",
+    "whyItMatters": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "debpalash/VoiceStudio is appearing as builder momentum, not as a verified product claim. VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 12,028 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "citationUrl": "https://github.com/debpalash/VoiceStudio",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 302
+      "selected": 0,
+      "elapsedMs": 224
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 240
+      "elapsedMs": 197
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 383
+      "elapsedMs": 401
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 251
+      "selected": 0,
+      "elapsedMs": 97
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 371
+      "selected": 1,
+      "elapsedMs": 218
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 584
+      "elapsedMs": 385
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 396
+      "elapsedMs": 252
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 340
+      "selected": 0,
+      "elapsedMs": 305
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 298
+      "elapsedMs": 342
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15701,
+      "elapsedMs": 15700,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 399
+      "elapsedMs": 316
     },
     {
       "id": "nvidia-blog",
@@ -264,7 +264,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 347
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 828
+      "selected": 0,
+      "elapsedMs": 481
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 547
+      "elapsedMs": 363
     },
     {
       "id": "aws-ml",
@@ -290,8 +290,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 794
+      "selected": 1,
+      "elapsedMs": 408
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 761
+      "elapsedMs": 350
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 693
+      "elapsedMs": 423
     },
     {
       "id": "databricks-blog",
@@ -317,17 +317,18 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 762
+      "selected": 1,
+      "elapsedMs": 350
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1967
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 16052,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +337,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1452
+      "elapsedMs": 1041
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +346,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 910
+      "elapsedMs": 429
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 16,
+      "fetched": 22,
       "selected": 2,
-      "elapsedMs": 1200
+      "elapsedMs": 701
     },
     {
       "id": "google-news-fallback",
@@ -363,17 +364,17 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1277
+      "elapsedMs": 803
     }
   ],
   "stats": {
-    "fetched": 436,
-    "afterDedupe": 420,
-    "afterFreshness": 107,
-    "droppedStale": 313,
-    "selected": 28,
-    "clusters": 26,
-    "failures": 1,
+    "fetched": 407,
+    "afterDedupe": 392,
+    "afterFreshness": 73,
+    "droppedStale": 319,
+    "selected": 13,
+    "clusters": 12,
+    "failures": 2,
     "pipeline": "statistical_ml"
   }
 }
