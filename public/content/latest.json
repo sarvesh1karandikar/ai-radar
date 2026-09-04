@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T16:57:27.221Z",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T16:46:12.239Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Frontier intelligence is going local. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. Frontier intelligence is going local.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 70 topical match, 99 recency; local score 0.73, cluster 32.",
-      "sourceExcerpt": "Frontier intelligence is going local.",
-      "citationUrl": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
       "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 80 recency; local score 0.72, cluster 35.",
-      "sourceExcerpt": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+      "whyItMatters": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 99 recency; local score 0.80, cluster 8.",
+      "sourceExcerpt": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
-      "url": "http://arxiv.org/abs/2609.02786v1",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "source": "GitHub AI and ML Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 99 recency; local score 0.71, cluster 26.",
+      "sourceExcerpt": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost.",
+      "citationUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
+      "url": "http://arxiv.org/abs/2609.04168v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 21.",
-      "sourceExcerpt": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment.",
-      "citationUrl": "http://arxiv.org/abs/2609.02786v1",
+      "whyItMatters": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges.",
+      "citationUrl": "http://arxiv.org/abs/2609.04168v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
-      "url": "http://arxiv.org/abs/2609.02805v1",
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "url": "http://arxiv.org/abs/2609.04159v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies.",
+      "whyItMatters": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no...",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 20.",
-      "sourceExcerpt": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies.",
-      "citationUrl": "http://arxiv.org/abs/2609.02805v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17.",
+      "sourceExcerpt": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no...",
+      "citationUrl": "http://arxiv.org/abs/2609.04159v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "zzet/gortex",
-      "url": "https://github.com/zzet/gortex",
+      "title": "ENTERPILOT/GoModel",
+      "url": "https://github.com/ENTERPILOT/GoModel",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "zzet/gortex is appearing as builder momentum, not as a verified product claim. High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,530 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API.",
-      "citationUrl": "https://github.com/zzet/gortex",
+      "whyItMatters": "AI gateway / AI control plane / AI proxy written in Go. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ENTERPILOT/GoModel is appearing as builder momentum, not as a verified product claim. AI gateway / AI control plane / AI proxy written in Go.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,111 GitHub stars; local score 0.90, cluster 1.",
+      "sourceExcerpt": "AI gateway / AI control plane / AI proxy written in Go.",
+      "citationUrl": "https://github.com/ENTERPILOT/GoModel",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "title": "doomemacs/core",
+      "url": "https://github.com/doomemacs/core",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "debpalash/VoiceStudio is appearing as builder momentum, not as a verified product claim. VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 15,913 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "citationUrl": "https://github.com/debpalash/VoiceStudio",
+      "whyItMatters": "An Emacs framework for the stubborn martian hacker... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "doomemacs/core is appearing as builder momentum, not as a verified product claim. An Emacs framework for the stubborn martian hacker",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 22,650 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "An Emacs framework for the stubborn martian hacker",
+      "citationUrl": "https://github.com/doomemacs/core",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "responsibleai/ASSERT",
+      "url": "https://github.com/responsibleai/ASSERT",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Requirement-driven evaluation harness for AI agents and LLM applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "responsibleai/ASSERT is appearing as builder momentum, not as a verified product claim. Requirement-driven evaluation harness for AI agents and LLM applications.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 236 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "Requirement-driven evaluation harness for AI agents and LLM applications.",
+      "citationUrl": "https://github.com/responsibleai/ASSERT",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "GetStream/stream-chat-swift",
-      "url": "https://github.com/GetStream/stream-chat-swift",
+      "title": "OpenHands/software-agent-sdk",
+      "url": "https://github.com/OpenHands/software-agent-sdk",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "💬 iOS Chat SDK in Swift - Build your own app chat experience for iOS using the official... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "GetStream/stream-chat-swift is appearing as builder momentum, not as a verified product claim. 💬 iOS Chat SDK in Swift - Build your own app chat experience for iOS using the official Stream Chat API",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 969 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "💬 iOS Chat SDK in Swift - Build your own app chat experience for iOS using the official Stream Chat API",
-      "citationUrl": "https://github.com/GetStream/stream-chat-swift",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "NVIDIA/Model-Optimizer",
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA/Model-Optimizer is appearing as builder momentum, not as a verified product claim. A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,726 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc.",
-      "citationUrl": "https://github.com/NVIDIA/Model-Optimizer",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "A clean, modular SDK for building AI agents with OpenHands V1. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "OpenHands/software-agent-sdk is appearing as builder momentum, not as a verified product claim. A clean, modular SDK for building AI agents with OpenHands V1.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,056 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "A clean, modular SDK for building AI agents with OpenHands V1.",
+      "citationUrl": "https://github.com/OpenHands/software-agent-sdk",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
-    "url": "http://arxiv.org/abs/2609.02786v1",
-    "source": "arXiv AI Systems Query",
+    "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+    "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+    "source": "AWS Machine Learning Blog",
     "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 21."
+      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 99 recency; local score 0.80, cluster 8."
     ]
   },
   "bookmark": {
-    "title": "zzet/gortex",
-    "url": "https://github.com/zzet/gortex",
+    "title": "ENTERPILOT/GoModel",
+    "url": "https://github.com/ENTERPILOT/GoModel",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "zzet/gortex is appearing as builder momentum, not as a verified product claim. High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,530 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API.",
-    "citationUrl": "https://github.com/zzet/gortex",
+    "whyItMatters": "AI gateway / AI control plane / AI proxy written in Go. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "ENTERPILOT/GoModel is appearing as builder momentum, not as a verified product claim. AI gateway / AI control plane / AI proxy written in Go.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,111 GitHub stars; local score 0.90, cluster 1.",
+    "sourceExcerpt": "AI gateway / AI control plane / AI proxy written in Go.",
+    "citationUrl": "https://github.com/ENTERPILOT/GoModel",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 609
+      "elapsedMs": 232
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 226
+      "elapsedMs": 595
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 573
+      "selected": 0,
+      "elapsedMs": 252
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 111
+      "elapsedMs": 264
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 248
+      "elapsedMs": 358
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 414
+      "elapsedMs": 582
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 152
+      "selected": 1,
+      "elapsedMs": 397
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 213
+      "selected": 0,
+      "elapsedMs": 333
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 187
+      "elapsedMs": 416
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15701,
+      "elapsedMs": 15700,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -254,8 +254,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 1,
-      "elapsedMs": 264
+      "selected": 0,
+      "elapsedMs": 461
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 258
+      "selected": 1,
+      "elapsedMs": 436
     },
     {
       "id": "nvidia-developer",
@@ -273,7 +273,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 376
+      "elapsedMs": 487
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 390
+      "elapsedMs": 452
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 357
+      "elapsedMs": 521
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 321
+      "elapsedMs": 426
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 394
+      "elapsedMs": 541
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 384
+      "selected": 2,
+      "elapsedMs": 464
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1574
+      "elapsedMs": 1268
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1018
+      "elapsedMs": 1310
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,33 +344,33 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 361
+      "selected": 4,
+      "elapsedMs": 531
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 32,
+      "fetched": 26,
       "selected": 1,
-      "elapsedMs": 621
+      "elapsedMs": 846
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
       "status": "ok",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 378
+      "fetched": 20,
+      "selected": 3,
+      "elapsedMs": 946
     }
   ],
   "stats": {
-    "fetched": 432,
-    "afterDedupe": 417,
-    "afterFreshness": 154,
-    "droppedStale": 263,
+    "fetched": 446,
+    "afterDedupe": 430,
+    "afterFreshness": 157,
+    "droppedStale": 273,
     "selected": 28,
     "clusters": 28,
     "failures": 1,
