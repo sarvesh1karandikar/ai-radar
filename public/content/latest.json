@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T16:46:12.239Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T15:50:37.566Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,117 +14,117 @@
       "whyItMatters": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 99 recency; local score 0.80, cluster 8.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 18.",
       "sourceExcerpt": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "source": "GitHub AI and ML Blog",
-      "category": "developer_tools",
+      "title": "Investigating Incidents Cybersecurity Evals",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "source": "Anthropic",
+      "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 99 recency; local score 0.71, cluster 26.",
-      "sourceExcerpt": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost.",
-      "citationUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 85 topical match, 62 recency; local score 0.68, cluster 31.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
-      "url": "http://arxiv.org/abs/2609.04168v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
-      "sourceExcerpt": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges.",
-      "citationUrl": "http://arxiv.org/abs/2609.04168v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
-      "url": "http://arxiv.org/abs/2609.04159v1",
+      "title": "AI-Assisted Design of a Post-Quantum Cryptographic Accelerator: A Deployed-Silicon Case Study",
+      "url": "http://arxiv.org/abs/2609.04058v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no...",
+      "whyItMatters": "Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 17.",
-      "sourceExcerpt": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no...",
-      "citationUrl": "http://arxiv.org/abs/2609.04159v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 24.",
+      "sourceExcerpt": "Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely.",
+      "citationUrl": "http://arxiv.org/abs/2609.04058v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "ENTERPILOT/GoModel",
-      "url": "https://github.com/ENTERPILOT/GoModel",
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "url": "http://arxiv.org/abs/2609.04066v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 23.",
+      "sourceExcerpt": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries.",
+      "citationUrl": "http://arxiv.org/abs/2609.04066v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "sipyourdrink-ltd/bernstein",
+      "url": "https://github.com/sipyourdrink-ltd/bernstein",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "AI gateway / AI control plane / AI proxy written in Go. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ENTERPILOT/GoModel is appearing as builder momentum, not as a verified product claim. AI gateway / AI control plane / AI proxy written in Go.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,111 GitHub stars; local score 0.90, cluster 1.",
-      "sourceExcerpt": "AI gateway / AI control plane / AI proxy written in Go.",
-      "citationUrl": "https://github.com/ENTERPILOT/GoModel",
+      "whyItMatters": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,103 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
+      "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "doomemacs/core",
-      "url": "https://github.com/doomemacs/core",
+      "title": "nikolai-vysotskyi/trace-mcp",
+      "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "An Emacs framework for the stubborn martian hacker... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "doomemacs/core is appearing as builder momentum, not as a verified product claim. An Emacs framework for the stubborn martian hacker",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 22,650 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "An Emacs framework for the stubborn martian hacker",
-      "citationUrl": "https://github.com/doomemacs/core",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "responsibleai/ASSERT",
-      "url": "https://github.com/responsibleai/ASSERT",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Requirement-driven evaluation harness for AI agents and LLM applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "responsibleai/ASSERT is appearing as builder momentum, not as a verified product claim. Requirement-driven evaluation harness for AI agents and LLM applications.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 236 GitHub stars; local score 0.82, cluster 6.",
-      "sourceExcerpt": "Requirement-driven evaluation harness for AI agents and LLM applications.",
-      "citationUrl": "https://github.com/responsibleai/ASSERT",
+      "whyItMatters": "Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nikolai-vysotskyi/trace-mcp is appearing as builder momentum, not as a verified product claim. Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 133 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own.",
+      "citationUrl": "https://github.com/nikolai-vysotskyi/trace-mcp",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "OpenHands/software-agent-sdk",
-      "url": "https://github.com/OpenHands/software-agent-sdk",
+      "title": "marcusquinn/aidevops",
+      "url": "https://github.com/marcusquinn/aidevops",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "A clean, modular SDK for building AI agents with OpenHands V1. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "OpenHands/software-agent-sdk is appearing as builder momentum, not as a verified product claim. A clean, modular SDK for building AI agents with OpenHands V1.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,056 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "A clean, modular SDK for building AI agents with OpenHands V1.",
-      "citationUrl": "https://github.com/OpenHands/software-agent-sdk",
-      "contextQuality": "thin public context",
+      "whyItMatters": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "marcusquinn/aidevops is appearing as builder momentum, not as a verified product claim. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 392 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
+      "citationUrl": "https://github.com/marcusquinn/aidevops",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "mouseart2025/AI-Reader-V2",
+      "url": "https://github.com/mouseart2025/AI-Reader-V2",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mouseart2025/AI-Reader-V2 is appearing as builder momentum, not as a verified product claim. AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM | React + FastAPI + SQLite",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 275 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM | React + FastAPI + SQLite",
+      "citationUrl": "https://github.com/mouseart2025/AI-Reader-V2",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
@@ -138,21 +138,21 @@
       "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 99 recency; local score 0.80, cluster 8."
+      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "ENTERPILOT/GoModel",
-    "url": "https://github.com/ENTERPILOT/GoModel",
+    "title": "sipyourdrink-ltd/bernstein",
+    "url": "https://github.com/sipyourdrink-ltd/bernstein",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "AI gateway / AI control plane / AI proxy written in Go. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "ENTERPILOT/GoModel is appearing as builder momentum, not as a verified product claim. AI gateway / AI control plane / AI proxy written in Go.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,111 GitHub stars; local score 0.90, cluster 1.",
-    "sourceExcerpt": "AI gateway / AI control plane / AI proxy written in Go.",
-    "citationUrl": "https://github.com/ENTERPILOT/GoModel",
+    "whyItMatters": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,103 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
+    "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 232
+      "selected": 0,
+      "elapsedMs": 228
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 595
+      "elapsedMs": 188
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 252
+      "elapsedMs": 363
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 264
+      "elapsedMs": 198
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 358
+      "selected": 2,
+      "elapsedMs": 414
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 582
+      "elapsedMs": 596
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 397
+      "selected": 0,
+      "elapsedMs": 384
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 333
+      "elapsedMs": 324
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 416
+      "elapsedMs": 348
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15700,
+      "elapsedMs": 15701,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 461
+      "elapsedMs": 430
     },
     {
       "id": "nvidia-blog",
@@ -264,7 +264,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 436
+      "elapsedMs": 419
     },
     {
       "id": "nvidia-developer",
@@ -273,7 +273,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 487
+      "elapsedMs": 814
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 452
+      "elapsedMs": 433
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 521
+      "elapsedMs": 474
     },
     {
       "id": "azure-blog",
@@ -299,8 +299,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 426
+      "selected": 1,
+      "elapsedMs": 439
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 541
+      "elapsedMs": 533
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 464
+      "selected": 3,
+      "elapsedMs": 475
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1268
+      "elapsedMs": 1322
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1310
+      "elapsedMs": 1283
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,17 +344,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 4,
-      "elapsedMs": 531
+      "selected": 2,
+      "elapsedMs": 565
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 26,
-      "selected": 1,
-      "elapsedMs": 846
+      "fetched": 24,
+      "selected": 2,
+      "elapsedMs": 908
     },
     {
       "id": "google-news-fallback",
@@ -362,17 +362,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 946
+      "selected": 4,
+      "elapsedMs": 850
     }
   ],
   "stats": {
-    "fetched": 446,
-    "afterDedupe": 430,
-    "afterFreshness": 157,
-    "droppedStale": 273,
+    "fetched": 444,
+    "afterDedupe": 427,
+    "afterFreshness": 141,
+    "droppedStale": 286,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 26,
     "failures": 1,
     "pipeline": "statistical_ml"
   }
