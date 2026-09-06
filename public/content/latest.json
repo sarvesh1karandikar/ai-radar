@@ -1,10 +1,25 @@
 {
-  "date": "2026-09-05",
-  "generatedAt": "2026-09-05T15:50:37.566Z",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T16:00:31.052Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI News",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Inside OpenAI, coding agents are reshaping AI research. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. Inside OpenAI, coding agents are reshaping AI research.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 75 topical match, 92 recency; local score 0.73, cluster 19.",
+      "sourceExcerpt": "Inside OpenAI, coding agents are reshaping AI research.",
+      "citationUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
       "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
@@ -14,117 +29,102 @@
       "whyItMatters": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 18.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 20.",
       "sourceExcerpt": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Investigating Incidents Cybersecurity Evals",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "source": "Anthropic",
-      "category": "model_security",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 85 topical match, 62 recency; local score 0.68, cluster 31.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "contextQuality": "thin public context",
+      "title": "hwdsl2/setup-ipsec-vpn",
+      "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "hwdsl2/setup-ipsec-vpn is appearing as builder momentum, not as a verified product claim. Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 28,433 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2.",
+      "citationUrl": "https://github.com/hwdsl2/setup-ipsec-vpn",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "AI-Assisted Design of a Post-Quantum Cryptographic Accelerator: A Deployed-Silicon Case Study",
-      "url": "http://arxiv.org/abs/2609.04058v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 24.",
-      "sourceExcerpt": "Post-quantum migration is mandated on published timelines, and silicon that ships with a defect cannot be patched remotely.",
-      "citationUrl": "http://arxiv.org/abs/2609.04058v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
-      "url": "http://arxiv.org/abs/2609.04066v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 23.",
-      "sourceExcerpt": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries.",
-      "citationUrl": "http://arxiv.org/abs/2609.04066v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "sipyourdrink-ltd/bernstein",
-      "url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "title": "starwind-ui/starwind-ui",
+      "url": "https://github.com/starwind-ui/starwind-ui",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,103 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
-      "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+      "whyItMatters": "55 framework-portable UI components for Astro and React. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "starwind-ui/starwind-ui is appearing as builder momentum, not as a verified product claim. 55 framework-portable UI components for Astro and React.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 723 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "55 framework-portable UI components for Astro and React.",
+      "citationUrl": "https://github.com/starwind-ui/starwind-ui",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Policy On The Ai Exponential",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "source": "Anthropic",
+      "category": "business_signal",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a business signal update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 45 topical match, 100 recency; local score 0.63, cluster 22.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/policy-on-the-ai-exponential",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "nikolai-vysotskyi/trace-mcp",
-      "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "nikolai-vysotskyi/trace-mcp is appearing as builder momentum, not as a verified product claim. Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 133 GitHub stars; local score 0.82, cluster 3.",
-      "sourceExcerpt": "Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own.",
-      "citationUrl": "https://github.com/nikolai-vysotskyi/trace-mcp",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "marcusquinn/aidevops",
-      "url": "https://github.com/marcusquinn/aidevops",
+      "title": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "marcusquinn/aidevops is appearing as builder momentum, not as a verified product claim. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
+      "whyItMatters": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "aipoch/open-science is appearing as builder momentum, not as a verified product claim. Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 392 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "OpenCode & Git token-efficient AI agent automation for your app, business, and personal development.",
-      "citationUrl": "https://github.com/marcusquinn/aidevops",
+      "evidence": "GitHub AI Systems Search; 3,733 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+      "citationUrl": "https://github.com/aipoch/open-science",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "mouseart2025/AI-Reader-V2",
-      "url": "https://github.com/mouseart2025/AI-Reader-V2",
+      "title": "iSegaro/Translate-It",
+      "url": "https://github.com/iSegaro/Translate-It",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mouseart2025/AI-Reader-V2 is appearing as builder momentum, not as a verified product claim. AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM | React + FastAPI + SQLite",
+      "whyItMatters": "Chrome/Firefox extension for translating(Read/Write/Listen) from Any Languages to Any Languages using API of Google Gemini , OpenAi ,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "iSegaro/Translate-It is appearing as builder momentum, not as a verified product claim. Chrome/Firefox extension for translating(Read/Write/Listen) from Any Languages to Any Languages using API of Google Gemini , OpenAi , OpenRouter and WebAi.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 275 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM | React + FastAPI + SQLite",
-      "citationUrl": "https://github.com/mouseart2025/AI-Reader-V2",
+      "evidence": "GitHub AI Systems Search; 287 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Chrome/Firefox extension for translating(Read/Write/Listen) from Any Languages to Any Languages using API of Google Gemini , OpenAi , OpenRouter and WebAi.",
+      "citationUrl": "https://github.com/iSegaro/Translate-It",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "source": "Hacker News",
+      "category": "multi_agent_systems",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 73 points and 20 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 73 points and 20 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 73 HN points; local score 0.67, cluster 21.",
+      "sourceExcerpt": "Hacker News discussion signal with 73 points and 20 comments.",
+      "citationUrl": "https://github.com/okf-memory/okf-agent-memory",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
@@ -138,21 +138,21 @@
       "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod.",
       "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 18."
+      "Evidence: AWS Machine Learning Blog; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "sipyourdrink-ltd/bernstein",
-    "url": "https://github.com/sipyourdrink-ltd/bernstein",
+    "title": "hwdsl2/setup-ipsec-vpn",
+    "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "sipyourdrink-ltd/bernstein is appearing as builder momentum, not as a verified product claim. The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,103 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them and produces the verifiable, replayable record.",
-    "citationUrl": "https://github.com/sipyourdrink-ltd/bernstein",
+    "whyItMatters": "Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "hwdsl2/setup-ipsec-vpn is appearing as builder momentum, not as a verified product claim. Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 28,433 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2.",
+    "citationUrl": "https://github.com/hwdsl2/setup-ipsec-vpn",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 228
+      "selected": 1,
+      "elapsedMs": 231
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 188
+      "elapsedMs": 238
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 363
+      "elapsedMs": 263
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 198
+      "elapsedMs": 202
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 414
+      "selected": 1,
+      "elapsedMs": 226
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 596
+      "elapsedMs": 483
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 384
+      "elapsedMs": 307
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 324
+      "elapsedMs": 347
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 348
+      "elapsedMs": 392
     },
     {
       "id": "bair-blog",
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 486
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 419
+      "selected": 0,
+      "elapsedMs": 424
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 814
+      "selected": 2,
+      "elapsedMs": 581
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 433
+      "elapsedMs": 606
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 474
+      "elapsedMs": 457
     },
     {
       "id": "azure-blog",
@@ -299,8 +299,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 439
+      "selected": 0,
+      "elapsedMs": 415
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 533
+      "elapsedMs": 678
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 475
+      "selected": 2,
+      "elapsedMs": 476
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,8 +326,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1322
+      "selected": 0,
+      "elapsedMs": 2965
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1283
+      "elapsedMs": 1110
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,8 +344,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 565
+      "selected": 1,
+      "elapsedMs": 633
     },
     {
       "id": "hacker-news",
@@ -354,7 +354,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 908
+      "elapsedMs": 667
     },
     {
       "id": "google-news-fallback",
@@ -363,16 +363,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 850
+      "elapsedMs": 802
     }
   ],
   "stats": {
     "fetched": 444,
-    "afterDedupe": 427,
-    "afterFreshness": 141,
-    "droppedStale": 286,
-    "selected": 28,
-    "clusters": 26,
+    "afterDedupe": 429,
+    "afterFreshness": 82,
+    "droppedStale": 347,
+    "selected": 21,
+    "clusters": 19,
     "failures": 1,
     "pipeline": "statistical_ml"
   }
