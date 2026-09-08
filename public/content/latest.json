@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-07",
-  "generatedAt": "2026-09-07T18:08:31.874Z",
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T17:06:13.817Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Improving Alignment Security Efforts",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic",
-      "category": "model_security",
+      "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+      "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 91 recency; local score 0.74, cluster 15.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 68 topical match, 99 recency; local score 0.71, cluster 23.",
+      "sourceExcerpt": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI News",
+      "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Inside OpenAI, coding agents are reshaping AI research. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. Inside OpenAI, coding agents are reshaping AI research.",
+      "whyItMatters": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 75 topical match, 64 recency; local score 0.65, cluster 20.",
-      "sourceExcerpt": "Inside OpenAI, coding agents are reshaping AI research.",
-      "citationUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 63 topical match, 99 recency; local score 0.70, cluster 26.",
+      "sourceExcerpt": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "justoneapi/data-api",
-      "url": "https://github.com/justoneapi/data-api",
+      "title": "sickn33/agentic-awesome-skills",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "sickn33/agentic-awesome-skills is appearing as builder momentum, not as a verified product claim. AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,113+ agentic skills.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 46,159 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,113+ agentic skills.",
+      "citationUrl": "https://github.com/sickn33/agentic-awesome-skills",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Extelligence-ai/bagel",
+      "url": "https://github.com/Extelligence-ai/bagel",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "justoneapi/data-api is appearing as builder momentum, not as a verified product claim. Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
+      "whyItMatters": "Query robotics, drone, and IoT data in plain English through an MCP server, with an intelligent edge data... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Extelligence-ai/bagel is appearing as builder momentum, not as a verified product claim. Query robotics, drone, and IoT data in plain English through an MCP server, with an intelligent edge data reduction pipeline that keeps only the data that matters.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 612 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
-      "citationUrl": "https://github.com/justoneapi/data-api",
+      "evidence": "GitHub AI Systems Search; 397 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Query robotics, drone, and IoT data in plain English through an MCP server, with an intelligent edge data reduction pipeline that keeps only the data that matters.",
+      "citationUrl": "https://github.com/Extelligence-ai/bagel",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "MCPJam/inspector",
-      "url": "https://github.com/MCPJam/inspector",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,191 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "citationUrl": "https://github.com/MCPJam/inspector",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "source": "OpenAI News",
-      "category": "business_signal",
+      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent... For systems readers, the useful lens is business signal: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a business signal update. OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 45 topical match, 81 recency; local score 0.62, cluster 21.",
-      "sourceExcerpt": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "citationUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 85 topical match, 95 recency; local score 0.70, cluster 24.",
+      "sourceExcerpt": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "citationUrl": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "VasiHemanth/tokentelemetry",
-      "url": "https://github.com/VasiHemanth/tokentelemetry",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Token telemetry dashboard for AI autonomous and coding agents — tracks tokens, sessions, tool calls & reasoning across... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "VasiHemanth/tokentelemetry is appearing as builder momentum, not as a verified product claim. Token telemetry dashboard for AI autonomous and coding agents — tracks tokens, sessions, tool calls & reasoning across Hermes agent, Claude Code, Antigravity CLI, Codex & more.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 343 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "Token telemetry dashboard for AI autonomous and coding agents — tracks tokens, sessions, tool calls & reasoning across Hermes agent, Claude Code, Antigravity CLI, Codex & more.",
-      "citationUrl": "https://github.com/VasiHemanth/tokentelemetry",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "strelov1/freehire",
-      "url": "https://github.com/strelov1/freehire",
+      "title": "Arize-ai/phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "freehire — the open-source search engine for job seekers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "strelov1/freehire is appearing as builder momentum, not as a verified product claim. freehire — the open-source search engine for job seekers",
+      "whyItMatters": "AI Observability & Evaluation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Arize-ai/phoenix is appearing as builder momentum, not as a verified product claim. AI Observability & Evaluation",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 624 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "freehire — the open-source search engine for job seekers",
-      "citationUrl": "https://github.com/strelov1/freehire",
+      "evidence": "GitHub AI Systems Search; 11,379 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "AI Observability & Evaluation",
+      "citationUrl": "https://github.com/Arize-ai/phoenix",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
-      "url": "https://github.com/timgordontg/engrim",
+      "title": "ffroliva/gflow-cli",
+      "url": "https://github.com/ffroliva/gflow-cli",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ffroliva/gflow-cli is appearing as builder momentum, not as a verified product claim. Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 176 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+      "citationUrl": "https://github.com/ffroliva/gflow-cli",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "How Climate Resilient Are the Largest Cities?",
+      "url": "https://alphageo.ai/how-climate-resilient-are-the-worlds-largest-cities/",
       "source": "Hacker News",
       "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 78 points and 44 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 78 points and 44 comments.",
+      "whyItMatters": "Hacker News discussion signal with 45 points and 50 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 45 points and 50 comments.",
       "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 78 HN points; local score 0.69, cluster 16.",
-      "sourceExcerpt": "Hacker News discussion signal with 78 points and 44 comments.",
-      "citationUrl": "https://github.com/timgordontg/engrim",
+      "evidence": "Hacker News; 45 HN points; local score 0.70, cluster 25.",
+      "sourceExcerpt": "Hacker News discussion signal with 45 points and 50 comments.",
+      "citationUrl": "https://alphageo.ai/how-climate-resilient-are-the-worlds-largest-cities/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Research acceleration: The view inside OpenAI",
-    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-    "source": "OpenAI News",
-    "category": "multi_agent_systems",
-    "summary": "OpenAI News surfaced this as a multi agent systems update. Inside OpenAI, coding agents are reshaping AI research. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+    "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: OpenAI News surfaced this as a multi agent systems update. Inside OpenAI, coding agents are reshaping AI research.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: OpenAI News; 98 trust, 75 topical match, 64 recency; local score 0.65, cluster 20."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 68 topical match, 99 recency; local score 0.71, cluster 23."
     ]
   },
   "bookmark": {
-    "title": "justoneapi/data-api",
-    "url": "https://github.com/justoneapi/data-api",
+    "title": "sickn33/agentic-awesome-skills",
+    "url": "https://github.com/sickn33/agentic-awesome-skills",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "justoneapi/data-api is appearing as builder momentum, not as a verified product claim. Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 612 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Just One API - 数据接口服务: 接口,小红书,Xiaohongshu,RedNote,淘宝,天猫,Taobao,Tmall,抖音,Douyin,抖音电商,Douyin E-commerce,TikTok,TikTok Shop,快手,Kuaishou,微博,Sina Weibo,哔哩哔哩,bilibili,豆瓣,小红书蒲公英,抖音星图,巨量星图,微信公众号,WeChat,优酷,贝壳,IMDb,京东,美团,大众点评,携程,今日头条,Toutiao,知乎,Zhihu,亚马逊,Amazon,Facebook,Twitter,Temu,Reddit,Shopee,拼多多,YouTube,Instagram,谷歌搜索API,Google Search API,SERP API",
-    "citationUrl": "https://github.com/justoneapi/data-api",
+    "whyItMatters": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "sickn33/agentic-awesome-skills is appearing as builder momentum, not as a verified product claim. AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,113+ agentic skills.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 46,159 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,113+ agentic skills.",
+    "citationUrl": "https://github.com/sickn33/agentic-awesome-skills",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 247
+      "selected": 3,
+      "elapsedMs": 593
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 455
+      "elapsedMs": 477
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 261
+      "elapsedMs": 418
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 119
+      "elapsedMs": 470
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 2,
-      "elapsedMs": 243
+      "elapsedMs": 403
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 669
+      "elapsedMs": 599
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 385
+      "selected": 1,
+      "elapsedMs": 439
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 299
+      "elapsedMs": 463
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 338
+      "elapsedMs": 587
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15702,
+      "elapsedMs": 15701,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 457
+      "elapsedMs": 474
     },
     {
       "id": "nvidia-blog",
@@ -264,7 +264,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 385
+      "elapsedMs": 637
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 472
+      "selected": 1,
+      "elapsedMs": 917
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 479
+      "elapsedMs": 619
     },
     {
       "id": "aws-ml",
@@ -290,8 +290,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 426
+      "selected": 4,
+      "elapsedMs": 703
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 434
+      "elapsedMs": 710
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 499
+      "elapsedMs": 664
     },
     {
       "id": "databricks-blog",
@@ -318,7 +318,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 708
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 3730
+      "elapsedMs": 1541
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1263
+      "elapsedMs": 1674
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 712
+      "elapsedMs": 721
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
+      "fetched": 24,
       "selected": 2,
-      "elapsedMs": 805
+      "elapsedMs": 969
     },
     {
       "id": "google-news-fallback",
@@ -363,16 +363,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 777
+      "elapsedMs": 1025
     }
   ],
   "stats": {
-    "fetched": 440,
-    "afterDedupe": 424,
-    "afterFreshness": 70,
-    "droppedStale": 354,
-    "selected": 14,
-    "clusters": 12,
+    "fetched": 444,
+    "afterDedupe": 430,
+    "afterFreshness": 92,
+    "droppedStale": 338,
+    "selected": 21,
+    "clusters": 18,
     "failures": 1,
     "pipeline": "statistical_ml"
   }
