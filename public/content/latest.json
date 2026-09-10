@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T17:03:27.130Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T16:54:56.064Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Alberta Government Claude Cybersecurity",
-      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-      "source": "Anthropic",
-      "category": "model_security",
+      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "source": "NVIDIA Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 98 recency; local score 0.76, cluster 23.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Get ready for the game with new football features in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-      "source": "Google AI Blog",
-      "category": "datacenter_power_compute",
-      "signal": "primary",
-      "whyItMatters": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season. For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google AI Blog surfaced this as a datacenter power compute update. Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 99 recency; local score 0.74, cluster 29.",
-      "sourceExcerpt": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-      "citationUrl": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "whyItMatters": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a inference systems update. AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 96 recency; local score 0.81, cluster 8.",
+      "sourceExcerpt": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners.",
+      "citationUrl": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks",
-      "url": "http://arxiv.org/abs/2609.09009v1",
+      "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
+      "source": "AWS Machine Learning Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 81 recency; local score 0.76, cluster 16.",
+      "sourceExcerpt": "Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs",
+      "url": "http://arxiv.org/abs/2609.10439v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state.",
+      "whyItMatters": "Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety,... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns.",
       "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 27.",
-      "sourceExcerpt": "Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state.",
-      "citationUrl": "http://arxiv.org/abs/2609.09009v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 21.",
+      "sourceExcerpt": "Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns.",
+      "citationUrl": "http://arxiv.org/abs/2609.10439v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "url": "http://arxiv.org/abs/2609.09156v1",
+      "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
+      "url": "http://arxiv.org/abs/2609.10433v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims.",
+      "whyItMatters": "This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and monitor simulated wildfire environments.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 20.",
-      "sourceExcerpt": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims.",
-      "citationUrl": "http://arxiv.org/abs/2609.09156v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 22.",
+      "sourceExcerpt": "This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and monitor simulated wildfire environments.",
+      "citationUrl": "http://arxiv.org/abs/2609.10433v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "rocketride-org/rocketride-server",
-      "url": "https://github.com/rocketride-org/rocketride-server",
+      "title": "giancarloerra/SocratiCode",
+      "url": "https://github.com/giancarloerra/SocratiCode",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "rocketride-org/rocketride-server is appearing as builder momentum, not as a verified product claim. High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 8,435 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.",
-      "citationUrl": "https://github.com/rocketride-org/rocketride-server",
+      "whyItMatters": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "giancarloerra/SocratiCode is appearing as builder momentum, not as a verified product claim. Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,293 GitHub stars; local score 0.89, cluster 1.",
+      "sourceExcerpt": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge.",
+      "citationUrl": "https://github.com/giancarloerra/SocratiCode",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "modelcontextprotocol/kotlin-sdk",
-      "url": "https://github.com/modelcontextprotocol/kotlin-sdk",
+      "title": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The official Kotlin SDK for Model Context Protocol servers and clients. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "modelcontextprotocol/kotlin-sdk is appearing as builder momentum, not as a verified product claim. The official Kotlin SDK for Model Context Protocol servers and clients.",
+      "whyItMatters": "Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,451 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "The official Kotlin SDK for Model Context Protocol servers and clients.",
-      "citationUrl": "https://github.com/modelcontextprotocol/kotlin-sdk",
+      "evidence": "GitHub AI Systems Search; 64,001 GitHub stars; local score 0.89, cluster 2.",
+      "sourceExcerpt": "Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Mirrowel/LLM-API-Key-Proxy",
-      "url": "https://github.com/Mirrowel/LLM-API-Key-Proxy",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Universal LLM Gateway: One API, every LLM. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Mirrowel/LLM-API-Key-Proxy is appearing as builder momentum, not as a verified product claim. Universal LLM Gateway: One API, every LLM.",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 549 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Universal LLM Gateway: One API, every LLM.",
-      "citationUrl": "https://github.com/Mirrowel/LLM-API-Key-Proxy",
+      "evidence": "GitHub AI Systems Search; 58,448 GitHub stars; local score 0.87, cluster 3.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
+      "title": "microsoft/mcp-for-beginners",
+      "url": "https://github.com/microsoft/mcp-for-beginners",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
+      "whyItMatters": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "microsoft/mcp-for-beginners is appearing as builder momentum, not as a verified product claim. This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 39,713 GitHub stars; local score 0.83, cluster 5.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
+      "evidence": "GitHub AI Systems Search; 17,185 GitHub stars; local score 0.87, cluster 4.",
+      "sourceExcerpt": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python.",
+      "citationUrl": "https://github.com/microsoft/mcp-for-beginners",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks",
-    "url": "http://arxiv.org/abs/2609.09009v1",
-    "source": "arXiv AI Systems Query",
+    "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+    "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+    "source": "NVIDIA Blog",
     "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "NVIDIA Blog surfaced this as a inference systems update. AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 27."
+      "What happened: NVIDIA Blog surfaced this as a inference systems update. AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: NVIDIA Blog; 88 trust, 100 topical match, 96 recency; local score 0.81, cluster 8."
     ]
   },
   "bookmark": {
-    "title": "rocketride-org/rocketride-server",
-    "url": "https://github.com/rocketride-org/rocketride-server",
+    "title": "giancarloerra/SocratiCode",
+    "url": "https://github.com/giancarloerra/SocratiCode",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "rocketride-org/rocketride-server is appearing as builder momentum, not as a verified product claim. High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 8,435 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.",
-    "citationUrl": "https://github.com/rocketride-org/rocketride-server",
+    "whyItMatters": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "giancarloerra/SocratiCode is appearing as builder momentum, not as a verified product claim. Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 3,293 GitHub stars; local score 0.89, cluster 1.",
+    "sourceExcerpt": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge.",
+    "citationUrl": "https://github.com/giancarloerra/SocratiCode",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 225
+      "selected": 4,
+      "elapsedMs": 526
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 466
+      "selected": 2,
+      "elapsedMs": 279
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 366
+      "elapsedMs": 407
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 191
+      "elapsedMs": 280
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 353
+      "selected": 1,
+      "elapsedMs": 261
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 654
+      "elapsedMs": 506
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 414
+      "selected": 0,
+      "elapsedMs": 341
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 259
+      "selected": 1,
+      "elapsedMs": 358
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 309
+      "elapsedMs": 318
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15700,
+      "elapsedMs": 15701,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 463
+      "elapsedMs": 363
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 371
+      "selected": 3,
+      "elapsedMs": 466
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 782
+      "selected": 2,
+      "elapsedMs": 1026
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 735
+      "elapsedMs": 507
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 447
+      "elapsedMs": 692
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 373
+      "elapsedMs": 580
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 471
+      "elapsedMs": 584
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 4,
-      "elapsedMs": 519
+      "selected": 2,
+      "elapsedMs": 848
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1162
+      "elapsedMs": 1399
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1306
+      "elapsedMs": 1613
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 703
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 32,
+      "fetched": 23,
       "selected": 1,
-      "elapsedMs": 972
+      "elapsedMs": 1003
     },
     {
       "id": "google-news-fallback",
@@ -362,15 +362,15 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 810
+      "selected": 0,
+      "elapsedMs": 1143
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 436,
-    "afterFreshness": 182,
-    "droppedStale": 254,
+    "fetched": 443,
+    "afterDedupe": 428,
+    "afterFreshness": 185,
+    "droppedStale": 243,
     "selected": 28,
     "clusters": 27,
     "failures": 1,
