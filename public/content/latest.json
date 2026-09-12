@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T16:56:18.455Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T16:02:23.432Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "source": "NVIDIA Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a inference systems update. AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 71 recency; local score 0.76, cluster 18.",
-      "sourceExcerpt": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners.",
-      "citationUrl": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Many Shot Jailbreaking",
-      "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "title": "Alignment Assessment Cybersecurity Incidents",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "source": "Anthropic",
       "category": "model_security",
       "signal": "primary",
       "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
       "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 95 recency; local score 0.75, cluster 25.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 56 recency; local score 0.68, cluster 21.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "citationUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "url": "http://arxiv.org/abs/2609.11911v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 21.",
-      "sourceExcerpt": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries.",
-      "citationUrl": "http://arxiv.org/abs/2609.11911v1",
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 56 recency; local score 0.66, cluster 22.",
+      "sourceExcerpt": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
       "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "readTime": "3 min"
     },
     {
-      "title": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
-      "url": "http://arxiv.org/abs/2609.11852v1",
-      "source": "arXiv AI Systems Query",
+      "title": "redhat-et/ripwire",
+      "url": "https://github.com/redhat-et/ripwire",
+      "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 22.",
-      "sourceExcerpt": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions.",
-      "citationUrl": "http://arxiv.org/abs/2609.11852v1",
+      "signal": "builder-signal",
+      "whyItMatters": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "redhat-et/ripwire is appearing as builder momentum, not as a verified product claim. The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,916 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.",
+      "citationUrl": "https://github.com/redhat-et/ripwire",
       "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "readTime": "3 min"
     },
     {
-      "title": "openMF/web-app",
-      "url": "https://github.com/openMF/web-app",
+      "title": "objeck/objeck-lang",
+      "url": "https://github.com/objeck/objeck-lang",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Mifos X Web App is the Web-UI component of Mifos X. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "openMF/web-app is appearing as builder momentum, not as a verified product claim. Mifos X Web App is the Web-UI component of Mifos X.",
+      "whyItMatters": "Lightweight object-oriented and functional programming language. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "objeck/objeck-lang is appearing as builder momentum, not as a verified product claim. Lightweight object-oriented and functional programming language.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 382 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Mifos X Web App is the Web-UI component of Mifos X.",
-      "citationUrl": "https://github.com/openMF/web-app",
+      "evidence": "GitHub AI Systems Search; 164 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Lightweight object-oriented and functional programming language.",
+      "citationUrl": "https://github.com/objeck/objeck-lang",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+      "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+      "source": "Google Research Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Machine Intelligence... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google Research Blog surfaced this as a multi agent systems update. Machine Intelligence",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google Research Blog; 94 trust, 83 topical match, 57 recency; local score 0.65, cluster 23.",
+      "sourceExcerpt": "Machine Intelligence",
+      "citationUrl": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 58,522 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "The fastest, litest AI Gateway.",
-      "citationUrl": "https://github.com/BerriAI/litellm",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "lidge-jun/cli-jaw",
-      "url": "https://github.com/lidge-jun/cli-jaw",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "🦈 2-line install personal AI assistant. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "lidge-jun/cli-jaw is appearing as builder momentum, not as a verified product claim. 🦈 2-line install personal AI assistant.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 204 GitHub stars; local score 0.82, cluster 6.",
-      "sourceExcerpt": "🦈 2-line install personal AI assistant.",
-      "citationUrl": "https://github.com/lidge-jun/cli-jaw",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "langfuse/langfuse",
-      "url": "https://github.com/langfuse/langfuse",
+      "title": "luckyPipewrench/pipelock",
+      "url": "https://github.com/luckyPipewrench/pipelock",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "langfuse/langfuse is appearing as builder momentum, not as a verified product claim. 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+      "whyItMatters": "Open-source AI agent firewall for MCP security and agent egress. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "luckyPipewrench/pipelock is appearing as builder momentum, not as a verified product claim. Open-source AI agent firewall for MCP security and agent egress.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 34,476 GitHub stars; local score 0.82, cluster 4.",
-      "sourceExcerpt": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
-      "citationUrl": "https://github.com/langfuse/langfuse",
+      "evidence": "GitHub AI Systems Search; 841 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Open-source AI agent firewall for MCP security and agent egress.",
+      "citationUrl": "https://github.com/luckyPipewrench/pipelock",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "duriantaco/skylos",
+      "url": "https://github.com/duriantaco/skylos",
+      "source": "GitHub AI Systems Search",
+      "category": "model_security",
+      "signal": "builder-signal",
+      "whyItMatters": "Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before... Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "duriantaco/skylos is appearing as builder momentum, not as a verified product claim. Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 755 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge.",
+      "citationUrl": "https://github.com/duriantaco/skylos",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "source": "Hacker News",
+      "category": "multi_agent_systems",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 859 points and 500 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 859 points and 500 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 859 HN points; local score 0.71, cluster 19.",
+      "sourceExcerpt": "Hacker News discussion signal with 859 points and 500 comments.",
+      "citationUrl": "https://www.rubyhack.ai/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-    "url": "http://arxiv.org/abs/2609.11911v1",
-    "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 21."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 56 recency; local score 0.66, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "openMF/web-app",
-    "url": "https://github.com/openMF/web-app",
+    "title": "redhat-et/ripwire",
+    "url": "https://github.com/redhat-et/ripwire",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Mifos X Web App is the Web-UI component of Mifos X. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "openMF/web-app is appearing as builder momentum, not as a verified product claim. Mifos X Web App is the Web-UI component of Mifos X.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 382 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Mifos X Web App is the Web-UI component of Mifos X.",
-    "citationUrl": "https://github.com/openMF/web-app",
+    "whyItMatters": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "redhat-et/ripwire is appearing as builder momentum, not as a verified product claim. The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,916 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents.",
+    "citationUrl": "https://github.com/redhat-et/ripwire",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 314
+      "selected": 1,
+      "elapsedMs": 361
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 334
+      "selected": 0,
+      "elapsedMs": 161
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 316
+      "elapsedMs": 234
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 3,
-      "elapsedMs": 321
+      "elapsedMs": 210
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 298
+      "selected": 2,
+      "elapsedMs": 202
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 655
+      "elapsedMs": 452
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 442
+      "elapsedMs": 338
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 539
+      "elapsedMs": 441
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 512
+      "elapsedMs": 493
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15702,
+      "elapsedMs": 15700,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 603
+      "elapsedMs": 367
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 610
+      "selected": 1,
+      "elapsedMs": 529
     },
     {
       "id": "nvidia-developer",
@@ -273,7 +273,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 875
+      "elapsedMs": 690
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 661
+      "elapsedMs": 519
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 797
+      "elapsedMs": 570
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 656
+      "elapsedMs": 660
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 672
+      "elapsedMs": 671
     },
     {
       "id": "databricks-blog",
@@ -318,16 +318,17 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 800
+      "elapsedMs": 763
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1593
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 16051,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +337,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1654
+      "elapsedMs": 1340
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,17 +345,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 754
+      "selected": 2,
+      "elapsedMs": 646
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 23,
-      "selected": 1,
-      "elapsedMs": 1077
+      "fetched": 22,
+      "selected": 2,
+      "elapsedMs": 1005
     },
     {
       "id": "google-news-fallback",
@@ -362,18 +363,18 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 1196
+      "selected": 4,
+      "elapsedMs": 1014
     }
   ],
   "stats": {
-    "fetched": 443,
-    "afterDedupe": 428,
-    "afterFreshness": 181,
-    "droppedStale": 247,
-    "selected": 28,
-    "clusters": 28,
-    "failures": 1,
+    "fetched": 407,
+    "afterDedupe": 393,
+    "afterFreshness": 129,
+    "droppedStale": 264,
+    "selected": 26,
+    "clusters": 24,
+    "failures": 2,
     "pipeline": "statistical_ml"
   }
 }
