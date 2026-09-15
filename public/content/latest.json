@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-14",
-  "generatedAt": "2026-09-14T18:23:01.240Z",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T17:30:13.107Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google AI Blog surfaced this as a multi agent systems update. DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 98 recency; local score 0.73, cluster 16.",
-      "sourceExcerpt": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "citationUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
+      "category": "datacenter_power_compute",
       "signal": "primary",
-      "whyItMatters": "As local models become more capable, AI agents can handle more work directly on a PC while keeping... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 75 topical match, 96 recency; local score 0.74, cluster 14.",
-      "sourceExcerpt": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
-      "citationUrl": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "whyItMatters": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 16.",
+      "sourceExcerpt": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
+      "citationUrl": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Unstructured-IO/unstructured",
-      "url": "https://github.com/Unstructured-IO/unstructured",
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure...",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 17.",
+      "sourceExcerpt": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure...",
+      "citationUrl": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Convert documents to structured data effortlessly. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Unstructured-IO/unstructured is appearing as builder momentum, not as a verified product claim. Convert documents to structured data effortlessly.",
+      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 15,425 GitHub stars; local score 0.89, cluster 1.",
-      "sourceExcerpt": "Convert documents to structured data effortlessly.",
-      "citationUrl": "https://github.com/Unstructured-IO/unstructured",
+      "evidence": "GitHub AI Systems Search; 1,867 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
+      "title": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 58,720 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "The fastest, litest AI Gateway.",
-      "citationUrl": "https://github.com/BerriAI/litellm",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "A collection of MCP servers. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "punkpeye/awesome-mcp-servers is appearing as builder momentum, not as a verified product claim. A collection of MCP servers.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 95,044 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "A collection of MCP servers.",
+      "citationUrl": "https://github.com/punkpeye/awesome-mcp-servers",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
       "source": "AWS Machine Learning Blog",
-      "category": "training_infrastructure",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 97 recency; local score 0.72, cluster 17.",
-      "sourceExcerpt": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+      "whyItMatters": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 21.",
+      "sourceExcerpt": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "microsoft/playwright",
-      "url": "https://github.com/microsoft/playwright",
+      "title": "tetherto/qvac",
+      "url": "https://github.com/tetherto/qvac",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "inference_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Playwright is a framework for Web Testing and Automation. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "microsoft/playwright is appearing as builder momentum, not as a verified product claim. Playwright is a framework for Web Testing and Automation.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 96,120 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Playwright is a framework for Web Testing and Automation.",
-      "citationUrl": "https://github.com/microsoft/playwright",
+      "whyItMatters": "Open-source local AI SDK - run AI on-device with no cloud, no API keys. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tetherto/qvac is appearing as builder momentum, not as a verified product claim. Open-source local AI SDK - run AI on-device with no cloud, no API keys.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 606 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "Open-source local AI SDK - run AI on-device with no cloud, no API keys.",
+      "citationUrl": "https://github.com/tetherto/qvac",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "rtk-ai/rtk",
-      "url": "https://github.com/rtk-ai/rtk",
+      "title": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "rtk-ai/rtk is appearing as builder momentum, not as a verified product claim. CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 80,345 GitHub stars; local score 0.85, cluster 4.",
-      "sourceExcerpt": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.",
-      "citationUrl": "https://github.com/rtk-ai/rtk",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Pion, an agent designed to run any company autonomously",
-      "url": "https://andonlabs.com/blog/why-we-built-pion",
-      "source": "Hacker News",
       "category": "multi_agent_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 52 points and 61 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 52 points and 61 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 52 HN points; local score 0.68, cluster 20.",
-      "sourceExcerpt": "Hacker News discussion signal with 52 points and 61 comments.",
-      "citationUrl": "https://andonlabs.com/blog/why-we-built-pion",
+      "signal": "builder-signal",
+      "whyItMatters": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "earendil-works/pi is appearing as builder momentum, not as a verified product claim. AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 105,570 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "citationUrl": "https://github.com/earendil-works/pi",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 99 recency; local score 0.74, cluster 20.",
+      "sourceExcerpt": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+      "citationUrl": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-    "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-    "source": "NVIDIA Blog",
-    "category": "multi_agent_systems",
-    "summary": "NVIDIA Blog surfaced this as a multi agent systems update. As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+    "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+    "source": "AWS Machine Learning Blog",
+    "category": "developer_tools",
+    "summary": "AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a multi agent systems update. As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 75 topical match, 96 recency; local score 0.74, cluster 14."
+      "What happened: AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
+      "Why it matters: The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for developer tools.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 21."
     ]
   },
   "bookmark": {
-    "title": "Unstructured-IO/unstructured",
-    "url": "https://github.com/Unstructured-IO/unstructured",
+    "title": "codenameone/CodenameOne",
+    "url": "https://github.com/codenameone/CodenameOne",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Convert documents to structured data effortlessly. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "Unstructured-IO/unstructured is appearing as builder momentum, not as a verified product claim. Convert documents to structured data effortlessly.",
+    "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 15,425 GitHub stars; local score 0.89, cluster 1.",
-    "sourceExcerpt": "Convert documents to structured data effortlessly.",
-    "citationUrl": "https://github.com/Unstructured-IO/unstructured",
+    "evidence": "GitHub AI Systems Search; 1,867 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+    "citationUrl": "https://github.com/codenameone/CodenameOne",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 369
+      "elapsedMs": 226
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 175
+      "elapsedMs": 210
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 252
+      "elapsedMs": 227
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 93
+      "elapsedMs": 248
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 273
+      "elapsedMs": 243
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 477
+      "elapsedMs": 356
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 152
+      "selected": 1,
+      "elapsedMs": 274
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 236
+      "elapsedMs": 342
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 207
+      "elapsedMs": 316
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15702,
+      "elapsedMs": 15701,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 328
+      "elapsedMs": 380
     },
     {
       "id": "nvidia-blog",
@@ -263,8 +263,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 376
+      "selected": 4,
+      "elapsedMs": 426
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 529
+      "selected": 3,
+      "elapsedMs": 580
     },
     {
       "id": "cloudflare-ai",
@@ -281,8 +281,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 437
+      "selected": 1,
+      "elapsedMs": 464
     },
     {
       "id": "aws-ml",
@@ -290,8 +290,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 568
+      "selected": 4,
+      "elapsedMs": 561
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 531
+      "elapsedMs": 501
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 606
+      "elapsedMs": 635
     },
     {
       "id": "databricks-blog",
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 537
+      "selected": 2,
+      "elapsedMs": 590
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,8 +327,8 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 1899,
-      "error": "HTTP 429 for https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CR+OR+cat%3Acs.DC+OR+cat%3Astat.ML%29+AND+%28all%3Aagent+OR+all%3Ainference+OR+all%3Atraining+OR+all%3Asecurity+OR+all%3Atransformer+OR+all%3Aarchitecture+OR+all%3Adatacenter+OR+all%3AGPU%29&sortBy=submittedDate&sortOrder=descending&max_results=35"
+      "elapsedMs": 15000,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "github-ai-systems",
@@ -337,7 +337,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1421
+      "elapsedMs": 1239
     },
     {
       "id": "github-ai-ml-blog",
@@ -346,35 +346,36 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 598
+      "elapsedMs": 604
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 30,
-      "selected": 4,
-      "elapsedMs": 942
+      "fetched": 29,
+      "selected": 2,
+      "elapsedMs": 906
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
-      "status": "ok",
-      "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 901
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 15700,
+      "error": "The operation was aborted due to timeout"
     }
   ],
   "stats": {
-    "fetched": 415,
-    "afterDedupe": 402,
-    "afterFreshness": 91,
-    "droppedStale": 311,
-    "selected": 19,
-    "clusters": 18,
-    "failures": 2,
+    "fetched": 394,
+    "afterDedupe": 380,
+    "afterFreshness": 97,
+    "droppedStale": 283,
+    "selected": 24,
+    "clusters": 22,
+    "failures": 3,
     "pipeline": "statistical_ml"
   }
 }
