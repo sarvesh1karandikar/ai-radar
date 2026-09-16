@@ -1,25 +1,10 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-15T17:30:13.107Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T17:30:59.189Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
-    {
-      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
-      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-      "source": "NVIDIA Blog",
-      "category": "datacenter_power_compute",
-      "signal": "primary",
-      "whyItMatters": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 16.",
-      "sourceExcerpt": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
-      "citationUrl": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
     {
       "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
       "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
@@ -29,130 +14,145 @@
       "whyItMatters": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure...",
       "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 17.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 74 recency; local score 0.73, cluster 29.",
       "sourceExcerpt": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure...",
       "citationUrl": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "codenameone/CodenameOne",
-      "url": "https://github.com/codenameone/CodenameOne",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,867 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 74 recency; local score 0.73, cluster 28.",
+      "sourceExcerpt": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption.",
+      "citationUrl": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "punkpeye/awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "url": "http://arxiv.org/abs/2609.17474v1",
+      "source": "arXiv AI Systems Query",
+      "category": "datacenter_power_compute",
+      "signal": "research",
+      "whyItMatters": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Read it as a research lead for datacenter power compute, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a datacenter power compute lead from the research stream. Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 18.",
+      "sourceExcerpt": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student.",
+      "citationUrl": "http://arxiv.org/abs/2609.17474v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
+      "url": "http://arxiv.org/abs/2609.17475v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 17.",
+      "sourceExcerpt": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory.",
+      "citationUrl": "http://arxiv.org/abs/2609.17475v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A collection of MCP servers. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "punkpeye/awesome-mcp-servers is appearing as builder momentum, not as a verified product claim. A collection of MCP servers.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 95,044 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "A collection of MCP servers.",
-      "citationUrl": "https://github.com/punkpeye/awesome-mcp-servers",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
-      "source": "AWS Machine Learning Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 21.",
-      "sourceExcerpt": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+      "whyItMatters": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "t8y2/dbx is appearing as builder momentum, not as a verified product claim. 20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 19,770 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
+      "citationUrl": "https://github.com/t8y2/dbx",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "tetherto/qvac",
-      "url": "https://github.com/tetherto/qvac",
+      "title": "adolfousier/opencrabs",
+      "url": "https://github.com/adolfousier/opencrabs",
       "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source local AI SDK - run AI on-device with no cloud, no API keys. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "tetherto/qvac is appearing as builder momentum, not as a verified product claim. Open-source local AI SDK - run AI on-device with no cloud, no API keys.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 606 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Open-source local AI SDK - run AI on-device with no cloud, no API keys.",
-      "citationUrl": "https://github.com/tetherto/qvac",
+      "whyItMatters": "The all-in-one AI agent living in your terminal. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "adolfousier/opencrabs is appearing as builder momentum, not as a verified product claim. The all-in-one AI agent living in your terminal.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 938 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "The all-in-one AI agent living in your terminal.",
+      "citationUrl": "https://github.com/adolfousier/opencrabs",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "earendil-works/pi",
-      "url": "https://github.com/earendil-works/pi",
+      "title": "securo-finance/securo",
+      "url": "https://github.com/securo-finance/securo",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "earendil-works/pi is appearing as builder momentum, not as a verified product claim. AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 105,570 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "citationUrl": "https://github.com/earendil-works/pi",
+      "whyItMatters": "Open-source personal finance manager. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "securo-finance/securo is appearing as builder momentum, not as a verified product claim. Open-source personal finance manager.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 3,453 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Open-source personal finance manager.",
+      "citationUrl": "https://github.com/securo-finance/securo",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 99 recency; local score 0.74, cluster 20.",
-      "sourceExcerpt": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
-      "citationUrl": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
-      "contextQuality": "thin public context",
+      "title": "spiculedata/saiku",
+      "url": "https://github.com/spiculedata/saiku",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source semantic layer: one cube for Excel (MDX/XMLA), dashboards, and AI agents (MCP). Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "spiculedata/saiku is appearing as builder momentum, not as a verified product claim. Open-source semantic layer: one cube for Excel (MDX/XMLA), dashboards, and AI agents (MCP).",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,324 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "Open-source semantic layer: one cube for Excel (MDX/XMLA), dashboards, and AI agents (MCP).",
+      "citationUrl": "https://github.com/spiculedata/saiku",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
-    "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
-    "source": "AWS Machine Learning Blog",
-    "category": "developer_tools",
-    "summary": "AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+    "url": "http://arxiv.org/abs/2609.17474v1",
+    "source": "arXiv AI Systems Query",
+    "category": "datacenter_power_compute",
+    "summary": "This paper is a datacenter power compute lead from the research stream. Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a developer tools update. Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models.",
-      "Why it matters: The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for developer tools.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 80 topical match, 99 recency; local score 0.74, cluster 21."
+      "What happened: This paper is a datacenter power compute lead from the research stream. Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student.",
+      "Why it matters: The systems angle is datacenter power compute; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for datacenter power compute.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 18."
     ]
   },
   "bookmark": {
-    "title": "codenameone/CodenameOne",
-    "url": "https://github.com/codenameone/CodenameOne",
+    "title": "t8y2/dbx",
+    "url": "https://github.com/t8y2/dbx",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+    "whyItMatters": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "t8y2/dbx is appearing as builder momentum, not as a verified product claim. 20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,867 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
-    "citationUrl": "https://github.com/codenameone/CodenameOne",
+    "evidence": "GitHub AI Systems Search; 19,770 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
+    "citationUrl": "https://github.com/t8y2/dbx",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 226
+      "selected": 1,
+      "elapsedMs": 244
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 210
+      "selected": 0,
+      "elapsedMs": 478
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 227
+      "selected": 1,
+      "elapsedMs": 395
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 248
+      "selected": 1,
+      "elapsedMs": 213
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 243
+      "elapsedMs": 500
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 356
+      "elapsedMs": 671
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 274
+      "elapsedMs": 429
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 342
+      "selected": 0,
+      "elapsedMs": 328
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 316
+      "elapsedMs": 287
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 15701,
+      "elapsedMs": 15700,
       "error": "The operation was aborted due to timeout"
     },
     {
@@ -255,7 +255,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 380
+      "elapsedMs": 501
     },
     {
       "id": "nvidia-blog",
@@ -264,7 +264,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 4,
-      "elapsedMs": 426
+      "elapsedMs": 341
     },
     {
       "id": "nvidia-developer",
@@ -272,8 +272,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 3,
-      "elapsedMs": 580
+      "selected": 1,
+      "elapsedMs": 376
     },
     {
       "id": "cloudflare-ai",
@@ -282,7 +282,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 464
+      "elapsedMs": 508
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 561
+      "elapsedMs": 455
     },
     {
       "id": "azure-blog",
@@ -300,7 +300,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 501
+      "elapsedMs": 355
     },
     {
       "id": "semianalysis",
@@ -309,7 +309,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 635
+      "elapsedMs": 519
     },
     {
       "id": "databricks-blog",
@@ -317,18 +317,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 590
+      "selected": 1,
+      "elapsedMs": 389
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 15000,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1032
     },
     {
       "id": "github-ai-systems",
@@ -337,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1239
+      "elapsedMs": 1142
     },
     {
       "id": "github-ai-ml-blog",
@@ -346,36 +345,35 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 604
+      "elapsedMs": 510
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
-      "selected": 2,
-      "elapsedMs": 906
+      "fetched": 34,
+      "selected": 1,
+      "elapsedMs": 1864
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 15700,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 20,
+      "selected": 3,
+      "elapsedMs": 855
     }
   ],
   "stats": {
-    "fetched": 394,
-    "afterDedupe": 380,
-    "afterFreshness": 97,
-    "droppedStale": 283,
-    "selected": 24,
-    "clusters": 22,
-    "failures": 3,
+    "fetched": 454,
+    "afterDedupe": 437,
+    "afterFreshness": 157,
+    "droppedStale": 280,
+    "selected": 28,
+    "clusters": 28,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
