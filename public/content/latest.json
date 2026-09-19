@@ -1,10 +1,25 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T16:57:53.869Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T16:17:07.132Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "Accenture Embedded Evaluation",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "source": "Anthropic",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 80 topical match, 79 recency; local score 0.69, cluster 27.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
     {
       "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
@@ -14,145 +29,130 @@
       "whyItMatters": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 78 topical match, 96 recency; local score 0.73, cluster 30.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 78 topical match, 72 recency; local score 0.69, cluster 29.",
       "sourceExcerpt": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "source": "GitHub AI and ML Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 90 topical match, 98 recency; local score 0.72, cluster 33.",
-      "sourceExcerpt": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.",
-      "citationUrl": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
-      "url": "http://arxiv.org/abs/2609.20794v1",
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "url": "http://arxiv.org/abs/2609.20758v1",
       "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 14.",
-      "sourceExcerpt": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction.",
-      "citationUrl": "http://arxiv.org/abs/2609.20794v1",
+      "whyItMatters": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 19.",
+      "sourceExcerpt": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.",
+      "citationUrl": "http://arxiv.org/abs/2609.20758v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
-      "url": "http://arxiv.org/abs/2609.20744v1",
+      "title": "On-Demand Attention: Language Models Know When to Recall",
+      "url": "http://arxiv.org/abs/2609.20734v1",
       "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 16.",
-      "sourceExcerpt": "Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck.",
-      "citationUrl": "http://arxiv.org/abs/2609.20744v1",
+      "whyItMatters": "Reasoning and agentic workloads increasingly demand efficient long-context inference. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Reasoning and agentic workloads increasingly demand efficient long-context inference.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 20.",
+      "sourceExcerpt": "Reasoning and agentic workloads increasingly demand efficient long-context inference.",
+      "citationUrl": "http://arxiv.org/abs/2609.20734v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "LeanBitLab/LeanType",
-      "url": "https://github.com/LeanBitLab/LeanType",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "LeanBitLab/LeanType is appearing as builder momentum, not as a verified product claim. LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 963 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation",
-      "citationUrl": "https://github.com/LeanBitLab/LeanType",
+      "whyItMatters": "🎨 Best DeepSeek Harness Design Plugin. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Best DeepSeek Harness Design Plugin.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 97,052 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "🎨 Best DeepSeek Harness Design Plugin.",
+      "citationUrl": "https://github.com/nexu-io/open-design",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "wemake-services/django-modern-rest",
-      "url": "https://github.com/wemake-services/django-modern-rest",
+      "title": "karthink/gptel",
+      "url": "https://github.com/karthink/gptel",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Modern REST framework for Django with types and async support!... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "wemake-services/django-modern-rest is appearing as builder momentum, not as a verified product claim. Modern REST framework for Django with types and async support!",
+      "whyItMatters": "A simple, extensible LLM client for Emacs... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "karthink/gptel is appearing as builder momentum, not as a verified product claim. A simple, extensible LLM client for Emacs",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,464 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Modern REST framework for Django with types and async support!",
-      "citationUrl": "https://github.com/wemake-services/django-modern-rest",
+      "evidence": "GitHub AI Systems Search; 3,533 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "A simple, extensible LLM client for Emacs",
+      "citationUrl": "https://github.com/karthink/gptel",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "promptfoo/promptfoo",
-      "url": "https://github.com/promptfoo/promptfoo",
+      "title": "1003129155/jietuba",
+      "url": "https://github.com/1003129155/jietuba",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Test your prompts, agents, and RAGs. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "promptfoo/promptfoo is appearing as builder momentum, not as a verified product claim. Test your prompts, agents, and RAGs.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 25,266 GitHub stars; local score 0.82, cluster 3.",
-      "sourceExcerpt": "Test your prompts, agents, and RAGs.",
-      "citationUrl": "https://github.com/promptfoo/promptfoo",
+      "whyItMatters": "Open-source Windows screenshot tool with scrolling capture, annotation, OCR, translation, pinned-image editing, GIF recording and clipboard history. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "1003129155/jietuba is appearing as builder momentum, not as a verified product claim. Open-source Windows screenshot tool with scrolling capture, annotation, OCR, translation, pinned-image editing, GIF recording and clipboard history.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 165 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "Open-source Windows screenshot tool with scrolling capture, annotation, OCR, translation, pinned-image editing, GIF recording and clipboard history.",
+      "citationUrl": "https://github.com/1003129155/jietuba",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "weave-os/router",
-      "url": "https://github.com/weave-os/router",
+      "title": "objeck/objeck-lang",
+      "url": "https://github.com/objeck/objeck-lang",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Routes every prompt to the right model in <50ms. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "weave-os/router is appearing as builder momentum, not as a verified product claim. Model router for agentic systems.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,451 GitHub stars; local score 0.81, cluster 6.",
-      "sourceExcerpt": "Model router for agentic systems.",
-      "citationUrl": "https://github.com/weave-os/router",
+      "whyItMatters": "Lightweight object-oriented and functional programming language. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "objeck/objeck-lang is appearing as builder momentum, not as a verified product claim. Lightweight object-oriented and functional programming language.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 164 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Lightweight object-oriented and functional programming language.",
+      "citationUrl": "https://github.com/objeck/objeck-lang",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
-    "url": "http://arxiv.org/abs/2609.20794v1",
+    "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+    "url": "http://arxiv.org/abs/2609.20758v1",
     "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 76 recency; local score 0.76, cluster 14."
+      "What happened: This paper is a multi agent systems lead from the research stream. Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 19."
     ]
   },
   "bookmark": {
-    "title": "LeanBitLab/LeanType",
-    "url": "https://github.com/LeanBitLab/LeanType",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "LeanBitLab/LeanType is appearing as builder momentum, not as a verified product claim. LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 963 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "LeanType is an Open-source keyboard, fork of HeliBoard with additional features and customisation",
-    "citationUrl": "https://github.com/LeanBitLab/LeanType",
+    "whyItMatters": "🎨 Best DeepSeek Harness Design Plugin. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "nexu-io/open-design is appearing as builder momentum, not as a verified product claim. 🎨 Best DeepSeek Harness Design Plugin.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 97,052 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "🎨 Best DeepSeek Harness Design Plugin.",
+    "citationUrl": "https://github.com/nexu-io/open-design",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 311
+      "selected": 1,
+      "elapsedMs": 333
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 299
+      "elapsedMs": 298
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 370
+      "elapsedMs": 388
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 293
+      "selected": 1,
+      "elapsedMs": 240
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 385
+      "elapsedMs": 313
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 569
+      "elapsedMs": 566
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 407
+      "elapsedMs": 336
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 429
+      "elapsedMs": 357
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 489
+      "elapsedMs": 374
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 622
+      "elapsedMs": 514
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 459
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 460
+      "selected": 0,
+      "elapsedMs": 387
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 704
+      "selected": 1,
+      "elapsedMs": 674
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 582
+      "selected": 0,
+      "elapsedMs": 441
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 639
+      "elapsedMs": 500
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 579
+      "elapsedMs": 513
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 707
+      "elapsedMs": 637
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 3,
-      "elapsedMs": 676
+      "elapsedMs": 563
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1919
+      "elapsedMs": 1657
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1405
+      "elapsedMs": 1402
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 849
+      "selected": 1,
+      "elapsedMs": 656
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
-      "selected": 1,
-      "elapsedMs": 987
+      "fetched": 32,
+      "selected": 2,
+      "elapsedMs": 890
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 1087
+      "selected": 4,
+      "elapsedMs": 898
     }
   ],
   "stats": {
-    "fetched": 459,
-    "afterDedupe": 441,
-    "afterFreshness": 146,
-    "droppedStale": 295,
+    "fetched": 462,
+    "afterDedupe": 446,
+    "afterFreshness": 135,
+    "droppedStale": 311,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
