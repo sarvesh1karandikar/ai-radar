@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T17:44:34.416Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T17:46:00.795Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,146 +14,146 @@
       "whyItMatters": "NVIDIA AI Day Singapore, which takes place Sept. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a training infrastructure update. NVIDIA AI Day Singapore, which takes place Sept.",
       "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 84 recency; local score 0.77, cluster 12.",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 59 recency; local score 0.73, cluster 27.",
       "sourceExcerpt": "NVIDIA AI Day Singapore, which takes place Sept.",
       "citationUrl": "https://blogs.nvidia.com/blog/ai-day-singapore/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "source": "NVIDIA Blog",
-      "category": "model_architecture_math",
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Every AI factory needs power and cooling that fit its computing architecture. For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a model architecture math update. Every AI factory needs power and cooling that fit its computing architecture.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 50 recency; local score 0.73, cluster 29.",
-      "sourceExcerpt": "Every AI factory needs power and cooling that fit its computing architecture.",
-      "citationUrl": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "whyItMatters": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 60 topical match, 99 recency; local score 0.68, cluster 41.",
+      "sourceExcerpt": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
-      "url": "http://arxiv.org/abs/2609.26708v1",
+      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+      "url": "http://arxiv.org/abs/2609.28372v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
+      "citationUrl": "http://arxiv.org/abs/2609.28372v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models",
+      "url": "http://arxiv.org/abs/2609.28262v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired.",
+      "whyItMatters": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints.",
       "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 18.",
-      "sourceExcerpt": "Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired.",
-      "citationUrl": "http://arxiv.org/abs/2609.26708v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 19.",
+      "sourceExcerpt": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints.",
+      "citationUrl": "http://arxiv.org/abs/2609.28262v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
-      "url": "http://arxiv.org/abs/2609.26631v1",
-      "source": "arXiv AI Systems Query",
-      "category": "training_infrastructure",
-      "signal": "research",
-      "whyItMatters": "Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems.",
-      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 20.",
-      "sourceExcerpt": "Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems.",
-      "citationUrl": "http://arxiv.org/abs/2609.26631v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "avelino/awesome-go",
-      "url": "https://github.com/avelino/awesome-go",
+      "title": "mock-server/mockserver-monorepo",
+      "url": "https://github.com/mock-server/mockserver-monorepo",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A curated list of awesome Go frameworks, libraries and software... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "avelino/awesome-go is appearing as builder momentum, not as a verified product claim. A curated list of awesome Go frameworks, libraries and software",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 185,284 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "A curated list of awesome Go frameworks, libraries and software",
-      "citationUrl": "https://github.com/avelino/awesome-go",
-      "contextQuality": "thin public context",
+      "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,974 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+      "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "assaio/assaio",
-      "url": "https://github.com/assaio/assaio",
+      "title": "jgravelle/jcodemunch-mcp",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Offline-first analytics for Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI and Cline — $/100 AI lines... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "assaio/assaio is appearing as builder momentum, not as a verified product claim. Is your AI coding spend delivering?",
+      "whyItMatters": "Cut AI token costs 95%+ on code exploration. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "jgravelle/jcodemunch-mcp is appearing as builder momentum, not as a verified product claim. Cut AI token costs 95%+ on code exploration.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 64 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Is your AI coding spend delivering?",
-      "citationUrl": "https://github.com/assaio/assaio",
+      "evidence": "GitHub AI Systems Search; 2,710 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "Cut AI token costs 95%+ on code exploration.",
+      "citationUrl": "https://github.com/jgravelle/jcodemunch-mcp",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "speakeasy-api/gram",
-      "url": "https://github.com/speakeasy-api/gram",
+      "title": "superlinked/sie",
+      "url": "https://github.com/superlinked/sie",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Securely scale AI usage across your organization. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "speakeasy-api/gram is appearing as builder momentum, not as a verified product claim. Securely scale AI usage across your organization.",
+      "whyItMatters": "Open-source inference server and production cluster for all the models your agent needs. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "superlinked/sie is appearing as builder momentum, not as a verified product claim. Open-source inference server and production cluster for all the models your agent needs.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 270 GitHub stars; local score 0.80, cluster 5.",
-      "sourceExcerpt": "Securely scale AI usage across your organization.",
-      "citationUrl": "https://github.com/speakeasy-api/gram",
+      "evidence": "GitHub AI Systems Search; 3,313 GitHub stars; local score 0.85, cluster 4.",
+      "sourceExcerpt": "Open-source inference server and production cluster for all the models your agent needs.",
+      "citationUrl": "https://github.com/superlinked/sie",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "cosai-oasis/secure-ai-tooling",
-      "url": "https://github.com/cosai-oasis/secure-ai-tooling",
+      "title": "vshulcz/deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
       "source": "GitHub AI Systems Search",
-      "category": "model_security",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "The CoSAI Risk Map is a framework for identifying, analyzing, and mitigating security risks in Artificial Intelligence systems. Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "cosai-oasis/secure-ai-tooling is appearing as builder momentum, not as a verified product claim. The CoSAI Risk Map is a framework for identifying, analyzing, and mitigating security risks in Artificial Intelligence systems.",
-      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 97 GitHub stars; local score 0.81, cluster 4.",
-      "sourceExcerpt": "The CoSAI Risk Map is a framework for identifying, analyzing, and mitigating security risks in Artificial Intelligence systems.",
-      "citationUrl": "https://github.com/cosai-oasis/secure-ai-tooling",
+      "whyItMatters": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "vshulcz/deja-vu is appearing as builder momentum, not as a verified product claim. One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 966 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk.",
+      "citationUrl": "https://github.com/vshulcz/deja-vu",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-    "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-    "source": "NVIDIA Blog",
-    "category": "training_infrastructure",
-    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. NVIDIA AI Day Singapore, which takes place Sept. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+    "url": "http://arxiv.org/abs/2609.28372v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. NVIDIA AI Day Singapore, which takes place Sept.",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 84 recency; local score 0.77, cluster 12."
+      "What happened: This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "avelino/awesome-go",
-    "url": "https://github.com/avelino/awesome-go",
+    "title": "mock-server/mockserver-monorepo",
+    "url": "https://github.com/mock-server/mockserver-monorepo",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "A curated list of awesome Go frameworks, libraries and software... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "avelino/awesome-go is appearing as builder momentum, not as a verified product claim. A curated list of awesome Go frameworks, libraries and software",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-    "evidence": "GitHub AI Systems Search; 185,284 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "A curated list of awesome Go frameworks, libraries and software",
-    "citationUrl": "https://github.com/avelino/awesome-go",
-    "contextQuality": "thin public context",
+    "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 4,974 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+    "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+    "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 274
+      "elapsedMs": 245
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 301
+      "selected": 1,
+      "elapsedMs": 160
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 319
+      "elapsedMs": 303
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 156
+      "selected": 2,
+      "elapsedMs": 224
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 257
+      "elapsedMs": 255
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 368
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 282
+      "selected": 0,
+      "elapsedMs": 321
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 352
+      "elapsedMs": 392
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 383
+      "elapsedMs": 438
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 487
+      "elapsedMs": 485
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 564
+      "elapsedMs": 327
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 507
+      "selected": 2,
+      "elapsedMs": 539
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 555
+      "elapsedMs": 682
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 567
+      "elapsedMs": 513
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 635
+      "elapsedMs": 570
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 596
+      "selected": 0,
+      "elapsedMs": 589
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 710
+      "elapsedMs": 611
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 3,
-      "elapsedMs": 641
+      "elapsedMs": 599
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1584
+      "elapsedMs": 1562
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1837
+      "elapsedMs": 1411
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,8 +343,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 669
+      "selected": 1,
+      "elapsedMs": 663
     },
     {
       "id": "hacker-news",
@@ -353,7 +353,7 @@
       "status": "ok",
       "fetched": 33,
       "selected": 1,
-      "elapsedMs": 905
+      "elapsedMs": 1056
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 983
+      "selected": 0,
+      "elapsedMs": 1027
     }
   ],
   "stats": {
     "fetched": 463,
-    "afterDedupe": 448,
-    "afterFreshness": 162,
-    "droppedStale": 286,
+    "afterDedupe": 450,
+    "afterFreshness": 161,
+    "droppedStale": 289,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
