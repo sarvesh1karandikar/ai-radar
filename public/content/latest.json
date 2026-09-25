@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-24",
-  "generatedAt": "2026-09-24T17:46:00.795Z",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T17:48:06.662Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "source": "NVIDIA Blog",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "NVIDIA AI Day Singapore, which takes place Sept. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. NVIDIA AI Day Singapore, which takes place Sept.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 59 recency; local score 0.73, cluster 27.",
-      "sourceExcerpt": "NVIDIA AI Day Singapore, which takes place Sept.",
-      "citationUrl": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
       "source": "AWS Machine Learning Blog",
-      "category": "training_infrastructure",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 60 topical match, 99 recency; local score 0.68, cluster 41.",
-      "sourceExcerpt": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+      "whyItMatters": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 97 topical match, 98 recency; local score 0.79, cluster 14.",
+      "sourceExcerpt": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-      "url": "http://arxiv.org/abs/2609.28372v1",
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 98 recency; local score 0.72, cluster 38.",
+      "sourceExcerpt": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
+      "url": "http://arxiv.org/abs/2609.30219v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
+      "whyItMatters": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
-      "citationUrl": "http://arxiv.org/abs/2609.28372v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 21.",
+      "sourceExcerpt": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning.",
+      "citationUrl": "http://arxiv.org/abs/2609.30219v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models",
-      "url": "http://arxiv.org/abs/2609.28262v1",
+      "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
+      "url": "http://arxiv.org/abs/2609.30214v1",
       "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
+      "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 19.",
-      "sourceExcerpt": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints.",
-      "citationUrl": "http://arxiv.org/abs/2609.28262v1",
+      "whyItMatters": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV salvage.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 23.",
+      "sourceExcerpt": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV salvage.",
+      "citationUrl": "http://arxiv.org/abs/2609.30214v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "mock-server/mockserver-monorepo",
-      "url": "https://github.com/mock-server/mockserver-monorepo",
+      "title": "HelpCode-ai/anythingmcp",
+      "url": "https://github.com/HelpCode-ai/anythingmcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+      "whyItMatters": "🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "HelpCode-ai/anythingmcp is appearing as builder momentum, not as a verified product claim. 🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use connectors, existing MCP servers, and any REST, SOAP, GraphQL or SQL system.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,974 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-      "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+      "evidence": "GitHub AI Systems Search; 371 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use connectors, existing MCP servers, and any REST, SOAP, GraphQL or SQL system.",
+      "citationUrl": "https://github.com/HelpCode-ai/anythingmcp",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "jgravelle/jcodemunch-mcp",
-      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "title": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "beenuar/AiSOC is appearing as builder momentum, not as a verified product claim. Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,366 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation.",
+      "citationUrl": "https://github.com/beenuar/AiSOC",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Cut AI token costs 95%+ on code exploration. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "jgravelle/jcodemunch-mcp is appearing as builder momentum, not as a verified product claim. Cut AI token costs 95%+ on code exploration.",
+      "whyItMatters": "Playwright is a framework for Web Testing and Automation. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "microsoft/playwright is appearing as builder momentum, not as a verified product claim. Playwright is a framework for Web Testing and Automation.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,710 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "Cut AI token costs 95%+ on code exploration.",
-      "citationUrl": "https://github.com/jgravelle/jcodemunch-mcp",
+      "evidence": "GitHub AI Systems Search; 96,673 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Playwright is a framework for Web Testing and Automation.",
+      "citationUrl": "https://github.com/microsoft/playwright",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "superlinked/sie",
-      "url": "https://github.com/superlinked/sie",
+      "title": "Tencent-Hunyuan/AuK",
+      "url": "https://github.com/Tencent-Hunyuan/AuK",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source inference server and production cluster for all the models your agent needs. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "superlinked/sie is appearing as builder momentum, not as a verified product claim. Open-source inference server and production cluster for all the models your agent needs.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,313 GitHub stars; local score 0.85, cluster 4.",
-      "sourceExcerpt": "Open-source inference server and production cluster for all the models your agent needs.",
-      "citationUrl": "https://github.com/superlinked/sie",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "vshulcz/deja-vu",
-      "url": "https://github.com/vshulcz/deja-vu",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "vshulcz/deja-vu is appearing as builder momentum, not as a verified product claim. One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 966 GitHub stars; local score 0.86, cluster 3.",
-      "sourceExcerpt": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 29 more coding agents, built from the session history already on disk.",
-      "citationUrl": "https://github.com/vshulcz/deja-vu",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "AuK: An Open-Source Foundational Model for Speech Generation and Editing... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Tencent-Hunyuan/AuK is appearing as builder momentum, not as a verified product claim. AuK: An Open-Source Foundational Model for Speech Generation and Editing",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,259 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
+      "citationUrl": "https://github.com/Tencent-Hunyuan/AuK",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-    "url": "http://arxiv.org/abs/2609.28372v1",
-    "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 97 topical match, 98 recency; local score 0.79, cluster 14."
     ]
   },
   "bookmark": {
-    "title": "mock-server/mockserver-monorepo",
-    "url": "https://github.com/mock-server/mockserver-monorepo",
+    "title": "HelpCode-ai/anythingmcp",
+    "url": "https://github.com/HelpCode-ai/anythingmcp",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+    "whyItMatters": "🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "HelpCode-ai/anythingmcp is appearing as builder momentum, not as a verified product claim. 🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use connectors, existing MCP servers, and any REST, SOAP, GraphQL or SQL system.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,974 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-    "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+    "evidence": "GitHub AI Systems Search; 371 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use connectors, existing MCP servers, and any REST, SOAP, GraphQL or SQL system.",
+    "citationUrl": "https://github.com/HelpCode-ai/anythingmcp",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 245
+      "selected": 0,
+      "elapsedMs": 240
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 160
+      "elapsedMs": 221
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 303
+      "elapsedMs": 470
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 224
+      "elapsedMs": 133
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 255
+      "elapsedMs": 244
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 368
+      "elapsedMs": 488
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 321
+      "elapsedMs": 342
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 392
+      "elapsedMs": 292
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 438
+      "elapsedMs": 315
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 485
+      "elapsedMs": 751
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 327
+      "elapsedMs": 700
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 539
+      "selected": 1,
+      "elapsedMs": 652
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 682
+      "selected": 1,
+      "elapsedMs": 792
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 513
+      "selected": 1,
+      "elapsedMs": 722
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 570
+      "elapsedMs": 861
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 589
+      "elapsedMs": 871
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 611
+      "elapsedMs": 814
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 3,
-      "elapsedMs": 599
+      "elapsedMs": 889
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1562
+      "elapsedMs": 1509
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1411
+      "elapsedMs": 1728
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 663
+      "selected": 3,
+      "elapsedMs": 881
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 33,
-      "selected": 1,
-      "elapsedMs": 1056
+      "fetched": 25,
+      "selected": 2,
+      "elapsedMs": 1144
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 1027
+      "selected": 2,
+      "elapsedMs": 1254
     }
   ],
   "stats": {
-    "fetched": 463,
-    "afterDedupe": 450,
-    "afterFreshness": 161,
-    "droppedStale": 289,
+    "fetched": 455,
+    "afterDedupe": 441,
+    "afterFreshness": 148,
+    "droppedStale": 293,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 27,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
