@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T16:53:48.572Z",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T17:34:07.551Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+      "source": "Cloudflare AI",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 97 topical match, 74 recency; local score 0.74, cluster 20.",
-      "sourceExcerpt": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+      "whyItMatters": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Cloudflare AI surfaced this as a multi agent systems update. The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Cloudflare AI; 78 trust, 45 topical match, 99 recency; local score 0.62, cluster 13.",
+      "sourceExcerpt": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010.",
+      "citationUrl": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
@@ -29,130 +29,130 @@
       "whyItMatters": "Describe the interface you need in plain English, then let the agent build a live surface you can... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "GitHub AI and ML Blog surfaced this as a multi agent systems update. Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 76 recency; local score 0.67, cluster 39.",
+      "evidence": "GitHub AI and ML Blog; 72 trust, 80 topical match, 50 recency; local score 0.63, cluster 20.",
       "sourceExcerpt": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
       "citationUrl": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents",
-      "url": "http://arxiv.org/abs/2609.30186v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely on the VLM for both planning and action grounding at nearly every interaction step, leading to substantial latency...",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 25.",
-      "sourceExcerpt": "Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely on the VLM for both planning and action grounding at nearly every interaction step, leading to substantial latency...",
-      "citationUrl": "http://arxiv.org/abs/2609.30186v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-      "url": "http://arxiv.org/abs/2609.30258v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 23.",
-      "sourceExcerpt": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server.",
-      "citationUrl": "http://arxiv.org/abs/2609.30258v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "t8y2/dbx",
-      "url": "https://github.com/t8y2/dbx",
+      "title": "taishi-i/awesome-ChatGPT-repositories",
+      "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "t8y2/dbx is appearing as builder momentum, not as a verified product claim. 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
+      "whyItMatters": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "taishi-i/awesome-ChatGPT-repositories is appearing as builder momentum, not as a verified product claim. A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 20,770 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
-      "citationUrl": "https://github.com/t8y2/dbx",
+      "evidence": "GitHub AI Systems Search; 3,262 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex.",
+      "citationUrl": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "asklokesh/loki-mode",
+      "url": "https://github.com/asklokesh/loki-mode",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Multi-agent autonomous SDLC framework. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Multi-agent autonomous SDLC framework.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,072 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Multi-agent autonomous SDLC framework.",
+      "citationUrl": "https://github.com/asklokesh/loki-mode",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "arbs-io/github-copilot-llm-gateway",
+      "url": "https://github.com/arbs-io/github-copilot-llm-gateway",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "GitHub Copilot LLM Gateway is a companion extension for GitHub Copilot that adds support for self-hosted open-source models. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "arbs-io/github-copilot-llm-gateway is appearing as builder momentum, not as a verified product claim. GitHub Copilot LLM Gateway is a companion extension for GitHub Copilot that adds support for self-hosted open-source models.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 75 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "GitHub Copilot LLM Gateway is a companion extension for GitHub Copilot that adds support for self-hosted open-source models.",
+      "citationUrl": "https://github.com/arbs-io/github-copilot-llm-gateway",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "eugeniughelbur/obsidian-second-brain",
-      "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "title": "OyadotAI/oya-browser",
+      "url": "https://github.com/OyadotAI/oya-browser",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "eugeniughelbur/obsidian-second-brain is appearing as builder momentum, not as a verified product claim. Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault.",
+      "whyItMatters": "The browser control plane for AI agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "OyadotAI/oya-browser is appearing as builder momentum, not as a verified product claim. The browser control plane for AI agents.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,614 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault.",
-      "citationUrl": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "evidence": "GitHub AI Systems Search; 327 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "The browser control plane for AI agents.",
+      "citationUrl": "https://github.com/OyadotAI/oya-browser",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "teng-lin/notebooklm-py",
-      "url": "https://github.com/teng-lin/notebooklm-py",
-      "source": "GitHub AI Systems Search",
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "Hacker News",
       "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Unofficial Python API and agentic skill for Google Gemini Notebook. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "teng-lin/notebooklm-py is appearing as builder momentum, not as a verified product claim. Unofficial Python API and agentic skill for Google Gemini Notebook.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 19,481 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Unofficial Python API and agentic skill for Google Gemini Notebook.",
-      "citationUrl": "https://github.com/teng-lin/notebooklm-py",
-      "contextQuality": "source-grounded",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 76 points and 38 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 76 points and 38 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 76 HN points; local score 0.68, cluster 19.",
+      "sourceExcerpt": "Hacker News discussion signal with 76 points and 38 comments.",
+      "citationUrl": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "pollinations/pollinations",
-      "url": "https://github.com/pollinations/pollinations",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Your Friendly Open-Source Gen-AI Platform... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "pollinations/pollinations is appearing as builder momentum, not as a verified product claim. Your Friendly Open-Source Gen-AI Platform",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 5,132 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "Your Friendly Open-Source Gen-AI Platform",
-      "citationUrl": "https://github.com/pollinations/pollinations",
+      "title": "Qualcomm Says 6G Commercial Roadmap Is Underway, Targets 2029 Launch - thelec.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GdllaMkpYd0RfSzdXZUJTSjZ3bFlrZGFOZ0pnUEdhRThCTk1MSXE1T1VYenlCWHh0S0I3N0xDMW1CRTNHeHQ3cHRpVmRRazlsYUN5SGEzSHBYZWFPVGJObTZNcWY3ZkU?oc=5",
+      "source": "Google News Fallback",
+      "category": "business_signal",
+      "signal": "discovery",
+      "whyItMatters": "Qualcomm Says 6G Commercial Roadmap Is Underway, Targets 2029 Launch thelec.net... Use it as discovery context for business signal until a stronger public source confirms the details.",
+      "brief": "This is a fallback discovery item for business signal. Qualcomm Says 6G Commercial Roadmap Is Underway, Targets 2029 Launch thelec.net",
+      "technicalTakeaway": "The systems angle is business signal; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google News Fallback; 45 trust, 65 topical match, 93 recency; local score 0.55, cluster 21.",
+      "sourceExcerpt": "Qualcomm Says 6G Commercial Roadmap Is Underway, Targets 2029 Launch thelec.net",
+      "citationUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GdllaMkpYd0RfSzdXZUJTSjZ3bFlrZGFOZ0pnUEdhRThCTk1MSXE1T1VYenlCWHh0S0I3N0xDMW1CRTNHeHQ3cHRpVmRRazlsYUN5SGEzSHBYZWFPVGJObTZNcWY3ZkU?oc=5",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-    "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-    "source": "AWS Machine Learning Blog",
-    "category": "inference_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "source": "Cloudflare AI",
+    "category": "multi_agent_systems",
+    "summary": "Cloudflare AI surfaced this as a multi agent systems update. The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 97 topical match, 74 recency; local score 0.74, cluster 20."
+      "What happened: Cloudflare AI surfaced this as a multi agent systems update. The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: Cloudflare AI; 78 trust, 45 topical match, 99 recency; local score 0.62, cluster 13."
     ]
   },
   "bookmark": {
-    "title": "t8y2/dbx",
-    "url": "https://github.com/t8y2/dbx",
+    "title": "taishi-i/awesome-ChatGPT-repositories",
+    "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "t8y2/dbx is appearing as builder momentum, not as a verified product claim. 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
+    "whyItMatters": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "taishi-i/awesome-ChatGPT-repositories is appearing as builder momentum, not as a verified product claim. A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 20,770 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng.",
-    "citationUrl": "https://github.com/t8y2/dbx",
+    "evidence": "GitHub AI Systems Search; 3,262 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex.",
+    "citationUrl": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 329
+      "elapsedMs": 241
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 174
+      "elapsedMs": 217
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 323
+      "elapsedMs": 345
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 158
+      "elapsedMs": 224
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 207
+      "elapsedMs": 253
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 651
+      "elapsedMs": 527
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 311
+      "elapsedMs": 510
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 459
+      "elapsedMs": 327
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 439
+      "elapsedMs": 377
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 718
+      "elapsedMs": 485
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 360
+      "elapsedMs": 514
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 462
+      "elapsedMs": 468
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 1203
+      "elapsedMs": 413
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 549
+      "elapsedMs": 616
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 626
+      "selected": 0,
+      "elapsedMs": 452
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 647
+      "elapsedMs": 454
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 699
+      "elapsedMs": 629
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 632
+      "selected": 0,
+      "elapsedMs": 389
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1274
+      "selected": 0,
+      "elapsedMs": 1233
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1461
+      "elapsedMs": 1113
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 666
+      "selected": 1,
+      "elapsedMs": 619
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 25,
+      "fetched": 23,
       "selected": 2,
-      "elapsedMs": 964
+      "elapsedMs": 738
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1022
+      "elapsedMs": 677
     }
   ],
   "stats": {
-    "fetched": 455,
-    "afterDedupe": 444,
-    "afterFreshness": 122,
-    "droppedStale": 322,
-    "selected": 24,
-    "clusters": 23,
+    "fetched": 453,
+    "afterDedupe": 442,
+    "afterFreshness": 77,
+    "droppedStale": 365,
+    "selected": 12,
+    "clusters": 11,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
