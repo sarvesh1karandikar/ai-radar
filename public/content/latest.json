@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T20:01:07.281Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T18:28:46.726Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+      "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
       "source": "AWS Machine Learning Blog",
       "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection.",
+      "whyItMatters": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 96 recency; local score 0.75, cluster 17.",
-      "sourceExcerpt": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 73 recency; local score 0.71, cluster 38.",
+      "sourceExcerpt": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Faster Rates for Federated Variational Inequalities",
-      "url": "https://machinelearning.apple.com/research/federated-variational-inequalities",
-      "source": "Apple Machine Learning Research",
-      "category": "model_architecture_math",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI News",
+      "category": "model_security",
       "signal": "primary",
-      "whyItMatters": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Apple Machine Learning Research surfaced this as a model architecture math update. In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years.",
-      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Apple Machine Learning Research; 90 trust, 85 topical match, 79 recency; local score 0.74, cluster 18.",
-      "sourceExcerpt": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years.",
-      "citationUrl": "https://machinelearning.apple.com/research/federated-variational-inequalities",
+      "whyItMatters": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new... For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a model security update. Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 91 recency; local score 0.71, cluster 39.",
+      "sourceExcerpt": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "citationUrl": "https://openai.com/index/devday-2026-recap",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+      "url": "http://arxiv.org/abs/2609.35732v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22.",
+      "sourceExcerpt": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
+      "citationUrl": "http://arxiv.org/abs/2609.35732v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "url": "http://arxiv.org/abs/2609.35759v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "LLMs have demonstrated strong capabilities in creative writing. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. LLMs have demonstrated strong capabilities in creative writing.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 19.",
+      "sourceExcerpt": "LLMs have demonstrated strong capabilities in creative writing.",
+      "citationUrl": "http://arxiv.org/abs/2609.35759v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 71,032 GitHub stars; local score 0.89, cluster 1.",
-      "sourceExcerpt": "Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-      "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "AdamPlatin123/dsh-plugin-radar",
-      "url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "AdamPlatin123/dsh-plugin-radar is appearing as builder momentum, not as a verified product claim. DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,468 GitHub stars; local score 0.88, cluster 2.",
-      "sourceExcerpt": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
-      "citationUrl": "https://github.com/AdamPlatin123/dsh-plugin-radar",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Introducing Claude Sonnet 5.5 on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-      "source": "AWS Machine Learning Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 99 recency; local score 0.72, cluster 20.",
-      "sourceExcerpt": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+      "evidence": "GitHub AI Systems Search; 59,872 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "chrisryugj/kordoc",
-      "url": "https://github.com/chrisryugj/kordoc",
+      "title": "openeverest/openeverest",
+      "url": "https://github.com/openeverest/openeverest",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "chrisryugj/kordoc is appearing as builder momentum, not as a verified product claim. 모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로.",
+      "whyItMatters": "OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "openeverest/openeverest is appearing as builder momentum, not as a verified product claim. OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,249 GitHub stars; local score 0.86, cluster 3.",
-      "sourceExcerpt": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로.",
-      "citationUrl": "https://github.com/chrisryugj/kordoc",
+      "evidence": "GitHub AI Systems Search; 935 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management.",
+      "citationUrl": "https://github.com/openeverest/openeverest",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "sickn33/agentic-awesome-skills",
-      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "title": "BlackBeltTechnology/pi-agent-dashboard",
+      "url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "sickn33/agentic-awesome-skills is appearing as builder momentum, not as a verified product claim. AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills.",
+      "whyItMatters": "Real-time web dashboard for pi coding-agent sessions. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BlackBeltTechnology/pi-agent-dashboard is appearing as builder momentum, not as a verified product claim. Real-time web dashboard for pi coding-agent sessions.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 47,032 GitHub stars; local score 0.85, cluster 4.",
-      "sourceExcerpt": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills.",
-      "citationUrl": "https://github.com/sickn33/agentic-awesome-skills",
+      "evidence": "GitHub AI Systems Search; 307 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Real-time web dashboard for pi coding-agent sessions.",
+      "citationUrl": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/",
-      "source": "NVIDIA Developer Blog",
+      "title": "oriveo/oriveo",
+      "url": "https://github.com/oriveo/oriveo",
+      "source": "GitHub AI Systems Search",
       "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a inference systems update. How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 90 topical match, 80 recency; local score 0.69, cluster 22.",
-      "sourceExcerpt": "How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency",
-      "citationUrl": "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/",
-      "contextQuality": "thin public context",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "oriveo/oriveo is appearing as builder momentum, not as a verified product claim. Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 338 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web.",
+      "citationUrl": "https://github.com/oriveo/oriveo",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
-    "source": "AWS Machine Learning Blog",
-    "category": "inference_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+    "url": "http://arxiv.org/abs/2609.35732v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 96 recency; local score 0.75, cluster 17."
+      "What happened: This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "title": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "diegosouzapw/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 71,032 GitHub stars; local score 0.89, cluster 1.",
-    "sourceExcerpt": "Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-    "citationUrl": "https://github.com/diegosouzapw/OmniRoute",
+    "evidence": "GitHub AI Systems Search; 59,872 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The fastest, litest AI Gateway.",
+    "citationUrl": "https://github.com/BerriAI/litellm",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 608
+      "selected": 4,
+      "elapsedMs": 317
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 627
+      "elapsedMs": 153
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 584
+      "elapsedMs": 289
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 497
+      "selected": 2,
+      "elapsedMs": 124
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 516
+      "elapsedMs": 185
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 632
+      "elapsedMs": 301
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 616
+      "elapsedMs": 220
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 695
+      "elapsedMs": 328
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 666
+      "elapsedMs": 368
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 759
+      "elapsedMs": 626
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 640
+      "elapsedMs": 339
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 636
+      "elapsedMs": 393
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 994
+      "selected": 1,
+      "elapsedMs": 487
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 3,
-      "elapsedMs": 738
+      "elapsedMs": 401
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 730
+      "elapsedMs": 431
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 798
+      "selected": 1,
+      "elapsedMs": 378
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 741
+      "elapsedMs": 413
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 702
+      "selected": 2,
+      "elapsedMs": 403
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1648
+      "selected": 4,
+      "elapsedMs": 1034
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1673
+      "elapsedMs": 1206
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 790
+      "elapsedMs": 431
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 1410
+      "fetched": 29,
+      "selected": 1,
+      "elapsedMs": 678
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 1079
+      "selected": 0,
+      "elapsedMs": 864
     }
   ],
   "stats": {
-    "fetched": 454,
-    "afterDedupe": 443,
-    "afterFreshness": 97,
-    "droppedStale": 346,
-    "selected": 24,
-    "clusters": 22,
+    "fetched": 459,
+    "afterDedupe": 444,
+    "afterFreshness": 156,
+    "droppedStale": 288,
+    "selected": 28,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
