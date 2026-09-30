@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T18:28:46.726Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T18:17:55.612Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
-      "source": "AWS Machine Learning Blog",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "source": "NVIDIA Blog",
+      "category": "datacenter_power_compute",
+      "signal": "primary",
+      "whyItMatters": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems.",
+      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 18.",
+      "sourceExcerpt": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems.",
+      "citationUrl": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a developer tools update. Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 81 recency; local score 0.72, cluster 45.",
+      "sourceExcerpt": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "citationUrl": "https://huggingface.co/blog/open-tts-leaderboard",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "A foundation model for energy and radiation systems built on heterogeneous scientific interfaces",
+      "url": "http://arxiv.org/abs/2609.38067v1",
+      "source": "arXiv AI Systems Query",
       "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 73 recency; local score 0.71, cluster 38.",
-      "sourceExcerpt": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
+      "signal": "research",
+      "whyItMatters": "Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded,... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 24.",
+      "sourceExcerpt": "Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
+      "citationUrl": "http://arxiv.org/abs/2609.38067v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI News",
-      "category": "model_security",
-      "signal": "primary",
-      "whyItMatters": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new... For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a model security update. Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 70 topical match, 91 recency; local score 0.71, cluster 39.",
-      "sourceExcerpt": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "citationUrl": "https://openai.com/index/devday-2026-recap",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
-      "url": "http://arxiv.org/abs/2609.35732v1",
+      "title": "Character Training for Risk-Averse Agents",
+      "url": "http://arxiv.org/abs/2609.38093v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
+      "whyItMatters": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22.",
-      "sourceExcerpt": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
-      "citationUrl": "http://arxiv.org/abs/2609.35732v1",
+      "sourceExcerpt": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm.",
+      "citationUrl": "http://arxiv.org/abs/2609.38093v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
-      "url": "http://arxiv.org/abs/2609.35759v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "LLMs have demonstrated strong capabilities in creative writing. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. LLMs have demonstrated strong capabilities in creative writing.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 19.",
-      "sourceExcerpt": "LLMs have demonstrated strong capabilities in creative writing.",
-      "citationUrl": "http://arxiv.org/abs/2609.35759v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
+      "title": "openobserve/openobserve",
+      "url": "https://github.com/openobserve/openobserve",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+      "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 59,872 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "The fastest, litest AI Gateway.",
-      "citationUrl": "https://github.com/BerriAI/litellm",
+      "evidence": "GitHub AI Systems Search; 22,211 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+      "citationUrl": "https://github.com/openobserve/openobserve",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "openeverest/openeverest",
-      "url": "https://github.com/openeverest/openeverest",
+      "title": "AdamPlatin123/dsh-plugin-radar",
+      "url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "openeverest/openeverest is appearing as builder momentum, not as a verified product claim. OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management.",
+      "whyItMatters": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "AdamPlatin123/dsh-plugin-radar is appearing as builder momentum, not as a verified product claim. DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 935 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "OpenEverest is an open-source platform for automated database, storage and LLMs provisioning and management.",
-      "citationUrl": "https://github.com/openeverest/openeverest",
+      "evidence": "GitHub AI Systems Search; 1,465 GitHub stars; local score 0.88, cluster 2.",
+      "sourceExcerpt": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
+      "citationUrl": "https://github.com/AdamPlatin123/dsh-plugin-radar",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "BlackBeltTechnology/pi-agent-dashboard",
-      "url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+      "title": "ministackorg/ministack",
+      "url": "https://github.com/ministackorg/ministack",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ministackorg/ministack is appearing as builder momentum, not as a verified product claim. Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,759 GitHub stars; local score 0.85, cluster 4.",
+      "sourceExcerpt": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
+      "citationUrl": "https://github.com/ministackorg/ministack",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ysr666/dsh-vision-router",
+      "url": "https://github.com/ysr666/dsh-vision-router",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Real-time web dashboard for pi coding-agent sessions. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "BlackBeltTechnology/pi-agent-dashboard is appearing as builder momentum, not as a verified product claim. Real-time web dashboard for pi coding-agent sessions.",
+      "whyItMatters": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ysr666/dsh-vision-router is appearing as builder momentum, not as a verified product claim. Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 307 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "Real-time web dashboard for pi coding-agent sessions.",
-      "citationUrl": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "oriveo/oriveo",
-      "url": "https://github.com/oriveo/oriveo",
-      "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "oriveo/oriveo is appearing as builder momentum, not as a verified product claim. Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 338 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web.",
-      "citationUrl": "https://github.com/oriveo/oriveo",
+      "evidence": "GitHub AI Systems Search; 1,129 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
+      "citationUrl": "https://github.com/ysr666/dsh-vision-router",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
-    "url": "http://arxiv.org/abs/2609.35732v1",
+    "title": "A foundation model for energy and radiation systems built on heterogeneous scientific interfaces",
+    "url": "http://arxiv.org/abs/2609.38067v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22."
+      "What happened: This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 24."
     ]
   },
   "bookmark": {
-    "title": "BerriAI/litellm",
-    "url": "https://github.com/BerriAI/litellm",
+    "title": "openobserve/openobserve",
+    "url": "https://github.com/openobserve/openobserve",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+    "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 59,872 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "The fastest, litest AI Gateway.",
-    "citationUrl": "https://github.com/BerriAI/litellm",
+    "evidence": "GitHub AI Systems Search; 22,211 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+    "citationUrl": "https://github.com/openobserve/openobserve",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 317
+      "selected": 3,
+      "elapsedMs": 378
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 153
+      "elapsedMs": 245
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 289
+      "elapsedMs": 371
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 124
+      "elapsedMs": 231
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 185
+      "elapsedMs": 355
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 301
+      "elapsedMs": 470
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 220
+      "elapsedMs": 340
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 328
+      "elapsedMs": 440
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 368
+      "elapsedMs": 457
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 626
+      "elapsedMs": 2359
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 339
+      "elapsedMs": 553
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 393
+      "selected": 2,
+      "elapsedMs": 836
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 487
+      "elapsedMs": 1037
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 401
+      "selected": 4,
+      "elapsedMs": 673
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 431
+      "elapsedMs": 909
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 378
+      "selected": 0,
+      "elapsedMs": 911
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 413
+      "elapsedMs": 962
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 403
+      "selected": 1,
+      "elapsedMs": 983
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1034
+      "elapsedMs": 2018
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1206
+      "elapsedMs": 2171
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 431
+      "elapsedMs": 1343
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
+      "fetched": 30,
       "selected": 1,
-      "elapsedMs": 678
+      "elapsedMs": 1485
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 864
+      "elapsedMs": 1746
     }
   ],
   "stats": {
-    "fetched": 459,
-    "afterDedupe": 444,
-    "afterFreshness": 156,
-    "droppedStale": 288,
+    "fetched": 460,
+    "afterDedupe": 447,
+    "afterFreshness": 164,
+    "droppedStale": 283,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
