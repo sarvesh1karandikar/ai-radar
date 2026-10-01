@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T18:17:55.612Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T18:42:55.541Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,145 +14,145 @@
       "whyItMatters": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems.",
       "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 99 recency; local score 0.77, cluster 18.",
+      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 73 recency; local score 0.73, cluster 27.",
       "sourceExcerpt": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems.",
       "citationUrl": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face Blog",
+      "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+      "source": "AWS Machine Learning Blog",
       "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a developer tools update. Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 81 recency; local score 0.72, cluster 45.",
-      "sourceExcerpt": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "citationUrl": "https://huggingface.co/blog/open-tts-leaderboard",
-      "contextQuality": "thin public context",
+      "whyItMatters": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a developer tools update. Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in...",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 98 recency; local score 0.73, cluster 28.",
+      "sourceExcerpt": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in...",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "A foundation model for energy and radiation systems built on heterogeneous scientific interfaces",
-      "url": "http://arxiv.org/abs/2609.38067v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded,... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 24.",
-      "sourceExcerpt": "Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
-      "citationUrl": "http://arxiv.org/abs/2609.38067v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "Character Training for Risk-Averse Agents",
-      "url": "http://arxiv.org/abs/2609.38093v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22.",
-      "sourceExcerpt": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm.",
-      "citationUrl": "http://arxiv.org/abs/2609.38093v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "openobserve/openobserve",
-      "url": "https://github.com/openobserve/openobserve",
+      "title": "asklokesh/loki-mode",
+      "url": "https://github.com/asklokesh/loki-mode",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+      "whyItMatters": "Give it a GitHub issue, a spec or a one-line task; get back a pull request with a... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Autonomous software factory.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 22,211 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
-      "citationUrl": "https://github.com/openobserve/openobserve",
+      "evidence": "GitHub AI Systems Search; 1,078 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Autonomous software factory.",
+      "citationUrl": "https://github.com/asklokesh/loki-mode",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "datamodel-code-generator/datamodel-code-generator",
+      "url": "https://github.com/datamodel-code-generator/datamodel-code-generator",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "datamodel-code-generator/datamodel-code-generator is appearing as builder momentum, not as a verified product claim. Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,027 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
+      "citationUrl": "https://github.com/datamodel-code-generator/datamodel-code-generator",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+      "source": "NVIDIA Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "AI factories are built by the megawatt, even by the gigawatt. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a developer tools update. AI factories are built by the megawatt, even by the gigawatt.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 73 topical match, 94 recency; local score 0.73, cluster 25.",
+      "sourceExcerpt": "AI factories are built by the megawatt, even by the gigawatt.",
+      "citationUrl": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "AdamPlatin123/dsh-plugin-radar",
-      "url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
+      "title": "theopenco/llmgateway",
+      "url": "https://github.com/theopenco/llmgateway",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "AdamPlatin123/dsh-plugin-radar is appearing as builder momentum, not as a verified product claim. DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
+      "whyItMatters": "Route, manage, and analyze your LLM requests across multiple providers with a unified API interface. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "theopenco/llmgateway is appearing as builder momentum, not as a verified product claim. Route, manage, and analyze your LLM requests across multiple providers with a unified API interface.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,465 GitHub stars; local score 0.88, cluster 2.",
-      "sourceExcerpt": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测...",
-      "citationUrl": "https://github.com/AdamPlatin123/dsh-plugin-radar",
+      "evidence": "GitHub AI Systems Search; 1,668 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Route, manage, and analyze your LLM requests across multiple providers with a unified API interface.",
+      "citationUrl": "https://github.com/theopenco/llmgateway",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "ministackorg/ministack",
-      "url": "https://github.com/ministackorg/ministack",
+      "title": "frank890417/taiwan-md",
+      "url": "https://github.com/frank890417/taiwan-md",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ministackorg/ministack is appearing as builder momentum, not as a verified product claim. Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,759 GitHub stars; local score 0.85, cluster 4.",
-      "sourceExcerpt": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
-      "citationUrl": "https://github.com/ministackorg/ministack",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,194 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "ysr666/dsh-vision-router",
-      "url": "https://github.com/ysr666/dsh-vision-router",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding,... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ysr666/dsh-vision-router is appearing as builder momentum, not as a verified product claim. Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,129 GitHub stars; local score 0.86, cluster 3.",
-      "sourceExcerpt": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots).",
-      "citationUrl": "https://github.com/ysr666/dsh-vision-router",
-      "contextQuality": "source-grounded",
+      "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 121 points and 62 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 121 points and 62 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 121 HN points; local score 0.72, cluster 29.",
+      "sourceExcerpt": "Hacker News discussion signal with 121 points and 62 comments.",
+      "citationUrl": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "A foundation model for energy and radiation systems built on heterogeneous scientific interfaces",
-    "url": "http://arxiv.org/abs/2609.38067v1",
-    "source": "arXiv AI Systems Query",
-    "category": "inference_systems",
-    "summary": "This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation",
+    "url": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation",
+    "source": "Apple Machine Learning Research",
+    "category": "multi_agent_systems",
+    "summary": "Apple Machine Learning Research surfaced this as a multi agent systems update. Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a inference systems lead from the research stream. Scientific foundation models are commonly evaluated after heterogeneous physical problems have already been translated into a compatible gridded, tokenized or symbolic representation.",
-      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for inference systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 24."
+      "What happened: Apple Machine Learning Research surfaced this as a multi agent systems update. Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: Apple Machine Learning Research; 90 trust, 77 topical match, 56 recency; local score 0.68, cluster 38."
     ]
   },
   "bookmark": {
-    "title": "openobserve/openobserve",
-    "url": "https://github.com/openobserve/openobserve",
+    "title": "asklokesh/loki-mode",
+    "url": "https://github.com/asklokesh/loki-mode",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+    "whyItMatters": "Give it a GitHub issue, a spec or a one-line task; get back a pull request with a... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "asklokesh/loki-mode is appearing as builder momentum, not as a verified product claim. Autonomous software factory.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 22,211 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
-    "citationUrl": "https://github.com/openobserve/openobserve",
+    "evidence": "GitHub AI Systems Search; 1,078 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Autonomous software factory.",
+    "citationUrl": "https://github.com/asklokesh/loki-mode",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 378
+      "selected": 2,
+      "elapsedMs": 258
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 245
+      "elapsedMs": 513
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 371
+      "elapsedMs": 399
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 231
+      "selected": 4,
+      "elapsedMs": 132
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 355
+      "elapsedMs": 241
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 470
+      "elapsedMs": 529
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 340
+      "selected": 2,
+      "elapsedMs": 365
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 440
+      "elapsedMs": 464
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 457
+      "elapsedMs": 434
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 2359
+      "elapsedMs": 687
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 553
+      "elapsedMs": 487
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 836
+      "selected": 3,
+      "elapsedMs": 498
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 1037
+      "elapsedMs": 1025
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 4,
-      "elapsedMs": 673
+      "elapsedMs": 587
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 909
+      "elapsedMs": 566
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 911
+      "selected": 1,
+      "elapsedMs": 597
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 962
+      "elapsedMs": 608
     },
     {
       "id": "databricks-blog",
@@ -317,16 +317,17 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 983
+      "elapsedMs": 615
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 2018
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 721,
+      "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CR+OR+cat%3Acs.DC+OR+cat%3Astat.ML%29+AND+%28all%3Aagent+OR+all%3Ainference+OR+all%3Atraining+OR+all%3Asecurity+OR+all%3Atransformer+OR+all%3Aarchitecture+OR+all%3Adatacenter+OR+all%3AGPU%29&sortBy=submittedDate&sortOrder=descending&max_results=35"
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 2171
+      "elapsedMs": 1429
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 1343
+      "elapsedMs": 610
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 30,
+      "fetched": 28,
       "selected": 1,
-      "elapsedMs": 1485
+      "elapsedMs": 1001
     },
     {
       "id": "google-news-fallback",
@@ -362,17 +363,17 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 1746
+      "elapsedMs": 1106
     }
   ],
   "stats": {
-    "fetched": 460,
-    "afterDedupe": 447,
-    "afterFreshness": 164,
-    "droppedStale": 283,
+    "fetched": 423,
+    "afterDedupe": 411,
+    "afterFreshness": 140,
+    "droppedStale": 271,
     "selected": 28,
     "clusters": 28,
-    "failures": 0,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
