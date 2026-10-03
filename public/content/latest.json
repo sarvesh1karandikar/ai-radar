@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T18:14:08.262Z",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T17:01:20.507Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,7 +14,7 @@
       "whyItMatters": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "NVIDIA Blog surfaced this as a inference systems update. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 98 topical match, 81 recency; local score 0.78, cluster 14.",
+      "evidence": "NVIDIA Blog; 88 trust, 98 topical match, 57 recency; local score 0.73, cluster 16.",
       "sourceExcerpt": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users.",
       "citationUrl": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "contextQuality": "source-grounded",
@@ -29,102 +29,102 @@
       "whyItMatters": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 83 topical match, 97 recency; local score 0.75, cluster 21.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 83 topical match, 74 recency; local score 0.71, cluster 18.",
       "sourceExcerpt": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
-      "url": "http://arxiv.org/abs/2610.02161v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 19.",
-      "sourceExcerpt": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings.",
-      "citationUrl": "http://arxiv.org/abs/2610.02161v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "url": "http://arxiv.org/abs/2610.02202v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Even as AI systems start to make progress on open problems, scientists remain far ahead of them at... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. What makes great scientists great?",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 17.",
-      "sourceExcerpt": "What makes great scientists great?",
-      "citationUrl": "http://arxiv.org/abs/2610.02202v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "waybarrios/vllm-mlx",
-      "url": "https://github.com/waybarrios/vllm-mlx",
+      "title": "codenameone/CodenameOne",
+      "url": "https://github.com/codenameone/CodenameOne",
       "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "waybarrios/vllm-mlx is appearing as builder momentum, not as a verified product claim. High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,607 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon.",
-      "citationUrl": "https://github.com/waybarrios/vllm-mlx",
+      "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,871 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+      "citationUrl": "https://github.com/codenameone/CodenameOne",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "bruc3van/awesome-dsh-plugin",
+      "url": "https://github.com/bruc3van/awesome-dsh-plugin",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "30 秒找到真正适合你的 DeepSeek Harness插件。每天自动抓取 GitHub 上的 `dsh-plugin` 项目并逐个复核：真实插件分类收录，蹭标签项目剔除。通过场景化分类、精选推荐、热度排行和图文导览，帮你快速看懂每个插件能做什么、适合谁，以及如何开始使用。欢迎 Star ，让好用的插件更快被发现。... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "bruc3van/awesome-dsh-plugin is appearing as builder momentum, not as a verified product claim. 30 秒找到真正适合你的 DeepSeek Harness插件。每天自动抓取 GitHub 上的 `dsh-plugin` 项目并逐个复核：真实插件分类收录，蹭标签项目剔除。通过场景化分类、精选推荐、热度排行和图文导览，帮你快速看懂每个插件能做什么、适合谁，以及如何开始使用。欢迎 Star ，让好用的插件更快被发现。",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 384 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "30 秒找到真正适合你的 DeepSeek Harness插件。每天自动抓取 GitHub 上的 `dsh-plugin` 项目并逐个复核：真实插件分类收录，蹭标签项目剔除。通过场景化分类、精选推荐、热度排行和图文导览，帮你快速看懂每个插件能做什么、适合谁，以及如何开始使用。欢迎 Star ，让好用的插件更快被发现。",
+      "citationUrl": "https://github.com/bruc3van/awesome-dsh-plugin",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI News",
+      "category": "model_architecture_math",
+      "signal": "primary",
+      "whyItMatters": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a model architecture math update. Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 74 recency; local score 0.68, cluster 21.",
+      "sourceExcerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "citationUrl": "https://openai.com/index/practical-guide-building-gpt-6",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "michaelwilhelmsen/humla",
-      "url": "https://github.com/michaelwilhelmsen/humla",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Open-source AI meeting notes for Mac. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "michaelwilhelmsen/humla is appearing as builder momentum, not as a verified product claim. Open-source AI meeting notes for Mac.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 292 GitHub stars; local score 0.85, cluster 3.",
-      "sourceExcerpt": "Open-source AI meeting notes for Mac.",
-      "citationUrl": "https://github.com/michaelwilhelmsen/humla",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "tracel-ai/burn",
-      "url": "https://github.com/tracel-ai/burn",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "tracel-ai/burn is appearing as builder momentum, not as a verified product claim. Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 16,013 GitHub stars; local score 0.85, cluster 4.",
-      "sourceExcerpt": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "citationUrl": "https://github.com/tracel-ai/burn",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "hesreallyhim/awesome-claude-code",
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "title": "cortexkit/magic-context",
+      "url": "https://github.com/cortexkit/magic-context",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "hesreallyhim/awesome-claude-code is appearing as builder momentum, not as a verified product claim. A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC.",
+      "whyItMatters": "The hippocampus for coding agents, part of CortexKit. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "cortexkit/magic-context is appearing as builder momentum, not as a verified product claim. Memory that manages itself.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 54,951 GitHub stars; local score 0.87, cluster 2.",
-      "sourceExcerpt": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC.",
-      "citationUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+      "evidence": "GitHub AI Systems Search; 2,257 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Memory that manages itself.",
+      "citationUrl": "https://github.com/cortexkit/magic-context",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "harlan-zw/requestindexing.com",
+      "url": "https://github.com/harlan-zw/requestindexing.com",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Find your missing on pages Google and request them to be indexed using the Web Search Indexing API. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "harlan-zw/requestindexing.com is appearing as builder momentum, not as a verified product claim. Find your missing on pages Google and request them to be indexed using the Web Search Indexing API.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 395 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "Find your missing on pages Google and request them to be indexed using the Web Search Indexing API.",
+      "citationUrl": "https://github.com/harlan-zw/requestindexing.com",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Every SaaS business will become a harness around a model",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 149 points and 97 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 149 points and 97 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 149 HN points; local score 0.69, cluster 20.",
+      "sourceExcerpt": "Hacker News discussion signal with 149 points and 97 comments.",
+      "citationUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
@@ -138,21 +138,21 @@
       "What happened: NVIDIA Blog surfaced this as a inference systems update. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users.",
       "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for inference systems.",
-      "Evidence: NVIDIA Blog; 88 trust, 98 topical match, 81 recency; local score 0.78, cluster 14."
+      "Evidence: NVIDIA Blog; 88 trust, 98 topical match, 57 recency; local score 0.73, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "waybarrios/vllm-mlx",
-    "url": "https://github.com/waybarrios/vllm-mlx",
+    "title": "codenameone/CodenameOne",
+    "url": "https://github.com/codenameone/CodenameOne",
     "source": "GitHub AI Systems Search",
-    "category": "inference_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "waybarrios/vllm-mlx is appearing as builder momentum, not as a verified product claim. High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon.",
-    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 1,607 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "High-performance OpenAI and Anthropic compatible LLM inference server for Apple Silicon.",
-    "citationUrl": "https://github.com/waybarrios/vllm-mlx",
+    "whyItMatters": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "codenameone/CodenameOne is appearing as builder momentum, not as a verified product claim. Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,871 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Open-source framework for native apps from one Java codebase, with a custom-rendered UI you control across iOS, Android, desktop, web, and watches.",
+    "citationUrl": "https://github.com/codenameone/CodenameOne",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 407
+      "selected": 2,
+      "elapsedMs": 286
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 272
+      "elapsedMs": 375
     },
     {
       "id": "google-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 304
+      "elapsedMs": 130
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 285
+      "elapsedMs": 388
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 401
+      "elapsedMs": 471
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 393
+      "selected": 1,
+      "elapsedMs": 258
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 439
+      "selected": 2,
+      "elapsedMs": 323
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 369
+      "elapsedMs": 298
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 500
+      "elapsedMs": 409
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 335
+      "elapsedMs": 457
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 539
+      "selected": 2,
+      "elapsedMs": 451
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 579
+      "selected": 1,
+      "elapsedMs": 732
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 4,
-      "elapsedMs": 483
+      "selected": 1,
+      "elapsedMs": 470
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 592
+      "elapsedMs": 438
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 524
+      "elapsedMs": 390
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 547
+      "elapsedMs": 477
     },
     {
       "id": "databricks-blog",
@@ -316,17 +316,18 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 597
+      "selected": 3,
+      "elapsedMs": 384
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1471
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 15702,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1518
+      "elapsedMs": 1128
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 601
+      "elapsedMs": 468
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 1,
-      "elapsedMs": 930
+      "fetched": 21,
+      "selected": 2,
+      "elapsedMs": 746
     },
     {
       "id": "google-news-fallback",
@@ -361,18 +362,18 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 957
+      "selected": 3,
+      "elapsedMs": 692
     }
   ],
   "stats": {
-    "fetched": 457,
-    "afterDedupe": 445,
-    "afterFreshness": 161,
-    "droppedStale": 284,
+    "fetched": 416,
+    "afterDedupe": 404,
+    "afterFreshness": 102,
+    "droppedStale": 302,
     "selected": 28,
-    "clusters": 28,
-    "failures": 0,
+    "clusters": 27,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
