@@ -1,158 +1,158 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T17:19:28.016Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T20:59:54.728Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
-      "url": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
-      "source": "Databricks Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Databricks Blog surfaced this as a developer tools update. Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Databricks Blog; 78 trust, 68 topical match, 50 recency; local score 0.57, cluster 25.",
-      "sourceExcerpt": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
-      "citationUrl": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "Hugging Face Blog",
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+      "source": "AWS Machine Learning Blog",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "The Agent Said It Was Done. The Database Disagreed. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a multi agent systems update. The Agent Said It Was Done.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 45 topical match, 81 recency; local score 0.57, cluster 24.",
-      "sourceExcerpt": "The Agent Said It Was Done.",
-      "citationUrl": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "mock-server/mockserver-monorepo",
-      "url": "https://github.com/mock-server/mockserver-monorepo",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,981 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-      "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+      "whyItMatters": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 83 topical match, 96 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "taylorwilsdon/google_workspace_mcp",
-      "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "taylorwilsdon/google_workspace_mcp is appearing as builder momentum, not as a verified product claim. Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,280 GitHub stars; local score 0.86, cluster 3.",
-      "sourceExcerpt": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool",
-      "citationUrl": "https://github.com/taylorwilsdon/google_workspace_mcp",
+      "title": "Downgrading user roles in Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 95 recency; local score 0.73, cluster 17.",
+      "sourceExcerpt": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "marin-community/marin",
-      "url": "https://github.com/marin-community/marin",
+      "title": "Arthur-Ficial/apfel",
+      "url": "https://github.com/Arthur-Ficial/apfel",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source framework for the research and development of foundation models. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "marin-community/marin is appearing as builder momentum, not as a verified product claim. Open-source framework for the research and development of foundation models.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 3,861 GitHub stars; local score 0.84, cluster 5.",
-      "sourceExcerpt": "Open-source framework for the research and development of foundation models.",
-      "citationUrl": "https://github.com/marin-community/marin",
-      "contextQuality": "thin public context",
+      "whyItMatters": "CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Arthur-Ficial/apfel is appearing as builder momentum, not as a verified product claim. The free AI already on your Mac.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 6,452 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "The free AI already on your Mac.",
+      "citationUrl": "https://github.com/Arthur-Ficial/apfel",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "cypress-io/cypress-documentation",
+      "url": "https://github.com/cypress-io/cypress-documentation",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Cypress Documentation for the Cypress App, API, Cypress Cloud, UI Coverage and Cypress Accessibility. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "cypress-io/cypress-documentation is appearing as builder momentum, not as a verified product claim. Cypress Documentation for the Cypress App, API, Cypress Cloud, UI Coverage and Cypress Accessibility.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,048 GitHub stars; local score 0.85, cluster 3.",
+      "sourceExcerpt": "Cypress Documentation for the Cypress App, API, Cypress Cloud, UI Coverage and Cypress Accessibility.",
+      "citationUrl": "https://github.com/cypress-io/cypress-documentation",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NEAREST BY Join: Scaling Vector Search in Databricks Runtime",
+      "url": "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
+      "source": "Databricks Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Vector search originated as a serving problem. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Databricks Blog surfaced this as a inference systems update. Vector search originated as a serving problem.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Databricks Blog; 78 trust, 85 topical match, 99 recency; local score 0.70, cluster 20.",
+      "sourceExcerpt": "Vector search originated as a serving problem.",
+      "citationUrl": "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "zhitongblog/solomd",
-      "url": "https://github.com/zhitongblog/solomd",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A markdown editor — and the bridge to your LLM. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "zhitongblog/solomd is appearing as builder momentum, not as a verified product claim. A markdown editor — and the bridge to your LLM.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,153 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "A markdown editor — and the bridge to your LLM.",
-      "citationUrl": "https://github.com/zhitongblog/solomd",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Agents don't need memory, they need documentation",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "source": "Hacker News",
-      "category": "multi_agent_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 294 points and 169 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 294 points and 169 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 294 HN points; local score 0.67, cluster 21.",
-      "sourceExcerpt": "Hacker News discussion signal with 294 points and 169 comments.",
-      "citationUrl": "https://liao.gg/blog/agents-dont-need-memory",
+      "whyItMatters": "The design language that makes your AI harness better at design. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pbakaus/impeccable is appearing as builder momentum, not as a verified product claim. The design language that makes your AI harness better at design.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 77,004 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "The design language that makes your AI harness better at design.",
+      "citationUrl": "https://github.com/pbakaus/impeccable",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze? - Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwY9IBY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwYw?oc=5",
-      "source": "Google News Fallback",
-      "category": "multi_agent_systems",
-      "signal": "discovery",
-      "whyItMatters": "AI Agents Ignite the Second Growth Curve of Cloud Computing!... Use it as discovery context for multi agent systems until a stronger public source confirms the details.",
-      "brief": "This is a fallback discovery item for multi agent systems. AI Agents Ignite the Second Growth Curve of Cloud Computing!",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google News Fallback; 45 trust, 45 topical match, 81 recency; local score 0.51, cluster 26.",
-      "sourceExcerpt": "AI Agents Ignite the Second Growth Curve of Cloud Computing!",
-      "citationUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwY9IBY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwYw?oc=5",
+      "title": "ministackorg/ministack",
+      "url": "https://github.com/ministackorg/ministack",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ministackorg/ministack is appearing as builder momentum, not as a verified product claim. Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,838 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases.",
+      "citationUrl": "https://github.com/ministackorg/ministack",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "source": "Hacker News",
+      "category": "model_security",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 378 points and 211 comments. Treat it as an attention signal around model security; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 378 points and 211 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around model security, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 378 HN points; local score 0.70, cluster 21.",
+      "sourceExcerpt": "Hacker News discussion signal with 378 points and 211 comments.",
+      "citationUrl": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "mock-server/mockserver-monorepo",
-    "url": "https://github.com/mock-server/mockserver-monorepo",
-    "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
-    "summary": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+    "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+    "source": "AWS Machine Learning Blog",
+    "category": "multi_agent_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-      "Why it matters: Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: builder signal for developer tools.",
-      "Evidence: GitHub AI Systems Search; 4,981 GitHub stars; local score 0.88, cluster 1."
+      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 83 topical match, 96 recency; local score 0.75, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "mock-server/mockserver-monorepo",
-    "url": "https://github.com/mock-server/mockserver-monorepo",
+    "title": "Arthur-Ficial/apfel",
+    "url": "https://github.com/Arthur-Ficial/apfel",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "mock-server/mockserver-monorepo is appearing as builder momentum, not as a verified product claim. MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
+    "whyItMatters": "CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "Arthur-Ficial/apfel is appearing as builder momentum, not as a verified product claim. The free AI already on your Mac.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,981 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures.",
-    "citationUrl": "https://github.com/mock-server/mockserver-monorepo",
+    "evidence": "GitHub AI Systems Search; 6,452 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "The free AI already on your Mac.",
+    "citationUrl": "https://github.com/Arthur-Ficial/apfel",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 206
+      "selected": 1,
+      "elapsedMs": 326
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 272
+      "elapsedMs": 229
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 379
+      "elapsedMs": 326
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 320
+      "selected": 1,
+      "elapsedMs": 239
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 286
+      "elapsedMs": 317
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 326
+      "elapsedMs": 530
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 312
+      "elapsedMs": 346
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 370
+      "elapsedMs": 553
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 406
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 915
+      "elapsedMs": 469
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 382
+      "elapsedMs": 515
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 453
+      "elapsedMs": 437
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 895
+      "elapsedMs": 570
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 540
+      "selected": 1,
+      "elapsedMs": 554
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 650
+      "selected": 4,
+      "elapsedMs": 661
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 754
+      "elapsedMs": 585
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 767
+      "elapsedMs": 607
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 860
+      "selected": 3,
+      "elapsedMs": 752
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1822
+      "elapsedMs": 1583
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1652
+      "elapsedMs": 1703
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 846
+      "selected": 1,
+      "elapsedMs": 884
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
-      "selected": 2,
-      "elapsedMs": 1137
+      "fetched": 27,
+      "selected": 3,
+      "elapsedMs": 1062
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1164
+      "elapsedMs": 1271
     }
   ],
   "stats": {
-    "fetched": 451,
-    "afterDedupe": 440,
-    "afterFreshness": 71,
-    "droppedStale": 369,
-    "selected": 12,
-    "clusters": 11,
+    "fetched": 457,
+    "afterDedupe": 445,
+    "afterFreshness": 88,
+    "droppedStale": 357,
+    "selected": 23,
+    "clusters": 22,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
