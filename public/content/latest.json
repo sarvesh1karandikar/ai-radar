@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T18:40:48.569Z",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T17:40:16.272Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,24 +14,86 @@
       "whyItMatters": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Cloudflare AI surfaced this as a inference systems update. We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline.",
       "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Cloudflare AI; 78 trust, 65 topical match, 100 recency; local score 0.68, cluster 19.",
+      "evidence": "Cloudflare AI; 78 trust, 65 topical match, 76 recency; local score 0.64, cluster 37.",
       "sourceExcerpt": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline.",
       "citationUrl": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI News",
+      "title": "ICYMI: What landed for AI builders in September 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+      "source": "AWS Machine Learning Blog",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "whyItMatters": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 63 topical match, 88 recency; local score 0.68, cluster 17.",
-      "sourceExcerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "citationUrl": "https://openai.com/index/asana-browser-agent",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 60 topical match, 73 recency; local score 0.63, cluster 40.",
+      "sourceExcerpt": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "url": "http://arxiv.org/abs/2610.12445v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 20.",
+      "sourceExcerpt": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people.",
+      "citationUrl": "http://arxiv.org/abs/2610.12445v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+      "url": "http://arxiv.org/abs/2610.12403v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 21.",
+      "sourceExcerpt": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies.",
+      "citationUrl": "http://arxiv.org/abs/2610.12403v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "dr5hn/countries-states-cities-database",
+      "url": "https://github.com/dr5hn/countries-states-cities-database",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🌍 Discover our global repository of countries, states, and cities!... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "dr5hn/countries-states-cities-database is appearing as builder momentum, not as a verified product claim. 🌍 Discover our global repository of countries, states, and cities!",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 9,861 GitHub stars; local score 0.89, cluster 1.",
+      "sourceExcerpt": "🌍 Discover our global repository of countries, states, and cities!",
+      "citationUrl": "https://github.com/dr5hn/countries-states-cities-database",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 5,503 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control.",
+      "citationUrl": "https://github.com/maziyarpanahi/openmed",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
@@ -44,115 +106,53 @@
       "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
       "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 60,563 GitHub stars; local score 0.87, cluster 1.",
+      "evidence": "GitHub AI Systems Search; 60,886 GitHub stars; local score 0.84, cluster 3.",
       "sourceExcerpt": "The fastest, litest AI Gateway.",
       "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "yvgude/lean-ctx",
-      "url": "https://github.com/yvgude/lean-ctx",
+      "title": "devkitshq/notifkit",
+      "url": "https://github.com/devkitshq/notifkit",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "LeanCTX — Context Gateway for AI Systems. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "yvgude/lean-ctx is appearing as builder momentum, not as a verified product claim. LeanCTX — Context Gateway for AI Systems.",
+      "whyItMatters": "Self-hosted notification infrastructure for product notifications. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "devkitshq/notifkit is appearing as builder momentum, not as a verified product claim. Self-hosted notification infrastructure for product notifications.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,871 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "LeanCTX — Context Gateway for AI Systems.",
-      "citationUrl": "https://github.com/yvgude/lean-ctx",
+      "evidence": "GitHub AI Systems Search; 115 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "Self-hosted notification infrastructure for product notifications.",
+      "citationUrl": "https://github.com/devkitshq/notifkit",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "source": "NVIDIA Blog",
-      "category": "datacenter_power_compute",
-      "signal": "primary",
-      "whyItMatters": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 65 topical match, 69 recency; local score 0.66, cluster 23.",
-      "sourceExcerpt": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance.",
-      "citationUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    }
-  ],
-  "watchlist": [
-    {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 40,200 GitHub stars; local score 0.83, cluster 5.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "robertpiosik/CodeWebChat",
-      "url": "https://github.com/robertpiosik/CodeWebChat",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Blazing fast AI coding for VS Code... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "robertpiosik/CodeWebChat is appearing as builder momentum, not as a verified product claim. Blazing fast AI coding for VS Code",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,404 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "Blazing fast AI coding for VS Code",
-      "citationUrl": "https://github.com/robertpiosik/CodeWebChat",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "source": "Hacker News",
-      "category": "multi_agent_systems",
-      "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 314 points and 136 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 314 points and 136 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 314 HN points; local score 0.71, cluster 16.",
-      "sourceExcerpt": "Hacker News discussion signal with 314 points and 136 comments.",
-      "citationUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-    "source": "Cloudflare AI",
-    "category": "inference_systems",
-    "summary": "Cloudflare AI surfaced this as a inference systems update. We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+    "url": "http://arxiv.org/abs/2610.12445v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Cloudflare AI surfaced this as a inference systems update. We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: Cloudflare AI; 78 trust, 65 topical match, 100 recency; local score 0.68, cluster 19."
+      "What happened: This paper is a multi agent systems lead from the research stream. Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "BerriAI/litellm",
-    "url": "https://github.com/BerriAI/litellm",
+    "title": "dr5hn/countries-states-cities-database",
+    "url": "https://github.com/dr5hn/countries-states-cities-database",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+    "whyItMatters": "🌍 Discover our global repository of countries, states, and cities!... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "dr5hn/countries-states-cities-database is appearing as builder momentum, not as a verified product claim. 🌍 Discover our global repository of countries, states, and cities!",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 60,563 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "The fastest, litest AI Gateway.",
-    "citationUrl": "https://github.com/BerriAI/litellm",
+    "evidence": "GitHub AI Systems Search; 9,861 GitHub stars; local score 0.89, cluster 1.",
+    "sourceExcerpt": "🌍 Discover our global repository of countries, states, and cities!",
+    "citationUrl": "https://github.com/dr5hn/countries-states-cities-database",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 222
+      "elapsedMs": 235
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 249
+      "elapsedMs": 215
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 255
+      "elapsedMs": 430
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 356
+      "selected": 0,
+      "elapsedMs": 207
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 352
+      "selected": 1,
+      "elapsedMs": 229
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 598
+      "elapsedMs": 441
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 373
+      "elapsedMs": 349
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 332
+      "selected": 0,
+      "elapsedMs": 420
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 409
+      "elapsedMs": 378
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 452
+      "elapsedMs": 608
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 384
+      "elapsedMs": 451
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 425
+      "selected": 1,
+      "elapsedMs": 445
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 678
+      "elapsedMs": 862
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 937
+      "elapsedMs": 453
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 585
+      "selected": 3,
+      "elapsedMs": 543
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 617
+      "elapsedMs": 614
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 649
+      "elapsedMs": 569
     },
     {
       "id": "databricks-blog",
@@ -317,17 +317,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 605
+      "elapsedMs": 582
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 16052,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 2870
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1559
+      "elapsedMs": 1493
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 2929
+      "elapsedMs": 818
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 21,
-      "selected": 2,
-      "elapsedMs": 892
+      "fetched": 28,
+      "selected": 3,
+      "elapsedMs": 933
     },
     {
       "id": "google-news-fallback",
@@ -363,17 +362,17 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1055
+      "elapsedMs": 1012
     }
   ],
   "stats": {
-    "fetched": 416,
-    "afterDedupe": 403,
-    "afterFreshness": 106,
-    "droppedStale": 297,
-    "selected": 27,
+    "fetched": 458,
+    "afterDedupe": 446,
+    "afterFreshness": 117,
+    "droppedStale": 329,
+    "selected": 26,
     "clusters": 25,
-    "failures": 1,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
