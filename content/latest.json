@@ -1,10 +1,70 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T21:35:34.239Z",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T19:45:59.097Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "source": "GitHub AI and ML Blog",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "GitHub AI and ML Blog surfaced this as a developer tools update. GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI and ML Blog; 72 trust, 90 topical match, 98 recency; local score 0.74, cluster 22.",
+      "sourceExcerpt": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.",
+      "citationUrl": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 73 topical match, 96 recency; local score 0.72, cluster 23.",
+      "sourceExcerpt": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "smg-project/smg",
+      "url": "https://github.com/smg-project/smg",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Engine-agnostic LLM gateway in Rust. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "smg-project/smg is appearing as builder momentum, not as a verified product claim. Engine-agnostic LLM gateway in Rust.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 572 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Engine-agnostic LLM gateway in Rust.",
+      "citationUrl": "https://github.com/smg-project/smg",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "langwatch/langwatch",
+      "url": "https://github.com/langwatch/langwatch",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-Source Agent Observability & Evals for AI Platform teams. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "langwatch/langwatch is appearing as builder momentum, not as a verified product claim. Open-Source Agent Observability & Evals for AI Platform teams.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 4,943 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Open-Source Agent Observability & Evals for AI Platform teams.",
+      "citationUrl": "https://github.com/langwatch/langwatch",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
       "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
@@ -14,145 +74,85 @@
       "whyItMatters": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure,... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Meta Engineering surfaced this as a training infrastructure update. At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube).",
       "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Meta Engineering; 84 trust, 80 topical match, 100 recency; local score 0.75, cluster 17.",
+      "evidence": "Meta Engineering; 84 trust, 80 topical match, 77 recency; local score 0.71, cluster 24.",
       "sourceExcerpt": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube).",
       "citationUrl": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 96 recency; local score 0.74, cluster 19.",
-      "sourceExcerpt": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "its-me-prash/vwgroup-connect-ha",
-      "url": "https://github.com/its-me-prash/vwgroup-connect-ha",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "its-me-prash/vwgroup-connect-ha is appearing as builder momentum, not as a verified product claim. Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche & Bentley.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 121 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche & Bentley.",
-      "citationUrl": "https://github.com/its-me-prash/vwgroup-connect-ha",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "wemake-services/django-modern-rest",
-      "url": "https://github.com/wemake-services/django-modern-rest",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Modern REST framework for Django with types and async support!... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "wemake-services/django-modern-rest is appearing as builder momentum, not as a verified product claim. Modern REST framework for Django with types and async support!",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,503 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Modern REST framework for Django with types and async support!",
-      "citationUrl": "https://github.com/wemake-services/django-modern-rest",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
-      "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
-      "signal": "primary",
-      "whyItMatters": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 94 recency; local score 0.73, cluster 20.",
-      "sourceExcerpt": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "Arize-ai/phoenix",
-      "url": "https://github.com/Arize-ai/phoenix",
+      "title": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "AI Observability & Evaluation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Arize-ai/phoenix is appearing as builder momentum, not as a verified product claim. AI Observability & Evaluation",
+      "whyItMatters": "The Unofficial and Awesome Home Assistant MCP Server... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "homeassistant-ai/ha-mcp is appearing as builder momentum, not as a verified product claim. The Unofficial and Awesome Home Assistant MCP Server",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 11,808 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "AI Observability & Evaluation",
-      "citationUrl": "https://github.com/Arize-ai/phoenix",
+      "evidence": "GitHub AI Systems Search; 5,054 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "The Unofficial and Awesome Home Assistant MCP Server",
+      "citationUrl": "https://github.com/homeassistant-ai/ha-mcp",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "CoWork-OS/CoWork-OS",
-      "url": "https://github.com/CoWork-OS/CoWork-OS",
+      "title": "DataDog/pup",
+      "url": "https://github.com/DataDog/pup",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "CoWork-OS/CoWork-OS is appearing as builder momentum, not as a verified product claim. Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts.",
+      "whyItMatters": "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "DataDog/pup is appearing as builder momentum, not as a verified product claim. Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 482 GitHub stars; local score 0.81, cluster 5.",
-      "sourceExcerpt": "Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts.",
-      "citationUrl": "https://github.com/CoWork-OS/CoWork-OS",
+      "evidence": "GitHub AI Systems Search; 1,028 GitHub stars; local score 0.82, cluster 4.",
+      "sourceExcerpt": "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.",
+      "citationUrl": "https://github.com/DataDog/pup",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-      "url": "https://github.com/openai/codex/issues/48195",
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
       "source": "Hacker News",
       "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 352 points and 203 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 352 points and 203 comments.",
+      "whyItMatters": "Hacker News discussion signal with 69 points and 23 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 69 points and 23 comments.",
       "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 352 HN points; local score 0.75, cluster 18.",
-      "sourceExcerpt": "Hacker News discussion signal with 352 points and 203 comments.",
-      "citationUrl": "https://github.com/openai/codex/issues/48195",
+      "evidence": "Hacker News; 69 HN points; local score 0.70, cluster 26.",
+      "sourceExcerpt": "Hacker News discussion signal with 69 points and 23 comments.",
+      "citationUrl": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-    "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-    "source": "Meta Engineering",
-    "category": "training_infrastructure",
-    "summary": "Meta Engineering surfaced this as a training infrastructure update. At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+    "source": "AWS Machine Learning Blog",
+    "category": "multi_agent_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Meta Engineering surfaced this as a training infrastructure update. At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube).",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: Meta Engineering; 84 trust, 80 topical match, 100 recency; local score 0.75, cluster 17."
+      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 73 topical match, 96 recency; local score 0.72, cluster 23."
     ]
   },
   "bookmark": {
-    "title": "its-me-prash/vwgroup-connect-ha",
-    "url": "https://github.com/its-me-prash/vwgroup-connect-ha",
+    "title": "smg-project/smg",
+    "url": "https://github.com/smg-project/smg",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "its-me-prash/vwgroup-connect-ha is appearing as builder momentum, not as a verified product claim. Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche & Bentley.",
+    "whyItMatters": "Engine-agnostic LLM gateway in Rust. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "smg-project/smg is appearing as builder momentum, not as a verified product claim. Engine-agnostic LLM gateway in Rust.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 121 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "Home Assistant integration for the Volkswagen Group - Audi (incl US/Canada), VW (incl US/Canada), Škoda, SEAT, CUPRA, Porsche & Bentley.",
-    "citationUrl": "https://github.com/its-me-prash/vwgroup-connect-ha",
+    "evidence": "GitHub AI Systems Search; 572 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Engine-agnostic LLM gateway in Rust.",
+    "citationUrl": "https://github.com/smg-project/smg",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 222
+      "elapsedMs": 278
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 210
+      "elapsedMs": 267
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 236
+      "elapsedMs": 494
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 274
+      "selected": 4,
+      "elapsedMs": 273
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 300
+      "elapsedMs": 463
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 530
+      "elapsedMs": 789
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 369
+      "selected": 1,
+      "elapsedMs": 484
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 351
+      "elapsedMs": 392
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 381
+      "elapsedMs": 432
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 522
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 2,
-      "elapsedMs": 392
+      "elapsedMs": 561
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 574
+      "selected": 2,
+      "elapsedMs": 503
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 1374
+      "selected": 2,
+      "elapsedMs": 1079
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 515
+      "elapsedMs": 720
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 676
+      "selected": 4,
+      "elapsedMs": 645
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 601
+      "elapsedMs": 745
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 574
+      "elapsedMs": 584
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 716
+      "selected": 1,
+      "elapsedMs": 710
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 5987
+      "elapsedMs": 1496
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1448
+      "elapsedMs": 1382
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 2844
+      "selected": 2,
+      "elapsedMs": 750
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 4,
-      "elapsedMs": 3015
+      "fetched": 37,
+      "selected": 2,
+      "elapsedMs": 1078
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 3102
+      "elapsedMs": 925
     }
   ],
   "stats": {
-    "fetched": 457,
-    "afterDedupe": 446,
-    "afterFreshness": 90,
-    "droppedStale": 356,
-    "selected": 20,
-    "clusters": 20,
+    "fetched": 467,
+    "afterDedupe": 453,
+    "afterFreshness": 126,
+    "droppedStale": 327,
+    "selected": 28,
+    "clusters": 26,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
