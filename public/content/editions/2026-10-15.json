@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T17:38:34.233Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+      "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+      "source": "Meta Engineering",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a developer tools update. Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for...",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 70 topical match, 98 recency; local score 0.72, cluster 34.",
+      "sourceExcerpt": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for...",
+      "citationUrl": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "An Update On Independent Evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source": "Anthropic",
+      "category": "developer_tools",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 80 topical match, 100 recency; local score 0.73, cluster 33.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "url": "http://arxiv.org/abs/2610.20584v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 19.",
+      "sourceExcerpt": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
+      "citationUrl": "http://arxiv.org/abs/2610.20584v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "ActiveEvidence: Decision-Focused Evidence Graphs with Verifiable Acquisition Gaps",
+      "url": "http://arxiv.org/abs/2610.20532v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and when further interaction can no longer change its decision.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 24.",
+      "sourceExcerpt": "A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and when further interaction can no longer change its decision.",
+      "citationUrl": "http://arxiv.org/abs/2610.20532v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 61,322 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "gufo-org/gufo",
+      "url": "https://github.com/gufo-org/gufo",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "The Open Source Strix Halo AI engine. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "gufo-org/gufo is appearing as builder momentum, not as a verified product claim. The Open Source Strix Halo AI engine.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 762 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "The Open Source Strix Halo AI engine.",
+      "citationUrl": "https://github.com/gufo-org/gufo",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "jikan-me/jikan",
+      "url": "https://github.com/jikan-me/jikan",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Unofficial MyAnimeList PHP+REST API which provides functions other than the official API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "jikan-me/jikan is appearing as builder momentum, not as a verified product claim. Unofficial MyAnimeList PHP+REST API which provides functions other than the official API",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,080 GitHub stars; local score 0.84, cluster 5.",
+      "sourceExcerpt": "Unofficial MyAnimeList PHP+REST API which provides functions other than the official API",
+      "citationUrl": "https://github.com/jikan-me/jikan",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "OpenSC2K/OpenSC2K",
+      "url": "https://github.com/OpenSC2K/OpenSC2K",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "OpenSC2K/OpenSC2K is appearing as builder momentum, not as a verified product claim. OpenSC2K - Open Source remake of Sim City 2000 using rust and godot.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 5,298 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot.",
+      "citationUrl": "https://github.com/OpenSC2K/OpenSC2K",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "Player-1: Learning to Play from Synthetic Experience",
+    "url": "http://arxiv.org/abs/2610.20584v1",
+    "source": "arXiv AI Systems Query",
+    "category": "multi_agent_systems",
+    "summary": "This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
+      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for multi agent systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 19."
+    ]
+  },
+  "bookmark": {
+    "title": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "source": "GitHub AI Systems Search",
+    "category": "developer_tools",
+    "signal": "builder-signal",
+    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 61,322 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The fastest, litest AI Gateway.",
+    "citationUrl": "https://github.com/BerriAI/litellm",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 264
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 237
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 267
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 2,
+      "elapsedMs": 271
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 259
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 483
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 321
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 336
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 363
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 470
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 1,
+      "elapsedMs": 340
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 4,
+      "elapsedMs": 515
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 1078
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 518
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 3,
+      "elapsedMs": 507
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 471
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 520
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 688
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1279
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1398
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 592
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 22,
+      "selected": 1,
+      "elapsedMs": 831
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 930
+    }
+  ],
+  "stats": {
+    "fetched": 452,
+    "afterDedupe": 439,
+    "afterFreshness": 157,
+    "droppedStale": 282,
+    "selected": 28,
+    "clusters": 28,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
