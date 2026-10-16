@@ -1,22 +1,114 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T17:38:34.233Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T17:11:53.035Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
-      "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
-      "source": "Meta Engineering",
+      "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+      "source": "AWS Machine Learning Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 93 topical match, 98 recency; local score 0.78, cluster 11.",
+      "sourceExcerpt": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+      "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+      "source": "Apple Machine Learning Research",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Multimodal agents commonly generate freeform reasoning before each action. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Apple Machine Learning Research surfaced this as a multi agent systems update. Multimodal agents commonly generate freeform reasoning before each action.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Apple Machine Learning Research; 90 trust, 100 topical match, 57 recency; local score 0.74, cluster 15.",
+      "sourceExcerpt": "Multimodal agents commonly generate freeform reasoning before each action.",
+      "citationUrl": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "tigerless-labs/agent-memory",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tigerless-labs/agent-memory is appearing as builder momentum, not as a verified product claim. Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,905 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer.",
+      "citationUrl": "https://github.com/tigerless-labs/agent-memory",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "knostic/OpenAnt",
+      "url": "https://github.com/knostic/OpenAnt",
+      "source": "GitHub AI Systems Search",
+      "category": "model_security",
+      "signal": "builder-signal",
+      "whyItMatters": "OpenAnt from Knostic is the leading open source LLM-based vulnerability discovery product, helping defenders proactively find verified security... Treat it as builder momentum in model security; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "knostic/OpenAnt is appearing as builder momentum, not as a verified product claim. OpenAnt from Knostic is the leading open source LLM-based vulnerability discovery product, helping defenders proactively find verified security flaws while minimizing both false positives and false negatives.",
+      "technicalTakeaway": "Track the repository as a model security signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 776 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "OpenAnt from Knostic is the leading open source LLM-based vulnerability discovery product, helping defenders proactively find verified security flaws while minimizing both false positives and false negatives.",
+      "citationUrl": "https://github.com/knostic/OpenAnt",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Continuous accountability for Verified bots",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "source": "Cloudflare AI",
       "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Meta Engineering surfaced this as a developer tools update. Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for...",
+      "whyItMatters": "Identity alone doesn't guarantee a bot will behave responsibly. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Cloudflare AI surfaced this as a developer tools update. Identity alone doesn't guarantee a bot will behave responsibly.",
       "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Meta Engineering; 84 trust, 70 topical match, 98 recency; local score 0.72, cluster 34.",
-      "sourceExcerpt": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for...",
-      "citationUrl": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+      "evidence": "Cloudflare AI; 78 trust, 80 topical match, 96 recency; local score 0.71, cluster 17.",
+      "sourceExcerpt": "Identity alone doesn't guarantee a bot will behave responsibly.",
+      "citationUrl": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "salitronic/eda-agent",
+      "url": "https://github.com/salitronic/eda-agent",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Open-source MCP server that lets an AI drive a live session of Altium Designer, and optionally KiCad or... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "salitronic/eda-agent is appearing as builder momentum, not as a verified product claim. Open-source MCP server that lets an AI drive a live session of Altium Designer, and optionally KiCad or EasyEDA Pro, editing the open design in place while you watch.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 252 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "Open-source MCP server that lets an AI drive a live session of Altium Designer, and optionally KiCad or EasyEDA Pro, editing the open design in place while you watch.",
+      "citationUrl": "https://github.com/salitronic/eda-agent",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "pydantic/pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Agents, realtime voice, image generation, embeddings. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pydantic/pydantic-ai is appearing as builder momentum, not as a verified product claim. Agents, realtime voice, image generation, embeddings.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 20,665 GitHub stars; local score 0.81, cluster 4.",
+      "sourceExcerpt": "Agents, realtime voice, image generation, embeddings.",
+      "citationUrl": "https://github.com/pydantic/pydantic-ai",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
@@ -29,130 +121,38 @@
       "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
       "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 80 topical match, 100 recency; local score 0.73, cluster 33.",
+      "evidence": "Anthropic; 96 trust, 80 topical match, 99 recency; local score 0.70, cluster 18.",
       "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
       "citationUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
       "contextQuality": "thin public context",
       "readTime": "3 min"
-    },
-    {
-      "title": "Player-1: Learning to Play from Synthetic Experience",
-      "url": "http://arxiv.org/abs/2610.20584v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 19.",
-      "sourceExcerpt": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
-      "citationUrl": "http://arxiv.org/abs/2610.20584v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "ActiveEvidence: Decision-Focused Evidence Graphs with Verifiable Acquisition Gaps",
-      "url": "http://arxiv.org/abs/2610.20532v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and when further interaction can no longer change its decision.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 24.",
-      "sourceExcerpt": "A multimodal agent must decide whether visual evidence is worth acquiring, which candidate or resolution to query, and when further interaction can no longer change its decision.",
-      "citationUrl": "http://arxiv.org/abs/2610.20532v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 61,322 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "The fastest, litest AI Gateway.",
-      "citationUrl": "https://github.com/BerriAI/litellm",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    }
-  ],
-  "watchlist": [
-    {
-      "title": "gufo-org/gufo",
-      "url": "https://github.com/gufo-org/gufo",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "The Open Source Strix Halo AI engine. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "gufo-org/gufo is appearing as builder momentum, not as a verified product claim. The Open Source Strix Halo AI engine.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 762 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "The Open Source Strix Halo AI engine.",
-      "citationUrl": "https://github.com/gufo-org/gufo",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "jikan-me/jikan",
-      "url": "https://github.com/jikan-me/jikan",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Unofficial MyAnimeList PHP+REST API which provides functions other than the official API... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "jikan-me/jikan is appearing as builder momentum, not as a verified product claim. Unofficial MyAnimeList PHP+REST API which provides functions other than the official API",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,080 GitHub stars; local score 0.84, cluster 5.",
-      "sourceExcerpt": "Unofficial MyAnimeList PHP+REST API which provides functions other than the official API",
-      "citationUrl": "https://github.com/jikan-me/jikan",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "OpenSC2K/OpenSC2K",
-      "url": "https://github.com/OpenSC2K/OpenSC2K",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "OpenSC2K/OpenSC2K is appearing as builder momentum, not as a verified product claim. OpenSC2K - Open Source remake of Sim City 2000 using rust and godot.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 5,298 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot.",
-      "citationUrl": "https://github.com/OpenSC2K/OpenSC2K",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Player-1: Learning to Play from Synthetic Experience",
-    "url": "http://arxiv.org/abs/2610.20584v1",
-    "source": "arXiv AI Systems Query",
+    "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+    "source": "AWS Machine Learning Blog",
     "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.76, cluster 19."
+      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 93 topical match, 98 recency; local score 0.78, cluster 11."
     ]
   },
   "bookmark": {
-    "title": "BerriAI/litellm",
-    "url": "https://github.com/BerriAI/litellm",
+    "title": "tigerless-labs/agent-memory",
+    "url": "https://github.com/tigerless-labs/agent-memory",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 61,322 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "The fastest, litest AI Gateway.",
-    "citationUrl": "https://github.com/BerriAI/litellm",
+    "whyItMatters": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "tigerless-labs/agent-memory is appearing as builder momentum, not as a verified product claim. Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 3,905 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer.",
+    "citationUrl": "https://github.com/tigerless-labs/agent-memory",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 264
+      "selected": 0,
+      "elapsedMs": 251
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 237
+      "elapsedMs": 310
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 267
+      "selected": 0,
+      "elapsedMs": 394
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 271
+      "selected": 3,
+      "elapsedMs": 234
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 259
+      "elapsedMs": 354
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 483
+      "elapsedMs": 295
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 321
+      "selected": 2,
+      "elapsedMs": 331
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 336
+      "selected": 1,
+      "elapsedMs": 265
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 363
+      "elapsedMs": 430
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 470
+      "elapsedMs": 380
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 1,
-      "elapsedMs": 340
+      "selected": 2,
+      "elapsedMs": 519
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 4,
-      "elapsedMs": 515
+      "elapsedMs": 402
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 1078
+      "selected": 1,
+      "elapsedMs": 533
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 518
+      "selected": 1,
+      "elapsedMs": 394
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 3,
-      "elapsedMs": 507
+      "elapsedMs": 457
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 471
+      "elapsedMs": 483
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 520
+      "elapsedMs": 505
     },
     {
       "id": "databricks-blog",
@@ -316,17 +316,18 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 688
+      "selected": 4,
+      "elapsedMs": 543
     },
     {
       "id": "arxiv-ai-systems",
       "name": "arXiv AI Systems Query",
       "type": "arxiv",
-      "status": "ok",
-      "fetched": 35,
-      "selected": 4,
-      "elapsedMs": 1279
+      "status": "failed",
+      "fetched": 0,
+      "selected": 0,
+      "elapsedMs": 16052,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1398
+      "elapsedMs": 1473
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +344,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 592
+      "selected": 0,
+      "elapsedMs": 844
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 22,
+      "fetched": 23,
       "selected": 1,
-      "elapsedMs": 831
+      "elapsedMs": 1036
     },
     {
       "id": "google-news-fallback",
@@ -361,18 +362,18 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 930
+      "selected": 1,
+      "elapsedMs": 1128
     }
   ],
   "stats": {
-    "fetched": 452,
-    "afterDedupe": 439,
-    "afterFreshness": 157,
-    "droppedStale": 282,
+    "fetched": 418,
+    "afterDedupe": 405,
+    "afterFreshness": 109,
+    "droppedStale": 296,
     "selected": 28,
-    "clusters": 28,
-    "failures": 0,
+    "clusters": 27,
+    "failures": 1,
     "pipeline": "statistical_ml"
   }
 }
