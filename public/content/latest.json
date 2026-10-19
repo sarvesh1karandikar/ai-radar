@@ -1,158 +1,158 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T16:23:17.000Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T19:04:41.306Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "source": "NVIDIA Blog",
-      "category": "datacenter_power_compute",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a datacenter power compute update. NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 85 topical match, 80 recency; local score 0.74, cluster 15.",
-      "sourceExcerpt": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
-      "citationUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "whyItMatters": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 97 recency; local score 0.75, cluster 21.",
+      "sourceExcerpt": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "An Update On Independent Evaluators",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "source": "Anthropic",
-      "category": "developer_tools",
+      "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 80 topical match, 54 recency; local score 0.65, cluster 18.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 98 recency; local score 0.74, cluster 22.",
+      "sourceExcerpt": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "citationUrl": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "lucee/Lucee",
-      "url": "https://github.com/lucee/Lucee",
+      "title": "vendurehq/vendure",
+      "url": "https://github.com/vendurehq/vendure",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Lucee is a high-performance, open-source CFML server written in Java. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "lucee/Lucee is appearing as builder momentum, not as a verified product claim. Lucee is a high-performance, open-source CFML server written in Java.",
+      "whyItMatters": "Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "vendurehq/vendure is appearing as builder momentum, not as a verified product claim. Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 922 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Lucee is a high-performance, open-source CFML server written in Java.",
-      "citationUrl": "https://github.com/lucee/Lucee",
+      "evidence": "GitHub AI Systems Search; 8,527 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL",
+      "citationUrl": "https://github.com/vendurehq/vendure",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "MervinPraison/PraisonAI",
-      "url": "https://github.com/MervinPraison/PraisonAI",
+      "title": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "MervinPraison/PraisonAI is appearing as builder momentum, not as a verified product claim. PraisonAI 🦞 — Hire a 24/7 AI Workforce.",
+      "whyItMatters": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA/SkillEvaluator is appearing as builder momentum, not as a verified product claim. Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 9,257 GitHub stars; local score 0.83, cluster 3.",
-      "sourceExcerpt": "PraisonAI 🦞 — Hire a 24/7 AI Workforce.",
-      "citationUrl": "https://github.com/MervinPraison/PraisonAI",
+      "evidence": "GitHub AI Systems Search; 577 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "citationUrl": "https://github.com/NVIDIA/SkillEvaluator",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
+      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "source": "Meta Engineering",
+      "category": "model_architecture_math",
       "signal": "primary",
-      "whyItMatters": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 68 topical match, 55 recency; local score 0.63, cluster 19.",
-      "sourceExcerpt": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+      "whyItMatters": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a model architecture math update. Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers.",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 65 topical match, 97 recency; local score 0.70, cluster 25.",
+      "sourceExcerpt": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers.",
+      "citationUrl": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "PrimeIntellect-ai/verifiers",
-      "url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "title": "IvanMurzak/Godot-MCP",
+      "url": "https://github.com/IvanMurzak/Godot-MCP",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Our library for RL environments + evals... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PrimeIntellect-ai/verifiers is appearing as builder momentum, not as a verified product claim. Our library for RL environments + evals",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 4,716 GitHub stars; local score 0.83, cluster 2.",
-      "sourceExcerpt": "Our library for RL environments + evals",
-      "citationUrl": "https://github.com/PrimeIntellect-ai/verifiers",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "reticlehq/reticle",
-      "url": "https://github.com/reticlehq/reticle",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "AI agents can generate code, but still struggle to understand what they build. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "reticlehq/reticle is appearing as builder momentum, not as a verified product claim. AI agents can generate code, but still struggle to understand what they build.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,254 GitHub stars; local score 0.81, cluster 4.",
-      "sourceExcerpt": "AI agents can generate code, but still struggle to understand what they build.",
-      "citationUrl": "https://github.com/reticlehq/reticle",
+      "whyItMatters": "Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "IvanMurzak/Godot-MCP is appearing as builder momentum, not as a verified product claim. Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 297 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine.",
+      "citationUrl": "https://github.com/IvanMurzak/Godot-MCP",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "title": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 40,346 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
+      "citationUrl": "https://github.com/PostHog/posthog",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
       "source": "Hacker News",
-      "category": "model_security",
+      "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 84 points and 84 comments. Treat it as an attention signal around model security; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 84 points and 84 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around model security, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 84 HN points; local score 0.68, cluster 17.",
-      "sourceExcerpt": "Hacker News discussion signal with 84 points and 84 comments.",
-      "citationUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "whyItMatters": "Hacker News discussion signal with 138 points and 109 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 138 points and 109 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 138 HN points; local score 0.73, cluster 23.",
+      "sourceExcerpt": "Hacker News discussion signal with 138 points and 109 comments.",
+      "citationUrl": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+    "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
     "source": "AWS Machine Learning Blog",
-    "category": "multi_agent_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 68 topical match, 55 recency; local score 0.63, cluster 19."
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 97 recency; local score 0.75, cluster 21."
     ]
   },
   "bookmark": {
-    "title": "lucee/Lucee",
-    "url": "https://github.com/lucee/Lucee",
+    "title": "vendurehq/vendure",
+    "url": "https://github.com/vendurehq/vendure",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Lucee is a high-performance, open-source CFML server written in Java. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "lucee/Lucee is appearing as builder momentum, not as a verified product claim. Lucee is a high-performance, open-source CFML server written in Java.",
+    "whyItMatters": "Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "vendurehq/vendure is appearing as builder momentum, not as a verified product claim. Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 922 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Lucee is a high-performance, open-source CFML server written in Java.",
-    "citationUrl": "https://github.com/lucee/Lucee",
+    "evidence": "GitHub AI Systems Search; 8,527 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL",
+    "citationUrl": "https://github.com/vendurehq/vendure",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 321
+      "selected": 0,
+      "elapsedMs": 273
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 273
+      "elapsedMs": 252
     },
     {
       "id": "google-research",
@@ -181,8 +181,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 443
+      "selected": 0,
+      "elapsedMs": 323
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 287
+      "elapsedMs": 264
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 398
+      "elapsedMs": 371
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 496
+      "elapsedMs": 775
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 427
+      "elapsedMs": 350
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 325
+      "selected": 1,
+      "elapsedMs": 292
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 369
+      "elapsedMs": 470
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 483
+      "elapsedMs": 481
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 449
+      "selected": 3,
+      "elapsedMs": 439
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 441
+      "selected": 2,
+      "elapsedMs": 425
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 511
+      "selected": 1,
+      "elapsedMs": 566
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 543
+      "elapsedMs": 494
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 536
+      "selected": 3,
+      "elapsedMs": 605
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 513
+      "elapsedMs": 622
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 548
+      "elapsedMs": 636
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 492
+      "elapsedMs": 610
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 2198
+      "elapsedMs": 1541
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1416
+      "elapsedMs": 1585
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 736
+      "selected": 1,
+      "elapsedMs": 684
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 20,
+      "fetched": 32,
       "selected": 2,
-      "elapsedMs": 971
+      "elapsedMs": 967
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 1077
+      "elapsedMs": 1044
     }
   ],
   "stats": {
-    "fetched": 450,
-    "afterDedupe": 439,
-    "afterFreshness": 80,
-    "droppedStale": 359,
-    "selected": 15,
-    "clusters": 14,
+    "fetched": 462,
+    "afterDedupe": 450,
+    "afterFreshness": 95,
+    "droppedStale": 355,
+    "selected": 22,
+    "clusters": 20,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
