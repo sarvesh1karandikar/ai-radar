@@ -1,158 +1,158 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T17:48:30.907Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T17:55:28.866Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "source": "NVIDIA Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a inference systems update. General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 100 topical match, 93 recency; local score 0.80, cluster 12.",
+      "sourceExcerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers.",
+      "citationUrl": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
       "source": "NVIDIA Blog",
       "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries.",
+      "whyItMatters": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing...",
       "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 87 recency; local score 0.78, cluster 15.",
-      "sourceExcerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries.",
-      "citationUrl": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "evidence": "NVIDIA Blog; 88 trust, 95 topical match, 92 recency; local score 0.79, cluster 16.",
+      "sourceExcerpt": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing...",
+      "citationUrl": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face Blog",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "FairStress: A deeper evaluation of fairness in LLM decision-making... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Hugging Face Blog surfaced this as a developer tools update. FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hugging Face Blog; 90 trust, 95 topical match, 98 recency; local score 0.75, cluster 32.",
-      "sourceExcerpt": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "citationUrl": "https://huggingface.co/blog/allenai/fairstress",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Train An Imaginative Agent",
-      "url": "http://arxiv.org/abs/2610.26845v1",
+      "title": "The Token-Energy Law of LLM Decode: Active Bytes and Realized Time Account for Joules per Token",
+      "url": "http://arxiv.org/abs/2610.28576v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. A seemingly reasonable push in Sokoban can make the puzzle unsolvable.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 22.",
-      "sourceExcerpt": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable.",
-      "citationUrl": "http://arxiv.org/abs/2610.26845v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "ASTOR: Benchmarking and Improving Autoformulation for Soft-Constraint Optimization with a Formal Grammar",
-      "url": "http://arxiv.org/abs/2610.26819v1",
-      "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints,... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints, and preferences that can be violated, called soft constraints.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "whyItMatters": "Energy-efficient deployment of large language models requires understanding how model architecture, hardware, and serving settings shape energy per... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Energy-efficient deployment of large language models requires understanding how model architecture, hardware, and serving settings shape energy per generated token.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 75 recency; local score 0.75, cluster 27.",
-      "sourceExcerpt": "Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints, and preferences that can be violated, called soft constraints.",
-      "citationUrl": "http://arxiv.org/abs/2610.26819v1",
+      "sourceExcerpt": "Energy-efficient deployment of large language models requires understanding how model architecture, hardware, and serving settings shape energy per generated token.",
+      "citationUrl": "http://arxiv.org/abs/2610.28576v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
+      "title": "Agentic Ensemble with Vision-Language Models for Visual Anomaly Detection",
+      "url": "http://arxiv.org/abs/2610.28560v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 29.",
+      "sourceExcerpt": "Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training.",
+      "citationUrl": "http://arxiv.org/abs/2610.28560v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Context window optimization for AI coding agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "mksglu/context-mode is appearing as builder momentum, not as a verified product claim. Context window optimization for AI coding agents.",
+      "whyItMatters": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "deepset-ai/haystack is appearing as builder momentum, not as a verified product claim. Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 31,306 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Context window optimization for AI coding agents.",
-      "citationUrl": "https://github.com/mksglu/context-mode",
+      "evidence": "GitHub AI Systems Search; 26,804 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.",
+      "citationUrl": "https://github.com/deepset-ai/haystack",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "smg-project/smg",
-      "url": "https://github.com/smg-project/smg",
+      "title": "7onez/cti-expert",
+      "url": "https://github.com/7onez/cti-expert",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Engine-agnostic LLM gateway in Rust. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "smg-project/smg is appearing as builder momentum, not as a verified product claim. Engine-agnostic LLM gateway in Rust.",
+      "whyItMatters": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code / Codex. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "7onez/cti-expert is appearing as builder momentum, not as a verified product claim. CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code / Codex.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 653 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "Engine-agnostic LLM gateway in Rust.",
-      "citationUrl": "https://github.com/smg-project/smg",
+      "evidence": "GitHub AI Systems Search; 615 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code / Codex.",
+      "citationUrl": "https://github.com/7onez/cti-expert",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "devdotfast/whiteboard",
-      "url": "https://github.com/devdotfast/whiteboard",
+      "title": "SigNoz/signoz",
+      "url": "https://github.com/SigNoz/signoz",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "SigNoz/signoz is appearing as builder momentum, not as a verified product claim. SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 32,423 GitHub stars; local score 0.83, cluster 6.",
+      "sourceExcerpt": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents.",
+      "citationUrl": "https://github.com/SigNoz/signoz",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "robertpiosik/CodeWebChat",
+      "url": "https://github.com/robertpiosik/CodeWebChat",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "open-source canvas for thoughtful software design... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "devdotfast/whiteboard is appearing as builder momentum, not as a verified product claim. open-source canvas for thoughtful software design",
+      "whyItMatters": "Blazing fast AI coding with static context... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "robertpiosik/CodeWebChat is appearing as builder momentum, not as a verified product claim. Blazing fast AI coding with static context",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 3,275 GitHub stars; local score 0.83, cluster 4.",
-      "sourceExcerpt": "open-source canvas for thoughtful software design",
-      "citationUrl": "https://github.com/devdotfast/whiteboard",
+      "evidence": "GitHub AI Systems Search; 1,406 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Blazing fast AI coding with static context",
+      "citationUrl": "https://github.com/robertpiosik/CodeWebChat",
       "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "coleam00/Archon",
-      "url": "https://github.com/coleam00/Archon",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "The first open-source harness builder for AI coding. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "coleam00/Archon is appearing as builder momentum, not as a verified product claim. The first open-source harness builder for AI coding.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 23,733 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "The first open-source harness builder for AI coding.",
-      "citationUrl": "https://github.com/coleam00/Archon",
-      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-    "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+    "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
     "source": "NVIDIA Blog",
-    "category": "training_infrastructure",
-    "summary": "NVIDIA Blog surfaced this as a training infrastructure update. The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "inference_systems",
+    "summary": "NVIDIA Blog surfaced this as a inference systems update. General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: NVIDIA Blog surfaced this as a training infrastructure update. The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries.",
-      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for training infrastructure.",
-      "Evidence: NVIDIA Blog; 88 trust, 95 topical match, 87 recency; local score 0.78, cluster 15."
+      "What happened: NVIDIA Blog surfaced this as a inference systems update. General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: NVIDIA Blog; 88 trust, 100 topical match, 93 recency; local score 0.80, cluster 12."
     ]
   },
   "bookmark": {
-    "title": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
+    "title": "deepset-ai/haystack",
+    "url": "https://github.com/deepset-ai/haystack",
     "source": "GitHub AI Systems Search",
     "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Context window optimization for AI coding agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "mksglu/context-mode is appearing as builder momentum, not as a verified product claim. Context window optimization for AI coding agents.",
+    "whyItMatters": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "deepset-ai/haystack is appearing as builder momentum, not as a verified product claim. Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.",
     "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 31,306 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Context window optimization for AI coding agents.",
-    "citationUrl": "https://github.com/mksglu/context-mode",
+    "evidence": "GitHub AI Systems Search; 26,804 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.",
+    "citationUrl": "https://github.com/deepset-ai/haystack",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 312
+      "selected": 4,
+      "elapsedMs": 219
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 202
+      "elapsedMs": 191
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 364
+      "elapsedMs": 302
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 213
+      "elapsedMs": 255
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 327
+      "elapsedMs": 206
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 430
+      "elapsedMs": 469
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 355
+      "selected": 3,
+      "elapsedMs": 338
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 240
+      "elapsedMs": 398
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 300
+      "elapsedMs": 419
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 380
+      "elapsedMs": 527
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 3,
-      "elapsedMs": 384
+      "selected": 0,
+      "elapsedMs": 355
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 3,
-      "elapsedMs": 331
+      "selected": 4,
+      "elapsedMs": 531
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 449
+      "selected": 2,
+      "elapsedMs": 544
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 389
+      "elapsedMs": 515
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 480
+      "selected": 3,
+      "elapsedMs": 610
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 409
+      "selected": 0,
+      "elapsedMs": 574
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 404
+      "elapsedMs": 551
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 485
+      "selected": 0,
+      "elapsedMs": 650
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 3191
+      "elapsedMs": 1911
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1485
+      "elapsedMs": 1656
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 521
+      "elapsedMs": 710
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 28,
+      "fetched": 32,
       "selected": 1,
-      "elapsedMs": 676
+      "elapsedMs": 1018
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 822
+      "elapsedMs": 994
     }
   ],
   "stats": {
-    "fetched": 458,
+    "fetched": 462,
     "afterDedupe": 446,
-    "afterFreshness": 190,
-    "droppedStale": 256,
+    "afterFreshness": 213,
+    "droppedStale": 233,
     "selected": 28,
     "clusters": 28,
     "failures": 0,
