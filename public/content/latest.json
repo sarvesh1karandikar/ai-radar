@@ -1,159 +1,159 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T16:58:28.397Z",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T19:02:59.285Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "title": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 97 recency; local score 0.74, cluster 13.",
+      "sourceExcerpt": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+      "citationUrl": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
       "source": "AWS Machine Learning Blog",
-      "category": "multi_agent_systems",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 93 topical match, 51 recency; local score 0.69, cluster 23.",
-      "sourceExcerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "whyItMatters": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. Fleet-wide computer vision needs a model per camera, not one model for the whole fleet.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 65 topical match, 99 recency; local score 0.70, cluster 16.",
+      "sourceExcerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Measuring Agent Autonomy",
-      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-      "source": "Anthropic",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 54 recency; local score 0.67, cluster 24.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/measuring-agent-autonomy",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Minidoracat/mcp-feedback-enhanced",
-      "url": "https://github.com/Minidoracat/mcp-feedback-enhanced",
+      "title": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Minidoracat/mcp-feedback-enhanced is appearing as builder momentum, not as a verified product claim. Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 3,758 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.",
-      "citationUrl": "https://github.com/Minidoracat/mcp-feedback-enhanced",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "ViennaRSS/vienna-rss",
-      "url": "https://github.com/ViennaRSS/vienna-rss",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Vienna is a free and open-source RSS/Atom/JSON feed newsreader for macOS. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "ViennaRSS/vienna-rss is appearing as builder momentum, not as a verified product claim. Vienna is a free and open-source RSS/Atom/JSON feed newsreader for macOS.",
+      "whyItMatters": "freehire — the open-source search engine for job seekers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "strelov1/freehire is appearing as builder momentum, not as a verified product claim. freehire — the open-source search engine for job seekers",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,978 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Vienna is a free and open-source RSS/Atom/JSON feed newsreader for macOS.",
-      "citationUrl": "https://github.com/ViennaRSS/vienna-rss",
+      "evidence": "GitHub AI Systems Search; 3,156 GitHub stars; local score 0.83, cluster 1.",
+      "sourceExcerpt": "freehire — the open-source search engine for job seekers",
+      "citationUrl": "https://github.com/strelov1/freehire",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI News",
-      "category": "developer_tools",
+      "title": "Dicklesworthstone/pi_agent_rust",
+      "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "High-performance AI coding agent CLI written in Rust with zero unsafe code... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Dicklesworthstone/pi_agent_rust is appearing as builder momentum, not as a verified product claim. High-performance AI coding agent CLI written in Rust with zero unsafe code",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,941 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
+      "citationUrl": "https://github.com/Dicklesworthstone/pi_agent_rust",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+      "source": "Meta Engineering",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a developer tools update. Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 70 topical match, 50 recency; local score 0.64, cluster 28.",
-      "sourceExcerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "citationUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "whyItMatters": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a training infrastructure update. At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 63 topical match, 97 recency; local score 0.69, cluster 19.",
+      "sourceExcerpt": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster.",
+      "citationUrl": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
+      "title": "pasrom/meeting-transcriber",
+      "url": "https://github.com/pasrom/meeting-transcriber",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The design language that makes your AI harness better at design. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "pbakaus/impeccable is appearing as builder momentum, not as a verified product claim. The design language that makes your AI harness better at design.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 87,336 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "The design language that makes your AI harness better at design.",
-      "citationUrl": "https://github.com/pbakaus/impeccable",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Aletheore/Aletheore",
-      "url": "https://github.com/Aletheore/Aletheore",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "Evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that posts PR... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Aletheore/Aletheore is appearing as builder momentum, not as a verified product claim. Evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that posts PR diffs.",
+      "whyItMatters": "On-device meeting transcriber for macOS — auto-records Teams/Zoom/Webex, transcribes & separates speakers locally. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pasrom/meeting-transcriber is appearing as builder momentum, not as a verified product claim. On-device meeting transcriber for macOS — auto-records Teams/Zoom/Webex, transcribes & separates speakers locally.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 612 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "Evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that posts PR diffs.",
-      "citationUrl": "https://github.com/Aletheore/Aletheore",
+      "evidence": "GitHub AI Systems Search; 217 GitHub stars; local score 0.83, cluster 2.",
+      "sourceExcerpt": "On-device meeting transcriber for macOS — auto-records Teams/Zoom/Webex, transcribes & separates speakers locally.",
+      "citationUrl": "https://github.com/pasrom/meeting-transcriber",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "url": "https://github.com/slee-persis/GVS5H",
-      "source": "Hacker News",
+      "title": "hproxy-com/free-proxy-list",
+      "url": "https://github.com/hproxy-com/free-proxy-list",
+      "source": "GitHub AI Systems Search",
       "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "hproxy-com/free-proxy-list is appearing as builder momentum, not as a verified product claim. Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 82 GitHub stars; local score 0.80, cluster 5.",
+      "sourceExcerpt": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
+      "citationUrl": "https://github.com/hproxy-com/free-proxy-list",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Fixing Tool-Call Accuracy in vLLM",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "source": "Hacker News",
+      "category": "inference_systems",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 175 points and 63 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 175 points and 63 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 175 HN points; local score 0.71, cluster 22.",
-      "sourceExcerpt": "Hacker News discussion signal with 175 points and 63 comments.",
-      "citationUrl": "https://github.com/slee-persis/GVS5H",
+      "whyItMatters": "Hacker News discussion signal with 126 points and 64 comments. Treat it as an attention signal around inference systems; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 126 points and 64 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around inference systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 126 HN points; local score 0.68, cluster 14.",
+      "sourceExcerpt": "Hacker News discussion signal with 126 points and 64 comments.",
+      "citationUrl": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-    "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+    "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+    "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
     "source": "AWS Machine Learning Blog",
-    "category": "multi_agent_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "AWS Machine Learning Blog surfaced this as a training infrastructure update. Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 93 topical match, 51 recency; local score 0.69, cluster 23."
+      "What happened: AWS Machine Learning Blog surfaced this as a training infrastructure update. Fleet-wide computer vision needs a model per camera, not one model for the whole fleet.",
+      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for training infrastructure.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 65 topical match, 99 recency; local score 0.70, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "Minidoracat/mcp-feedback-enhanced",
-    "url": "https://github.com/Minidoracat/mcp-feedback-enhanced",
+    "title": "strelov1/freehire",
+    "url": "https://github.com/strelov1/freehire",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "Minidoracat/mcp-feedback-enhanced is appearing as builder momentum, not as a verified product claim. Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 3,758 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.",
-    "citationUrl": "https://github.com/Minidoracat/mcp-feedback-enhanced",
-    "contextQuality": "source-grounded",
+    "whyItMatters": "freehire — the open-source search engine for job seekers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "strelov1/freehire is appearing as builder momentum, not as a verified product claim. freehire — the open-source search engine for job seekers",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+    "evidence": "GitHub AI Systems Search; 3,156 GitHub stars; local score 0.83, cluster 1.",
+    "sourceExcerpt": "freehire — the open-source search engine for job seekers",
+    "citationUrl": "https://github.com/strelov1/freehire",
+    "contextQuality": "thin public context",
     "readTime": "3 min"
   },
   "sourceHealth": [
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 266
+      "selected": 0,
+      "elapsedMs": 234
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 235
+      "elapsedMs": 237
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 271
+      "elapsedMs": 259
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 217
+      "elapsedMs": 83
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 2,
-      "elapsedMs": 255
+      "selected": 0,
+      "elapsedMs": 216
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 815
+      "elapsedMs": 442
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 359
+      "elapsedMs": 353
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 299
+      "elapsedMs": 317
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 323
+      "elapsedMs": 290
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 638
+      "elapsedMs": 681
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 0,
-      "elapsedMs": 373
+      "selected": 1,
+      "elapsedMs": 383
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 397
+      "elapsedMs": 388
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 847
+      "elapsedMs": 371
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 413
+      "elapsedMs": 445
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 458
+      "selected": 3,
+      "elapsedMs": 416
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 490
+      "elapsedMs": 450
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 384
+      "elapsedMs": 458
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 461
+      "selected": 1,
+      "elapsedMs": 450
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1153
+      "elapsedMs": 1180
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1410
+      "elapsedMs": 1422
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 697
+      "elapsedMs": 484
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
-      "selected": 3,
-      "elapsedMs": 757
+      "fetched": 20,
+      "selected": 2,
+      "elapsedMs": 675
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 800
+      "elapsedMs": 849
     }
   ],
   "stats": {
-    "fetched": 459,
-    "afterDedupe": 444,
-    "afterFreshness": 114,
-    "droppedStale": 330,
-    "selected": 18,
-    "clusters": 16,
+    "fetched": 450,
+    "afterDedupe": 435,
+    "afterFreshness": 77,
+    "droppedStale": 358,
+    "selected": 16,
+    "clusters": 15,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
