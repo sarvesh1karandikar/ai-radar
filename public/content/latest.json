@@ -1,158 +1,158 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T18:34:30.308Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T18:40:29.090Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
-      "source": "NVIDIA Developer Blog",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 72 recency; local score 0.69, cluster 33.",
-      "sourceExcerpt": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
-      "citationUrl": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "source": "OpenAI News",
       "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases.",
+      "whyItMatters": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 75 topical match, 70 recency; local score 0.69, cluster 31.",
-      "sourceExcerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases.",
-      "citationUrl": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 90 recency; local score 0.74, cluster 30.",
+      "sourceExcerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "citationUrl": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-      "url": "http://arxiv.org/abs/2610.35817v1",
-      "source": "arXiv AI Systems Query",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "source": "NVIDIA Blog",
       "category": "multi_agent_systems",
-      "signal": "research",
-      "whyItMatters": "A robot policy needs to understand what a task is asking for in a scene, and how to... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task.",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task.",
-      "citationUrl": "http://arxiv.org/abs/2610.35817v1",
+      "signal": "primary",
+      "whyItMatters": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 75 topical match, 96 recency; local score 0.74, cluster 31.",
+      "sourceExcerpt": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do.",
+      "citationUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
       "contextQuality": "source-grounded",
-      "readTime": "paper skim"
+      "readTime": "3 min"
     },
     {
-      "title": "Multi-Objective Reinforcement Learning Using Routed Ensembles and Trajectory Attribution",
-      "url": "http://arxiv.org/abs/2610.35733v1",
+      "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+      "url": "http://arxiv.org/abs/2610.37631v1",
       "source": "arXiv AI Systems Query",
       "category": "training_infrastructure",
       "signal": "research",
-      "whyItMatters": "Multi-objective reinforcement learning is a fundamental problem for modern AI, with applications spanning post-training, reasoning models, and robotic... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a training infrastructure lead from the research stream. Multi-objective reinforcement learning is a fundamental problem for modern AI, with applications spanning post-training, reasoning models, and robotic control.",
+      "whyItMatters": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge.",
       "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 17.",
-      "sourceExcerpt": "Multi-objective reinforcement learning is a fundamental problem for modern AI, with applications spanning post-training, reasoning models, and robotic control.",
-      "citationUrl": "http://arxiv.org/abs/2610.35733v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 25.",
+      "sourceExcerpt": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge.",
+      "citationUrl": "http://arxiv.org/abs/2610.37631v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "openobserve/openobserve",
-      "url": "https://github.com/openobserve/openobserve",
+      "title": "Agentic Distributional Regression: Conditional Density Estimation through Agent-Written Programs",
+      "url": "http://arxiv.org/abs/2610.37611v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "In this paper we propose a method for estimating conditional densities from an iid sample using a language-model... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. In this paper we propose a method for estimating conditional densities from an iid sample using a language-model agent.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 26.",
+      "sourceExcerpt": "In this paper we propose a method for estimating conditional densities from an iid sample using a language-model agent.",
+      "citationUrl": "http://arxiv.org/abs/2610.37611v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "intuitem/ciso-assistant-community",
+      "url": "https://github.com/intuitem/ciso-assistant-community",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+      "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 22,509 GitHub stars; local score 0.88, cluster 1.",
-      "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
-      "citationUrl": "https://github.com/openobserve/openobserve",
+      "evidence": "GitHub AI Systems Search; 4,552 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+      "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "maximhq/bifrost",
-      "url": "https://github.com/maximhq/bifrost",
+      "title": "speakeasy-api/gram",
+      "url": "https://github.com/speakeasy-api/gram",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "maximhq/bifrost is appearing as builder momentum, not as a verified product claim. Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway.",
+      "whyItMatters": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "speakeasy-api/gram is appearing as builder momentum, not as a verified product claim. The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 9,147 GitHub stars; local score 0.86, cluster 2.",
-      "sourceExcerpt": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway.",
-      "citationUrl": "https://github.com/maximhq/bifrost",
+      "evidence": "GitHub AI Systems Search; 275 GitHub stars; local score 0.85, cluster 2.",
+      "sourceExcerpt": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
+      "citationUrl": "https://github.com/speakeasy-api/gram",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "comet-ml/opik",
-      "url": "https://github.com/comet-ml/opik",
+      "title": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "comet-ml/opik is appearing as builder momentum, not as a verified product claim. Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "whyItMatters": "Open Source framework for voice agents, multimodal apps, and realtime AI. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pipecat-ai/pipecat is appearing as builder momentum, not as a verified product claim. Open Source framework for voice agents, multimodal apps, and realtime AI.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 22,969 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "citationUrl": "https://github.com/comet-ml/opik",
+      "evidence": "GitHub AI Systems Search; 16,881 GitHub stars; local score 0.83, cluster 3.",
+      "sourceExcerpt": "Open Source framework for voice agents, multimodal apps, and realtime AI.",
+      "citationUrl": "https://github.com/pipecat-ai/pipecat",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
+      "title": "phase-rs/phase",
+      "url": "https://github.com/phase-rs/phase",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "lobehub/lobehub is appearing as builder momentum, not as a verified product claim. 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 83,530 GitHub stars; local score 0.81, cluster 6.",
-      "sourceExcerpt": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "citationUrl": "https://github.com/lobehub/lobehub",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "A rules engine and game client — Rust + WASM + React... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "phase-rs/phase is appearing as builder momentum, not as a verified product claim. A rules engine and game client — Rust + WASM + React",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 312 GitHub stars; local score 0.81, cluster 7.",
+      "sourceExcerpt": "A rules engine and game client — Rust + WASM + React",
+      "citationUrl": "https://github.com/phase-rs/phase",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-    "url": "http://arxiv.org/abs/2610.35817v1",
+    "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+    "url": "http://arxiv.org/abs/2610.37631v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 16."
+      "What happened: This paper is a training infrastructure lead from the research stream. Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 25."
     ]
   },
   "bookmark": {
-    "title": "openobserve/openobserve",
-    "url": "https://github.com/openobserve/openobserve",
+    "title": "intuitem/ciso-assistant-community",
+    "url": "https://github.com/intuitem/ciso-assistant-community",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "openobserve/openobserve is appearing as builder momentum, not as a verified product claim. Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
+    "whyItMatters": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "intuitem/ciso-assistant-community is appearing as builder momentum, not as a verified product claim. CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 22,509 GitHub stars; local score 0.88, cluster 1.",
-    "sourceExcerpt": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability.",
-    "citationUrl": "https://github.com/openobserve/openobserve",
+    "evidence": "GitHub AI Systems Search; 4,552 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting.",
+    "citationUrl": "https://github.com/intuitem/ciso-assistant-community",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 349
+      "elapsedMs": 285
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 290
+      "elapsedMs": 233
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 367
+      "elapsedMs": 277
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 200
+      "elapsedMs": 227
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 332
+      "elapsedMs": 293
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 424
+      "elapsedMs": 610
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 314
+      "elapsedMs": 315
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 402
+      "elapsedMs": 366
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 356
+      "elapsedMs": 376
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 577
+      "elapsedMs": 463
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 1,
-      "elapsedMs": 448
+      "elapsedMs": 402
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 558
+      "selected": 1,
+      "elapsedMs": 553
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 876
+      "selected": 1,
+      "elapsedMs": 623
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 581
+      "elapsedMs": 476
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 645
+      "elapsedMs": 577
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 616
+      "selected": 1,
+      "elapsedMs": 541
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "failed",
       "fetched": 0,
       "selected": 0,
-      "elapsedMs": 539,
+      "elapsedMs": 541,
       "error": "HTTP 403 for https://semianalysis.com/feed/"
     },
     {
@@ -317,8 +317,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 2,
-      "elapsedMs": 593
+      "selected": 3,
+      "elapsedMs": 648
     },
     {
       "id": "arxiv-ai-systems",
@@ -327,7 +327,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1629
+      "elapsedMs": 1511
     },
     {
       "id": "github-ai-systems",
@@ -336,7 +336,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1422
+      "elapsedMs": 1553
     },
     {
       "id": "github-ai-ml-blog",
@@ -345,16 +345,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 696
+      "elapsedMs": 706
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 27,
-      "selected": 2,
-      "elapsedMs": 1163
+      "fetched": 25,
+      "selected": 1,
+      "elapsedMs": 987
     },
     {
       "id": "google-news-fallback",
@@ -362,17 +362,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 2,
-      "elapsedMs": 1022
+      "selected": 1,
+      "elapsedMs": 1032
     }
   ],
   "stats": {
-    "fetched": 447,
-    "afterDedupe": 433,
-    "afterFreshness": 156,
-    "droppedStale": 277,
+    "fetched": 445,
+    "afterDedupe": 430,
+    "afterFreshness": 163,
+    "droppedStale": 267,
     "selected": 28,
-    "clusters": 26,
+    "clusters": 28,
     "failures": 1,
     "pipeline": "statistical_ml"
   }
