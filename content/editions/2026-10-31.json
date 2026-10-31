@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T17:31:27.987Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US).",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 87 topical match, 75 recency; local score 0.72, cluster 22.",
+      "sourceExcerpt": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US).",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Managed Agents",
+      "url": "https://www.anthropic.com/research/managed-agents",
+      "source": "Anthropic",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 73 recency; local score 0.71, cluster 27.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/managed-agents",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations",
+      "url": "http://arxiv.org/abs/2610.40528v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 26.",
+      "sourceExcerpt": "We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations.",
+      "citationUrl": "http://arxiv.org/abs/2610.40528v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "url": "http://arxiv.org/abs/2610.40627v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 50 recency; local score 0.71, cluster 23.",
+      "sourceExcerpt": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often.",
+      "citationUrl": "http://arxiv.org/abs/2610.40627v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "Azure/azure-sdk-for-java",
+      "url": "https://github.com/Azure/azure-sdk-for-java",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "This repository is for active development of the Azure SDK for Java. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Azure/azure-sdk-for-java is appearing as builder momentum, not as a verified product claim. This repository is for active development of the Azure SDK for Java.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,565 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "This repository is for active development of the Azure SDK for Java.",
+      "citationUrl": "https://github.com/Azure/azure-sdk-for-java",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "NVIDIA/TensorRT-LLM is appearing as builder momentum, not as a verified product claim. TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 14,983 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+      "citationUrl": "https://github.com/NVIDIA/TensorRT-LLM",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "AI search engine and MCP server for bots and agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "xerj-org/xerj is appearing as builder momentum, not as a verified product claim. AI search engine and MCP server for bots and agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 17,879 GitHub stars; local score 0.86, cluster 3.",
+      "sourceExcerpt": "AI search engine and MCP server for bots and agents.",
+      "citationUrl": "https://github.com/xerj-org/xerj",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ruby-grape/grape",
+      "url": "https://github.com/ruby-grape/grape",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "An opinionated framework for creating REST-like APIs in Ruby. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ruby-grape/grape is appearing as builder momentum, not as a verified product claim. An opinionated framework for creating REST-like APIs in Ruby.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 10,011 GitHub stars; local score 0.84, cluster 5.",
+      "sourceExcerpt": "An opinionated framework for creating REST-like APIs in Ruby.",
+      "citationUrl": "https://github.com/ruby-grape/grape",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+    "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US).",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 87 topical match, 75 recency; local score 0.72, cluster 22."
+    ]
+  },
+  "bookmark": {
+    "title": "Azure/azure-sdk-for-java",
+    "url": "https://github.com/Azure/azure-sdk-for-java",
+    "source": "GitHub AI Systems Search",
+    "category": "developer_tools",
+    "signal": "builder-signal",
+    "whyItMatters": "This repository is for active development of the Azure SDK for Java. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "Azure/azure-sdk-for-java is appearing as builder momentum, not as a verified product claim. This repository is for active development of the Azure SDK for Java.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 2,565 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "This repository is for active development of the Azure SDK for Java.",
+    "citationUrl": "https://github.com/Azure/azure-sdk-for-java",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 3,
+      "elapsedMs": 466
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 251
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 316
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 113
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 266
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 341
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 302
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 1,
+      "elapsedMs": 224
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 194
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 625
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 0,
+      "elapsedMs": 402
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 1,
+      "elapsedMs": 408
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 2,
+      "elapsedMs": 1138
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 415
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 484
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 490
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 457
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 2,
+      "elapsedMs": 491
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1317
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1204
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 514
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 21,
+      "selected": 2,
+      "elapsedMs": 794
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 848
+    }
+  ],
+  "stats": {
+    "fetched": 451,
+    "afterDedupe": 437,
+    "afterFreshness": 125,
+    "droppedStale": 312,
+    "selected": 28,
+    "clusters": 26,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
