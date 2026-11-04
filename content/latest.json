@@ -1,158 +1,158 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T19:58:39.970Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T20:17:55.688Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+      "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 96 recency; local score 0.75, cluster 28.",
-      "sourceExcerpt": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 98 recency; local score 0.74, cluster 29.",
+      "sourceExcerpt": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+      "citationUrl": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
-      "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
-      "source": "Meta Engineering",
-      "category": "inference_systems",
+      "title": "Agentic Cheminformatics With Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "category": "multi_agent_systems",
       "signal": "primary",
-      "whyItMatters": "Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Meta Engineering surfaced this as a inference systems update. Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Meta Engineering; 84 trust, 73 topical match, 97 recency; local score 0.72, cluster 41.",
-      "sourceExcerpt": "Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features.",
-      "citationUrl": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google DeepMind surfaced this as a multi agent systems update. Official Google DeepMind page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google DeepMind; 96 trust, 90 topical match, 79 recency; local score 0.72, cluster 36.",
+      "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
+      "citationUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning",
-      "url": "http://arxiv.org/abs/2611.03574v1",
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "url": "http://arxiv.org/abs/2611.05358v1",
       "source": "arXiv AI Systems Query",
       "category": "inference_systems",
       "signal": "research",
-      "whyItMatters": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation.",
+      "whyItMatters": "Undesired model behaviors can emerge or re-emerge at any stage of training. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Undesired model behaviors can emerge or re-emerge at any stage of training.",
       "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 25.",
-      "sourceExcerpt": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation.",
-      "citationUrl": "http://arxiv.org/abs/2611.03574v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22.",
+      "sourceExcerpt": "Undesired model behaviors can emerge or re-emerge at any stage of training.",
+      "citationUrl": "http://arxiv.org/abs/2611.05358v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
-      "url": "http://arxiv.org/abs/2611.03526v1",
+      "title": "NovoCRF: Globally Normalized De Novo Peptide Sequencing on a Prefix-Mass Lattice",
+      "url": "http://arxiv.org/abs/2611.05260v1",
       "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
+      "category": "training_infrastructure",
       "signal": "research",
-      "whyItMatters": "Computer programmers chain together the same reusable computational primitives, for example, conditional statements or loops, but in different... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Computer programmers chain together the same reusable computational primitives, for example, conditional statements or loops, but in different orders to implement different algorithms.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 30.",
-      "sourceExcerpt": "Computer programmers chain together the same reusable computational primitives, for example, conditional statements or loops, but in different orders to implement different algorithms.",
-      "citationUrl": "http://arxiv.org/abs/2611.03526v1",
+      "whyItMatters": "De novo peptide sequencing has moved from dynamic programming over hand-designed or generative scores to large transformers that... Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. De novo peptide sequencing has moved from dynamic programming over hand-designed or generative scores to large transformers that learn the task end to end.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 72 recency; local score 0.75, cluster 27.",
+      "sourceExcerpt": "De novo peptide sequencing has moved from dynamic programming over hand-designed or generative scores to large transformers that learn the task end to end.",
+      "citationUrl": "http://arxiv.org/abs/2611.05260v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "speakeasy-api/gram",
-      "url": "https://github.com/speakeasy-api/gram",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "speakeasy-api/gram is appearing as builder momentum, not as a verified product claim. The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
+      "whyItMatters": "Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ruvnet/ruflo is appearing as builder momentum, not as a verified product claim. 🌊 The original agent harness.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 276 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
-      "citationUrl": "https://github.com/speakeasy-api/gram",
+      "evidence": "GitHub AI Systems Search; 80,868 GitHub stars; local score 0.86, cluster 1.",
+      "sourceExcerpt": "🌊 The original agent harness.",
+      "citationUrl": "https://github.com/ruvnet/ruflo",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "open-pencil/open-pencil",
-      "url": "https://github.com/open-pencil/open-pencil",
+      "title": "Auriti-Labs/geo-optimizer-skill",
+      "url": "https://github.com/Auriti-Labs/geo-optimizer-skill",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "AI-native design editor. Open-source Figma alternative. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "open-pencil/open-pencil is appearing as builder momentum, not as a verified product claim. AI-native design editor.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 9,581 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "AI-native design editor.",
-      "citationUrl": "https://github.com/open-pencil/open-pencil",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "comet-ml/opik",
-      "url": "https://github.com/comet-ml/opik",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "comet-ml/opik is appearing as builder momentum, not as a verified product claim. Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 23,149 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "citationUrl": "https://github.com/comet-ml/opik",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "gavischneider/awesome-llm-wiki",
-      "url": "https://github.com/gavischneider/awesome-llm-wiki",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A curated list of foundational blueprints, functional frameworks, and technical guides for building compounding, AI-compiled knowledge bases. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "gavischneider/awesome-llm-wiki is appearing as builder momentum, not as a verified product claim. A curated list of foundational blueprints, functional frameworks, and technical guides for building compounding, AI-compiled knowledge bases.",
+      "whyItMatters": "GEO Optimizer, the open-source engine behind GeoReady (geoready.dev): audit whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "Auriti-Labs/geo-optimizer-skill is appearing as builder momentum, not as a verified product claim. GEO Optimizer, the open-source engine behind GeoReady (geoready.dev): audit whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 259 GitHub stars; local score 0.82, cluster 5.",
-      "sourceExcerpt": "A curated list of foundational blueprints, functional frameworks, and technical guides for building compounding, AI-compiled knowledge bases.",
-      "citationUrl": "https://github.com/gavischneider/awesome-llm-wiki",
+      "evidence": "GitHub AI Systems Search; 1,275 GitHub stars; local score 0.86, cluster 2.",
+      "sourceExcerpt": "GEO Optimizer, the open-source engine behind GeoReady (geoready.dev): audit whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site.",
+      "citationUrl": "https://github.com/Auriti-Labs/geo-optimizer-skill",
       "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "ubicloud/ubicloud",
+      "url": "https://github.com/ubicloud/ubicloud",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ubicloud/ubicloud is appearing as builder momentum, not as a verified product claim. Open source alternative to AWS.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 12,385 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "Open source alternative to AWS.",
+      "citationUrl": "https://github.com/ubicloud/ubicloud",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "frank890417/taiwan-md",
+      "url": "https://github.com/frank890417/taiwan-md",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,237 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
-    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
-    "source": "AWS Machine Learning Blog",
+    "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+    "url": "http://arxiv.org/abs/2611.05358v1",
+    "source": "arXiv AI Systems Query",
     "category": "inference_systems",
-    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a inference systems lead from the research stream. Undesired model behaviors can emerge or re-emerge at any stage of training. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions.",
-      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for inference systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 96 recency; local score 0.75, cluster 28."
+      "What happened: This paper is a inference systems lead from the research stream. Undesired model behaviors can emerge or re-emerge at any stage of training.",
+      "Why it matters: The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for inference systems.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 22."
     ]
   },
   "bookmark": {
-    "title": "speakeasy-api/gram",
-    "url": "https://github.com/speakeasy-api/gram",
+    "title": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
     "source": "GitHub AI Systems Search",
     "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "speakeasy-api/gram is appearing as builder momentum, not as a verified product claim. The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
+    "whyItMatters": "Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "ruvnet/ruflo is appearing as builder momentum, not as a verified product claim. 🌊 The original agent harness.",
     "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 276 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "The AI control plane for every agent in your enterprise, built around an enterprise-grade MCP gateway.",
-    "citationUrl": "https://github.com/speakeasy-api/gram",
+    "evidence": "GitHub AI Systems Search; 80,868 GitHub stars; local score 0.86, cluster 1.",
+    "sourceExcerpt": "🌊 The original agent harness.",
+    "citationUrl": "https://github.com/ruvnet/ruflo",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 332
+      "selected": 3,
+      "elapsedMs": 238
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 169
+      "elapsedMs": 311
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 277
+      "elapsedMs": 318
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 221
+      "elapsedMs": 301
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 216
+      "selected": 0,
+      "elapsedMs": 361
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 335
+      "elapsedMs": 580
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 291
+      "elapsedMs": 392
     },
     {
       "id": "mit-ai",
@@ -226,7 +226,7 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
+      "selected": 0,
       "elapsedMs": 344
     },
     {
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 314
+      "elapsedMs": 415
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 604
+      "elapsedMs": 605
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 1,
-      "elapsedMs": 361
+      "elapsedMs": 531
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 406
+      "elapsedMs": 608
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 709
+      "elapsedMs": 1038
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 472
+      "selected": 1,
+      "elapsedMs": 587
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 589
+      "elapsedMs": 742
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 656
+      "elapsedMs": 823
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 593
+      "elapsedMs": 680
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 602
+      "selected": 1,
+      "elapsedMs": 756
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1378
+      "elapsedMs": 2109
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1654
+      "elapsedMs": 1735
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,7 +344,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 820
+      "elapsedMs": 798
     },
     {
       "id": "hacker-news",
@@ -352,8 +352,8 @@
       "type": "hn",
       "status": "ok",
       "fetched": 27,
-      "selected": 2,
-      "elapsedMs": 1062
+      "selected": 3,
+      "elapsedMs": 1330
     },
     {
       "id": "google-news-fallback",
@@ -362,14 +362,14 @@
       "status": "ok",
       "fetched": 20,
       "selected": 2,
-      "elapsedMs": 1149
+      "elapsedMs": 1133
     }
   ],
   "stats": {
     "fetched": 457,
-    "afterDedupe": 447,
-    "afterFreshness": 154,
-    "droppedStale": 293,
+    "afterDedupe": 446,
+    "afterFreshness": 148,
+    "droppedStale": 298,
     "selected": 28,
     "clusters": 27,
     "failures": 0,
