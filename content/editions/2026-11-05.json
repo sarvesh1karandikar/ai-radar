@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T20:29:03.733Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "source": "NVIDIA Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "AI agents do more than generate answers. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. AI agents do more than generate answers.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 93 topical match, 100 recency; local score 0.80, cluster 9.",
+      "sourceExcerpt": "AI agents do more than generate answers.",
+      "citationUrl": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Alignment Assessment Ukaisi",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "source": "Anthropic",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 93 recency; local score 0.74, cluster 20.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
+      "url": "http://arxiv.org/abs/2611.06876v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 14.",
+      "sourceExcerpt": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays.",
+      "citationUrl": "http://arxiv.org/abs/2611.06876v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
+      "url": "http://arxiv.org/abs/2611.06793v1",
+      "source": "arXiv AI Systems Query",
+      "category": "multi_agent_systems",
+      "signal": "research",
+      "whyItMatters": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 72 recency; local score 0.75, cluster 17.",
+      "sourceExcerpt": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments.",
+      "citationUrl": "http://arxiv.org/abs/2611.06793v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "ffroliva/gflow-cli",
+      "url": "https://github.com/ffroliva/gflow-cli",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "ffroliva/gflow-cli is appearing as builder momentum, not as a verified product claim. Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 360 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+      "citationUrl": "https://github.com/ffroliva/gflow-cli",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "SGLang is a high-performance serving framework for large language models and multimodal models. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "sgl-project/sglang is appearing as builder momentum, not as a verified product claim. SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 38,503 GitHub stars; local score 0.82, cluster 2.",
+      "sourceExcerpt": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "citationUrl": "https://github.com/sgl-project/sglang",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "The Open Context Layer for Data and AI , OpenMetadata is the open platform for building trusted data... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "open-metadata/OpenMetadata is appearing as builder momentum, not as a verified product claim. The Open Context Layer for Data and AI , OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 15,689 GitHub stars; local score 0.82, cluster 5.",
+      "sourceExcerpt": "The Open Context Layer for Data and AI , OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
+      "citationUrl": "https://github.com/open-metadata/OpenMetadata",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "acvnace/awesome-vibe-coding-resources",
+      "url": "https://github.com/acvnace/awesome-vibe-coding-resources",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "A curated list of awesome resources for vibe coding... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "acvnace/awesome-vibe-coding-resources is appearing as builder momentum, not as a verified product claim. A curated list of awesome resources for vibe coding",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 330 GitHub stars; local score 0.81, cluster 7.",
+      "sourceExcerpt": "A curated list of awesome resources for vibe coding",
+      "citationUrl": "https://github.com/acvnace/awesome-vibe-coding-resources",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+    "source": "NVIDIA Blog",
+    "category": "multi_agent_systems",
+    "summary": "NVIDIA Blog surfaced this as a multi agent systems update. AI agents do more than generate answers. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: NVIDIA Blog surfaced this as a multi agent systems update. AI agents do more than generate answers.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: NVIDIA Blog; 88 trust, 93 topical match, 100 recency; local score 0.80, cluster 9."
+    ]
+  },
+  "bookmark": {
+    "title": "ffroliva/gflow-cli",
+    "url": "https://github.com/ffroliva/gflow-cli",
+    "source": "GitHub AI Systems Search",
+    "category": "multi_agent_systems",
+    "signal": "builder-signal",
+    "whyItMatters": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "ffroliva/gflow-cli is appearing as builder momentum, not as a verified product claim. Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 360 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready.",
+    "citationUrl": "https://github.com/ffroliva/gflow-cli",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 218
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 1,
+      "elapsedMs": 297
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 286
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 241
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 332
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 366
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 313
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 409
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 419
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 549
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 0,
+      "elapsedMs": 436
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 4,
+      "elapsedMs": 502
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 858
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 1,
+      "elapsedMs": 496
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 3,
+      "elapsedMs": 532
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 613
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 550
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 536
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 4,
+      "elapsedMs": 1248
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1543
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 590
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 1,
+      "elapsedMs": 877
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 861
+    }
+  ],
+  "stats": {
+    "fetched": 465,
+    "afterDedupe": 453,
+    "afterFreshness": 168,
+    "droppedStale": 285,
+    "selected": 28,
+    "clusters": 28,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
