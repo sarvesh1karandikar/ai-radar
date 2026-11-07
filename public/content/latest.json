@@ -1,158 +1,158 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T19:52:07.009Z",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T17:57:10.131Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "source": "NVIDIA Blog",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "AI agents do more than generate answers. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. AI agents do more than generate answers.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 93 topical match, 75 recency; local score 0.75, cluster 18.",
-      "sourceExcerpt": "AI agents do more than generate answers.",
-      "citationUrl": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "source": "NVIDIA Blog",
+      "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+      "source": "NVIDIA Developer Blog",
       "category": "training_infrastructure",
       "signal": "primary",
-      "whyItMatters": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a training infrastructure update. A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 77 topical match, 96 recency; local score 0.75, cluster 25.",
-      "sourceExcerpt": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
-      "citationUrl": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 80 recency; local score 0.71, cluster 28.",
+      "sourceExcerpt": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "citationUrl": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-      "url": "http://arxiv.org/abs/2611.08407v1",
+      "title": "Components Of Agent Memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a multi agent systems update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 78 recency; local score 0.72, cluster 22.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/components-of-agent-memory",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+      "url": "http://arxiv.org/abs/2611.08438v1",
+      "source": "arXiv AI Systems Query",
+      "category": "training_infrastructure",
+      "signal": "research",
+      "whyItMatters": "Neural networks are likely to be among the most consequential artefacts in human history. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Neural networks are likely to be among the most consequential artefacts in human history.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 26.",
+      "sourceExcerpt": "Neural networks are likely to be among the most consequential artefacts in human history.",
+      "citationUrl": "http://arxiv.org/abs/2611.08438v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "url": "http://arxiv.org/abs/2611.08472v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another.",
+      "whyItMatters": "ML code should run where researchers choose, not where it was first written. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. ML code should run where researchers choose, not where it was first written.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 23.",
-      "sourceExcerpt": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another.",
-      "citationUrl": "http://arxiv.org/abs/2611.08407v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 25.",
+      "sourceExcerpt": "ML code should run where researchers choose, not where it was first written.",
+      "citationUrl": "http://arxiv.org/abs/2611.08472v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
-      "url": "http://arxiv.org/abs/2611.08376v1",
-      "source": "arXiv AI Systems Query",
-      "category": "inference_systems",
-      "signal": "research",
-      "whyItMatters": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a inference systems lead from the research stream. Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference.",
-      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 24.",
-      "sourceExcerpt": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference.",
-      "citationUrl": "http://arxiv.org/abs/2611.08376v1",
-      "contextQuality": "source-grounded",
-      "readTime": "paper skim"
-    },
-    {
-      "title": "octelium/octelium",
-      "url": "https://github.com/octelium/octelium",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "octelium/octelium is appearing as builder momentum, not as a verified product claim. A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 4,156 GitHub stars; local score 0.86, cluster 1.",
-      "sourceExcerpt": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.",
-      "citationUrl": "https://github.com/octelium/octelium",
+      "evidence": "GitHub AI Systems Search; 62,871 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "kitops-ml/kitops",
-      "url": "https://github.com/kitops-ml/kitops",
+      "title": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "kitops-ml/kitops is appearing as builder momentum, not as a verified product claim. An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI Artifact.",
+      "whyItMatters": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "maziyarpanahi/openmed is appearing as builder momentum, not as a verified product claim. Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 1,441 GitHub stars; local score 0.85, cluster 2.",
-      "sourceExcerpt": "An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI Artifact.",
-      "citationUrl": "https://github.com/kitops-ml/kitops",
+      "evidence": "GitHub AI Systems Search; 5,784 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control.",
+      "citationUrl": "https://github.com/maziyarpanahi/openmed",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "awesome-dsh-plugin/awesome-dsh-plugin is appearing as builder momentum, not as a verified product claim. A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 23,547 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "citationUrl": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "pipelab-org/pipelock",
+      "url": "https://github.com/pipelab-org/pipelock",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "NVIDIA/SkillEvaluator is appearing as builder momentum, not as a verified product claim. Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "whyItMatters": "Open-source AI agent firewall for MCP security and agent egress. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "pipelab-org/pipelock is appearing as builder momentum, not as a verified product claim. Open-source AI agent firewall for MCP security and agent egress.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 649 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "citationUrl": "https://github.com/NVIDIA/SkillEvaluator",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Infini-AI-Lab/hermit",
-      "url": "https://github.com/Infini-AI-Lab/hermit",
-      "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
-      "signal": "builder-signal",
-      "whyItMatters": "A framework for continual learning and recursive self-improvement through harness adapter evolution. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "Infini-AI-Lab/hermit is appearing as builder momentum, not as a verified product claim. A framework for continual learning and recursive self-improvement through harness adapter evolution.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 492 GitHub stars; local score 0.83, cluster 7.",
-      "sourceExcerpt": "A framework for continual learning and recursive self-improvement through harness adapter evolution.",
-      "citationUrl": "https://github.com/Infini-AI-Lab/hermit",
+      "evidence": "GitHub AI Systems Search; 987 GitHub stars; local score 0.84, cluster 6.",
+      "sourceExcerpt": "Open-source AI agent firewall for MCP security and agent egress.",
+      "citationUrl": "https://github.com/pipelab-org/pipelock",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-    "url": "http://arxiv.org/abs/2611.08407v1",
+    "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+    "url": "http://arxiv.org/abs/2611.08438v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. Neural networks are likely to be among the most consequential artefacts in human history. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another.",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 23."
+      "What happened: This paper is a training infrastructure lead from the research stream. Neural networks are likely to be among the most consequential artefacts in human history.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 51 recency; local score 0.71, cluster 26."
     ]
   },
   "bookmark": {
-    "title": "octelium/octelium",
-    "url": "https://github.com/octelium/octelium",
+    "title": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "octelium/octelium is appearing as builder momentum, not as a verified product claim. A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.",
+    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 4,156 GitHub stars; local score 0.86, cluster 1.",
-    "sourceExcerpt": "A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.",
-    "citationUrl": "https://github.com/octelium/octelium",
+    "evidence": "GitHub AI Systems Search; 62,871 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The fastest, litest AI Gateway.",
+    "citationUrl": "https://github.com/BerriAI/litellm",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 295
+      "selected": 1,
+      "elapsedMs": 203
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 258
+      "selected": 0,
+      "elapsedMs": 185
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 321
+      "elapsedMs": 341
     },
     {
       "id": "apple-ml-research",
@@ -190,8 +190,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 348
+      "selected": 0,
+      "elapsedMs": 230
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 272
+      "elapsedMs": 213
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 396
+      "elapsedMs": 258
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 458
+      "elapsedMs": 316
     },
     {
       "id": "mit-ai",
@@ -227,7 +227,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 420
+      "elapsedMs": 287
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 377
+      "elapsedMs": 332
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 524
+      "elapsedMs": 749
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 469
+      "elapsedMs": 369
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 4,
-      "elapsedMs": 461
+      "selected": 2,
+      "elapsedMs": 439
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 500
+      "elapsedMs": 587
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 529
+      "elapsedMs": 425
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 598
+      "elapsedMs": 509
     },
     {
       "id": "azure-blog",
@@ -298,8 +298,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 572
+      "selected": 0,
+      "elapsedMs": 513
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 568
+      "elapsedMs": 528
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 1,
-      "elapsedMs": 643
+      "selected": 3,
+      "elapsedMs": 557
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1640
+      "elapsedMs": 1489
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1906
+      "elapsedMs": 1331
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,17 +343,17 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 669
+      "selected": 1,
+      "elapsedMs": 568
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 35,
+      "fetched": 27,
       "selected": 2,
-      "elapsedMs": 928
+      "elapsedMs": 866
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 909
+      "selected": 4,
+      "elapsedMs": 905
     }
   ],
   "stats": {
-    "fetched": 465,
-    "afterDedupe": 453,
-    "afterFreshness": 181,
-    "droppedStale": 272,
+    "fetched": 457,
+    "afterDedupe": 445,
+    "afterFreshness": 126,
+    "droppedStale": 319,
     "selected": 28,
-    "clusters": 28,
+    "clusters": 26,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
