@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T22:53:36.040Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "BAIR at CoRL 2026",
+      "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+      "source": "Berkeley BAIR Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Berkeley BAIR Blog; 82 trust, 100 topical match, 86 recency; local score 0.77, cluster 11.",
+      "sourceExcerpt": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
+      "citationUrl": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "source": "NVIDIA Blog",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "NVIDIA Blog; 88 trust, 90 topical match, 81 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.",
+      "citationUrl": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "GreptimeTeam/greptimedb",
+      "url": "https://github.com/GreptimeTeam/greptimedb",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "The open-source observability database. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "GreptimeTeam/greptimedb is appearing as builder momentum, not as a verified product claim. The open-source observability database.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 6,797 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "The open-source observability database.",
+      "citationUrl": "https://github.com/GreptimeTeam/greptimedb",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "WrongStack/WrongStack",
+      "url": "https://github.com/WrongStack/WrongStack",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "WrongStack/WrongStack is appearing as builder momentum, not as a verified product claim. An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 407 GitHub stars; local score 0.82, cluster 2.",
+      "sourceExcerpt": "An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.",
+      "citationUrl": "https://github.com/WrongStack/WrongStack",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI News",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 84 recency; local score 0.73, cluster 21.",
+      "sourceExcerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "citationUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "winstonkoh87/Athena-Public",
+      "url": "https://github.com/winstonkoh87/Athena-Public",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "winstonkoh87/Athena-Public is appearing as builder momentum, not as a verified product claim. Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 621 GitHub stars; local score 0.82, cluster 3.",
+      "sourceExcerpt": "Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs.",
+      "citationUrl": "https://github.com/winstonkoh87/Athena-Public",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "hproxy-com/free-proxy-list",
+      "url": "https://github.com/hproxy-com/free-proxy-list",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "hproxy-com/free-proxy-list is appearing as builder momentum, not as a verified product claim. Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 89 GitHub stars; local score 0.80, cluster 7.",
+      "sourceExcerpt": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
+      "citationUrl": "https://github.com/hproxy-com/free-proxy-list",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "source": "Meta Engineering",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a training infrastructure update. We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs.",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 73 topical match, 94 recency; local score 0.72, cluster 22.",
+      "sourceExcerpt": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs.",
+      "citationUrl": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "BAIR at CoRL 2026",
+    "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+    "source": "Berkeley BAIR Blog",
+    "category": "multi_agent_systems",
+    "summary": "Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
+      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for multi agent systems.",
+      "Evidence: Berkeley BAIR Blog; 82 trust, 100 topical match, 86 recency; local score 0.77, cluster 11."
+    ]
+  },
+  "bookmark": {
+    "title": "GreptimeTeam/greptimedb",
+    "url": "https://github.com/GreptimeTeam/greptimedb",
+    "source": "GitHub AI Systems Search",
+    "category": "developer_tools",
+    "signal": "builder-signal",
+    "whyItMatters": "The open-source observability database. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "GreptimeTeam/greptimedb is appearing as builder momentum, not as a verified product claim. The open-source observability database.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 6,797 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "The open-source observability database.",
+    "citationUrl": "https://github.com/GreptimeTeam/greptimedb",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 214
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 406
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 634
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 278
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 1,
+      "elapsedMs": 346
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 617
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 375
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 397
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 455
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 626
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 1,
+      "elapsedMs": 458
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 3,
+      "elapsedMs": 475
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 539
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 556
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 602
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 637
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 640
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 2,
+      "elapsedMs": 629
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 0,
+      "elapsedMs": 1451
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1544
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 841
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 33,
+      "selected": 4,
+      "elapsedMs": 939
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 1002
+    }
+  ],
+  "stats": {
+    "fetched": 463,
+    "afterDedupe": 452,
+    "afterFreshness": 112,
+    "droppedStale": 340,
+    "selected": 28,
+    "clusters": 27,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
