@@ -1,10 +1,25 @@
 {
-  "date": "2026-11-09",
-  "generatedAt": "2026-11-09T22:53:36.040Z",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T20:17:23.583Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+      "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+      "source": "Meta Engineering",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Meta Engineering surfaced this as a inference systems update. Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "Meta Engineering; 84 trust, 88 topical match, 97 recency; local score 0.77, cluster 19.",
+      "sourceExcerpt": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model.",
+      "citationUrl": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
     {
       "title": "BAIR at CoRL 2026",
       "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
@@ -14,145 +29,130 @@
       "whyItMatters": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Berkeley BAIR Blog; 82 trust, 100 topical match, 86 recency; local score 0.77, cluster 11.",
+      "evidence": "Berkeley BAIR Blog; 82 trust, 100 topical match, 63 recency; local score 0.73, cluster 35.",
       "sourceExcerpt": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
       "citationUrl": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-      "source": "NVIDIA Blog",
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "url": "http://arxiv.org/abs/2611.12865v1",
+      "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "NVIDIA Blog surfaced this as a multi agent systems update. NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "NVIDIA Blog; 88 trust, 90 topical match, 81 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.",
-      "citationUrl": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "signal": "research",
+      "whyItMatters": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements.",
+      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 74 recency; local score 0.75, cluster 20.",
+      "sourceExcerpt": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements.",
+      "citationUrl": "http://arxiv.org/abs/2611.12865v1",
       "contextQuality": "source-grounded",
-      "readTime": "3 min"
+      "readTime": "paper skim"
     },
     {
-      "title": "GreptimeTeam/greptimedb",
-      "url": "https://github.com/GreptimeTeam/greptimedb",
+      "title": "Suppression Is Not Erasure: Mechanistic Analysis and Reactivation Boundaries of Subspace Projection for LoRA Backdoor Defense",
+      "url": "http://arxiv.org/abs/2611.12807v1",
+      "source": "arXiv AI Systems Query",
+      "category": "inference_systems",
+      "signal": "research",
+      "whyItMatters": "Low-Rank Adaptation (LoRA) is the standard paradigm for customizing large language models, yet third-party LoRA adapters pose a... Read it as a research lead for inference systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a inference systems lead from the research stream. Low-Rank Adaptation (LoRA) is the standard paradigm for customizing large language models, yet third-party LoRA adapters pose a supply-chain risk: modifying less than 1% of model parameters suffices to implant stealthy backdoors.",
+      "technicalTakeaway": "The systems angle is inference systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 73 recency; local score 0.75, cluster 22.",
+      "sourceExcerpt": "Low-Rank Adaptation (LoRA) is the standard paradigm for customizing large language models, yet third-party LoRA adapters pose a supply-chain risk: modifying less than 1% of model parameters suffices to implant stealthy backdoors.",
+      "citationUrl": "http://arxiv.org/abs/2611.12807v1",
+      "contextQuality": "source-grounded",
+      "readTime": "paper skim"
+    },
+    {
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "The open-source observability database. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "GreptimeTeam/greptimedb is appearing as builder momentum, not as a verified product claim. The open-source observability database.",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 6,797 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "The open-source observability database.",
-      "citationUrl": "https://github.com/GreptimeTeam/greptimedb",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "WrongStack/WrongStack",
-      "url": "https://github.com/WrongStack/WrongStack",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": "An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "WrongStack/WrongStack is appearing as builder momentum, not as a verified product claim. An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 407 GitHub stars; local score 0.82, cluster 2.",
-      "sourceExcerpt": "An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.",
-      "citationUrl": "https://github.com/WrongStack/WrongStack",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI News",
-      "category": "multi_agent_systems",
-      "signal": "primary",
-      "whyItMatters": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "OpenAI News surfaced this as a multi agent systems update. CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "OpenAI News; 98 trust, 80 topical match, 84 recency; local score 0.73, cluster 21.",
-      "sourceExcerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "citationUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "evidence": "GitHub AI Systems Search; 63,060 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "winstonkoh87/Athena-Public",
-      "url": "https://github.com/winstonkoh87/Athena-Public",
+      "title": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "cheaper-inference/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 86,258 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "citationUrl": "https://github.com/cheaper-inference/OmniRoute",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "microsoft/SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
       "source": "GitHub AI Systems Search",
       "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "winstonkoh87/Athena-Public is appearing as builder momentum, not as a verified product claim. Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs.",
+      "whyItMatters": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "microsoft/SkillOpt is appearing as builder momentum, not as a verified product claim. SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 621 GitHub stars; local score 0.82, cluster 3.",
-      "sourceExcerpt": "Local-first memory, decision engine, and governance harness for AI agents — portable across IDEs.",
-      "citationUrl": "https://github.com/winstonkoh87/Athena-Public",
+      "evidence": "GitHub AI Systems Search; 18,978 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "citationUrl": "https://github.com/microsoft/SkillOpt",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "hproxy-com/free-proxy-list",
-      "url": "https://github.com/hproxy-com/free-proxy-list",
+      "title": "codeofaxel/Kiln",
+      "url": "https://github.com/codeofaxel/Kiln",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "hproxy-com/free-proxy-list is appearing as builder momentum, not as a verified product claim. Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 89 GitHub stars; local score 0.80, cluster 7.",
-      "sourceExcerpt": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day.",
-      "citationUrl": "https://github.com/hproxy-com/free-proxy-list",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
-      "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
-      "source": "Meta Engineering",
-      "category": "training_infrastructure",
-      "signal": "primary",
-      "whyItMatters": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Meta Engineering surfaced this as a training infrastructure update. We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Meta Engineering; 84 trust, 73 topical match, 94 recency; local score 0.72, cluster 22.",
-      "sourceExcerpt": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs.",
-      "citationUrl": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "whyItMatters": "From idea to object, and every version in between. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "codeofaxel/Kiln is appearing as builder momentum, not as a verified product claim. From idea to object, and every version in between.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 243 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "From idea to object, and every version in between.",
+      "citationUrl": "https://github.com/codeofaxel/Kiln",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "BAIR at CoRL 2026",
-    "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
-    "source": "Berkeley BAIR Blog",
-    "category": "multi_agent_systems",
-    "summary": "Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+    "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+    "source": "Meta Engineering",
+    "category": "inference_systems",
+    "summary": "Meta Engineering surfaced this as a inference systems update. Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: Berkeley BAIR Blog surfaced this as a multi agent systems update. The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas.",
-      "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: Berkeley BAIR Blog; 82 trust, 100 topical match, 86 recency; local score 0.77, cluster 11."
+      "What happened: Meta Engineering surfaced this as a inference systems update. Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: Meta Engineering; 84 trust, 88 topical match, 97 recency; local score 0.77, cluster 19."
     ]
   },
   "bookmark": {
-    "title": "GreptimeTeam/greptimedb",
-    "url": "https://github.com/GreptimeTeam/greptimedb",
+    "title": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
     "source": "GitHub AI Systems Search",
     "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "The open-source observability database. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "GreptimeTeam/greptimedb is appearing as builder momentum, not as a verified product claim. The open-source observability database.",
+    "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
     "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 6,797 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "The open-source observability database.",
-    "citationUrl": "https://github.com/GreptimeTeam/greptimedb",
+    "evidence": "GitHub AI Systems Search; 63,060 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "The fastest, litest AI Gateway.",
+    "citationUrl": "https://github.com/BerriAI/litellm",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -164,7 +164,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 214
+      "elapsedMs": 261
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 0,
-      "elapsedMs": 406
+      "selected": 2,
+      "elapsedMs": 279
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 634
+      "elapsedMs": 263
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 278
+      "elapsedMs": 224
     },
     {
       "id": "anthropic-sitemap",
@@ -199,8 +199,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 346
+      "selected": 0,
+      "elapsedMs": 250
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 617
+      "elapsedMs": 333
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 375
+      "elapsedMs": 314
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 397
+      "selected": 1,
+      "elapsedMs": 379
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 455
+      "elapsedMs": 357
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 626
+      "elapsedMs": 659
     },
     {
       "id": "meta-engineering",
@@ -253,8 +253,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 9,
-      "selected": 1,
-      "elapsedMs": 458
+      "selected": 3,
+      "elapsedMs": 381
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 3,
-      "elapsedMs": 475
+      "elapsedMs": 397
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 0,
-      "elapsedMs": 539
+      "selected": 1,
+      "elapsedMs": 613
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 556
+      "elapsedMs": 416
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 602
+      "selected": 2,
+      "elapsedMs": 523
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 637
+      "elapsedMs": 588
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 640
+      "elapsedMs": 787
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 2,
-      "elapsedMs": 629
+      "elapsedMs": 535
     },
     {
       "id": "arxiv-ai-systems",
@@ -325,8 +325,8 @@
       "type": "arxiv",
       "status": "ok",
       "fetched": 35,
-      "selected": 0,
-      "elapsedMs": 1451
+      "selected": 4,
+      "elapsedMs": 1093
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1544
+      "elapsedMs": 1551
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 841
+      "elapsedMs": 821
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 33,
-      "selected": 4,
-      "elapsedMs": 939
+      "fetched": 26,
+      "selected": 1,
+      "elapsedMs": 866
     },
     {
       "id": "google-news-fallback",
@@ -361,17 +361,17 @@
       "type": "google_news",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 1002
+      "selected": 0,
+      "elapsedMs": 866
     }
   ],
   "stats": {
-    "fetched": 463,
-    "afterDedupe": 452,
-    "afterFreshness": 112,
-    "droppedStale": 340,
+    "fetched": 456,
+    "afterDedupe": 445,
+    "afterFreshness": 170,
+    "droppedStale": 275,
     "selected": 28,
-    "clusters": 27,
+    "clusters": 28,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
