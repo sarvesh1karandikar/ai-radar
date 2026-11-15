@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T19:15:59.439Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "source": "AWS Machine Learning Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 85 topical match, 54 recency; local score 0.68, cluster 18.",
+      "sourceExcerpt": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Alignment Assessment Cybersecurity Incidents",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "source": "Anthropic",
+      "category": "model_security",
+      "signal": "primary",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 90 topical match, 53 recency; local score 0.68, cluster 17.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "tiobeharxi1987/blender-ai-copilot-flow",
+      "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "tiobeharxi1987/blender-ai-copilot-flow is appearing as builder momentum, not as a verified product claim. A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 507 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server.",
+      "citationUrl": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "whiteguo233/OpenBiliClaw",
+      "url": "https://github.com/whiteguo233/OpenBiliClaw",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent:... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "whiteguo233/OpenBiliClaw is appearing as builder momentum, not as a verified product claim. 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open...",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 3,768 GitHub stars; local score 0.87, cluster 2.",
+      "sourceExcerpt": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open...",
+      "citationUrl": "https://github.com/whiteguo233/OpenBiliClaw",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+      "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 85 topical match, 52 recency; local score 0.63, cluster 20.",
+      "sourceExcerpt": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+      "citationUrl": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "marcelscruz/public-apis",
+      "url": "https://github.com/marcelscruz/public-apis",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "A collaborative list of public APIs for developers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "marcelscruz/public-apis is appearing as builder momentum, not as a verified product claim. A collaborative list of public APIs for developers",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 9,736 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "A collaborative list of public APIs for developers",
+      "citationUrl": "https://github.com/marcelscruz/public-apis",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "🚀 The fast, Pythonic way to build MCP servers and clients. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "PrefectHQ/fastmcp is appearing as builder momentum, not as a verified product claim. 🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 28,514 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "citationUrl": "https://github.com/PrefectHQ/fastmcp",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "Hacker News",
+      "category": "developer_tools",
+      "signal": "community-signal",
+      "whyItMatters": "Hacker News discussion signal with 755 points and 404 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 755 points and 404 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 755 HN points; local score 0.75, cluster 16.",
+      "sourceExcerpt": "Hacker News discussion signal with 755 points and 404 comments.",
+      "citationUrl": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+    "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+    "source": "AWS Machine Learning Blog",
+    "category": "inference_systems",
+    "summary": "AWS Machine Learning Blog surfaced this as a inference systems update. GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: AWS Machine Learning Blog surfaced this as a inference systems update. GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production.",
+      "Why it matters: The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for inference systems.",
+      "Evidence: AWS Machine Learning Blog; 82 trust, 85 topical match, 54 recency; local score 0.68, cluster 18."
+    ]
+  },
+  "bookmark": {
+    "title": "tiobeharxi1987/blender-ai-copilot-flow",
+    "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+    "source": "GitHub AI Systems Search",
+    "category": "developer_tools",
+    "signal": "builder-signal",
+    "whyItMatters": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "tiobeharxi1987/blender-ai-copilot-flow is appearing as builder momentum, not as a verified product claim. A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 507 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server.",
+    "citationUrl": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 258
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 267
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 363
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 115
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 2,
+      "elapsedMs": 253
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 336
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 0,
+      "elapsedMs": 310
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 390
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 409
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 719
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 0,
+      "elapsedMs": 345
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 415
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 873
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 1,
+      "elapsedMs": 422
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 505
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 455
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 554
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 460
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 0,
+      "elapsedMs": 1278
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1318
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 610
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 25,
+      "selected": 2,
+      "elapsedMs": 934
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 991
+    }
+  ],
+  "stats": {
+    "fetched": 455,
+    "afterDedupe": 447,
+    "afterFreshness": 113,
+    "droppedStale": 334,
+    "selected": 18,
+    "clusters": 16,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
