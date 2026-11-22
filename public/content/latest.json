@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T19:57:50.462Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T20:10:47.710Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
@@ -14,39 +14,39 @@
       "whyItMatters": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
       "brief": "AWS Machine Learning Blog surfaced this as a multi agent systems update. Self-hosting LLMs on GPUs means paying to recompute the same context on every turn.",
       "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 93 topical match, 79 recency; local score 0.74, cluster 19.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 93 topical match, 54 recency; local score 0.70, cluster 16.",
       "sourceExcerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn.",
       "citationUrl": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
-      "source": "AWS Machine Learning Blog",
-      "category": "inference_systems",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI News",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost.",
-      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 100 topical match, 52 recency; local score 0.71, cluster 20.",
-      "sourceExcerpt": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+      "whyItMatters": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to... For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a developer tools update. How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 70 topical match, 79 recency; local score 0.69, cluster 18.",
+      "sourceExcerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "citationUrl": "https://openai.com/index/perplexity-and-intelligence",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "cheaper-inference/OmniRoute",
-      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "title": "libredb/libredb-studio",
+      "url": "https://github.com/libredb/libredb-studio",
       "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "cheaper-inference/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 89,388 GitHub stars; local score 0.87, cluster 1.",
-      "sourceExcerpt": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-      "citationUrl": "https://github.com/cheaper-inference/OmniRoute",
+      "whyItMatters": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "libredb/libredb-studio is appearing as builder momentum, not as a verified product claim. One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 1,363 GitHub stars; local score 0.88, cluster 1.",
+      "sourceExcerpt": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more.",
+      "citationUrl": "https://github.com/libredb/libredb-studio",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
@@ -59,41 +59,41 @@
       "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
       "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 63,668 GitHub stars; local score 0.84, cluster 2.",
+      "evidence": "GitHub AI Systems Search; 63,709 GitHub stars; local score 0.84, cluster 3.",
       "sourceExcerpt": "The fastest, litest AI Gateway.",
       "citationUrl": "https://github.com/BerriAI/litellm",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+      "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
       "source": "AWS Machine Learning Blog",
-      "category": "training_infrastructure",
+      "category": "inference_systems",
       "signal": "primary",
-      "whyItMatters": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "AWS Machine Learning Blog surfaced this as a training infrastructure update. Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes.",
-      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "AWS Machine Learning Blog; 82 trust, 75 topical match, 78 recency; local score 0.69, cluster 22.",
-      "sourceExcerpt": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes.",
-      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+      "whyItMatters": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "AWS Machine Learning Blog surfaced this as a inference systems update. Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions.",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "AWS Machine Learning Blog; 82 trust, 80 topical match, 53 recency; local score 0.66, cluster 19.",
+      "sourceExcerpt": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions.",
+      "citationUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "PrefectHQ/fastmcp",
-      "url": "https://github.com/PrefectHQ/fastmcp",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🚀 The fast, Pythonic way to build MCP servers and clients. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PrefectHQ/fastmcp is appearing as builder momentum, not as a verified product claim. 🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "whyItMatters": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "awesome-dsh-plugin/awesome-dsh-plugin is appearing as builder momentum, not as a verified product claim. A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 28,704 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "🚀 The fast, Pythonic way to build MCP servers and clients.",
-      "citationUrl": "https://github.com/PrefectHQ/fastmcp",
+      "evidence": "GitHub AI Systems Search; 25,424 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "citationUrl": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
@@ -106,24 +106,24 @@
       "whyItMatters": "AI search engine and MCP server for bots and agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
       "brief": "xerj-org/xerj is appearing as builder momentum, not as a verified product claim. AI search engine and MCP server for bots and agents.",
       "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 19,233 GitHub stars; local score 0.83, cluster 4.",
+      "evidence": "GitHub AI Systems Search; 19,401 GitHub stars; local score 0.83, cluster 4.",
       "sourceExcerpt": "AI search engine and MCP server for bots and agents.",
       "citationUrl": "https://github.com/xerj-org/xerj",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
       "source": "Hacker News",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "community-signal",
-      "whyItMatters": "Hacker News discussion signal with 566 points and 333 comments. Treat it as an attention signal around multi agent systems; follow the original linked source before drawing conclusions.",
-      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 566 points and 333 comments.",
-      "technicalTakeaway": "Treat the discussion as a demand or attention marker around multi agent systems, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Hacker News; 566 HN points; local score 0.67, cluster 25.",
-      "sourceExcerpt": "Hacker News discussion signal with 566 points and 333 comments.",
-      "citationUrl": "https://signal.org/blog/protecting-your-privacy/",
+      "whyItMatters": "Hacker News discussion signal with 77 points and 29 comments. Treat it as an attention signal around developer tools; follow the original linked source before drawing conclusions.",
+      "brief": "This is an attention signal from a public discussion thread. Hacker News discussion signal with 77 points and 29 comments.",
+      "technicalTakeaway": "Treat the discussion as a demand or attention marker around developer tools, not as independent confirmation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hacker News; 77 HN points; local score 0.70, cluster 17.",
+      "sourceExcerpt": "Hacker News discussion signal with 77 points and 29 comments.",
+      "citationUrl": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     }
@@ -138,21 +138,21 @@
       "What happened: AWS Machine Learning Blog surfaced this as a multi agent systems update. Self-hosting LLMs on GPUs means paying to recompute the same context on every turn.",
       "Why it matters: The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: primary-source item for multi agent systems.",
-      "Evidence: AWS Machine Learning Blog; 82 trust, 93 topical match, 79 recency; local score 0.74, cluster 19."
+      "Evidence: AWS Machine Learning Blog; 82 trust, 93 topical match, 54 recency; local score 0.70, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "cheaper-inference/OmniRoute",
-    "url": "https://github.com/cheaper-inference/OmniRoute",
+    "title": "libredb/libredb-studio",
+    "url": "https://github.com/libredb/libredb-studio",
     "source": "GitHub AI Systems Search",
-    "category": "inference_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "cheaper-inference/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 89,388 GitHub stars; local score 0.87, cluster 1.",
-    "sourceExcerpt": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
-    "citationUrl": "https://github.com/cheaper-inference/OmniRoute",
+    "whyItMatters": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "libredb/libredb-studio is appearing as builder momentum, not as a verified product claim. One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 1,363 GitHub stars; local score 0.88, cluster 1.",
+    "sourceExcerpt": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more.",
+    "citationUrl": "https://github.com/libredb/libredb-studio",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 392
+      "selected": 1,
+      "elapsedMs": 261
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 0,
-      "elapsedMs": 146
+      "elapsedMs": 279
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 592
+      "elapsedMs": 533
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 99
+      "elapsedMs": 306
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 225
+      "elapsedMs": 244
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 373
+      "elapsedMs": 520
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 1,
-      "elapsedMs": 265
+      "selected": 0,
+      "elapsedMs": 367
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 196
+      "selected": 0,
+      "elapsedMs": 448
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 357
+      "elapsedMs": 473
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 849
+      "elapsedMs": 677
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 398
+      "elapsedMs": 390
     },
     {
       "id": "nvidia-blog",
@@ -262,8 +262,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 410
+      "selected": 0,
+      "elapsedMs": 566
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 0,
-      "elapsedMs": 528
+      "elapsedMs": 1704
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 425
+      "elapsedMs": 485
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 463
+      "elapsedMs": 637
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 472
+      "elapsedMs": 682
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 413
+      "elapsedMs": 577
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 506
+      "selected": 0,
+      "elapsedMs": 645
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 0,
-      "elapsedMs": 1539
+      "elapsedMs": 2272
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1307
+      "elapsedMs": 1497
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 531
+      "elapsedMs": 736
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 29,
+      "fetched": 27,
       "selected": 2,
-      "elapsedMs": 760
+      "elapsedMs": 963
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 843
+      "elapsedMs": 964
     }
   ],
   "stats": {
-    "fetched": 459,
-    "afterDedupe": 445,
-    "afterFreshness": 109,
-    "droppedStale": 336,
-    "selected": 23,
-    "clusters": 22,
+    "fetched": 457,
+    "afterDedupe": 441,
+    "afterFreshness": 78,
+    "droppedStale": 363,
+    "selected": 15,
+    "clusters": 14,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
