@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T00:37:00.994Z",
+  "mode": "live",
+  "title": "AI Systems Radar",
+  "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
+  "mustRead": [
+    {
+      "title": "Supercharging transformer residual connections",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "source": "Google Research Blog",
+      "category": "model_architecture_math",
+      "signal": "primary",
+      "whyItMatters": "Algorithms & Theory... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google Research Blog surfaced this as a model architecture math update. Algorithms & Theory",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google Research Blog; 94 trust, 90 topical match, 92 recency; local score 0.73, cluster 16.",
+      "sourceExcerpt": "Algorithms & Theory",
+      "citationUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+      "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+      "source": "NVIDIA Developer Blog",
+      "category": "training_infrastructure",
+      "signal": "primary",
+      "whyItMatters": "[object Object]... For systems readers, the useful lens is training infrastructure: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "NVIDIA Developer Blog surfaced this as a training infrastructure update. Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+      "technicalTakeaway": "The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "NVIDIA Developer Blog; 86 trust, 95 topical match, 92 recency; local score 0.73, cluster 17.",
+      "sourceExcerpt": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+      "citationUrl": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "source": "GitHub AI Systems Search",
+      "category": "inference_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "cheaper-inference/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 89,888 GitHub stars; local score 0.87, cluster 1.",
+      "sourceExcerpt": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+      "citationUrl": "https://github.com/cheaper-inference/OmniRoute",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "BerriAI/litellm is appearing as builder momentum, not as a verified product claim. The fastest, litest AI Gateway.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 63,779 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "The fastest, litest AI Gateway.",
+      "citationUrl": "https://github.com/BerriAI/litellm",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI News",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and... For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "OpenAI News surfaced this as a multi agent systems update. Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "OpenAI News; 98 trust, 80 topical match, 83 recency; local score 0.73, cluster 18.",
+      "sourceExcerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "citationUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "convex/convex-backend",
+      "url": "https://github.com/convex/convex-backend",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "The open-source reactive database for app developers... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "convex/convex-backend is appearing as builder momentum, not as a verified product claim. The open-source reactive database for app developers",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 12,813 GitHub stars; local score 0.83, cluster 4.",
+      "sourceExcerpt": "The open-source reactive database for app developers",
+      "citationUrl": "https://github.com/convex/convex-backend",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
+    {
+      "title": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "source": "GitHub AI Systems Search",
+      "category": "multi_agent_systems",
+      "signal": "builder-signal",
+      "whyItMatters": "AI search engine and MCP server for bots and agents. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "xerj-org/xerj is appearing as builder momentum, not as a verified product claim. AI search engine and MCP server for bots and agents.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 20,255 GitHub stars; local score 0.83, cluster 5.",
+      "sourceExcerpt": "AI search engine and MCP server for bots and agents.",
+      "citationUrl": "https://github.com/xerj-org/xerj",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "Finding Faster Quantum Algorithms With Agents And Formal Verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "category": "multi_agent_systems",
+      "signal": "primary",
+      "whyItMatters": "Official Google DeepMind page updated in the source sitemap. For systems readers, the useful lens is multi agent systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google DeepMind surfaced this as a multi agent systems update. Official Google DeepMind page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is multi agent systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google DeepMind; 96 trust, 90 topical match, 74 recency; local score 0.72, cluster 19.",
+      "sourceExcerpt": "Official Google DeepMind page updated in the source sitemap.",
+      "citationUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    }
+  ],
+  "deepDive": {
+    "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+    "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+    "source": "MIT News AI",
+    "category": "training_infrastructure",
+    "summary": "MIT News AI surfaced this as a training infrastructure update. The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "bullets": [
+      "What happened: MIT News AI surfaced this as a training infrastructure update. The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "Why it matters: The systems angle is training infrastructure; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: primary-source item for training infrastructure.",
+      "Evidence: MIT News AI; 78 trust, 45 topical match, 80 recency; local score 0.57, cluster 26."
+    ]
+  },
+  "bookmark": {
+    "title": "cheaper-inference/OmniRoute",
+    "url": "https://github.com/cheaper-inference/OmniRoute",
+    "source": "GitHub AI Systems Search",
+    "category": "inference_systems",
+    "signal": "builder-signal",
+    "whyItMatters": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek,... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "cheaper-inference/OmniRoute is appearing as builder momentum, not as a verified product claim. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+    "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 89,888 GitHub stars; local score 0.87, cluster 1.",
+    "sourceExcerpt": "Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax.",
+    "citationUrl": "https://github.com/cheaper-inference/OmniRoute",
+    "contextQuality": "source-grounded",
+    "readTime": "3 min"
+  },
+  "sourceHealth": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 2,
+      "elapsedMs": 251
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 226
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 1,
+      "elapsedMs": 523
+    },
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 218
+    },
+    {
+      "id": "anthropic-sitemap",
+      "name": "Anthropic",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 0,
+      "elapsedMs": 377
+    },
+    {
+      "id": "deepmind-sitemap",
+      "name": "Google DeepMind",
+      "type": "sitemap",
+      "status": "ok",
+      "fetched": 36,
+      "selected": 2,
+      "elapsedMs": 294
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 2,
+      "elapsedMs": 367
+    },
+    {
+      "id": "mit-ai",
+      "name": "MIT News AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 1,
+      "elapsedMs": 273
+    },
+    {
+      "id": "mit-machine-learning",
+      "name": "MIT News Machine Learning",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 316
+    },
+    {
+      "id": "bair-blog",
+      "name": "Berkeley BAIR Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 498
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 9,
+      "selected": 0,
+      "elapsedMs": 503
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 520
+    },
+    {
+      "id": "nvidia-developer",
+      "name": "NVIDIA Developer Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 24,
+      "selected": 2,
+      "elapsedMs": 615
+    },
+    {
+      "id": "cloudflare-ai",
+      "name": "Cloudflare AI",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 18,
+      "selected": 0,
+      "elapsedMs": 595
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 0,
+      "elapsedMs": 671
+    },
+    {
+      "id": "azure-blog",
+      "name": "Microsoft Azure Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 541
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 576
+    },
+    {
+      "id": "databricks-blog",
+      "name": "Databricks Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 1,
+      "elapsedMs": 824
+    },
+    {
+      "id": "arxiv-ai-systems",
+      "name": "arXiv AI Systems Query",
+      "type": "arxiv",
+      "status": "ok",
+      "fetched": 35,
+      "selected": 0,
+      "elapsedMs": 1908
+    },
+    {
+      "id": "github-ai-systems",
+      "name": "GitHub AI Systems Search",
+      "type": "github_search",
+      "status": "ok",
+      "fetched": 30,
+      "selected": 4,
+      "elapsedMs": 1688
+    },
+    {
+      "id": "github-ai-ml-blog",
+      "name": "GitHub AI and ML Blog",
+      "type": "rss",
+      "status": "ok",
+      "fetched": 10,
+      "selected": 0,
+      "elapsedMs": 725
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "hn",
+      "status": "ok",
+      "fetched": 25,
+      "selected": 2,
+      "elapsedMs": 924
+    },
+    {
+      "id": "google-news-fallback",
+      "name": "Google News Fallback",
+      "type": "google_news",
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 1165
+    }
+  ],
+  "stats": {
+    "fetched": 455,
+    "afterDedupe": 440,
+    "afterFreshness": 99,
+    "droppedStale": 341,
+    "selected": 21,
+    "clusters": 18,
+    "failures": 0,
+    "pipeline": "statistical_ml"
+  }
+}
