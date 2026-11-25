@@ -1,158 +1,158 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T22:56:05.327Z",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T22:09:57.052Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
     {
-      "title": "Alignment",
-      "url": "https://www.anthropic.com/research/team/alignment",
-      "source": "Anthropic",
-      "category": "model_security",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "source": "Google Research Blog",
+      "category": "model_architecture_math",
       "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is model security: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a model security update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is model security; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 90 topical match, 94 recency; local score 0.74, cluster 24.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/team/alignment",
+      "whyItMatters": "Generative AI... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Google Research Blog surfaced this as a model architecture math update. Generative AI",
+      "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Google Research Blog; 94 trust, 90 topical match, 95 recency; local score 0.74, cluster 21.",
+      "sourceExcerpt": "Generative AI",
+      "citationUrl": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "source": "Google AI Blog",
-      "category": "datacenter_power_compute",
+      "title": "Migrating Api To Rust",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic",
+      "category": "developer_tools",
       "signal": "primary",
-      "whyItMatters": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and... For systems readers, the useful lens is datacenter power compute: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Google AI Blog surfaced this as a datacenter power compute update. Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center.",
-      "technicalTakeaway": "The systems angle is datacenter power compute; read it for operational impact on building, serving, securing, or scaling AI systems. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "Google AI Blog; 94 trust, 80 topical match, 93 recency; local score 0.74, cluster 26.",
-      "sourceExcerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center.",
-      "citationUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
+      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Anthropic; 96 trust, 80 topical match, 94 recency; local score 0.72, cluster 25.",
+      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
+      "citationUrl": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
-      "url": "http://arxiv.org/abs/2611.31105v1",
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "url": "http://arxiv.org/abs/2611.33093v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Updating an LLM adapter should not require replaying the full interaction history of every active session. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Updating an LLM adapter should not require replaying the full interaction history of every active session.",
+      "whyItMatters": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.74, cluster 23.",
-      "sourceExcerpt": "Updating an LLM adapter should not require replaying the full interaction history of every active session.",
-      "citationUrl": "http://arxiv.org/abs/2611.31105v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 16.",
+      "sourceExcerpt": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
+      "citationUrl": "http://arxiv.org/abs/2611.33093v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
-      "url": "http://arxiv.org/abs/2611.31233v1",
+      "title": "U-Statistics-Powered LLM Reasoning",
+      "url": "http://arxiv.org/abs/2611.33064v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap.",
+      "whyItMatters": "Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 18.",
-      "sourceExcerpt": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap.",
-      "citationUrl": "http://arxiv.org/abs/2611.31233v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 17.",
+      "sourceExcerpt": "Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants.",
+      "citationUrl": "http://arxiv.org/abs/2611.33064v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "kortix-ai/CompanyOS",
-      "url": "https://github.com/kortix-ai/CompanyOS",
+      "title": "MCPJam/inspector",
+      "url": "https://github.com/MCPJam/inspector",
       "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Kortix CompanyOS – the open-source operating system for the AI-native company. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "kortix-ai/CompanyOS is appearing as builder momentum, not as a verified product claim. Kortix CompanyOS – the open-source operating system for the AI-native company.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 20,793 GitHub stars; local score 0.85, cluster 1.",
-      "sourceExcerpt": "Kortix CompanyOS – the open-source operating system for the AI-native company.",
-      "citationUrl": "https://github.com/kortix-ai/CompanyOS",
+      "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 2,344 GitHub stars; local score 0.84, cluster 1.",
+      "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "citationUrl": "https://github.com/MCPJam/inspector",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "title": "AleksNeStu/ai-real-estate-assistant",
+      "url": "https://github.com/AleksNeStu/ai-real-estate-assistant",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "awesome-dsh-plugin/awesome-dsh-plugin is appearing as builder momentum, not as a verified product claim. A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "whyItMatters": "Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI +... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "AleksNeStu/ai-real-estate-assistant is appearing as builder momentum, not as a verified product claim. Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI + Next.js.",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 325 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI + Next.js.",
+      "citationUrl": "https://github.com/AleksNeStu/ai-real-estate-assistant",
+      "contextQuality": "source-grounded",
+      "readTime": "3 min"
+    },
+    {
+      "title": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "source": "GitHub AI Systems Search",
+      "category": "developer_tools",
+      "signal": "builder-signal",
+      "whyItMatters": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "HKUDS/LightRAG is appearing as builder momentum, not as a verified product claim. LightRAG: Simple and Fast Retrieval-Augmented Generation",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 25,578 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-      "citationUrl": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "evidence": "GitHub AI Systems Search; 40,866 GitHub stars; local score 0.84, cluster 4.",
+      "sourceExcerpt": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "citationUrl": "https://github.com/HKUDS/LightRAG",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "huggingface/transformers",
-      "url": "https://github.com/huggingface/transformers",
+      "title": "frank890417/taiwan-md",
+      "url": "https://github.com/frank890417/taiwan-md",
       "source": "GitHub AI Systems Search",
-      "category": "inference_systems",
+      "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for... Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "huggingface/transformers is appearing as builder momentum, not as a verified product claim. 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 169,272 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "citationUrl": "https://github.com/huggingface/transformers",
-      "contextQuality": "source-grounded",
-      "readTime": "3 min"
-    },
-    {
-      "title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "source": "GitHub AI Systems Search",
-      "category": "multi_agent_systems",
-      "signal": "builder-signal",
-      "whyItMatters": ":hedgehog: PostHog is the leading platform for building self-driving products. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "PostHog/posthog is appearing as builder momentum, not as a verified product claim. :hedgehog: PostHog is the leading platform for building self-driving products.",
-      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 41,089 GitHub stars; local score 0.83, cluster 6.",
-      "sourceExcerpt": ":hedgehog: PostHog is the leading platform for building self-driving products.",
-      "citationUrl": "https://github.com/PostHog/posthog",
-      "contextQuality": "source-grounded",
+      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "GitHub AI Systems Search; 1,253 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "citationUrl": "https://github.com/frank890417/taiwan-md",
+      "contextQuality": "thin public context",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
-    "url": "http://arxiv.org/abs/2611.31105v1",
+    "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+    "url": "http://arxiv.org/abs/2611.33093v1",
     "source": "arXiv AI Systems Query",
     "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. Updating an LLM adapter should not require replaying the full interaction history of every active session. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "summary": "This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. Updating an LLM adapter should not require replaying the full interaction history of every active session.",
+      "What happened: This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
       "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
       "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 70 recency; local score 0.74, cluster 23."
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 16."
     ]
   },
   "bookmark": {
-    "title": "kortix-ai/CompanyOS",
-    "url": "https://github.com/kortix-ai/CompanyOS",
+    "title": "MCPJam/inspector",
+    "url": "https://github.com/MCPJam/inspector",
     "source": "GitHub AI Systems Search",
-    "category": "multi_agent_systems",
+    "category": "developer_tools",
     "signal": "builder-signal",
-    "whyItMatters": "Kortix CompanyOS – the open-source operating system for the AI-native company. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "kortix-ai/CompanyOS is appearing as builder momentum, not as a verified product claim. Kortix CompanyOS – the open-source operating system for the AI-native company.",
-    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 20,793 GitHub stars; local score 0.85, cluster 1.",
-    "sourceExcerpt": "Kortix CompanyOS – the open-source operating system for the AI-native company.",
-    "citationUrl": "https://github.com/kortix-ai/CompanyOS",
+    "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 2,344 GitHub stars; local score 0.84, cluster 1.",
+    "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+    "citationUrl": "https://github.com/MCPJam/inspector",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 4,
-      "elapsedMs": 202
+      "selected": 3,
+      "elapsedMs": 333
     },
     {
       "id": "google-ai",
@@ -173,7 +173,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 278
+      "elapsedMs": 249
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 464
+      "elapsedMs": 373
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 269
+      "elapsedMs": 170
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 288
+      "elapsedMs": 299
     },
     {
       "id": "deepmind-sitemap",
@@ -208,8 +208,8 @@
       "type": "sitemap",
       "status": "ok",
       "fetched": 36,
-      "selected": 1,
-      "elapsedMs": 517
+      "selected": 0,
+      "elapsedMs": 331
     },
     {
       "id": "huggingface-blog",
@@ -218,7 +218,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 2,
-      "elapsedMs": 331
+      "elapsedMs": 277
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 2,
-      "elapsedMs": 256
+      "selected": 1,
+      "elapsedMs": 349
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 348
+      "elapsedMs": 391
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 485
+      "elapsedMs": 709
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 299
+      "elapsedMs": 729
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 293
+      "elapsedMs": 417
     },
     {
       "id": "nvidia-developer",
@@ -271,8 +271,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 493
+      "selected": 1,
+      "elapsedMs": 549
     },
     {
       "id": "cloudflare-ai",
@@ -280,8 +280,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 0,
-      "elapsedMs": 360
+      "selected": 1,
+      "elapsedMs": 422
     },
     {
       "id": "aws-ml",
@@ -290,7 +290,7 @@
       "status": "ok",
       "fetched": 20,
       "selected": 1,
-      "elapsedMs": 393
+      "elapsedMs": 569
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 505
+      "elapsedMs": 436
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 364
+      "elapsedMs": 482
     },
     {
       "id": "databricks-blog",
@@ -316,8 +316,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 3,
-      "elapsedMs": 402
+      "selected": 1,
+      "elapsedMs": 510
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 1266
+      "elapsedMs": 2375
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1487
+      "elapsedMs": 1608
     },
     {
       "id": "github-ai-ml-blog",
@@ -343,37 +343,36 @@
       "type": "rss",
       "status": "ok",
       "fetched": 10,
-      "selected": 0,
-      "elapsedMs": 412
+      "selected": 1,
+      "elapsedMs": 2311
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 24,
+      "fetched": 33,
       "selected": 2,
-      "elapsedMs": 619
+      "elapsedMs": 912
     },
     {
       "id": "google-news-fallback",
       "name": "Google News Fallback",
       "type": "google_news",
-      "status": "failed",
-      "fetched": 0,
-      "selected": 0,
-      "elapsedMs": 15002,
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "fetched": 20,
+      "selected": 4,
+      "elapsedMs": 882
     }
   ],
   "stats": {
-    "fetched": 434,
-    "afterDedupe": 420,
-    "afterFreshness": 133,
-    "droppedStale": 287,
+    "fetched": 463,
+    "afterDedupe": 450,
+    "afterFreshness": 153,
+    "droppedStale": 297,
     "selected": 28,
-    "clusters": 25,
-    "failures": 1,
+    "clusters": 27,
+    "failures": 0,
     "pipeline": "statistical_ml"
   }
 }
