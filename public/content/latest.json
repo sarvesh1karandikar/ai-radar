@@ -1,10 +1,25 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T22:09:57.052Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T22:08:55.075Z",
   "mode": "live",
   "title": "AI Systems Radar",
   "summary": "A daily systems-first reading issue for AI infrastructure, agents, inference, research, security, and builder momentum. The ranking is local and statistical; the claims stay tied to public sources.",
   "mustRead": [
+    {
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face Blog",
+      "category": "inference_systems",
+      "signal": "primary",
+      "whyItMatters": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference... For systems readers, the useful lens is inference systems: what changes about building, serving, securing, or operating AI systems.",
+      "brief": "Hugging Face Blog surfaced this as a inference systems update. Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "technicalTakeaway": "The systems angle is inference systems; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
+      "evidence": "Hugging Face Blog; 90 trust, 90 topical match, 82 recency; local score 0.71, cluster 34.",
+      "sourceExcerpt": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "citationUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "contextQuality": "thin public context",
+      "readTime": "3 min"
+    },
     {
       "title": "Verifiable Social Reasoning for LLM Assistants",
       "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
@@ -14,145 +29,130 @@
       "whyItMatters": "Generative AI... For systems readers, the useful lens is model architecture math: what changes about building, serving, securing, or operating AI systems.",
       "brief": "Google Research Blog surfaced this as a model architecture math update. Generative AI",
       "technicalTakeaway": "The systems angle is model architecture math; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Google Research Blog; 94 trust, 90 topical match, 95 recency; local score 0.74, cluster 21.",
+      "evidence": "Google Research Blog; 94 trust, 90 topical match, 70 recency; local score 0.69, cluster 38.",
       "sourceExcerpt": "Generative AI",
       "citationUrl": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
       "contextQuality": "thin public context",
       "readTime": "3 min"
     },
     {
-      "title": "Migrating Api To Rust",
-      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
-      "source": "Anthropic",
-      "category": "developer_tools",
-      "signal": "primary",
-      "whyItMatters": "Official Anthropic page updated in the source sitemap. For systems readers, the useful lens is developer tools: what changes about building, serving, securing, or operating AI systems.",
-      "brief": "Anthropic surfaced this as a developer tools update. Official Anthropic page updated in the source sitemap.",
-      "technicalTakeaway": "The systems angle is developer tools; read it for operational impact on building, serving, securing, or scaling AI systems. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "Anthropic; 96 trust, 80 topical match, 94 recency; local score 0.72, cluster 25.",
-      "sourceExcerpt": "Official Anthropic page updated in the source sitemap.",
-      "citationUrl": "https://www.anthropic.com/research/migrating-api-to-rust",
-      "contextQuality": "thin public context",
-      "readTime": "3 min"
-    },
-    {
-      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-      "url": "http://arxiv.org/abs/2611.33093v1",
+      "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+      "url": "http://arxiv.org/abs/2611.34863v1",
       "source": "arXiv AI Systems Query",
-      "category": "multi_agent_systems",
+      "category": "training_infrastructure",
       "signal": "research",
-      "whyItMatters": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
-      "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 16.",
-      "sourceExcerpt": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
-      "citationUrl": "http://arxiv.org/abs/2611.33093v1",
+      "whyItMatters": "Vision transformers are strong but costly image encoders for video object segmentation. Read it as a research lead for training infrastructure, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a training infrastructure lead from the research stream. Vision transformers are strong but costly image encoders for video object segmentation.",
+      "technicalTakeaway": "The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 20.",
+      "sourceExcerpt": "Vision transformers are strong but costly image encoders for video object segmentation.",
+      "citationUrl": "http://arxiv.org/abs/2611.34863v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "U-Statistics-Powered LLM Reasoning",
-      "url": "http://arxiv.org/abs/2611.33064v1",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "url": "http://arxiv.org/abs/2611.34852v1",
       "source": "arXiv AI Systems Query",
       "category": "multi_agent_systems",
       "signal": "research",
-      "whyItMatters": "Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning... Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
-      "brief": "This paper is a multi agent systems lead from the research stream. Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants.",
+      "whyItMatters": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Read it as a research lead for multi agent systems, with the paper as the ground truth before any downstream commentary.",
+      "brief": "This paper is a multi agent systems lead from the research stream. Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
       "technicalTakeaway": "The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 17.",
-      "sourceExcerpt": "Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants.",
-      "citationUrl": "http://arxiv.org/abs/2611.33064v1",
+      "evidence": "arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 21.",
+      "sourceExcerpt": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions.",
+      "citationUrl": "http://arxiv.org/abs/2611.34852v1",
       "contextQuality": "source-grounded",
       "readTime": "paper skim"
     },
     {
-      "title": "MCPJam/inspector",
-      "url": "https://github.com/MCPJam/inspector",
+      "title": "kortix-ai/CompanyOS",
+      "url": "https://github.com/kortix-ai/CompanyOS",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 2,344 GitHub stars; local score 0.84, cluster 1.",
-      "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "citationUrl": "https://github.com/MCPJam/inspector",
+      "whyItMatters": "Kortix CompanyOS – the open-source operating system for the AI-native company. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "kortix-ai/CompanyOS is appearing as builder momentum, not as a verified product claim. Kortix CompanyOS – the open-source operating system for the AI-native company.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 20,806 GitHub stars; local score 0.85, cluster 1.",
+      "sourceExcerpt": "Kortix CompanyOS – the open-source operating system for the AI-native company.",
+      "citationUrl": "https://github.com/kortix-ai/CompanyOS",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "watchlist": [
     {
-      "title": "AleksNeStu/ai-real-estate-assistant",
-      "url": "https://github.com/AleksNeStu/ai-real-estate-assistant",
+      "title": "nirholas/XActions",
+      "url": "https://github.com/nirholas/XActions",
       "source": "GitHub AI Systems Search",
       "category": "developer_tools",
       "signal": "builder-signal",
-      "whyItMatters": "Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI +... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "AleksNeStu/ai-real-estate-assistant is appearing as builder momentum, not as a verified product claim. Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI + Next.js.",
+      "whyItMatters": "X/Twitter automation toolkit: scrapers, CLI and an MCP server with approval-gated write actions, no paid API. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "nirholas/XActions is appearing as builder momentum, not as a verified product claim. X/Twitter automation toolkit: scrapers, CLI and an MCP server with approval-gated write actions, no paid API.",
       "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-      "evidence": "GitHub AI Systems Search; 325 GitHub stars; local score 0.84, cluster 3.",
-      "sourceExcerpt": "Open-source AI real estate assistant: RAG + vector search over your own listings, 17 LLM providers, FastAPI + Next.js.",
-      "citationUrl": "https://github.com/AleksNeStu/ai-real-estate-assistant",
+      "evidence": "GitHub AI Systems Search; 669 GitHub stars; local score 0.84, cluster 3.",
+      "sourceExcerpt": "X/Twitter automation toolkit: scrapers, CLI and an MCP server with approval-gated write actions, no paid API.",
+      "citationUrl": "https://github.com/nirholas/XActions",
       "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "HKUDS/LightRAG",
-      "url": "https://github.com/HKUDS/LightRAG",
+      "title": "liketrek/TREK",
+      "url": "https://github.com/liketrek/TREK",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "multi_agent_systems",
       "signal": "builder-signal",
-      "whyItMatters": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "HKUDS/LightRAG is appearing as builder momentum, not as a verified product claim. LightRAG: Simple and Fast Retrieval-Augmented Generation",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 40,866 GitHub stars; local score 0.84, cluster 4.",
-      "sourceExcerpt": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
-      "citationUrl": "https://github.com/HKUDS/LightRAG",
-      "contextQuality": "thin public context",
+      "whyItMatters": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an... Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "liketrek/TREK is appearing as builder momentum, not as a verified product claim. The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.",
+      "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 15,959 GitHub stars; local score 0.84, cluster 2.",
+      "sourceExcerpt": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.",
+      "citationUrl": "https://github.com/liketrek/TREK",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     },
     {
-      "title": "frank890417/taiwan-md",
-      "url": "https://github.com/frank890417/taiwan-md",
+      "title": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
       "source": "GitHub AI Systems Search",
-      "category": "developer_tools",
+      "category": "inference_systems",
       "signal": "builder-signal",
-      "whyItMatters": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan... Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-      "brief": "frank890417/taiwan-md is appearing as builder momentum, not as a verified product claim. 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
-      "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. Only thin public context was available, so this stays as a lighter note.",
-      "evidence": "GitHub AI Systems Search; 1,253 GitHub stars; local score 0.84, cluster 2.",
-      "sourceExcerpt": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
-      "citationUrl": "https://github.com/frank890417/taiwan-md",
-      "contextQuality": "thin public context",
+      "whyItMatters": "SGLang is a high-performance serving framework for large language models and multimodal models. Treat it as builder momentum in inference systems; the repository is a signal to inspect, not a primary claim by itself.",
+      "brief": "sgl-project/sglang is appearing as builder momentum, not as a verified product claim. SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "technicalTakeaway": "Track the repository as a inference systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+      "evidence": "GitHub AI Systems Search; 39,100 GitHub stars; local score 0.82, cluster 6.",
+      "sourceExcerpt": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "citationUrl": "https://github.com/sgl-project/sglang",
+      "contextQuality": "source-grounded",
       "readTime": "3 min"
     }
   ],
   "deepDive": {
-    "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-    "url": "http://arxiv.org/abs/2611.33093v1",
+    "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+    "url": "http://arxiv.org/abs/2611.34863v1",
     "source": "arXiv AI Systems Query",
-    "category": "multi_agent_systems",
-    "summary": "This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and... It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
+    "category": "training_infrastructure",
+    "summary": "This paper is a training infrastructure lead from the research stream. Vision transformers are strong but costly image encoders for video object segmentation. It gets the longer read because the public context is source-grounded and the item is close to the systems layer.",
     "bullets": [
-      "What happened: This paper is a multi agent systems lead from the research stream. A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and...",
-      "Why it matters: The systems angle is multi agent systems; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
-      "Technical signal: research paper for multi agent systems.",
-      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 16."
+      "What happened: This paper is a training infrastructure lead from the research stream. Vision transformers are strong but costly image encoders for video object segmentation.",
+      "Why it matters: The systems angle is training infrastructure; the useful question is whether the method changes reliability, runtime behavior, governance, or infrastructure constraints. The public metadata is strong enough for a compact self-contained read.",
+      "Technical signal: research paper for training infrastructure.",
+      "Evidence: arXiv AI Systems Query; 82 trust, 100 topical match, 71 recency; local score 0.75, cluster 20."
     ]
   },
   "bookmark": {
-    "title": "MCPJam/inspector",
-    "url": "https://github.com/MCPJam/inspector",
+    "title": "kortix-ai/CompanyOS",
+    "url": "https://github.com/kortix-ai/CompanyOS",
     "source": "GitHub AI Systems Search",
-    "category": "developer_tools",
+    "category": "multi_agent_systems",
     "signal": "builder-signal",
-    "whyItMatters": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. Treat it as builder momentum in developer tools; the repository is a signal to inspect, not a primary claim by itself.",
-    "brief": "MCPJam/inspector is appearing as builder momentum, not as a verified product claim. Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-    "technicalTakeaway": "Track the repository as a developer tools signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
-    "evidence": "GitHub AI Systems Search; 2,344 GitHub stars; local score 0.84, cluster 1.",
-    "sourceExcerpt": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-    "citationUrl": "https://github.com/MCPJam/inspector",
+    "whyItMatters": "Kortix CompanyOS – the open-source operating system for the AI-native company. Treat it as builder momentum in multi agent systems; the repository is a signal to inspect, not a primary claim by itself.",
+    "brief": "kortix-ai/CompanyOS is appearing as builder momentum, not as a verified product claim. Kortix CompanyOS – the open-source operating system for the AI-native company.",
+    "technicalTakeaway": "Track the repository as a multi agent systems signal: stars, description, and recent activity suggest builder interest, while the source itself remains the citation. The public metadata is strong enough for a compact self-contained read.",
+    "evidence": "GitHub AI Systems Search; 20,806 GitHub stars; local score 0.85, cluster 1.",
+    "sourceExcerpt": "Kortix CompanyOS – the open-source operating system for the AI-native company.",
+    "citationUrl": "https://github.com/kortix-ai/CompanyOS",
     "contextQuality": "source-grounded",
     "readTime": "3 min"
   },
@@ -163,8 +163,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 3,
-      "elapsedMs": 333
+      "selected": 0,
+      "elapsedMs": 210
     },
     {
       "id": "google-ai",
@@ -172,8 +172,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 249
+      "selected": 0,
+      "elapsedMs": 212
     },
     {
       "id": "google-research",
@@ -182,7 +182,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 373
+      "elapsedMs": 625
     },
     {
       "id": "apple-ml-research",
@@ -191,7 +191,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 170
+      "elapsedMs": 212
     },
     {
       "id": "anthropic-sitemap",
@@ -200,7 +200,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 1,
-      "elapsedMs": 299
+      "elapsedMs": 198
     },
     {
       "id": "deepmind-sitemap",
@@ -209,7 +209,7 @@
       "status": "ok",
       "fetched": 36,
       "selected": 0,
-      "elapsedMs": 331
+      "elapsedMs": 233
     },
     {
       "id": "huggingface-blog",
@@ -217,8 +217,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 24,
-      "selected": 2,
-      "elapsedMs": 277
+      "selected": 4,
+      "elapsedMs": 324
     },
     {
       "id": "mit-ai",
@@ -226,8 +226,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 18,
-      "selected": 1,
-      "elapsedMs": 349
+      "selected": 0,
+      "elapsedMs": 277
     },
     {
       "id": "mit-machine-learning",
@@ -236,7 +236,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 391
+      "elapsedMs": 301
     },
     {
       "id": "bair-blog",
@@ -245,7 +245,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 709
+      "elapsedMs": 442
     },
     {
       "id": "meta-engineering",
@@ -254,7 +254,7 @@
       "status": "ok",
       "fetched": 9,
       "selected": 0,
-      "elapsedMs": 729
+      "elapsedMs": 351
     },
     {
       "id": "nvidia-blog",
@@ -263,7 +263,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 0,
-      "elapsedMs": 417
+      "elapsedMs": 395
     },
     {
       "id": "nvidia-developer",
@@ -272,7 +272,7 @@
       "status": "ok",
       "fetched": 24,
       "selected": 1,
-      "elapsedMs": 549
+      "elapsedMs": 1062
     },
     {
       "id": "cloudflare-ai",
@@ -281,7 +281,7 @@
       "status": "ok",
       "fetched": 18,
       "selected": 1,
-      "elapsedMs": 422
+      "elapsedMs": 387
     },
     {
       "id": "aws-ml",
@@ -289,8 +289,8 @@
       "type": "rss",
       "status": "ok",
       "fetched": 20,
-      "selected": 1,
-      "elapsedMs": 569
+      "selected": 0,
+      "elapsedMs": 422
     },
     {
       "id": "azure-blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 436
+      "elapsedMs": 1296
     },
     {
       "id": "semianalysis",
@@ -308,7 +308,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 0,
-      "elapsedMs": 482
+      "elapsedMs": 466
     },
     {
       "id": "databricks-blog",
@@ -317,7 +317,7 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 510
+      "elapsedMs": 450
     },
     {
       "id": "arxiv-ai-systems",
@@ -326,7 +326,7 @@
       "status": "ok",
       "fetched": 35,
       "selected": 4,
-      "elapsedMs": 2375
+      "elapsedMs": 1279
     },
     {
       "id": "github-ai-systems",
@@ -335,7 +335,7 @@
       "status": "ok",
       "fetched": 30,
       "selected": 4,
-      "elapsedMs": 1608
+      "elapsedMs": 1443
     },
     {
       "id": "github-ai-ml-blog",
@@ -344,16 +344,16 @@
       "status": "ok",
       "fetched": 10,
       "selected": 1,
-      "elapsedMs": 2311
+      "elapsedMs": 508
     },
     {
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "hn",
       "status": "ok",
-      "fetched": 33,
+      "fetched": 26,
       "selected": 2,
-      "elapsedMs": 912
+      "elapsedMs": 697
     },
     {
       "id": "google-news-fallback",
@@ -362,16 +362,16 @@
       "status": "ok",
       "fetched": 20,
       "selected": 4,
-      "elapsedMs": 882
+      "elapsedMs": 786
     }
   ],
   "stats": {
-    "fetched": 463,
-    "afterDedupe": 450,
-    "afterFreshness": 153,
-    "droppedStale": 297,
-    "selected": 28,
-    "clusters": 27,
+    "fetched": 456,
+    "afterDedupe": 444,
+    "afterFreshness": 122,
+    "droppedStale": 322,
+    "selected": 24,
+    "clusters": 23,
     "failures": 0,
     "pipeline": "statistical_ml"
   }
